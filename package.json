@@ -1,0 +1,10 @@
+{
+  "name": "cv-with-nuxt",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^2.12.2"
+  }
+}
