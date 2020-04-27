@@ -1,6 +1,6 @@
 const redirections = require('./redirection.json');
 
-module.exports = function (request, response, next) {
+export default function redirection(request, response, next) {
   const redirect = redirections.find(
     (redirection) => redirection.from === request.url
   );
@@ -14,4 +14,4 @@ module.exports = function (request, response, next) {
   } else {
     next();
   }
-};
+}
