@@ -2,6 +2,7 @@
   "name": "cv-with-nuxt",
   "license": "MIT",
   "scripts": {
+    "audit:packages": "yarn install --audit",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
