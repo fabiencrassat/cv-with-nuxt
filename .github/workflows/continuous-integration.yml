@@ -4,16 +4,19 @@ on: push
 
 jobs:
   build:
-    name: Lint & Test
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: borales/actions-yarn@v2.0.0
+      - name: Install packages
+        uses: borales/actions-yarn@v2.0.0
         with:
           cmd: install # will run `yarn install` command
-      - uses: borales/actions-yarn@v2.0.0
+      - name: Lint the source code
+        uses: borales/actions-yarn@v2.0.0
         with:
           cmd: lint # will run `yarn lint` command
-      - uses: borales/actions-yarn@v2.0.0
+      - name: Test the source code
+        uses: borales/actions-yarn@v2.0.0
         with:
           cmd: test # will run `yarn test` command
