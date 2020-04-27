@@ -1,25 +1,42 @@
 module.exports = {
+  /*
+   ** Build configuration
+   */
+  build: {
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: "pre",
+          test: /\.(js|vue)$/,
+          loader: "eslint-loader",
+          exclude: /(node_modules)/,
+        });
+      }
+    },
+  },
   modules: [
     [
-      'nuxt-i18n',
+      "nuxt-i18n",
       {
-        locales: ['en', 'fr'],
-        defaultLocale: 'fr',
+        locales: ["en", "fr"],
+        defaultLocale: "fr",
         vueI18n: {
-          fallbackLocale: 'fr',
+          fallbackLocale: "fr",
           messages: {
             en: {
-              greeting: 'Hello world!'
+              greeting: "Hello world!",
             },
             fr: {
-              greeting: 'Bonjour le monde!'
-            }
-          }
-        }
-      }
-    ]
+              greeting: "Bonjour le monde!",
+            },
+          },
+        },
+      },
+    ],
   ],
-  serverMiddleware: [
-    '~/servermiddleware/redirection.js'
-  ]
+  serverMiddleware: ["~/servermiddleware/redirection.js"],
 };
