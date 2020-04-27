@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>{{ $t("greeting") }}</h1>
+    <h1>{{ $t('greeting') }}</h1>
 
     <nuxt-link v-if="$i18n.locale !== 'en'" :to="switchLocalePath('en')">
       English

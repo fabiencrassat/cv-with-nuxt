@@ -10,9 +10,9 @@ const nuxtConfig = {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
-          enforce: "pre",
+          enforce: 'pre',
           test: /\.(js|vue)$/,
-          loader: "eslint-loader",
+          loader: 'eslint-loader',
           exclude: /(node_modules)/,
         });
       }
@@ -20,26 +20,26 @@ const nuxtConfig = {
   },
   modules: [
     [
-      "nuxt-i18n",
+      'nuxt-i18n',
       {
-        strategy: "prefix_and_default",
-        locales: ["en", "fr"],
-        defaultLocale: "fr",
+        strategy: 'prefix_and_default',
+        locales: ['en', 'fr'],
+        defaultLocale: 'fr',
         vueI18n: {
-          fallbackLocale: "fr",
+          fallbackLocale: 'fr',
           messages: {
             en: {
-              greeting: "Hello world!",
+              greeting: 'Hello world!',
             },
             fr: {
-              greeting: "Bonjour le monde!",
+              greeting: 'Bonjour le monde!',
             },
           },
         },
       },
     ],
   ],
-  serverMiddleware: ["~/servermiddleware/redirection.js"],
+  serverMiddleware: ['~/servermiddleware/redirection.js'],
 };
 
 module.exports = nuxtConfig;

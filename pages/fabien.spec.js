@@ -1,7 +1,7 @@
-import { shallowMount } from "@vue/test-utils";
-import fabien from "./fabien";
+import { shallowMount } from '@vue/test-utils';
+import fabien from './fabien';
 
-const factory = ({ lang = "locale" } = {}) => {
+const factory = ({ lang = 'locale' } = {}) => {
   return shallowMount(fabien, {
     mocks: {
       // Always returns the input
@@ -10,26 +10,26 @@ const factory = ({ lang = "locale" } = {}) => {
       $i18n: { locale: lang },
       switchLocalePath: (i) => i,
     },
-    stubs: ["nuxt-link"],
+    stubs: ['nuxt-link'],
   });
 };
 
-describe("fabien", () => {
-  test("mounts properly", () => {
+describe('fabien', () => {
+  test('mounts properly', () => {
     const wrapper = factory();
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 
-  test("renders properly", () => {
+  test('renders properly', () => {
     const wrapper = factory();
     expect(wrapper.html()).toMatchSnapshot();
   });
-  test("renders properly en lang", () => {
-    const wrapper = factory({ lang: "en" });
+  test('renders properly en lang', () => {
+    const wrapper = factory({ lang: 'en' });
     expect(wrapper.html()).toMatchSnapshot();
   });
-  test("renders properly fr lang", () => {
-    const wrapper = factory({ lang: "fr" });
+  test('renders properly fr lang', () => {
+    const wrapper = factory({ lang: 'fr' });
     expect(wrapper.html()).toMatchSnapshot();
   });
 });
