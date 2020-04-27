@@ -3,11 +3,11 @@
   "license": "MIT",
   "scripts": {
     "audit:packages": "yarn install --audit",
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate --fail-on-error",
-    "test": "jest",
+    "dev": "nuxt --config-file ./config/nuxt.config.js",
+    "build": "nuxt build --config-file ./config/nuxt.config.js",
+    "start": "nuxt start --config-file ./config/nuxt.config.js",
+    "generate": "nuxt generate --config-file ./config/nuxt.config.js --fail-on-error",
+    "test": "jest --config ./config/jest.config.js",
     "test:watch": "yarn test --watch",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
@@ -29,30 +29,5 @@
     "jest-serializer-vue": "^2.0.2",
     "prettier": "^2.0.5",
     "vue-jest": "^4.0.0-beta.2"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "vue"
-    ],
-    "watchman": false,
-    "moduleNameMapper": {
-      "^~/(.*)$": "<rootDir>/$1",
-      "^~~/(.*)$": "<rootDir>/$1"
-    },
-    "transform": {
-      "^.+\\.js$": "babel-jest",
-      ".*\\.(vue)$": "vue-jest"
-    },
-    "snapshotSerializers": [
-      "jest-serializer-vue"
-    ],
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "<rootDir>/components/**/*.vue",
-      "<rootDir>/pages/*.vue"
-    ],
-    "testURL": "http://localhost/"
   }
 }

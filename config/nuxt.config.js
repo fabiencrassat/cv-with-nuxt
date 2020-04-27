@@ -1,4 +1,4 @@
-module.exports = {
+const nuxtConfig = {
   /*
    ** Build configuration
    */
@@ -41,3 +41,5 @@ module.exports = {
   ],
   serverMiddleware: ["~/servermiddleware/redirection.js"],
 };
+
+module.exports = nuxtConfig;
