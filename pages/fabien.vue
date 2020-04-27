@@ -17,3 +17,7 @@
     </nuxt-link>
   </main>
 </template>
+
+<script>
+export default {}
+</script>

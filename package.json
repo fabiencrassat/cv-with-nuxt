@@ -6,10 +6,45 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate --fail-on-error"
+    "generate": "nuxt generate --fail-on-error",
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "dependencies": {
     "nuxt": "^2.12.2",
     "nuxt-i18n": "^6.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "jest-serializer-vue": "^2.0.2",
+    "vue-jest": "^4.0.0-beta.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "watchman": false,
+    "moduleNameMapper": {
+      "^~/(.*)$": "<rootDir>/$1",
+      "^~~/(.*)$": "<rootDir>/$1"
+    },
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      ".*\\.(vue)$": "vue-jest"
+    },
+    "snapshotSerializers": [
+      "jest-serializer-vue"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "<rootDir>/components/**/*.vue",
+      "<rootDir>/pages/*.vue"
+    ],
+    "testURL": "http://localhost/"
   }
 }

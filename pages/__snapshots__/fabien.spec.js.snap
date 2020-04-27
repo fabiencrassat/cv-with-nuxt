@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fabien renders properly 1`] = `
+<main>
+  <h1>greeting</h1>
+  <nuxt-link-stub to="en">
+    English
+  </nuxt-link-stub>
+  <nuxt-link-stub to="fr">
+    Français
+  </nuxt-link-stub>
+</main>
+`;
+
+exports[`fabien renders properly en lang 1`] = `
+<main>
+  <h1>greeting</h1>
+  <!---->
+  <nuxt-link-stub to="fr">
+    Français
+  </nuxt-link-stub>
+</main>
+`;
+
+exports[`fabien renders properly fr lang 1`] = `
+<main>
+  <h1>greeting</h1>
+  <nuxt-link-stub to="en">
+    English
+  </nuxt-link-stub>
+  <!---->
+</main>
+`;
