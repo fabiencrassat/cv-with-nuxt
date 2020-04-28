@@ -7,6 +7,7 @@ module.exports = {
     '!<rootDir>/config/**',
     '!<rootDir>/coverage/**',
     '!<rootDir>/dist/**',
+    '!<rootDir>/nuxt.config.js',
   ],
   coverageThreshold: {
     global: {
