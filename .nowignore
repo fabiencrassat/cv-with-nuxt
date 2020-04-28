@@ -6,6 +6,7 @@ node_modules
 .gitattributes
 .prettierrc.json
 babel.config.json
+jest.config.json
 README.md
 
 **/__snapshots__

@@ -8,7 +8,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate --fail-on-error",
-    "test": "jest --config ./config/jest.config.js",
+    "test": "jest",
     "test:watch": "yarn test --watch",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
