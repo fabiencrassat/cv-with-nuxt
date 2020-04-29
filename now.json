@@ -6,7 +6,7 @@
       "use": "@nuxtjs/now-builder",
       "config": {
         "serverFiles": [
-          "servermiddleware/**"
+          "serverMiddleware/**"
         ]
       }
     }
