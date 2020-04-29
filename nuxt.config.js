@@ -23,18 +23,21 @@ module.exports = {
       'nuxt-i18n',
       {
         strategy: 'prefix_and_default',
-        locales: ['en', 'fr'],
+        locales: [
+          {
+            code: 'en',
+            file: 'en-US.js',
+          },
+          {
+            code: 'fr',
+            file: 'fr-FR.js',
+          },
+        ],
         defaultLocale: 'fr',
+        lazy: true,
+        langDir: 'locales/',
         vueI18n: {
           fallbackLocale: 'fr',
-          messages: {
-            en: {
-              greeting: 'Hello world!',
-            },
-            fr: {
-              greeting: 'Bonjour le monde!',
-            },
-          },
         },
       },
     ],
