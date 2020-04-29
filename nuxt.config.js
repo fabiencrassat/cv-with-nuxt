@@ -42,5 +42,5 @@ module.exports = {
       },
     ],
   ],
-  serverMiddleware: ['~/servermiddleware/redirection.js'],
+  serverMiddleware: ['~/serverMiddleware/redirection.js'],
 };
