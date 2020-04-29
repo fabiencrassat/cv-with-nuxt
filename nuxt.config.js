@@ -18,6 +18,7 @@ module.exports = {
       }
     },
   },
+  buildModules: ['@nuxtjs/tailwindcss'],
   modules: [
     [
       'nuxt-i18n',
@@ -43,4 +44,10 @@ module.exports = {
     ],
   ],
   serverMiddleware: ['~/serverMiddleware/redirection.js'],
+  tailwindcss: {
+    configPath: '~/config/tailwind.config.js',
+    cssPath: '~/assets/css/tailwind.css',
+    purgeCSSInDev: false,
+    exposeConfig: false,
+  },
 };

@@ -13,6 +13,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^1.4.1",
     "nuxt": "^2.12.2",
     "nuxt-i18n": "^6.10.1"
   },
