@@ -27,7 +27,7 @@ describe('redirection', () => {
     expect(console.log).toHaveBeenCalledTimes(1);
     expect(console.log).toHaveBeenCalledWith(
       '\x1b[36mi\x1b[0m %s',
-      'redirect from foo to bar'
+      'Redirect from foo to bar'
     );
     expect(writeHead).toHaveBeenCalledTimes(1);
     expect(writeHead).toHaveBeenCalledWith(301, { Location: 'bar' });

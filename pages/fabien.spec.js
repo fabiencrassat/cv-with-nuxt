@@ -1,6 +1,8 @@
 import { shallowMount } from '@vue/test-utils';
 import fabien from './fabien';
 
+jest.mock('../components/navigation.vue', () => jest.fn);
+
 const factory = ({ lang = 'locale' } = {}) => {
   return shallowMount(fabien, {
     mocks: {
