@@ -23,20 +23,23 @@ module.exports = {
     [
       'nuxt-i18n',
       {
-        strategy: 'prefix_and_default',
+        defaultLocale: 'fr',
+        langDir: 'locales/',
+        lazy: true,
         locales: [
           {
             code: 'en',
             file: 'en-US.js',
+            iso: 'en-US',
           },
           {
             code: 'fr',
             file: 'fr-FR.js',
+            iso: 'fr-FR',
           },
         ],
-        defaultLocale: 'fr',
-        lazy: true,
-        langDir: 'locales/',
+        seo: true,
+        strategy: 'prefix_and_default',
         vueI18n: {
           fallbackLocale: 'fr',
         },
