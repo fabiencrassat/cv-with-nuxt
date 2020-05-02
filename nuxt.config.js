@@ -23,6 +23,7 @@ module.exports = {
     [
       'nuxt-i18n',
       {
+        baseUrl: 'http://cv.crassat.com',
         defaultLocale: 'fr',
         langDir: 'locales/',
         lazy: true,
@@ -38,7 +39,7 @@ module.exports = {
             iso: 'fr-FR',
           },
         ],
-        seo: true,
+        seo: false, // compute into layout to improve performance
         strategy: 'prefix_and_default',
         vueI18n: {
           fallbackLocale: 'fr',
