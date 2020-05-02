@@ -133,5 +133,10 @@ export default {
       homepage: '/fabien',
     };
   },
+  head() {
+    return {
+      title: 'Curriculum Vitae | Fabien',
+    };
+  },
 };
 </script>
