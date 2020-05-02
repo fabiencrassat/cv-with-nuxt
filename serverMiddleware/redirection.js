@@ -7,7 +7,7 @@ export default function redirection(request, response, next) {
   if (redirect) {
     console.log(
       '\x1b[36mi\x1b[0m %s',
-      `redirect from ${redirect.from} to ${redirect.to}`
+      `Redirect from ${redirect.from} to ${redirect.to}`
     );
     response.writeHead(301, { Location: redirect.to });
     response.end();
