@@ -1,15 +1,7 @@
 module.exports = {
   collectCoverage: true,
-  collectCoverageFrom: [
-    '**/*.{js,vue}',
-    '!**/.nuxt/**',
-    '!**/node_modules/**',
-    '!<rootDir>/config/**',
-    '!<rootDir>/locales/**',
-    '!<rootDir>/coverage/**',
-    '!<rootDir>/dist/**',
-    '!<rootDir>/nuxt.config.js',
-  ],
+  collectCoverageFrom: ['**/*.{js,vue}', '!<rootDir>/locales/**'],
+  coverageDirectory: '../coverage',
   coverageThreshold: {
     global: {
       statements: 39,
@@ -23,9 +15,8 @@ module.exports = {
     '^~/(.*)$': '<rootDir>/$1',
     '^~~/(.*)$': '<rootDir>/$1',
   },
-  rootDir: '..',
+  rootDir: '../src',
   snapshotSerializers: ['jest-serializer-vue'],
-  testPathIgnorePatterns: ['<rootDir>/.nuxt/', '<rootDir>/node_modules/'],
   testURL: 'http://localhost/',
   transform: {
     '^.+\\.js$': 'babel-jest',

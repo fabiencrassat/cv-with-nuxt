@@ -49,9 +49,10 @@ module.exports = {
     ],
   ],
   plugins: [{ src: '~/plugins/axe', ssr: false }],
-  serverMiddleware: ['~/serverMiddleware/redirection.js'],
+  serverMiddleware: ['~/middleware/redirection.js'],
+  srcDir: 'src/',
   tailwindcss: {
-    configPath: '~/config/tailwind.config.js',
+    configPath: '~~/config/tailwind.config.js',
     cssPath: '~/assets/css/tailwind.css',
     purgeCSSInDev: false,
     exposeConfig: false,
