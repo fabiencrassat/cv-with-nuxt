@@ -40,6 +40,7 @@ module.exports = {
         vueI18n: {
           fallbackLocale: 'fr',
         },
+        vueI18nLoader: true,
       },
     ],
   ],
