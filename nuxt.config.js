@@ -39,7 +39,7 @@ module.exports = {
             iso: 'fr-FR',
           },
         ],
-        seo: false, // compute into layout to improve performance
+        seo: true,
         strategy: 'prefix_and_default',
         vueI18n: {
           fallbackLocale: 'fr',
