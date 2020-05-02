@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navigation :homepage="homepage" />
-    <main class="ml-64 p-3">
+    <main class="ml-24 p-3">
       <h1>{{ $t('greeting') }}</h1>
 
       <nuxt-link v-if="$i18n.locale !== 'en'" :to="switchLocalePath('en')">

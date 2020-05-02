@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0 left-0 w-64 h-full bg-gray-500 flex h-screen">
+  <nav class="fixed top-0 left-0 w-24 h-full bg-gray-500 flex h-screen">
     <ul class="m-auto">
       <li>
         <nuxt-link
