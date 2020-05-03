@@ -38,10 +38,10 @@
 </template>
 
 <script>
-import AboutIcon from './icons/user';
-import ContactIcon from './icons/phone';
-import SkillIcon from './icons/glasses';
-import JobIcon from './icons/suitcase';
+import AboutIcon from '../icons/user';
+import ContactIcon from '../icons/phone';
+import SkillIcon from '../icons/glasses';
+import JobIcon from '../icons/suitcase';
 
 export default {
   components: {

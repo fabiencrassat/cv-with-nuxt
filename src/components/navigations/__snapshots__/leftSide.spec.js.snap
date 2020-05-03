@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`leftSide renders properly 1`] = `
+<nav class="fixed top-0 left-0 w-24 h-full bg-gray-500 flex h-screen">
+  <ul class="m-auto">
+    <li class="p-4">
+      <nuxt-link-stub to="localePath('/')" class="flex flex-col items-center">
+        <abouticon-stub title="$t('about')"></abouticon-stub>
+      </nuxt-link-stub>
+    </li>
+    <li class="p-4">
+      <nuxt-link-stub to="localePath('/')" class="flex flex-col items-center">
+        <contacticon-stub title="$t('contact')"></contacticon-stub>
+      </nuxt-link-stub>
+    </li>
+    <li class="p-4">
+      <nuxt-link-stub to="localePath('/')" class="flex flex-col items-center">
+        <jobicon-stub title="$t('jobs')"></jobicon-stub>
+      </nuxt-link-stub>
+    </li>
+    <li class="p-4">
+      <nuxt-link-stub to="localePath('/')" class="flex flex-col items-center">
+        <skillicon-stub title="$t('skills')"></skillicon-stub>
+      </nuxt-link-stub>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`leftSide renders properly with props 1`] = `
+<nav class="fixed top-0 left-0 w-24 h-full bg-gray-500 flex h-screen">
+  <ul class="m-auto">
+    <li class="p-4">
+      <nuxt-link-stub to="localePath('/foo')" class="flex flex-col items-center">
+        <abouticon-stub title="$t('about')"></abouticon-stub>
+      </nuxt-link-stub>
+    </li>
+    <li class="p-4">
+      <nuxt-link-stub to="localePath('/foo')" class="flex flex-col items-center">
+        <contacticon-stub title="$t('contact')"></contacticon-stub>
+      </nuxt-link-stub>
+    </li>
+    <li class="p-4">
+      <nuxt-link-stub to="localePath('/foo')" class="flex flex-col items-center">
+        <jobicon-stub title="$t('jobs')"></jobicon-stub>
+      </nuxt-link-stub>
+    </li>
+    <li class="p-4">
+      <nuxt-link-stub to="localePath('/foo')" class="flex flex-col items-center">
+        <skillicon-stub title="$t('skills')"></skillicon-stub>
+      </nuxt-link-stub>
+    </li>
+  </ul>
+</nav>
+`;

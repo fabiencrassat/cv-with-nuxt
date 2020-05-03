@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navigation :homepage="homepage" />
+    <LeftSideNavigation :homepage="homepage" />
     <main class="ml-24 p-3">
       <h1>{{ $t('greeting') }}</h1>
 
@@ -122,11 +122,11 @@
 </template>
 
 <script>
-import Navigation from '~/components/navigation.vue';
+import LeftSideNavigation from '~/components/navigations/leftSide.vue';
 
 export default {
   components: {
-    Navigation,
+    LeftSideNavigation,
   },
   data() {
     return {
