@@ -4,10 +4,10 @@ module.exports = {
   coverageDirectory: '../coverage',
   coverageThreshold: {
     global: {
-      statements: 92,
-      branches: 83,
+      statements: 100,
+      branches: 100,
       functions: 100,
-      lines: 92,
+      lines: 100,
     },
   },
   moduleFileExtensions: ['js', 'json', 'vue'],

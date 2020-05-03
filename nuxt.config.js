@@ -48,7 +48,6 @@ module.exports = {
       },
     ],
   ],
-  plugins: [{ src: '~/plugins/axe', ssr: false }],
   serverMiddleware: ['~/middleware/redirection.js'],
   srcDir: 'src/',
   tailwindcss: {
