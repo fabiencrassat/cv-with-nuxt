@@ -12,17 +12,23 @@ const factory = ({ propsData } = {}) => {
 };
 
 describe('glasses', () => {
-  test('mounts properly', () => {
+  it('mounts properly', () => {
+    expect.hasAssertions();
     const wrapper = factory();
+    // eslint-disable-next-line jest/no-truthy-falsy
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 
-  test('renders properly', () => {
+  it('renders properly', () => {
+    expect.hasAssertions();
     const wrapper = factory();
+    // eslint-disable-next-line jest/prefer-inline-snapshots
     expect(wrapper.html()).toMatchSnapshot();
   });
-  test('renders properly with props', () => {
+  it('renders properly with props', () => {
+    expect.hasAssertions();
     const wrapper = factory({ propsData: { title: 'foo' } });
+    // eslint-disable-next-line jest/prefer-inline-snapshots
     expect(wrapper.html()).toMatchSnapshot();
   });
 });

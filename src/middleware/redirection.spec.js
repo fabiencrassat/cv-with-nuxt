@@ -5,23 +5,27 @@ jest.mock('./redirection.json', () => {
 });
 
 const next = jest.fn();
+// eslint-disable-next-line jest/prefer-spy-on
 console.log = jest.fn();
 const writeHead = jest.fn();
 const end = jest.fn();
 
 describe('redirection', () => {
+  // eslint-disable-next-line jest/no-hooks
   afterEach(() => {
     jest.clearAllMocks();
   });
 
-  test('no redirection', () => {
+  it('no redirection', () => {
+    expect.hasAssertions();
     redirection({ url: 'bar' }, undefined, next);
     expect(next).toHaveBeenCalledTimes(1);
     expect(console.log).toHaveBeenCalledTimes(0);
     expect(writeHead).toHaveBeenCalledTimes(0);
     expect(end).toHaveBeenCalledTimes(0);
   });
-  test('redirection from foo to bar', () => {
+  it('redirection from foo to bar', () => {
+    expect.hasAssertions();
     redirection({ url: 'foo' }, { writeHead, end }, next);
     expect(next).toHaveBeenCalledTimes(0);
     expect(console.log).toHaveBeenCalledTimes(1);

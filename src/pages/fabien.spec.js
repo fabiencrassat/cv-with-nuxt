@@ -17,26 +17,35 @@ const factory = ({ lang = 'locale' } = {}) => {
 };
 
 describe('fabien', () => {
-  test('mounts properly', () => {
+  it('mounts properly', () => {
+    expect.hasAssertions();
     const wrapper = factory();
+    // eslint-disable-next-line jest/no-truthy-falsy
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 
-  test('renders properly', () => {
+  it('renders properly', () => {
+    expect.hasAssertions();
     const wrapper = factory();
+    // eslint-disable-next-line jest/prefer-inline-snapshots
     expect(wrapper.html()).toMatchSnapshot();
   });
-  test('renders properly en lang', () => {
+  it('renders properly en lang', () => {
+    expect.hasAssertions();
     const wrapper = factory({ lang: 'en' });
+    // eslint-disable-next-line jest/prefer-inline-snapshots
     expect(wrapper.html()).toMatchSnapshot();
   });
-  test('renders properly fr lang', () => {
+  it('renders properly fr lang', () => {
+    expect.hasAssertions();
     const wrapper = factory({ lang: 'fr' });
+    // eslint-disable-next-line jest/prefer-inline-snapshots
     expect(wrapper.html()).toMatchSnapshot();
   });
 
-  test('return head', () => {
-    expect(fabien.head).toEqual(expect.any(Function));
+  it('return head', () => {
+    expect.hasAssertions();
+    expect(fabien.head).toStrictEqual(expect.any(Function));
     expect(fabien.head()).toStrictEqual({ title: 'Curriculum Vitae | Fabien' });
   });
 });
