@@ -15,19 +15,16 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Get Yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache Yarn and Node Modules
+      - name: Cache Node Modules
         uses: actions/cache@v1
-        id: cache
+        id: cache-node-module
         with:
-          path: node_modules ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.OS }}-yarn-node-modules-4-${{ hashFiles('**/yarn.lock') }}
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-yarn-node-modules-4-
+            ${{ runner.OS }}-node-modules-1-
       - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
+        if: steps.cache-node-module.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
       - name: Lint the source code
         run: yarn lint
@@ -48,22 +45,18 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Get Yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache Yarn and Node Modules
+      - name: Cache Node Modules
         uses: actions/cache@v1
-        id: cache
+        id: cache-node-module
         with:
-          path: node_modules ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.OS }}-yarn-node-modules-4-${{ hashFiles('**/yarn.lock') }}
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-yarn-node-modules-4-
+            ${{ runner.OS }}-node-modules-1-
       - name: Get view on cache folders
         run: |
           pwd
           ls
           ls ~
           ls /
-          ls ${{ steps.yarn-cache-dir-path.outputs.dir }}
           ls $GITHUB_WORKSPACE/node_modules/
