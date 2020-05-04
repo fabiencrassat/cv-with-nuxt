@@ -3,7 +3,6 @@ module.exports = {
     '**/*.{js,vue}',
     '!<rootDir>/config/**',
     '!<rootDir>/build/**',
-    '!<rootDir>/nuxt.config.js',
     '!<rootDir>/src/locales/**',
   ],
   coverageDirectory: '<rootDir>/build/coverage',
