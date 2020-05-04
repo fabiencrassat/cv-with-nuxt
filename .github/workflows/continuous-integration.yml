@@ -23,11 +23,11 @@ jobs:
         id: cache
         with:
           path: |
-            node_modules
+            $GITHUB_WORKSPACE/node_modules
             ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.OS }}-yarn-node-modules-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.OS }}-yarn-node-modules-2-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-yarn-node-modules-
+            ${{ runner.OS }}-yarn-node-modules-2-
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
@@ -45,6 +45,7 @@ jobs:
       matrix:
         node-version: [12.x]
     steps:
+      - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -57,16 +58,16 @@ jobs:
         id: cache
         with:
           path: |
-            node_modules
+            $GITHUB_WORKSPACE/node_modules
             ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.OS }}-yarn-node-modules-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.OS }}-yarn-node-modules-2-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-yarn-node-modules-
+            ${{ runner.OS }}-yarn-node-modules-2-
       - name: Get view on cache folders
         run: |
           pwd
           ls
           ls ~
           ls /
-          ls node_modules/
           ls ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          ls $GITHUB_WORKSPACE/node_modules/
