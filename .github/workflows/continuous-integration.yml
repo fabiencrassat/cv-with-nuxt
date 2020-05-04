@@ -1,22 +1,33 @@
 name: Continuous Integration
 
-on: push
+on: [push]
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
     steps:
-      - uses: actions/checkout@v1
-      - name: Install packages
-        uses: borales/actions-yarn@v2.0.0
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          cmd: install # will run `yarn install` command
+          node-version: ${{ matrix.node-version }}
+      - name: Cache Node.js modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
       - name: Lint the source code
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: lint # will run `yarn lint` command
+        run: yarn lint
       - name: Test the source code
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: test # will run `yarn test` command
+        run: yarn test
+      - name: Build the app
+        run: yarn build
