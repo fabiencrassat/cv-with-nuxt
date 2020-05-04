@@ -1,7 +1,8 @@
 .github
 .nuxt
-coverage
+lib
 node_modules
+scripts
 .eslintrc.json
 .gitattributes
 .prettierrc.json

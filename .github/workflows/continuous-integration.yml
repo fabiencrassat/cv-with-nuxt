@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         if: steps.cache-node-module.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
-  test:
-    name: Test
+  quality:
+    name: Quality
     needs: [install]
     runs-on: ubuntu-latest
     strategy:
@@ -47,8 +47,23 @@ jobs:
           key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-1-
+
+      # Test
       - name: Test the source code
         run: yarn test:coverage
+
+      # SonarQube (need the coverage report)
+      - name: Setup SonarQube
+        uses: warchant/setup-sonar-scanner@v1
+      - name: Run SonarQube
+        env:
+          # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: sonar-scanner
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.organization=fabiencrassat-github
+            -Dsonar.host.url=https://sonarcloud.io/
+            -Dsonar.projectKey=cv-with-nuxt
   lint:
     name: Lint
     needs: [install]
