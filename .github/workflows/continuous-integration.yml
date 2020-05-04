@@ -3,8 +3,8 @@ name: Continuous Integration
 on: [push]
 
 jobs:
-  build:
-    name: Build
+  install:
+    name: Install Dependencies
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -26,15 +26,9 @@ jobs:
       - name: Install dependencies
         if: steps.cache-node-module.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
-      - name: Lint the source code
-        run: yarn lint
-      - name: Test the source code
-        run: yarn test:coverage
-      - name: Build the app
-        run: yarn build
   test:
-    name: test
-    needs: [build]
+    name: Test
+    needs: [install]
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -53,10 +47,51 @@ jobs:
           key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-1-
-      - name: Get view on cache folders
-        run: |
-          pwd
-          ls
-          ls ~
-          ls /
-          ls $GITHUB_WORKSPACE/node_modules/
+      - name: Test the source code
+        run: yarn test:coverage
+  lint:
+    name: Lint
+    needs: [install]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v1
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-1-
+      - name: Lint the source code
+        run: yarn lint
+  build:
+    name: build
+    needs: [install]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v1
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-1-
+      - name: Build the app
+        run: yarn build
