@@ -18,23 +18,18 @@ jobs:
       - name: Get Yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache Yarn
+      - name: Cache Yarn and Node Modules
         uses: actions/cache@v1
+        id: cache
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.OS }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          path: |
+            ${{ steps.yarn-cache-dir-path.outputs.dir }}
+            node_modules
+          key: ${{ runner.OS }}-yarn-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-yarn-
-            ${{ runner.OS }}-
-      - name: Cache Node Modules
-        uses: actions/cache@v1
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-node-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-
-            ${{ runner.OS }}-
+            ${{ runner.OS }}-yarn-node-modules-
       - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
       - name: Lint the source code
         run: yarn lint
@@ -42,3 +37,33 @@ jobs:
         run: yarn test:coverage
       - name: Build the app
         run: yarn build
+  test:
+    name: test
+    needs: [build]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Get Yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: Cache Yarn and Node Modules
+        uses: actions/cache@v1
+        id: cache
+        with:
+          path: |
+            ${{ steps.yarn-cache-dir-path.outputs.dir }}
+            node_modules
+          key: ${{ runner.OS }}-yarn-node-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-yarn-node-modules-
+      - name: Get view on cache folders
+        run: |
+          ls
+          ls node_modules/
+          ls ${{ steps.yarn-cache-dir-path.outputs.dir }}
