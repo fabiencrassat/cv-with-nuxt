@@ -24,7 +24,7 @@ describe('validate_pages', () => {
   // eslint-disable-next-line jest/prefer-expect-assertions, jest/expect-expect
   it('should run', () => {
     const { validatePages } = preTest();
-    process.argv = getProcessArgs();
+    process.argv = getProcessArgs(); // NOSONAR S4823: Using command line arguments is security-sensitive
     require('./validate_pages');
     expectedTest({ validatePages, expectedCalledWith: undefined });
   });
@@ -32,14 +32,14 @@ describe('validate_pages', () => {
   it('should run with argument', () => {
     const { validatePages } = preTest();
     const expectedUrl = new URL('http://localhost:3000');
-    process.argv = getProcessArgs(expectedUrl.origin);
+    process.argv = getProcessArgs(expectedUrl.origin); // NOSONAR S4823: Using command line arguments is security-sensitive
     require('./validate_pages');
     expectedTest({ validatePages, expectedCalledWith: expectedUrl });
   });
   // eslint-disable-next-line jest/prefer-expect-assertions, jest/expect-expect
   it('should throw an error', () => {
     preTest();
-    process.argv = getProcessArgs('http://invalid.url');
+    process.argv = getProcessArgs('http://invalid.url'); // NOSONAR S4823: Using command line arguments is security-sensitive
     expect(() => {
       require('./validate_pages');
     }).toThrow('Url parameter is not in the whitelist');
