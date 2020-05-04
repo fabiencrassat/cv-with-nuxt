@@ -1,4 +1,5 @@
 module.exports = {
+  // If you are updating this below, please synchronize them in /sonar-project.properties
   collectCoverageFrom: [
     '**/*.{js,vue}',
     '!<rootDir>/config/**',
