@@ -22,12 +22,10 @@ jobs:
         uses: actions/cache@v1
         id: cache
         with:
-          path: |
-            node_modules
-            ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.OS }}-yarn-node-modules-3-${{ hashFiles('**/yarn.lock') }}
+          path: node_modules ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.OS }}-yarn-node-modules-4-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-yarn-node-modules-3-
+            ${{ runner.OS }}-yarn-node-modules-4-
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
@@ -57,12 +55,10 @@ jobs:
         uses: actions/cache@v1
         id: cache
         with:
-          path: |
-            node_modules
-            ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.OS }}-yarn-node-modules-3-${{ hashFiles('**/yarn.lock') }}
+          path: node_modules ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.OS }}-yarn-node-modules-4-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-yarn-node-modules-3-
+            ${{ runner.OS }}-yarn-node-modules-4-
       - name: Get view on cache folders
         run: |
           pwd
