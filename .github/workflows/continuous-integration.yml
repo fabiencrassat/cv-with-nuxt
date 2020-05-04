@@ -23,8 +23,8 @@ jobs:
         id: cache
         with:
           path: |
-            ${{ steps.yarn-cache-dir-path.outputs.dir }}
             node_modules
+            ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.OS }}-yarn-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-yarn-node-modules-
@@ -57,13 +57,16 @@ jobs:
         id: cache
         with:
           path: |
-            ${{ steps.yarn-cache-dir-path.outputs.dir }}
             node_modules
+            ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.OS }}-yarn-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-yarn-node-modules-
       - name: Get view on cache folders
         run: |
+          pwd
           ls
+          ls ~
+          ls /
           ls node_modules/
           ls ${{ steps.yarn-cache-dir-path.outputs.dir }}
