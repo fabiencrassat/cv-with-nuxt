@@ -15,19 +15,22 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
       - name: Cache Node.js modules
         uses: actions/cache@v1
         with:
-          path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
-          key: ${{ runner.OS }}-node-${{ hashFiles('**/yarn.lock') }}
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.OS }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-yarn-
             ${{ runner.OS }}-
       - name: Install dependencies
         run: yarn --frozen-lockfile
       - name: Lint the source code
         run: yarn lint
       - name: Test the source code
-        run: yarn test
+        run: yarn test:coverage
       - name: Build the app
         run: yarn build
