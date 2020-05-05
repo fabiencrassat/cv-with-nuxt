@@ -146,5 +146,5 @@ jobs:
         with:
           zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
           github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
-          now-org-id: fabiencrassat #Required
-          now-project-id: cv-with-nuxt #Required 
+          now-org-id: ${{ secrets.ZEIT_ORG_ID }} #Required
+          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required 
