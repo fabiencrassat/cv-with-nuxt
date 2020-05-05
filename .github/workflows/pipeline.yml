@@ -1,6 +1,9 @@
 name: Pipeline
 
-on: [push]
+on:
+  push:
+    tags-ignore:
+      - '**'
 
 jobs:
   deploy-preview:

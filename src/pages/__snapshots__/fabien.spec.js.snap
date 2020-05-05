@@ -5,6 +5,7 @@ exports[`fabien renders properly 1`] = `
   <leftsidenavigation-stub homepage="/fabien"></leftsidenavigation-stub>
   <main class="ml-24 p-3">
     <h1>$t('greeting')</h1>
+    <p>test pipeline</p>
     <nuxt-link-stub to="switchLocalePath('en')">
       English
     </nuxt-link-stub>
@@ -125,6 +126,7 @@ exports[`fabien renders properly en lang 1`] = `
   <leftsidenavigation-stub homepage="/fabien"></leftsidenavigation-stub>
   <main class="ml-24 p-3">
     <h1>$t('greeting')</h1>
+    <p>test pipeline</p>
     <!---->
     <nuxt-link-stub to="switchLocalePath('fr')">
       Français
@@ -243,6 +245,7 @@ exports[`fabien renders properly fr lang 1`] = `
   <leftsidenavigation-stub homepage="/fabien"></leftsidenavigation-stub>
   <main class="ml-24 p-3">
     <h1>$t('greeting')</h1>
+    <p>test pipeline</p>
     <nuxt-link-stub to="switchLocalePath('en')">
       English
     </nuxt-link-stub>
