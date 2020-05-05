@@ -50,7 +50,7 @@ jobs:
       - name: Test the source code
         run: yarn test:coverage
       - name: Archive code coverage results
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: CodeCoverageResult
           path: build/coverage
@@ -122,9 +122,10 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-modules-1-
       - name: Download code coverage results
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v2
         with:
           name: CodeCoverageResult
+          path: build/coverage
       - name: Setup SonarQube
         uses: warchant/setup-sonar-scanner@v1
       - name: Run SonarQube
