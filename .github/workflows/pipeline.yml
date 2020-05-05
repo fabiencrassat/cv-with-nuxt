@@ -3,6 +3,17 @@ name: Pipeline
 on: [push]
 
 jobs:
+  deploy-preview:
+    name: Deploy preview website
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: amondnet/now-deployment@v2
+        with:
+          zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
+          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
+          now-org-id: ${{ secrets.ZEIT_ORG_ID }} #Required
+          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required 
   install:
     name: Install Dependencies
     runs-on: ubuntu-latest
@@ -137,19 +148,9 @@ jobs:
             -Dsonar.organization=fabiencrassat-github
             -Dsonar.host.url=https://sonarcloud.io/
             -Dsonar.projectKey=cv-with-nuxt
-  deploy-preview:
-    name: Deploy preview website
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: amondnet/now-deployment@v2
-        with:
-          zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
-          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
-          now-org-id: ${{ secrets.ZEIT_ORG_ID }} #Required
-          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required 
   deploy-production:
     name: Deploy production website
+    needs: [deploy-preview, test, lint, build, sonarqube]
     if: github.event_name == 'release' && github.event.action == 'created'
     runs-on: ubuntu-latest
     steps:

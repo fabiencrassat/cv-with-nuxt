@@ -4,6 +4,8 @@
     <main class="ml-24 p-3">
       <h1>{{ $t('greeting') }}</h1>
 
+      <p>test pipeline</p>
+
       <nuxt-link v-if="$i18n.locale !== 'en'" :to="switchLocalePath('en')">
         English
       </nuxt-link>
