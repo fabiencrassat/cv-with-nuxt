@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: Pipeline
 
 on: [push]
 
@@ -138,7 +138,7 @@ jobs:
             -Dsonar.host.url=https://sonarcloud.io/
             -Dsonar.projectKey=cv-with-nuxt
   deploy-preview:
-    name: Deploy website preview
+    name: Deploy preview website
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -146,5 +146,18 @@ jobs:
         with:
           zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
           github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
+          now-org-id: ${{ secrets.ZEIT_ORG_ID }} #Required
+          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required 
+  deploy-production:
+    name: Deploy production website
+    if: github.event_name == 'release' && github.event.action == 'created'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: amondnet/now-deployment@v2
+        with:
+          zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
+          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
+          now-args: --prod 
           now-org-id: ${{ secrets.ZEIT_ORG_ID }} #Required
           now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required 
