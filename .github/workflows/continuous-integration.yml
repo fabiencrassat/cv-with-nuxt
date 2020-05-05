@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         if: steps.cache-node-module.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
-  quality:
-    name: Quality
+  test:
+    name: Test
     needs: [install]
     runs-on: ubuntu-latest
     strategy:
@@ -47,23 +47,13 @@ jobs:
           key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-1-
-
-      # Test
       - name: Test the source code
         run: yarn test:coverage
-
-      # SonarQube (need the coverage report)
-      - name: Setup SonarQube
-        uses: warchant/setup-sonar-scanner@v1
-      - name: Run SonarQube
-        env:
-          # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: sonar-scanner
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
-            -Dsonar.organization=fabiencrassat-github
-            -Dsonar.host.url=https://sonarcloud.io/
-            -Dsonar.projectKey=cv-with-nuxt
+      - name: Archive code coverage results
+        uses: actions/upload-artifact@v1
+        with:
+          name: CodeCoverageResult
+          path: build/coverage
   lint:
     name: Lint
     needs: [install]
@@ -88,7 +78,7 @@ jobs:
       - name: Lint the source code
         run: yarn lint
   build:
-    name: build
+    name: Build
     needs: [install]
     runs-on: ubuntu-latest
     strategy:
@@ -110,3 +100,39 @@ jobs:
             ${{ runner.OS }}-node-modules-1-
       - name: Build the app
         run: yarn build
+  sonarqube:
+    name: SonarQube
+    needs: [test]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v1
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-1-
+      - name: Download code coverage results
+        uses: actions/download-artifact@v1
+        with:
+          name: CodeCoverageResult
+      - name: Setup SonarQube
+        uses: warchant/setup-sonar-scanner@v1
+      - name: Run SonarQube
+        env:
+          # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: sonar-scanner
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.organization=fabiencrassat-github
+            -Dsonar.host.url=https://sonarcloud.io/
+            -Dsonar.projectKey=cv-with-nuxt
