@@ -1,10 +1,7 @@
 .github
 .nuxt
 config/jest.config.json
-config/validators.config.json
-lib
 node_modules
-scripts
 .eslintrc.json
 .gitattributes
 .prettierrc.json
