@@ -9,6 +9,7 @@ scripts
 babel.config.json
 jest.config.json
 README.md
+sonar-project.properties
 
 **/__snapshots__
 **/*.spec.js
