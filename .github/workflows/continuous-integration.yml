@@ -137,3 +137,14 @@ jobs:
             -Dsonar.organization=fabiencrassat-github
             -Dsonar.host.url=https://sonarcloud.io/
             -Dsonar.projectKey=cv-with-nuxt
+  deploy-preview:
+    name: Deploy website preview
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: amondnet/now-deployment@v2
+        with:
+          zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
+          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
+          now-org-id: fabiencrassat #Required
+          now-project-id: cv-with-nuxt #Required 
