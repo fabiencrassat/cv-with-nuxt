@@ -103,6 +103,9 @@ yarn test:coverage
 ## Todo
 
 - [ ] Move all configuration files (babel, nuxt, now) into `confif/` folder.
+- [ ] __When new `yarn.lock`:__ Remove the cache numbers in the Github Wokflow `.github/workflows/continuous-integration.yml`.
+- [ ] Deploy in Now with the Github Workflow.
+- [ ] Optimize the Yarn cache folder in the Github Workflow (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
 
 ## Licence
 
