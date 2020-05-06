@@ -181,7 +181,7 @@ jobs:
   deploy-production:
     name: Deploy production website
     needs: [sonarqube, validate-pages]
-    if: github.ref == 'master'
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
