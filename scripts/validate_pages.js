@@ -6,15 +6,15 @@ const url = process.argv.slice(2)[0]; // NOSONAR S4823: Using command line argum
 let urlSanitize;
 if (url !== undefined) {
   urlSanitize = new URL(url);
-  if (
-    ![
-      'http://localhost:3000',
-      'https://cv-with-nuxt-git-refs-headsmaster.fabiencrassat.now.sh',
-      'https://cv-with-nuxt-mynvsev24.now.sh',
-    ].includes(urlSanitize.origin)
-  ) {
+  const regexList = [
+    /http:\/\/localhost:3000/,
+    /https:\/\/cv-with-nuxt-.*\.now\.sh/,
+    /https:\/\/cv2\.crassat\.com/,
+  ];
+  const isMatch = regexList.some((regExp) => regExp.test(urlSanitize.origin));
+  if (!isMatch) {
     throw new Error('Url parameter is not in the whitelist');
   }
 }
 
-validatePages({ url: urlSanitize });
+validatePages({ url: urlSanitize, languages: ['fr', 'en'] });

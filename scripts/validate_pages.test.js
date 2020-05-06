@@ -19,7 +19,10 @@ describe('validate_pages', () => {
     expectedCalledWith,
   }) {
     expect(validatePages).toHaveBeenCalledTimes(1);
-    expect(validatePages).toHaveBeenCalledWith({ url: expectedCalledWith });
+    expect(validatePages).toHaveBeenCalledWith({
+      url: expectedCalledWith,
+      languages: ['fr', 'en'],
+    });
   };
   // eslint-disable-next-line jest/prefer-expect-assertions, jest/expect-expect
   it('should run', () => {
