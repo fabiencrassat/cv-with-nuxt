@@ -7,9 +7,11 @@ let urlSanitize;
 if (url !== undefined) {
   urlSanitize = new URL(url);
   if (
-    !['http://localhost:3000', 'https://staging.reacteev.com'].includes(
-      urlSanitize.origin
-    )
+    ![
+      'http://localhost:3000',
+      'https://cv-with-nuxt-git-refs-headsmaster.fabiencrassat.now.sh',
+      'https://cv-with-nuxt-mynvsev24.now.sh',
+    ].includes(urlSanitize.origin)
   ) {
     throw new Error('Url parameter is not in the whitelist');
   }

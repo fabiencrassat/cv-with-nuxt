@@ -108,7 +108,8 @@ yarn test:coverage
 - [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
 - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
 - [ ] Add sonar quality gate validation script in the Github pipeline.
-- [ ] Make `/lib/scripts/getPagePath` with pagesFolder argument
+- [ ] Make `/lib/scripts/getPagePath` with pagesFolder argument.
+- [ ] Test the urls in `validate_pages.js` with regex.
 
 ## Licence
 

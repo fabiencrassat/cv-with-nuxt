@@ -114,7 +114,7 @@ jobs:
           now-org-id: ${{ secrets.ZEIT_ORG_ID }} #Required
           now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required
     outputs:
-      preview-url: preview-url
+      preview-url: ${{ preview-url }}
   sonarqube:
     name: SonarQube
     needs: [test]
