@@ -107,7 +107,8 @@ yarn test:coverage
 - [ ] Deploy production website in Now with the Github pipeline.
 - [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
 - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
-- [ ] Add `validate:pages` script in the Github pipeline.
+- [ ] Add sonar quality gate validation script in the Github pipeline.
+- [ ] Make `/lib/scripts/getPagePath` with pagesFolder argument
 
 ## Licence
 

@@ -1,14 +1,7 @@
 name: Pipeline
 
 on:
-  release:
-    types:
-      - created
   push:
-    tags-ignore:
-      - '**'
-    branches:
-      - '**'
 
 jobs:
   install:
@@ -117,9 +110,11 @@ jobs:
       - uses: amondnet/now-deployment@v2
         with:
           zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
-          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
+          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional
           now-org-id: ${{ secrets.ZEIT_ORG_ID }} #Required
-          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required 
+          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required
+    outputs:
+      preview-url: preview-url
   sonarqube:
     name: SonarQube
     needs: [test]
@@ -157,10 +152,35 @@ jobs:
             -Dsonar.organization=fabiencrassat-github
             -Dsonar.host.url=https://sonarcloud.io/
             -Dsonar.projectKey=cv-with-nuxt
+  validate-pages:
+    name: Validate pages
+    needs: [deploy-preview]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v1
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-1-
+      - name: Set CHROME_PATH
+        run: export CHROME_PATH=/usr/bin/chromium-browser
+      - name: Validate the pages
+        run: yarn validate:pages ${{needs.deploy-preview.outputs.preview-url}}
   deploy-production:
     name: Deploy production website
-    needs: [test, lint, build, deploy-preview, sonarqube]
-    if: github.event_name == 'release' && github.event.action == 'created'
+    needs: [sonarqube, validate-pages]
+    if: github.ref == 'master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
