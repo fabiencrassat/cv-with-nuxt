@@ -104,7 +104,6 @@ yarn test:coverage
 
 - [ ] Move all configuration files (babel, nuxt, now) into `confif/` folder.
 - [ ] __When new `yarn.lock`:__ Remove the cache numbers in the Github pipeline.
-- [ ] Deploy production website in Now with the Github pipeline.
 - [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
 - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
 - [ ] Make `/lib/scripts/getPagePath.js` with pagesFolder argument.
