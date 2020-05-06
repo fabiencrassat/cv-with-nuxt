@@ -1,5 +1,11 @@
 name: Pipeline
 
+##                    test
+##           ↗                      ↘
+##  Install  →        lint          →       sonarqube       →  deploy-production
+##           ↘                                              ↗
+##              build  →  deploy-preview  →  validate-pages
+
 on:
   push:
 
@@ -103,7 +109,7 @@ jobs:
         run: yarn build
   deploy-preview:
     name: Deploy preview website
-    needs: [test, lint, build]
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -118,7 +124,7 @@ jobs:
       preview-url: ${{ steps.now-deployment.outputs.preview-url }}
   sonarqube:
     name: SonarQube
-    needs: [test]
+    needs: [test, lint]
     runs-on: ubuntu-latest
     strategy:
       matrix:
