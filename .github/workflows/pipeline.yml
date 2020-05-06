@@ -153,6 +153,8 @@ jobs:
             -Dsonar.organization=fabiencrassat-github
             -Dsonar.host.url=https://sonarcloud.io/
             -Dsonar.projectKey=cv-with-nuxt
+      - name: Get Sonar quality gate
+        run: node scripts/get_sonar_quality_gate.js https://${{ secrets.SONAR_TOKEN }}:@sonarcloud.io
   validate-pages:
     name: Validate pages
     needs: [deploy-preview]
