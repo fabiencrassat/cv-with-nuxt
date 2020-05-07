@@ -106,7 +106,6 @@ yarn test:coverage
 - [ ] __When new `yarn.lock`:__ Remove the cache numbers in the Github pipeline.
 - [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
 - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
-- [ ] Make `/lib/scripts/getPagePath.js` with pagesFolder argument.
 - [ ] Make `/lib/scripts/getSonarQualityGate.js` with less project dependencies.
 - [ ] Add a sitemap.
 

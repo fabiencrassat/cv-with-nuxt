@@ -22,6 +22,7 @@ describe('validate_pages', () => {
     expect(validatePages).toHaveBeenCalledWith({
       url: expectedCalledWith,
       languages: ['fr', 'en'],
+      pagesFolder: 'src/pages/',
     });
   };
   // eslint-disable-next-line jest/prefer-expect-assertions, jest/expect-expect

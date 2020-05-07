@@ -17,4 +17,8 @@ if (url !== undefined) {
   }
 }
 
-validatePages({ url: urlSanitize, languages: ['fr', 'en'] });
+validatePages({
+  url: urlSanitize,
+  languages: ['fr', 'en'],
+  pagesFolder: 'src/pages/',
+});
