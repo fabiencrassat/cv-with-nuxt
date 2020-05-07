@@ -15,6 +15,7 @@ describe('get_sonar_quality_gate', () => {
     expect(getSonarQualityGate).toHaveBeenCalledTimes(1);
     expect(getSonarQualityGate).toHaveBeenCalledWith({
       url: expectedCalledWith,
+      projectId: 'cv-with-nuxt',
     });
   };
   // eslint-disable-next-line jest/prefer-expect-assertions, jest/expect-expect

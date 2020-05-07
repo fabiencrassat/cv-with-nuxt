@@ -10,4 +10,4 @@ if (url !== defaultUrl && !/^https:\/\/[a-z0-9]+:@sonarcloud.io$/.test(url)) {
   throw new Error('Url parameter is not in the whitelist');
 }
 
-getSonarQualityGate({ url });
+getSonarQualityGate({ url, projectId: 'cv-with-nuxt' });
