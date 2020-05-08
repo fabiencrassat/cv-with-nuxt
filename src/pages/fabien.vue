@@ -2,9 +2,9 @@
   <div>
     <LeftSideNavigation :homepage="homepage" />
     <main class="ml-24 p-3">
-      <h1>{{ $t('greeting') }}</h1>
+      <h1>{{ title }}</h1>
 
-      <p>test pipeline</p>
+      <p>{{ description }}</p>
 
       <nuxt-link v-if="$i18n.locale !== 'en'" :to="switchLocalePath('en')">
         English
@@ -132,12 +132,42 @@ export default {
   },
   data() {
     return {
+      description: this.$i18n.t('page.description'),
       homepage: '/fabien',
+      path: this.$nuxt.$route.path,
+      title: this.$i18n.t('page.title'),
     };
   },
   head() {
     return {
-      title: 'Curriculum Vitae | Fabien',
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description,
+        },
+        {
+          hid: 'og:url',
+          name: 'og:url',
+          content: this.path,
+        },
+        {
+          hid: 'og:site_name',
+          name: 'og:site_name',
+          content: this.title,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.title,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.description,
+        },
+      ],
     };
   },
 };

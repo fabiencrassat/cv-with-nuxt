@@ -1,3 +1,5 @@
+import nuxtConfig from './config/nuxt.config';
+
 module.exports = {
   /*
    ** Build configuration
@@ -19,41 +21,14 @@ module.exports = {
     },
   },
   buildModules: ['@nuxtjs/tailwindcss'],
+  head: nuxtConfig.head,
   modules: [
-    [
-      'nuxt-i18n',
-      {
-        baseUrl: 'http://cv.crassat.com',
-        defaultLocale: 'fr',
-        langDir: 'locales/',
-        lazy: true,
-        locales: [
-          {
-            code: 'en',
-            file: 'en-US.js',
-            iso: 'en-US',
-          },
-          {
-            code: 'fr',
-            file: 'fr-FR.js',
-            iso: 'fr-FR',
-          },
-        ],
-        seo: true,
-        strategy: 'prefix_and_default',
-        vueI18n: {
-          fallbackLocale: 'fr',
-        },
-        vueI18nLoader: true,
-      },
-    ],
+    ['nuxt-i18n', nuxtConfig.nuxti18n],
+    '@nuxtjs/sitemap', // always declare the sitemap module after nuxt-i18n
+    ['@nuxtjs/robots', nuxtConfig.robots],
   ],
   serverMiddleware: ['~/middleware/redirection.js'],
-  srcDir: 'src/',
-  tailwindcss: {
-    configPath: '~~/config/tailwind.config.js',
-    cssPath: '~/assets/css/tailwind.css',
-    purgeCSSInDev: false,
-    exposeConfig: false,
-  },
+  sitemap: nuxtConfig.sitemap,
+  srcDir: nuxtConfig.srcDir,
+  tailwindcss: nuxtConfig.tailwindcss,
 };

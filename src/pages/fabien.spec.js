@@ -33,7 +33,31 @@ describe('fabien', () => {
 
   it('return head', () => {
     expect.hasAssertions();
-    expect(fabien.head).toStrictEqual(expect.any(Function));
-    expect(fabien.head()).toStrictEqual({ title: 'Curriculum Vitae | Fabien' });
+    expect(testUtils.metaHeadInfoFactory(fabien, { stubs })).toStrictEqual({
+      meta: [
+        {
+          content: "this.$i18n.t('page.description')",
+          hid: 'description',
+          name: 'description',
+        },
+        { content: 'this.$nuxt.$route.path', hid: 'og:url', name: 'og:url' },
+        {
+          content: "this.$i18n.t('page.title')",
+          hid: 'og:site_name',
+          name: 'og:site_name',
+        },
+        {
+          content: "this.$i18n.t('page.title')",
+          hid: 'og:title',
+          name: 'og:title',
+        },
+        {
+          content: "this.$i18n.t('page.description')",
+          hid: 'og:description',
+          name: 'og:description',
+        },
+      ],
+      title: "this.$i18n.t('page.title')",
+    });
   });
 });
