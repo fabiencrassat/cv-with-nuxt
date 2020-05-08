@@ -27,9 +27,9 @@ jobs:
         id: cache-node-module
         with:
           path: node_modules
-          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-node-modules-1-
+            ${{ runner.OS }}-node-modules-
       - name: Install dependencies
         if: steps.cache-node-module.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
@@ -51,9 +51,9 @@ jobs:
         id: cache-node-module
         with:
           path: node_modules
-          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-node-modules-1-
+            ${{ runner.OS }}-node-modules-
       - name: Test the source code
         run: yarn test:coverage
       - name: Archive code coverage results
@@ -79,9 +79,9 @@ jobs:
         id: cache-node-module
         with:
           path: node_modules
-          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-node-modules-1-
+            ${{ runner.OS }}-node-modules-
       - name: Lint the source code
         run: yarn lint
   build:
@@ -102,9 +102,9 @@ jobs:
         id: cache-node-module
         with:
           path: node_modules
-          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-node-modules-1-
+            ${{ runner.OS }}-node-modules-
       - name: Build the app
         run: yarn build
   deploy-preview:
@@ -140,9 +140,9 @@ jobs:
         id: cache-node-module
         with:
           path: node_modules
-          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-node-modules-1-
+            ${{ runner.OS }}-node-modules-
       - name: Download code coverage results
         uses: actions/download-artifact@v2
         with:
@@ -179,9 +179,9 @@ jobs:
         id: cache-node-module
         with:
           path: node_modules
-          key: ${{ runner.OS }}-node-modules-1-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-node-modules-1-
+            ${{ runner.OS }}-node-modules-
       - name: Set CHROME_PATH
         run: export CHROME_PATH=/usr/bin/chromium-browser
       - name: Validate the pages
