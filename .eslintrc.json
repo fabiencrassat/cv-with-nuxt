@@ -22,7 +22,7 @@
   ],
   // add your custom rules here
   "rules": {
-    "quotes": ["error", "single"],
+    "quotes": ["error", "single", { "avoidEscape": true }],
     "vue/max-attributes-per-line": [2, {
       "singleline": 20,
       "multiline": {
