@@ -21,7 +21,7 @@
   "dependencies": {
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.2.1",
-    "@nuxtjs/tailwindcss": "^1.4.1",
+    "@nuxtjs/tailwindcss": "^2.0.0",
     "nuxt": "^2.12.2",
     "nuxt-i18n": "^6.10.1"
   },

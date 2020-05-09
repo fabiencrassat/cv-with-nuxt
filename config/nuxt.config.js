@@ -133,7 +133,6 @@ module.exports = {
   tailwindcss: {
     configPath: '~~/config/tailwind.config.js',
     cssPath: '~/assets/css/tailwind.css',
-    purgeCSSInDev: false,
     exposeConfig: false,
   },
 };
