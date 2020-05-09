@@ -14,6 +14,7 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
 - [Structure](#structure)
 - [Before commit](#before-commit)
   - [Github Workflow](#github-workflow)
+  - [Exclude some files](#exclude-some-files)
 - [Code Analysis](#code-analysis)
   - [SonarQube Installation [Local Only]](#sonarqube-installation-local-only)
   - [SonarQube Usage [Local Only]](#sonarqube-usage-local-only)
@@ -76,6 +77,17 @@ To ensure the Github CI CD pipeline will stay green, launch the following comman
 yarn lint & yarn test:coverage
 ```
 
+### Exclude some files
+
+Adding some files in the root or config folder will change how the pipeline or test coverage will work.  
+In this case and depending the context, exclude theses files in:
+
+| Exclude in                 | Why                                                      |
+|----------------------------|----------------------------------------------------------|
+| `config/jest.config.js`    | For the coverage in the key `collectCoverageFrom`.       |
+| `.nowignore`               | Files not used in the now deployment.                    |
+| `sonar-project.properties` | For the coverage in the key `sonar.coverage.exclusions`. |
+
 ## Code Analysis
 
 ### SonarQube Installation [Local Only]
@@ -105,6 +117,7 @@ yarn test:coverage
 - [ ] Move all configuration files (babel, nuxt, now) into `config/` folder.
 - [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
 - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
+- [ ] Add `vue-styleguidist` package.
 
 ## Licence
 
