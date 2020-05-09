@@ -56,6 +56,16 @@ describe('fabien', () => {
           hid: 'og:description',
           name: 'og:description',
         },
+        {
+          content: "this.$i18n.t('page.shortTitle')",
+          hid: 'apple-mobile-web-app-title',
+          name: 'apple-mobile-web-app-title',
+        },
+        {
+          content: "this.$i18n.t('page.shortTitle')",
+          hid: 'application-name',
+          name: 'application-name',
+        },
       ],
       title: "this.$i18n.t('page.title')",
     });

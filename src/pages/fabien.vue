@@ -135,6 +135,7 @@ export default {
       description: this.$i18n.t('page.description'),
       homepage: '/fabien',
       path: this.$nuxt.$route.path,
+      shortTitle: this.$i18n.t('page.shortTitle'),
       title: this.$i18n.t('page.title'),
     };
   },
@@ -166,6 +167,16 @@ export default {
           hid: 'og:description',
           name: 'og:description',
           content: this.description,
+        },
+        {
+          hid: 'apple-mobile-web-app-title',
+          name: 'apple-mobile-web-app-title',
+          content: this.shortTitle,
+        },
+        {
+          hid: 'application-name',
+          name: 'application-name',
+          content: this.shortTitle,
         },
       ],
     };

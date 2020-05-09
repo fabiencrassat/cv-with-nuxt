@@ -5,6 +5,50 @@ const title = 'Curriculum Vitae';
 module.exports = {
   head: {
     title: title,
+    link: [
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png?v=pglLvXNvMx',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png?v=pglLvXNvMx',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '194x194',
+        href: '/favicon-194x194.png?v=pglLvXNvMx',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '192x192',
+        href: '/android-chrome-192x192.png?v=pglLvXNvMx',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png?v=pglLvXNvMx',
+      },
+      {
+        rel: 'manifest',
+        href: '/site.webmanifest?v=pglLvXNvMx',
+      },
+      {
+        rel: 'mask-icon',
+        href: '/safari-pinned-tab.svg?v=pglLvXNvMx',
+        color: '#2d89ef',
+      },
+      {
+        rel: 'shortcut icon',
+        href: '/favicon.ico?v=pglLvXNvMx',
+      },
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -35,8 +79,22 @@ module.exports = {
         name: 'og:image',
         content: '/fabien-crassat.jpeg',
       },
-      { name: 'msapplication-TileColor', content: '#2b5797' },
-      { name: 'theme-color', content: '#fdf8f0' },
+      {
+        hid: 'apple-mobile-web-app-title',
+        name: 'apple-mobile-web-app-title',
+        content: title,
+      },
+      {
+        hid: 'application-name',
+        name: 'application-name',
+        content: title,
+      },
+      { name: 'msapplication-TileColor', content: '#2d89ef' },
+      {
+        name: 'msapplication-TileImage',
+        content: '/mstile-144x144.png?v=pglLvXNvMx',
+      },
+      { name: 'theme-color', content: '#ffffff' },
     ],
   },
   nuxti18n: {
