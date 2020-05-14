@@ -158,16 +158,16 @@ header:hover h2 {
   }
 }
 .icon-briefcase {
-  background-image: url('http://www.entypo.com/images/briefcase.svg');
+  background-image: url('~assets/images/briefcase.svg');
 }
 .icon-colours {
-  background-image: url('http://www.entypo.com/images/colours.svg');
+  background-image: url('~assets/images/colours.svg');
 }
 .icon-phone {
-  background-image: url('http://www.entypo.com/images/phone.svg');
+  background-image: url('~assets/images/phone.svg');
 }
 .icon-user {
-  background-image: url('http://www.entypo.com/images/user.svg');
+  background-image: url('~assets/images/user.svg');
 }
 </style>
 
