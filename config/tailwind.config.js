@@ -5,6 +5,11 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
+  corePlugins: {
+    // Disable transform property due to invalid w3c validator:
+    // Error: CSS: “transform”: too few values for the property “transform”
+    transform: false,
+  },
   plugins: [],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css

@@ -1,54 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`leftSide renders properly 1`] = `
-<nav class="fixed top-0 left-0 w-24 h-full bg-gray-500 flex h-screen">
-  <ul class="m-auto">
-    <li class="p-4">
-      <nuxt-link-stub to="localePath('/')" class="flex flex-col items-center">
-        <abouticon-stub title="$t('about')"></abouticon-stub>
-      </nuxt-link-stub>
+<nav tabindex="0" class="h-screen fixed top-0 left-0 outline-none z-10 bg-green-500 transition-all duration-300 ease-in-out">
+  <div class="menu-trigger absolute sm:hidden"></div>
+  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img src="/fabien-crassat.jpeg" alt="$t('name')" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-yellow-300">
+    <h2>Fabien Crassat</h2>
+  </header>
+  <ul class="py-2">
+    <li tabindex="0">
+      <nuxt-link-stub to="localePath('/')" class="link block sm:text-sm py-4 pr-4 pl-12 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25 icon-user"><span>$t('about')</span></nuxt-link-stub>
     </li>
-    <li class="p-4">
-      <nuxt-link-stub to="localePath('/')" class="flex flex-col items-center">
-        <contacticon-stub title="$t('contact')"></contacticon-stub>
-      </nuxt-link-stub>
+    <li tabindex="0">
+      <nuxt-link-stub to="localePath('/')" class="link block sm:text-sm py-4 pr-4 pl-12 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25 icon-phone"><span>$t('contact')</span></nuxt-link-stub>
     </li>
-    <li class="p-4">
-      <nuxt-link-stub to="localePath('/')" class="flex flex-col items-center">
-        <jobicon-stub title="$t('jobs')"></jobicon-stub>
-      </nuxt-link-stub>
+    <li tabindex="0">
+      <nuxt-link-stub to="localePath('/')" class="link block sm:text-sm py-4 pr-4 pl-12 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25 icon-briefcase"><span>$t('jobs')</span></nuxt-link-stub>
     </li>
-    <li class="p-4">
-      <nuxt-link-stub to="localePath('/')" class="flex flex-col items-center">
-        <skillicon-stub title="$t('skills')"></skillicon-stub>
-      </nuxt-link-stub>
+    <li tabindex="0">
+      <nuxt-link-stub to="localePath('/')" class="link block sm:text-sm py-4 pr-4 pl-12 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25 icon-colours"><span>$t('skills')</span></nuxt-link-stub>
     </li>
   </ul>
 </nav>
 `;
 
 exports[`leftSide renders properly with props 1`] = `
-<nav class="fixed top-0 left-0 w-24 h-full bg-gray-500 flex h-screen">
-  <ul class="m-auto">
-    <li class="p-4">
-      <nuxt-link-stub to="localePath('/foo')" class="flex flex-col items-center">
-        <abouticon-stub title="$t('about')"></abouticon-stub>
-      </nuxt-link-stub>
+<nav tabindex="0" class="h-screen fixed top-0 left-0 outline-none z-10 bg-green-500 transition-all duration-300 ease-in-out">
+  <div class="menu-trigger absolute sm:hidden"></div>
+  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img src="/fabien-crassat.jpeg" alt="$t('name')" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-yellow-300">
+    <h2>Fabien Crassat</h2>
+  </header>
+  <ul class="py-2">
+    <li tabindex="0">
+      <nuxt-link-stub to="localePath('/foo')" class="link block sm:text-sm py-4 pr-4 pl-12 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25 icon-user"><span>$t('about')</span></nuxt-link-stub>
     </li>
-    <li class="p-4">
-      <nuxt-link-stub to="localePath('/foo')" class="flex flex-col items-center">
-        <contacticon-stub title="$t('contact')"></contacticon-stub>
-      </nuxt-link-stub>
+    <li tabindex="0">
+      <nuxt-link-stub to="localePath('/foo')" class="link block sm:text-sm py-4 pr-4 pl-12 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25 icon-phone"><span>$t('contact')</span></nuxt-link-stub>
     </li>
-    <li class="p-4">
-      <nuxt-link-stub to="localePath('/foo')" class="flex flex-col items-center">
-        <jobicon-stub title="$t('jobs')"></jobicon-stub>
-      </nuxt-link-stub>
+    <li tabindex="0">
+      <nuxt-link-stub to="localePath('/foo')" class="link block sm:text-sm py-4 pr-4 pl-12 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25 icon-briefcase"><span>$t('jobs')</span></nuxt-link-stub>
     </li>
-    <li class="p-4">
-      <nuxt-link-stub to="localePath('/foo')" class="flex flex-col items-center">
-        <skillicon-stub title="$t('skills')"></skillicon-stub>
-      </nuxt-link-stub>
+    <li tabindex="0">
+      <nuxt-link-stub to="localePath('/foo')" class="link block sm:text-sm py-4 pr-4 pl-12 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25 icon-colours"><span>$t('skills')</span></nuxt-link-stub>
     </li>
   </ul>
 </nav>

@@ -1,0 +1,11 @@
+body {
+  background: #ffea92;
+  font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding-left: 0;
+  @screen sm {
+    padding-left: 90px;
+  }
+  @screen md {
+    padding-left: 240px;
+  }
+}

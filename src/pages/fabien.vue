@@ -1,7 +1,7 @@
 <template>
   <div>
     <LeftSideNavigation :homepage="homepage" />
-    <main class="ml-24 p-3">
+    <main class="relative h-screen">
       <h1>{{ title }}</h1>
 
       <p>{{ description }}</p>
@@ -14,114 +14,27 @@
         Français
       </nuxt-link>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper
-        sapien in pharetra ornare. Praesent aliquam arcu nec tellus ornare, id
-        rhoncus eros laoreet. Vivamus a bibendum mauris. Nam at diam elementum,
-        ultrices ligula a, blandit lectus. Vivamus tincidunt lorem quis leo
-        imperdiet, vel tristique orci ultrices. Maecenas feugiat sapien et massa
-        placerat rhoncus. Pellentesque habitant morbi tristique senectus et
-        netus et malesuada fames ac turpis egestas. Fusce nec ligula eget ante
-        auctor elementum. Sed euismod justo in massa scelerisque tristique.
-        Vestibulum elementum nunc at neque euismod, non sagittis massa iaculis.
-        Mauris scelerisque, felis vitae placerat dignissim, turpis metus
-        condimentum nisl, ac eleifend massa mi ut nisi. Fusce tincidunt
-        facilisis leo a bibendum. Vestibulum non volutpat massa. Sed blandit
-        pretium pulvinar. Mauris vel ipsum in quam sodales bibendum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper
-        sapien in pharetra ornare. Praesent aliquam arcu nec tellus ornare, id
-        rhoncus eros laoreet. Vivamus a bibendum mauris. Nam at diam elementum,
-        ultrices ligula a, blandit lectus. Vivamus tincidunt lorem quis leo
-        imperdiet, vel tristique orci ultrices. Maecenas feugiat sapien et massa
-        placerat rhoncus. Pellentesque habitant morbi tristique senectus et
-        netus et malesuada fames ac turpis egestas. Fusce nec ligula eget ante
-        auctor elementum. Sed euismod justo in massa scelerisque tristique.
-        Vestibulum elementum nunc at neque euismod, non sagittis massa iaculis.
-        Mauris scelerisque, felis vitae placerat dignissim, turpis metus
-        condimentum nisl, ac eleifend massa mi ut nisi. Fusce tincidunt
-        facilisis leo a bibendum. Vestibulum non volutpat massa. Sed blandit
-        pretium pulvinar. Mauris vel ipsum in quam sodales bibendum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper
-        sapien in pharetra ornare. Praesent aliquam arcu nec tellus ornare, id
-        rhoncus eros laoreet. Vivamus a bibendum mauris. Nam at diam elementum,
-        ultrices ligula a, blandit lectus. Vivamus tincidunt lorem quis leo
-        imperdiet, vel tristique orci ultrices. Maecenas feugiat sapien et massa
-        placerat rhoncus. Pellentesque habitant morbi tristique senectus et
-        netus et malesuada fames ac turpis egestas. Fusce nec ligula eget ante
-        auctor elementum. Sed euismod justo in massa scelerisque tristique.
-        Vestibulum elementum nunc at neque euismod, non sagittis massa iaculis.
-        Mauris scelerisque, felis vitae placerat dignissim, turpis metus
-        condimentum nisl, ac eleifend massa mi ut nisi. Fusce tincidunt
-        facilisis leo a bibendum. Vestibulum non volutpat massa. Sed blandit
-        pretium pulvinar. Mauris vel ipsum in quam sodales bibendum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper
-        sapien in pharetra ornare. Praesent aliquam arcu nec tellus ornare, id
-        rhoncus eros laoreet. Vivamus a bibendum mauris. Nam at diam elementum,
-        ultrices ligula a, blandit lectus. Vivamus tincidunt lorem quis leo
-        imperdiet, vel tristique orci ultrices. Maecenas feugiat sapien et massa
-        placerat rhoncus. Pellentesque habitant morbi tristique senectus et
-        netus et malesuada fames ac turpis egestas. Fusce nec ligula eget ante
-        auctor elementum. Sed euismod justo in massa scelerisque tristique.
-        Vestibulum elementum nunc at neque euismod, non sagittis massa iaculis.
-        Mauris scelerisque, felis vitae placerat dignissim, turpis metus
-        condimentum nisl, ac eleifend massa mi ut nisi. Fusce tincidunt
-        facilisis leo a bibendum. Vestibulum non volutpat massa. Sed blandit
-        pretium pulvinar. Mauris vel ipsum in quam sodales bibendum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper
-        sapien in pharetra ornare. Praesent aliquam arcu nec tellus ornare, id
-        rhoncus eros laoreet. Vivamus a bibendum mauris. Nam at diam elementum,
-        ultrices ligula a, blandit lectus. Vivamus tincidunt lorem quis leo
-        imperdiet, vel tristique orci ultrices. Maecenas feugiat sapien et massa
-        placerat rhoncus. Pellentesque habitant morbi tristique senectus et
-        netus et malesuada fames ac turpis egestas. Fusce nec ligula eget ante
-        auctor elementum. Sed euismod justo in massa scelerisque tristique.
-        Vestibulum elementum nunc at neque euismod, non sagittis massa iaculis.
-        Mauris scelerisque, felis vitae placerat dignissim, turpis metus
-        condimentum nisl, ac eleifend massa mi ut nisi. Fusce tincidunt
-        facilisis leo a bibendum. Vestibulum non volutpat massa. Sed blandit
-        pretium pulvinar. Mauris vel ipsum in quam sodales bibendum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper
-        sapien in pharetra ornare. Praesent aliquam arcu nec tellus ornare, id
-        rhoncus eros laoreet. Vivamus a bibendum mauris. Nam at diam elementum,
-        ultrices ligula a, blandit lectus. Vivamus tincidunt lorem quis leo
-        imperdiet, vel tristique orci ultrices. Maecenas feugiat sapien et massa
-        placerat rhoncus. Pellentesque habitant morbi tristique senectus et
-        netus et malesuada fames ac turpis egestas. Fusce nec ligula eget ante
-        auctor elementum. Sed euismod justo in massa scelerisque tristique.
-        Vestibulum elementum nunc at neque euismod, non sagittis massa iaculis.
-        Mauris scelerisque, felis vitae placerat dignissim, turpis metus
-        condimentum nisl, ac eleifend massa mi ut nisi. Fusce tincidunt
-        facilisis leo a bibendum. Vestibulum non volutpat massa. Sed blandit
-        pretium pulvinar. Mauris vel ipsum in quam sodales bibendum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper
-        sapien in pharetra ornare. Praesent aliquam arcu nec tellus ornare, id
-        rhoncus eros laoreet. Vivamus a bibendum mauris. Nam at diam elementum,
-        ultrices ligula a, blandit lectus. Vivamus tincidunt lorem quis leo
-        imperdiet, vel tristique orci ultrices. Maecenas feugiat sapien et massa
-        placerat rhoncus. Pellentesque habitant morbi tristique senectus et
-        netus et malesuada fames ac turpis egestas. Fusce nec ligula eget ante
-        auctor elementum. Sed euismod justo in massa scelerisque tristique.
-        Vestibulum elementum nunc at neque euismod, non sagittis massa iaculis.
-        Mauris scelerisque, felis vitae placerat dignissim, turpis metus
-        condimentum nisl, ac eleifend massa mi ut nisi. Fusce tincidunt
-        facilisis leo a bibendum. Vestibulum non volutpat massa. Sed blandit
-        pretium pulvinar. Mauris vel ipsum in quam sodales bibendum.
-      </p>
+      <div
+        class="helper absolute text-center text-3xl font-bold bg-gray-900 bg-opacity-25 px-12 py-10"
+      >
+        RESIZE THE WINDOW
+        <p class="block text-black text-opacity-25 text-xs">
+          Breakpoints on 640px and 768px
+        </p>
+      </div>
     </main>
   </div>
 </template>
+
+<style scoped>
+.helper {
+  color: #ffea92;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+}
+</style>
 
 <script>
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';

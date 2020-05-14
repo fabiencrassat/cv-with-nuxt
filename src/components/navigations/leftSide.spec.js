@@ -1,11 +1,6 @@
 import testUtils from '~~/lib/tests/testUtils';
 import NavigationLeftSide from './leftSide';
 
-jest.mock('../icons/user', () => jest.fn);
-jest.mock('../icons/phone', () => jest.fn);
-jest.mock('../icons/glasses', () => jest.fn);
-jest.mock('../icons/suitcase', () => jest.fn);
-
 const stubs = ['nuxt-link', 'AboutIcon', 'ContactIcon', 'SkillIcon', 'JobIcon'];
 
 describe('leftSide', () => {
