@@ -9,6 +9,9 @@ name: Pipeline
 on:
   push:
 
+env:
+  CHROME_PATH: '/usr/bin/chromium-browser'
+
 jobs:
   install:
     name: Install Dependencies
@@ -183,9 +186,9 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-modules-
       - name: Set CHROME_PATH
-        run: export CHROME_PATH=/usr/bin/chromium-browser
+        run: export CHROME_PATH=${{ env.chromePath }}
       - name: Validate the pages
-        run: yarn validate:pages ${{needs.deploy-preview.outputs.preview-url}}
+        run: yarn validate:pages ${{ needs.deploy-preview.outputs.preview-url }}
   deploy-production:
     name: Deploy production website
     needs: [sonarqube, validate-pages]
