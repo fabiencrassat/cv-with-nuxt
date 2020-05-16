@@ -24,6 +24,7 @@ module.exports = {
     '^@@/(.*)$': '<rootDir>/$1',
   },
   rootDir: '..',
+  setupFiles: ['<rootDir>/lib/tests/jest.setup.js'],
   snapshotSerializers: ['jest-serializer-vue'],
   testPathIgnorePatterns: [
     '<rootDir>/.github/',
