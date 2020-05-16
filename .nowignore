@@ -1,11 +1,13 @@
 .github
 .nuxt
-config/jest.config.json
+config/**
+!config/tailwind.js
 node_modules
+.babelrc
 .eslintrc.json
 .gitattributes
 .prettierrc.json
-babel.config.json
+jsconfig.json
 README.md
 sonar-project.properties
 
