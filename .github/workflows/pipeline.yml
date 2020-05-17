@@ -185,8 +185,6 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-modules-
       - name: Validate the pages
-        env:
-          CHROME_PATH: /usr/bin/chromium-browser
         run: yarn validate:pages ${{ needs.deploy-preview.outputs.preview-url }}
   lighthouse:
     name: Lighthouse Audit
@@ -211,7 +209,6 @@ jobs:
             ${{ runner.OS }}-node-modules-
       - name: Audit with Lighthouse
         env:
-          CHROME_PATH: /usr/bin/chromium-browser
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LHCI_BASE_URL: ${{ needs.deploy-preview.outputs.preview-url }}
           LHCI_SERVER_BASE_URL: https://lighthouse-ci-server.herokuapp.com
