@@ -184,9 +184,9 @@ jobs:
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
-      - name: Set CHROME_PATH
-        run: export CHROME_PATH=/usr/bin/chromium-browser
       - name: Validate the pages
+        env:
+          CHROME_PATH: /usr/bin/chromium-browser
         run: yarn validate:pages ${{ needs.deploy-preview.outputs.preview-url }}
   lighthouse:
     name: Lighthouse Audit
@@ -209,19 +209,17 @@ jobs:
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
-      - name: Set CHROME_PATH
-        run: export CHROME_PATH=/usr/bin/chromium-browser
-      - name: Set LHCI_SERVER_BASE_URL
-        run: export LHCI_SERVER_BASE_URL=https://lighthouse-ci-server.herokuapp.com 
-      - name: Set LHCI_TOKEN
-        run: export LHCI_TOKEN=${{ secrets.LHCI_TOKEN }}
-      - name: Set LHCI_BASE_URL
-        run: export LHCI_BASE_URL=${{ needs.deploy-preview.outputs.preview-url }}
       - name: Audit with Lighthouse
+        env:
+          CHROME_PATH: /usr/bin/chromium-browser
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LHCI_BASE_URL: ${{ needs.deploy-preview.outputs.preview-url }}
+          LHCI_SERVER_BASE_URL: https://lighthouse-ci-server.herokuapp.com
+          LHCI_TOKEN: ${{ secrets.LHCI_TOKEN }}
         run: yarn validate:lighthouse
   deploy-production:
     name: Deploy production website
-    needs: [sonarqube, validate-pages]
+    needs: [sonarqube, validate-pages, lighthouse]
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
