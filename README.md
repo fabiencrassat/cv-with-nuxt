@@ -19,6 +19,9 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
   - [SonarQube](#sonarqube)
     - [SonarQube Installation [Local Only]](#sonarqube-installation-local-only)
     - [SonarQube Usage [Local Only]](#sonarqube-usage-local-only)
+  - [Google Chrome Lighthouse](#google-chrome-lighthouse)
+    - [Lightouse Server [Local Only]](#lightouse-server-local-only)
+    - [Lighthouse Usage [Local Only]](#lighthouse-usage-local-only)
 - [Todo](#todo)
 - [Licence](#licence)
 
@@ -113,6 +116,61 @@ command in the `cv-with-nuxt` folder! And you will have your evolution ;)
 yarn test:coverage
 # Launch the scan
 <SONARQUBE SCANNER BIN PATH>\sonar-scanner.bat;
+```
+
+### Google Chrome Lighthouse
+
+#### Lightouse Server [Local Only]
+
+If you want to know about your code audit, you can use Google Chrome Lighthouse for that. To do so, use the docker image already published:  
+Source: <https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/recipes/docker-server/README.md#building-locally>
+
+> The docker command is wrong for Windows, use instead:
+>  
+> ```shell
+> docker container run --publish 9001:9001 --mount source=lhci-data,target=/data --detach patrickhulce/lhci-server
+> ```
+
+It will create a container server you can access at <http://localhost:9001/>.
+
+Then initialize the project inside the server:
+
+```shell
+yarn lhci wizard
+? Which wizard do you want to run? new-project
+? What is the URL of your LHCI server? http://localhost:9001/
+? What would you like to name the project? cv-with-nuxt
+? Where is the project's code hosted? https://github.com/fabiencrassat/cv-with-nuxt
+? What branch is considered the repo's trunk or main branch? master
+Created project cv-with-nuxt (9461df84-ee42-4868-9061-62a8391c7fec)!
+Use token xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx to add data.
+Use admin token xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx to manage data. KEEP THIS SECRET!
+```
+
+Use the **LHCI server url** and the **token xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx** in your `.env` file.
+
+```properties
+LHCI_SERVER_BASE_URL=http://localhost:9001
+LHCI_TOKEN=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+```
+
+#### Lighthouse Usage [Local Only]
+
+> Do the [Lighthouse Usage](#lightouse-installation-local-only) before starting any developments in order to know how it will change the metrics.  
+
+Each time you want to know about your audit code, launch an audit with the following command in the `cv-with-nuxt` folder! And you will have your evolution ;)
+
+> if needed, configure your `CHROME_PATH` in your `.env` file.
+
+```shell
+yarn build
+yarn start
+```
+
+And in an other shell:
+
+```shell
+yarn validate:lighthouse
 ```
 
 ## Todo

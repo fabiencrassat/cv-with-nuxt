@@ -2,9 +2,11 @@ name: Pipeline
 
 ##                    test
 ##           ↗                      ↘
-##  Install  →        lint          →       sonarqube       →  deploy-production
-##           ↘                                              ↗
-##              build  →  deploy-preview  →  validate-pages
+##  Install  →        lint          →       sonarqube
+##           ↘                                               ↘
+##              build  →  deploy-preview  →  validate-pages  →  deploy-production
+##                                        ↘                  ↗
+##                                             lighthouse
 
 on:
   push:
@@ -186,6 +188,37 @@ jobs:
         run: export CHROME_PATH=/usr/bin/chromium-browser
       - name: Validate the pages
         run: yarn validate:pages ${{ needs.deploy-preview.outputs.preview-url }}
+  lighthouse:
+    name: Lighthouse Audit
+    needs: [deploy-preview]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v1
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-
+      - name: Set CHROME_PATH
+        run: export CHROME_PATH=/usr/bin/chromium-browser
+      - name: Set LHCI_SERVER_BASE_URL
+        run: export LHCI_SERVER_BASE_URL=https://lighthouse-ci-server.herokuapp.com 
+      - name: Set LHCI_TOKEN
+        run: export LHCI_TOKEN=${{ secrets.LHCI_TOKEN }}
+      - name: Set LHCI_BASE_URL
+        run: export LHCI_BASE_URL=${{ needs.deploy-preview.outputs.preview-url }}
+      - name: Audit with Lighthouse
+        run: yarn validate:lighthouse
   deploy-production:
     name: Deploy production website
     needs: [sonarqube, validate-pages]

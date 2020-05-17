@@ -16,6 +16,7 @@
     "test": "jest --config ./config/jest.config.js",
     "test:coverage": "yarn test --coverage",
     "test:watch": "yarn test --watch",
+    "validate:lighthouse": "yarn lhci autorun --config=./config/lighthouserc.js",
     "validate:pages": "node scripts/validate_pages.js"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.9.6",
+    "@lhci/cli": "0.3.x",
     "@vue/test-utils": "^1.0.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",

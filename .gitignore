@@ -1,3 +1,4 @@
+.lighthouseci
 .now
 .nuxt
 .scannerwork
@@ -5,3 +6,4 @@ build
 coverage
 dist
 node_modules
+.env
