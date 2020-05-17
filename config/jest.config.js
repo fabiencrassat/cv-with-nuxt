@@ -2,10 +2,11 @@ module.exports = {
   // If you are updating this below, please synchronize them in /sonar-project.properties
   collectCoverageFrom: [
     '**/*.{js,vue}',
-    '!<rootDir>/config/**',
     '!<rootDir>/build/**',
-    '!<rootDir>/nuxt.config.js',
+    '!<rootDir>/config/**',
+    '!<rootDir>/dist/**',
     '!<rootDir>/src/locales/**',
+    '!<rootDir>/nuxt.config.js',
   ],
   coverageDirectory: '<rootDir>/build/coverage',
   coverageThreshold: {
