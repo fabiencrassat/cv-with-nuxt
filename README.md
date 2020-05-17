@@ -16,8 +16,9 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
   - [Github Workflow](#github-workflow)
   - [Exclude some files](#exclude-some-files)
 - [Code Analysis](#code-analysis)
-  - [SonarQube Installation [Local Only]](#sonarqube-installation-local-only)
-  - [SonarQube Usage [Local Only]](#sonarqube-usage-local-only)
+  - [SonarQube](#sonarqube)
+    - [SonarQube Installation [Local Only]](#sonarqube-installation-local-only)
+    - [SonarQube Usage [Local Only]](#sonarqube-usage-local-only)
 - [Todo](#todo)
 - [Licence](#licence)
 
@@ -85,23 +86,25 @@ In this case and depending the context, exclude theses files in:
 | Exclude in                 | Why                                                      |
 |----------------------------|----------------------------------------------------------|
 | `config/jest.config.js`    | For the coverage in the key `collectCoverageFrom`.       |
+| `.gitignore`               | Files not used in the version control system.            |
 | `.nowignore`               | Files not used in the now deployment.                    |
 | `sonar-project.properties` | For the coverage in the key `sonar.coverage.exclusions`. |
 
 ## Code Analysis
 
-### SonarQube Installation [Local Only]
+### SonarQube
 
-If you want to know about your code analysis, you can use SonarQube for that. To
-do so:  
-Source: [https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes](https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes)
+#### SonarQube Installation [Local Only]
 
-### SonarQube Usage [Local Only]
+If you want to know about your code analysis, you can use SonarQube for that. To do so:  
+Source: <https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes>
+
+#### SonarQube Usage [Local Only]
 
 > Do the [SonarQube Installation](#SonarQube-Installation-Local-Only) before starting any developments in order to know how it will change the metrics.  
 
 Each time you want to know about your quality code, launch a scan with the following
-command in the `cv-with-nuxt` folder! You will have your evolution ;)
+command in the `cv-with-nuxt` folder! And you will have your evolution ;)
 
 ```bash
 # Start the server if needed
@@ -119,6 +122,7 @@ yarn test:coverage
 - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
 - [ ] Add `vue-styleguidist` package.
 - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
+- [ ] Use `yarn generate` with **now routes** instead of `yarn build` and `yarn start` to increase performances.
 
 ## Licence
 
