@@ -4,14 +4,11 @@
     "enabled": false
   },
   "builds": [
-    {
-      "src": "nuxt.config.js",
-      "use": "@nuxtjs/now-builder",
-      "config": {
-        "serverFiles": [
-          "src/middleware/**"
-        ]
-      }
-    }
+    { "src": "package.json", "use": "@now/static-build" }
+  ],
+  "redirects": [
+    { "source": "/", "destination": "/fabien", "permanent": true },
+    { "source": "/fabien/fr", "destination": "/fr/fabien", "permanent": true },
+    { "source": "/fabien/en", "destination": "/en/fabien", "permanent": true }
   ]
 }

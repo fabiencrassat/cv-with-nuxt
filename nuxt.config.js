@@ -126,6 +126,7 @@ const nuxtConfig = {
   sitemap: {
     cacheTime: 1000 * 60 * 15,
     gzip: true,
+    hostname: baseUrl,
     path: siteMapUrl,
   },
   srcDir: 'src/',
@@ -157,6 +158,9 @@ module.exports = {
     },
   },
   buildModules: ['@nuxtjs/tailwindcss'],
+  generate: {
+    subFolders: false,
+  },
   head: nuxtConfig.head,
   modules: [
     ['nuxt-i18n', nuxtConfig.nuxti18n],
