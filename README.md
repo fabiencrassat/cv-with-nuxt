@@ -12,6 +12,7 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Structure](#structure)
+- [Start like production](#start-like-production)
 - [Before commit](#before-commit)
   - [Github Workflow](#github-workflow)
   - [Exclude some files](#exclude-some-files)
@@ -70,6 +71,17 @@ The product source code is structured with:
 | `src/locales/`    | All i18n json files.                                                          |
 | `src/middleware/` | All files used in the server side.                                            |
 | `src/pages/`      | All the application pages called with URL, served with **nuxt** and **i18n**. |
+
+## Start like production
+
+This site is a staic website. So to replicate what is deployed in the website there are some things to do first.
+
+```shell
+yarn generate
+yarn start:static
+```
+
+And open the pages without extension: <http://localhost:3000/fabien>
 
 ## Before commit
 
@@ -163,8 +175,8 @@ Each time you want to know about your audit code, launch an audit with the follo
 > if needed, configure your `CHROME_PATH` in your `.env` file.
 
 ```shell
-yarn build
-yarn start
+yarn generate
+yarn start:static
 ```
 
 And in an other shell:
@@ -180,7 +192,6 @@ yarn validate:lighthouse
 - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
 - [ ] Add `vue-styleguidist` package.
 - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
-- [ ] Use `yarn generate` with **now routes** instead of `yarn build` and `yarn start` to increase performances.
 
 ## Licence
 
