@@ -1,5 +1,0 @@
-[
-  { "from": "/", "to": "/fabien" },
-  { "from": "/fabien/fr", "to": "/fr/fabien" },
-  { "from": "/fabien/en", "to": "/en/fabien" }
-]

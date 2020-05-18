@@ -1,12 +1,12 @@
 name: Pipeline
 
-##                    test
-##           ↗                      ↘
-##  Install  →        lint          →       sonarqube
-##           ↘                                               ↘
-##              build  →  deploy-preview  →  validate-pages  →  deploy-production
-##                                        ↘                  ↗
-##                                             lighthouse
+##                      test
+##           ↗                         ↘
+##  Install  →          lint           →        sonarqube
+##           ↘                                                  ↘
+##              generate  →  deploy-preview  →  validate-pages  →  deploy-production
+##                                           ↘                  ↗
+##                                                lighthouse
 
 on:
   push:
@@ -86,8 +86,8 @@ jobs:
             ${{ runner.OS }}-node-modules-
       - name: Lint the source code
         run: yarn lint
-  build:
-    name: Build
+  generate:
+    name: Generate
     needs: [install]
     runs-on: ubuntu-latest
     strategy:
@@ -107,11 +107,11 @@ jobs:
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
-      - name: Build the app
-        run: yarn build
+      - name: Generate the static app
+        run: yarn generate
   deploy-preview:
     name: Deploy preview website
-    needs: [build]
+    needs: [generate]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

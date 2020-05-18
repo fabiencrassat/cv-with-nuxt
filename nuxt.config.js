@@ -2,6 +2,59 @@ const baseUrl = process.env.BASE_URL || 'http://localhost:3000';
 const siteMapUrl = '/sitemap.xml';
 const title = 'Curriculum Vitae';
 const nuxtConfig = {
+  nuxti18n: {
+    baseUrl: baseUrl,
+    defaultLocale: 'fr',
+    langDir: 'locales/',
+    lazy: true,
+    locales: [
+      {
+        code: 'en',
+        file: 'en-US.js',
+        iso: 'en-US',
+      },
+      {
+        code: 'fr',
+        file: 'fr-FR.js',
+        iso: 'fr-FR',
+      },
+    ],
+    seo: true,
+    strategy: 'prefix_and_default',
+    vueI18n: {
+      fallbackLocale: 'fr',
+    },
+    vueI18nLoader: true,
+  },
+  robots: {
+    Sitemap: siteMapUrl,
+  },
+};
+
+module.exports = {
+  /*
+   ** Build configuration
+   */
+  build: {
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, { isDev, isClient }) {
+      // Run ESLint on save
+      if (isDev && isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/,
+        });
+      }
+    },
+  },
+  buildModules: ['@nuxtjs/tailwindcss'],
+  generate: {
+    subFolders: false,
+  },
   head: {
     title: title,
     link: [
@@ -96,33 +149,11 @@ const nuxtConfig = {
       { name: 'theme-color', content: '#ffffff' },
     ],
   },
-  nuxti18n: {
-    baseUrl: baseUrl,
-    defaultLocale: 'fr',
-    langDir: 'locales/',
-    lazy: true,
-    locales: [
-      {
-        code: 'en',
-        file: 'en-US.js',
-        iso: 'en-US',
-      },
-      {
-        code: 'fr',
-        file: 'fr-FR.js',
-        iso: 'fr-FR',
-      },
-    ],
-    seo: true,
-    strategy: 'prefix_and_default',
-    vueI18n: {
-      fallbackLocale: 'fr',
-    },
-    vueI18nLoader: true,
-  },
-  robots: {
-    Sitemap: siteMapUrl,
-  },
+  modules: [
+    ['nuxt-i18n', nuxtConfig.nuxti18n],
+    '@nuxtjs/sitemap', // always declare the sitemap module after nuxt-i18n
+    ['@nuxtjs/robots', nuxtConfig.robots],
+  ],
   sitemap: {
     cacheTime: 1000 * 60 * 15,
     gzip: true,
@@ -135,40 +166,4 @@ const nuxtConfig = {
     cssPath: '~/assets/css/tailwind.css',
     exposeConfig: false,
   },
-};
-
-module.exports = {
-  /*
-   ** Build configuration
-   */
-  build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, { isDev, isClient }) {
-      // Run ESLint on save
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/,
-        });
-      }
-    },
-  },
-  buildModules: ['@nuxtjs/tailwindcss'],
-  generate: {
-    subFolders: false,
-  },
-  head: nuxtConfig.head,
-  modules: [
-    ['nuxt-i18n', nuxtConfig.nuxti18n],
-    '@nuxtjs/sitemap', // always declare the sitemap module after nuxt-i18n
-    ['@nuxtjs/robots', nuxtConfig.robots],
-  ],
-  serverMiddleware: ['~/middleware/redirection.js'],
-  sitemap: nuxtConfig.sitemap,
-  srcDir: nuxtConfig.srcDir,
-  tailwindcss: nuxtConfig.tailwindcss,
 };
