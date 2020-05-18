@@ -24,6 +24,7 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
     - [Lightouse Server [Local Only]](#lightouse-server-local-only)
     - [Lighthouse Usage [Local Only]](#lighthouse-usage-local-only)
 - [Todo](#todo)
+- [SVG images](#svg-images)
 - [Licence](#licence)
 
 ## Prerequisites
@@ -55,7 +56,7 @@ yarn dev
 yarn dev:offline
 ```
 
-Go to <http://localhost:3000>
+Go to <http://localhost:3000/fabien>
 
 ## Structure
 
@@ -192,6 +193,10 @@ yarn validate:lighthouse
 - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
 - [ ] Add `vue-styleguidist` package.
 - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
+
+## SVG images
+
+The SVG images library comes from <http://www.entypo.com/>
 
 ## Licence
 
