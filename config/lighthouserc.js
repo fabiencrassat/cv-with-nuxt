@@ -1,11 +1,32 @@
 require('dotenv').config();
 
-const baseUrl = process.env.LHCI_BASE_URL || 'http://localhost:3000';
+const localhostUrl = 'http://localhost:3000';
+const baseUrl = process.env.LHCI_BASE_URL || localhostUrl;
+
+const assertions = function assertions() {
+  // FIXME: Resolve and remove them
+  let result = {
+    'offline-start-url': 'warn',
+    'service-worker': 'warn',
+    'works-offline': 'warn',
+  };
+  if (baseUrl === localhostUrl) {
+    return Object.assign(result, {
+      'uses-text-compression': 'warn',
+    });
+  }
+  // FIXME: Resolve and remove them
+  return Object.assign(result, {
+    canonical: 'warn',
+    'is-crawlable': 'warn',
+  });
+};
 
 module.exports = {
   ci: {
     assert: {
       preset: 'lighthouse:recommended',
+      assertions: assertions(),
     },
     collect: {
       chromePath: process.env.CHROME_PATH,

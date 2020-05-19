@@ -195,6 +195,7 @@ yarn validate:lighthouse
 - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
 - [ ] **[Waiting vue-jest@4.x.x]** Remove executable code in `vue` file to allow coverage with **vue-jest@3.x.x** (`h1.vue`, `leftSide.vue`).
   > Search for *`coverage is successful with vue-jest@4.x.x`* in the code.
+- [ ] Fix in `config/lighthouserc.js` the exception assertions.
 
 ## SVG images
 
