@@ -1,7 +1,7 @@
 import testUtils from '~~/lib/tests/testUtils';
 import NavigationLeftSide from './leftSide';
 
-const stubs = ['nuxt-link', 'AboutIcon', 'ContactIcon', 'SkillIcon', 'JobIcon'];
+const stubs = ['nuxt-link'];
 
 describe('leftSide', () => {
   it('mounts properly', () => {
