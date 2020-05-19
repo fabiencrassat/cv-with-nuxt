@@ -1,4 +1,4 @@
-const baseUrl = process.env.BASE_URL || 'http://localhost:3000';
+const baseUrl = process.env.VERCEL_URL || 'http://localhost:3000';
 const siteMapUrl = '/sitemap.xml';
 const title = 'Curriculum Vitae';
 const nuxtConfig = {
@@ -27,7 +27,7 @@ const nuxtConfig = {
     vueI18nLoader: true,
   },
   robots: {
-    Sitemap: siteMapUrl,
+    Sitemap: `${baseUrl}${siteMapUrl}`,
   },
 };
 
