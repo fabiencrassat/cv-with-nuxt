@@ -1,4 +1,14 @@
-const baseUrl = process.env.VERCEL_URL || 'http://localhost:3000';
+const getBaseUrl = function getBaseUrl() {
+  if (process.env.ENVIRONMENT_DEPLOYMENT === 'production') {
+    return 'https://cv2.crassat.com';
+  }
+  if (process.env.ENVIRONMENT_DEPLOYMENT === 'preview') {
+    return 'https://cv-with-nuxt-git-refs-headsmaster.fabiencrassat.now.sh';
+  }
+  return 'http://localhost:3000';
+};
+
+const baseUrl = getBaseUrl();
 const siteMapUrl = '/sitemap.xml';
 const title = 'Curriculum Vitae';
 const nuxtConfig = {

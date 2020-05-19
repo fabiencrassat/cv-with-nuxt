@@ -6,6 +6,7 @@ lib
 node_modules
 scripts
 .babelrc
+.env.dist
 .eslintrc.json
 .gitattributes
 .prettierrc.json
