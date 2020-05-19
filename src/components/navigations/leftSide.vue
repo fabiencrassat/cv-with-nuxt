@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="h-screen fixed top-0 left-0 outline-none z-10 bg-blue-500 transition-all duration-300 ease-in-out text-gray-200"
+    class="h-screen fixed top-0 left-0 outline-none z-10 bg-blue-700 transition-all duration-300 ease-in-out text-gray-200"
     tabindex="0"
   >
-    <div class="menu-trigger absolute sm:hidden" />
+    <div class="menu-trigger absolute sm:hidden bg-blue-700" />
     <header
       class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"
     >
@@ -157,7 +157,6 @@ nav {
   width: 40px;
   height: 40px;
   left: 100%;
-  @apply bg-blue-500;
 }
 .menu-trigger:before,
 .menu-trigger:after {
