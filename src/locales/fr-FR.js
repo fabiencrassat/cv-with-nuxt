@@ -9,6 +9,10 @@ export default {
   identity: {
     name: 'à propos',
     url: 'about',
+    myself: {
+      name: 'Fabien Crassat',
+      picture: '/fabien-crassat.jpeg',
+    },
   },
   contactMe: {
     name: 'contactez-moi',
