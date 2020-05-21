@@ -23,7 +23,7 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
   - [Google Chrome Lighthouse](#google-chrome-lighthouse)
     - [Lightouse Server [Local Only]](#lightouse-server-local-only)
     - [Lighthouse Usage [Local Only]](#lighthouse-usage-local-only)
-- [Todo](#todo)
+- [Todos](#todos)
 - [SVG images](#svg-images)
 - [Licence](#licence)
 
@@ -186,7 +186,7 @@ And in an other shell:
 yarn validate:lighthouse
 ```
 
-## Todo
+## Todos
 
 - [ ] Move all configuration files (babel, nuxt, now) into `config/` folder.
 - [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
@@ -196,6 +196,8 @@ yarn validate:lighthouse
 - [ ] **[Waiting vue-jest@4.x.x]** Remove executable code in `vue` file to allow coverage with **vue-jest@3.x.x** (`h1.vue`, `leftSide.vue`).
   > Search for *`coverage is successful with vue-jest@4.x.x`* in the code.
 - [ ] Fix in `config/lighthouserc.js` the exception assertions.
+- [ ] Use the preview url in `robots.txt` and `sitemap.xml`.
+- [ ] Translate to English only the console warning.
 
 ## SVG images
 
