@@ -1,9 +1,34 @@
 <template>
   <div>
-    <LeftSideNavigation :homepage="homepage" />
+    <LeftSideNavigation
+      :name="$t('identity.myself.name')"
+      :picture="$t('identity.myself.picture')"
+      :menu-items="[
+        {
+          name: $t('identity.name'),
+          url: $t('identity.url'),
+          svg: UserSvgIcon,
+        },
+        {
+          name: $t('contactMe.name'),
+          url: $t('contactMe.url'),
+          svg: PhoneSvgIcon,
+        },
+        {
+          name: $t('experiences.name'),
+          url: $t('experiences.url'),
+          svg: BriefcaseSvgIcon,
+        },
+        {
+          name: $t('skill.name'),
+          url: $t('skill.url'),
+          svg: ColoursSvgIcon,
+        },
+      ]"
+    />
     <main class="relative h-screen p-4">
-      <section id="about">
-        <H1Heading>About me</H1Heading>
+      <section :id="$t('identity.url')">
+        <H1Heading>{{ $t('identity.name') }}</H1Heading>
         <p>
           <span class="text-lg text-blue-700 italic whitespace-no-wrap">
             39 years
@@ -14,13 +39,13 @@
           </span>
           &nbsp;/&nbsp;
           <span class="text-lg text-blue-700 italic whitespace-no-wrap">
-            Agile and Lean Startup Coach
+            {{ $t('job.title') }}
           </span>
         </p>
         <p>{{ description }}</p>
       </section>
-      <section id="contact-me">
-        <H1Heading>Contact me</H1Heading>
+      <section :id="$t('contactMe.url')">
+        <H1Heading>{{ $t('contactMe.name') }}</H1Heading>
         <p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -47,32 +72,47 @@
           </a>
         </p>
       </section>
-      <section id="my-jobs">
-        <H1Heading>My work</H1Heading>
+      <section :id="$t('experiences.url')">
+        <H1Heading>{{ $t('experiences.name') }}</H1Heading>
       </section>
-      <section id="my-skills">
-        <H1Heading>My skills</H1Heading>
+      <section :id="$t('skill.url')">
+        <H1Heading>{{ $t('skill.name') }}</H1Heading>
       </section>
     </main>
   </div>
 </template>
 
 <script>
+import BriefcaseSvgIcon from '~/components/svgIcons/briefcase';
+import ColoursSvgIcon from '~/components/svgIcons/colours';
 import H1Heading from '~/components/headings/h1.vue';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
+import PhoneSvgIcon from '~/components/svgIcons/phone';
+import UserSvgIcon from '~/components/svgIcons/user';
 
 export default {
   components: {
+    // eslint-disable-next-line vue/no-unused-components
+    BriefcaseSvgIcon,
+    // eslint-disable-next-line vue/no-unused-components
+    ColoursSvgIcon,
     H1Heading,
     LeftSideNavigation,
+    // eslint-disable-next-line vue/no-unused-components
+    PhoneSvgIcon,
+    // eslint-disable-next-line vue/no-unused-components
+    UserSvgIcon,
   },
   data() {
     return {
-      description: this.$i18n.t('page.description'),
-      homepage: '/fabien',
+      BriefcaseSvgIcon: BriefcaseSvgIcon,
+      ColoursSvgIcon: ColoursSvgIcon,
+      description: this.$i18n.t('job.presentation'),
       path: this.$nuxt.$route.path,
+      PhoneSvgIcon: PhoneSvgIcon,
       shortTitle: this.$i18n.t('page.shortTitle'),
       title: this.$i18n.t('page.title'),
+      UserSvgIcon: UserSvgIcon,
     };
   },
   head() {

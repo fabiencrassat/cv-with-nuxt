@@ -12,27 +12,13 @@ describe('fabien', () => {
     // eslint-disable-next-line jest/prefer-inline-snapshots
     expect(testUtils.htmlFactory(fabien)).toMatchSnapshot();
   });
-  it('renders properly en lang', () => {
-    expect.hasAssertions();
-    expect(
-      testUtils.htmlFactory(fabien, { locale: 'en' })
-      // eslint-disable-next-line jest/prefer-inline-snapshots
-    ).toMatchSnapshot();
-  });
-  it('renders properly fr lang', () => {
-    expect.hasAssertions();
-    expect(
-      testUtils.htmlFactory(fabien, { locale: 'fr' })
-      // eslint-disable-next-line jest/prefer-inline-snapshots
-    ).toMatchSnapshot();
-  });
 
   it('return head', () => {
     expect.hasAssertions();
     expect(testUtils.metaHeadInfoFactory(fabien)).toStrictEqual({
       meta: [
         {
-          content: "this.$i18n.t('page.description')",
+          content: "this.$i18n.t('job.presentation')",
           hid: 'description',
           name: 'description',
         },
@@ -48,7 +34,7 @@ describe('fabien', () => {
           name: 'og:title',
         },
         {
-          content: "this.$i18n.t('page.description')",
+          content: "this.$i18n.t('job.presentation')",
           hid: 'og:description',
           name: 'og:description',
         },
