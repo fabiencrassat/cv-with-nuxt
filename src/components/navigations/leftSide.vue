@@ -122,11 +122,6 @@ header:hover h2 {
     @apply bg-center relative;
   }
 }
-.link svg {
-  @media (min-width: 640px) and (max-width: 767px) {
-    @apply w-8 h-8 mx-3;
-  }
-}
 .link span {
   @media (min-width: 640px) and (max-width: 767px) {
     /* Between sm and md */
