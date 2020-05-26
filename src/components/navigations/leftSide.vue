@@ -85,6 +85,14 @@ nav {
 nav:focus .menu-trigger {
   @apply pointer-events-none;
 }
+nav:focus .menu-trigger:before {
+  top: 25%;
+  transform: rotate(-405deg) translate(-70%, 0%);
+}
+nav:focus .menu-trigger:after {
+  top: 75%;
+  transform: rotate(405deg) translate(-70%, -40%);
+}
 header img {
   width: 100px;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
