@@ -13,7 +13,7 @@ const siteMapUrl = '/sitemap.xml';
 const title = 'Curriculum Vitae';
 const nuxtConfig = {
   nuxti18n: {
-    baseUrl: baseUrl,
+    baseUrl,
     defaultLocale: 'fr',
     langDir: 'locales/',
     lazy: true,
@@ -61,12 +61,12 @@ module.exports = {
       }
     },
   },
-  buildModules: ['@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
   generate: {
     subFolders: false,
   },
   head: {
-    title: title,
+    title,
     link: [
       {
         rel: 'apple-touch-icon',
@@ -175,5 +175,10 @@ module.exports = {
     configPath: '~~/config/tailwind.config.js',
     cssPath: '~/assets/css/tailwind.css',
     exposeConfig: false,
+  },
+  typescript: {
+    typeCheck: {
+      eslint: true,
+    },
   },
 };
