@@ -1,5 +1,5 @@
-import testUtils from '~~/lib/tests/testUtils';
 import user from './user';
+import testUtils from '~~/lib/tests/testUtils';
 
 describe('user', () => {
   it('renders properly', () => {

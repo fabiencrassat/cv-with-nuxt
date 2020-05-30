@@ -1,5 +1,5 @@
-import testUtils from '~~/lib/tests/testUtils';
 import NavigationLeftSide from './leftSide';
+import testUtils from '~~/lib/tests/testUtils';
 
 const propsData = { name: 'foo', picture: 'bar' };
 const stubs = ['nuxt-link', 'component1', 'component2'];

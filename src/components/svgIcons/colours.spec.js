@@ -1,5 +1,5 @@
-import testUtils from '~~/lib/tests/testUtils';
 import colours from './colours';
+import testUtils from '~~/lib/tests/testUtils';
 
 describe('colours', () => {
   it('renders properly', () => {

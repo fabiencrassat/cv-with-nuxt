@@ -1,7 +1,8 @@
 module.exports = {
   // If you are updating this below, please synchronize them in /sonar-project.properties
   collectCoverageFrom: [
-    '**/*.{js,vue}',
+    '**/*.{js,ts,vue}',
+    '!**/*.d.ts',
     '!<rootDir>/build/**',
     '!<rootDir>/config/**',
     '!<rootDir>/dist/**',
@@ -17,7 +18,7 @@ module.exports = {
       lines: 100,
     },
   },
-  moduleFileExtensions: ['js', 'json', 'vue'],
+  moduleFileExtensions: ['js', 'json', 'ts', 'vue'],
   moduleNameMapper: {
     '^~/(.*)$': '<rootDir>/src/$1',
     '^@/(.*)$': '<rootDir>/src/$1',
@@ -36,5 +37,6 @@ module.exports = {
   transform: {
     '.*\\.(vue)$': 'vue-jest',
     '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
+    '^.+\\.tsx?$': 'ts-jest',
   },
 };

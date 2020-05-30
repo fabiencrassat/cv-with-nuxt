@@ -1,5 +1,5 @@
-import testUtils from '~~/lib/tests/testUtils';
 import briefcase from './briefcase';
+import testUtils from '~~/lib/tests/testUtils';
 
 describe('briefcase', () => {
   it('renders properly', () => {

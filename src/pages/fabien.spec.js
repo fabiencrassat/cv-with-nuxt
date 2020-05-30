@@ -1,5 +1,5 @@
-import testUtils from '~~/lib/tests/testUtils';
 import fabien from './fabien';
+import testUtils from '~~/lib/tests/testUtils';
 
 describe('fabien', () => {
   it('mounts properly', () => {

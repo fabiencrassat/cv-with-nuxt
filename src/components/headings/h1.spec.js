@@ -1,5 +1,5 @@
-import testUtils from '~~/lib/tests/testUtils';
 import H1Heading from './h1';
+import testUtils from '~~/lib/tests/testUtils';
 
 describe('h1', () => {
   it('mounts properly', () => {

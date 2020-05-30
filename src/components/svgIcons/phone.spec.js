@@ -1,5 +1,5 @@
-import testUtils from '~~/lib/tests/testUtils';
 import phone from './phone';
+import testUtils from '~~/lib/tests/testUtils';
 
 describe('phone', () => {
   it('renders properly', () => {

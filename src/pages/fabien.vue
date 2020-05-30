@@ -48,10 +48,10 @@
         <H1Heading>{{ $t('contactMe.name') }}</H1Heading>
         <p>
           <svg
+            id="Location_pin"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             version="1.1"
-            id="Location_pin"
             x="0px"
             y="0px"
             viewBox="0 0 20 20"
@@ -105,14 +105,14 @@ export default {
   },
   data() {
     return {
-      BriefcaseSvgIcon: BriefcaseSvgIcon,
-      ColoursSvgIcon: ColoursSvgIcon,
+      BriefcaseSvgIcon,
+      ColoursSvgIcon,
       description: this.$i18n.t('job.presentation'),
       path: this.$nuxt.$route.path,
-      PhoneSvgIcon: PhoneSvgIcon,
+      PhoneSvgIcon,
       shortTitle: this.$i18n.t('page.shortTitle'),
       title: this.$i18n.t('page.title'),
-      UserSvgIcon: UserSvgIcon,
+      UserSvgIcon,
     };
   },
   head() {

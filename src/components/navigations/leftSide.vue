@@ -34,7 +34,7 @@
       </p>
     </header>
     <ul class="py-2">
-      <li tabindex="0" v-for="(item, index) in menuItems" :key="index">
+      <li v-for="(item, index) in menuItems" :key="index" tabindex="0">
         <nuxt-link
           :to="'#' + item.url"
           class="link block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25"
@@ -163,10 +163,6 @@ header:hover h2 {
 
 <script>
 export default {
-  // TODO: Remove data() when coverage is successful with vue-jest@4.x.x
-  data() {
-    return {};
-  },
   props: {
     name: {
       type: String,
@@ -182,6 +178,10 @@ export default {
       type: Array,
       default: () => [],
     },
+  },
+  // TODO: Remove data() when coverage is successful with vue-jest@4.x.x
+  data() {
+    return {};
   },
 };
 </script>
