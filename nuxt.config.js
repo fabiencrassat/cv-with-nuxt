@@ -31,9 +31,6 @@ const nuxtConfig = {
     ],
     seo: true,
     strategy: 'prefix_and_default',
-    vueI18n: {
-      fallbackLocale: 'fr',
-    },
     vueI18nLoader: true,
   },
   robots: {
