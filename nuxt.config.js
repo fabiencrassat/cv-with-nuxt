@@ -61,7 +61,10 @@ module.exports = {
       }
     },
   },
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
+  buildModules: [
+    ['@nuxt/typescript-build', { typeCheck: false }],
+    '@nuxtjs/tailwindcss',
+  ],
   generate: {
     subFolders: false,
   },
