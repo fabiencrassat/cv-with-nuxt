@@ -2,9 +2,7 @@
 .nuxt
 config/*
 !config/tailwind.config.js
-./lib
 node_modules
-scripts
 .babelrc
 .env.dist
 .eslintrc.json
@@ -12,6 +10,9 @@ scripts
 .prettierrc.json
 jsconfig.json
 sonar-project.properties
+
+/lib
+/scripts
 
 **/__snapshots__
 **/*.spec.js
