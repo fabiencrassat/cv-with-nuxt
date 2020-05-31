@@ -1,8 +1,8 @@
 <template>
   <div>
     <LeftSideNavigation
-      :name="$t('identity.myself.name')"
-      :picture="$t('identity.myself.picture')"
+      :name="CurriculumVitae.getFullName()"
+      :picture="CurriculumVitae.getPicture()"
       :menu-items="[
         {
           name: $t('identity.name'),
@@ -39,7 +39,7 @@
           </span>
           &nbsp;/&nbsp;
           <span class="text-lg text-blue-700 italic whitespace-no-wrap">
-            {{ $t('job.title') }}
+            {{ CurriculumVitae.getLastJob() }}
           </span>
         </p>
         <p>{{ description }}</p>
@@ -74,6 +74,37 @@
       </section>
       <section :id="$t('experiences.url')">
         <H1Heading>{{ $t('experiences.name') }}</H1Heading>
+        <ul class="flex flex-wrap">
+          <li
+            v-for="(item, index) in CurriculumVitae.getExperiences()"
+            :key="index"
+            class="flex-grow my-2 sm:m-4 rounded-sm border-2 border-solid border-blue-700"
+          >
+            <h2>
+              <span class="">{{ item.job }}</span>
+              <span class="whitespace-no-wrap float-right">
+                {{ item.date }}
+              </span>
+            </h2>
+            <ul>
+              <li v-for="(mission, i) in item.missions" :key="i">
+                {{ mission }}
+              </li>
+            </ul>
+            <div v-if="item.society">
+              <a
+                v-if="item.society.siteurl"
+                :href="item.society.siteurl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ item.society.name }}, {{ item.society.address }}
+              </a>
+              <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
+              <p v-else>{{ item.society.name }}, {{ item.society.address }}</p>
+            </div>
+          </li>
+        </ul>
       </section>
       <section :id="$t('skill.url')">
         <H1Heading>{{ $t('skill.name') }}</H1Heading>
@@ -89,6 +120,7 @@ import H1Heading from '~/components/headings/h1.vue';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
 import PhoneSvgIcon from '~/components/svgIcons/phone';
 import UserSvgIcon from '~/components/svgIcons/user';
+import CurriculumVitae from '~/lib/curriculumVitae';
 
 export default {
   components: {
@@ -104,14 +136,22 @@ export default {
     UserSvgIcon,
   },
   data() {
+    // eslint-disable-next-line no-use-before-define
+    const curriculumVitae = new CurriculumVitae(this.$i18n.locale);
+
     return {
       BriefcaseSvgIcon,
       ColoursSvgIcon,
-      description: this.$i18n.t('job.presentation'),
+      description: curriculumVitae.getPresentation(),
+      CurriculumVitae: curriculumVitae,
       path: this.$nuxt.$route.path,
       PhoneSvgIcon,
-      shortTitle: this.$i18n.t('page.shortTitle'),
-      title: this.$i18n.t('page.title'),
+      shortTitle: this.$i18n.t('page.shortTitle', {
+        name: curriculumVitae.getFullName(),
+      }),
+      title: this.$i18n.t('page.title', {
+        name: curriculumVitae.getFullName(),
+      }),
       UserSvgIcon,
     };
   },

@@ -1,4 +1,8 @@
 body {
+  --primary-color: #428bca;
+  --secondary-color: #4246ca;
+  --tertiary-color: #42cac5;
+
   --background-color: #EEE;
 
   background: var(--background-color);

@@ -1,0 +1,45 @@
+{
+  "reacteev": {
+    "name": "Reacteev",
+    "address": "Paris, France",
+    "siteurl": "https://reacteev.com"
+  },
+  "enablon": {
+    "name": "Enablon",
+    "address": "Courbevoie, Hauts de Seine, France",
+    "siteurl": "http://www.enablon.com"
+  },
+  "bostonTeaParty": {
+    "name": "Boston Tea Party",
+    "address": "Bristol, Royaume-Uni",
+    "siteurl": "http://www.bostonteaparty.co.uk"
+  },
+  "suez": {
+    "name": "Suez",
+    "address": "Paris, France",
+    "siteurl": "http://www.suez-environnement.com"
+  },
+  "korrigan": {
+    "name": "Korrigan",
+    "address": "Paris, France",
+    "siteurl": "http://www.korrigan-graffiti.com"
+  },
+  "obi": {
+    "name": "OBI",
+    "address": "Cahors, Lot, France",
+    "siteurl": "http://www.obi.com"
+  },
+  "cge": {
+    "name": "Confort Général Européen",
+    "address": "Toulouse, France"
+  },
+  "leseth": {
+    "name": "Laboratoire d’Energétique (LESETH)",
+    "address": "Université Paul Sabatier, Toulouse, France",
+    "siteurl": "http://www.univ-tlse3.fr"
+  },
+  "svgso": {
+    "name": "SVGSO (Société des Vins du Grand Sud-Ouest)",
+    "address": "Castelfranc, Lot, France"
+  }
+}

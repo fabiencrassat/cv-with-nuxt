@@ -20,7 +20,9 @@
       "~~/*": ["./*"],
       "@@/*": ["./*"],
     },
+    "resolveJsonModule": true,
     "types": [
+      "@types/jest",
       "@types/node",
       "@nuxt/types"
     ]
