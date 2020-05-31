@@ -113,7 +113,7 @@ class Tools {
     // eslint-disable-next-line no-prototype-builtins
     if (element.hasOwnProperty('crossref')) {
       // eslint-disable-next-line no-eval
-      return eval('_this.' + element.crossref);
+      return eval('_this.' + element.crossref); // NOSONAR : Dynamically executing code is security-sensitive
     }
     return element;
   }
