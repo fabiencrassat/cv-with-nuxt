@@ -9,6 +9,7 @@ if (url !== undefined) {
   const regexList = [
     /http:\/\/localhost:3000/,
     /https:\/\/cv-with-nuxt-.*\.now\.sh/,
+    /https:\/\/cv-with-nuxt-.*\.vercel\.app/,
     /https:\/\/cv2\.crassat\.com/,
   ];
   const isMatch = regexList.some((regExp) => regExp.test(urlSanitize.origin));
