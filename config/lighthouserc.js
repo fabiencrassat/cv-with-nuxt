@@ -19,6 +19,7 @@ const assertions = function assertions() {
   return Object.assign(result, {
     canonical: 'warn',
     'is-crawlable': 'warn',
+    'remove-unused-code': 'warn',
   });
 };
 
