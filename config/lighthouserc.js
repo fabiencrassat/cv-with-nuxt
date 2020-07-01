@@ -8,6 +8,7 @@ const assertions = function assertions() {
   const result = {
     'offline-start-url': 'warn',
     'service-worker': 'warn',
+    'unused-javascript': 'warn',
     'works-offline': 'warn',
   };
   if (baseUrl === localhostUrl) {
@@ -19,7 +20,6 @@ const assertions = function assertions() {
   return Object.assign(result, {
     canonical: 'warn',
     'is-crawlable': 'warn',
-    'remove-unused-code': 'warn',
   });
 };
 
