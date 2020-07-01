@@ -3,6 +3,8 @@ module.exports = {
   collectCoverageFrom: [
     '**/*.{js,ts,vue}',
     '!**/*.d.ts',
+    '!<rootDir>/.nuxt/**',
+    '!<rootDir>/.scannerwork/**',
     '!<rootDir>/build/**',
     '!<rootDir>/config/**',
     '!<rootDir>/dist/**',
