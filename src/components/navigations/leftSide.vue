@@ -40,7 +40,7 @@
           class="link block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25"
         >
           <component :is="item.svg" />
-          <span class="capitalize">{{ item.name }}</span>
+          <span class="ml-3 capitalize">{{ item.name }}</span>
         </nuxt-link>
       </li>
     </ul>

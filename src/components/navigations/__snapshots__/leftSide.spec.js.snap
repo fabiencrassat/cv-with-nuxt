@@ -75,12 +75,12 @@ exports[`leftSide renders properly with props 1`] = `
   <ul class="py-2">
     <li tabindex="0">
       <nuxt-link-stub to="#page1" class="link block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25">
-        <component1-stub></component1-stub> <span class="capitalize">Page 1</span>
+        <component1-stub></component1-stub> <span class="ml-3 capitalize">Page 1</span>
       </nuxt-link-stub>
     </li>
     <li tabindex="0">
       <nuxt-link-stub to="#page2" class="link block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer transition-all duration-150 ease-linear hover:bg-gray-900 hover:bg-opacity-25">
-        <component2-stub></component2-stub> <span class="capitalize">Page 2</span>
+        <component2-stub></component2-stub> <span class="ml-3 capitalize">Page 2</span>
       </nuxt-link-stub>
     </li>
   </ul>

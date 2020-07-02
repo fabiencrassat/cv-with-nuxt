@@ -3,10 +3,10 @@
 exports[`fabien renders properly 1`] = `
 <div>
   <leftsidenavigation-stub name="getFullName" picture="getPicture" menuitems="[object Object],[object Object],[object Object],[object Object]"></leftsidenavigation-stub>
-  <main class="relative h-screen p-4">
+  <main class="relative h-screen p-4 pt-10 sm:pt-4">
     <section id="$t('identity.url')">
       <h1heading-stub>$t('identity.name')</h1heading-stub>
-      <p><span class="text-lg text-blue-700 italic whitespace-no-wrap">
+      <p class="text-justify"><span class="text-lg text-blue-700 italic whitespace-no-wrap">
           39 years
         </span>
         &nbsp;/&nbsp;
@@ -14,10 +14,26 @@ exports[`fabien renders properly 1`] = `
           Paris
         </span>
         &nbsp;/&nbsp;
-        <span class="text-lg text-blue-700 italic whitespace-no-wrap">
+        <span class="text-lg text-blue-700 italic">
           getLastJob
         </span></p>
-      <p>getPresentation</p>
+      <p class="text-justify">
+        getPresentation
+      </p> <a target="_blank" aria-label="Follow me in LinkedIn" href="http://www.linkedin.com/in/fabiencrassat">
+        <linkedinsvgicon-stub></linkedinsvgicon-stub>
+      </a> <a target="_blank" aria-label="Follow me in Viadeo" href="http://fr.viadeo.com/fr/profile/fabien.crassat">
+        <viadeosvgicon-stub></viadeosvgicon-stub>
+      </a> <a target="_blank" aria-label="Follow me in Monster" href="http://beknown.com/fabien-crassat">
+        <monsterinsvgicon-stub></monsterinsvgicon-stub>
+      </a> <a target="_blank" aria-label="Follow me in Twitter" href="https://twitter.com/fabiencrassat">
+        <twittersvgicon-stub></twittersvgicon-stub>
+      </a> <a target="_blank" aria-label="Follow me in Facebook" href="https://www.facebook.com/fabien.crassat">
+        <facebooksvgicon-stub></facebooksvgicon-stub>
+      </a> <a target="_blank" aria-label="Follow me in Scrum Alliance" href="http://www.scrumalliance.org/community/profile/fcrassat">
+        <scrumalliancesvgicon-stub></scrumalliancesvgicon-stub>
+      </a> <a target="_blank" aria-label="Follow me in Github" href="https://github.com/fabiencrassat">
+        <githubsvgicon-stub></githubsvgicon-stub>
+      </a>
     </section>
     <section id="$t('contactMe.url')">
       <h1heading-stub>$t('contactMe.name')</h1heading-stub>

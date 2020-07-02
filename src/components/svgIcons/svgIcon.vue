@@ -9,7 +9,7 @@
     viewBox="0 0 20 20"
     enable-background="new 0 0 20 20"
     xml:space="preserve"
-    class="h-5 w-5 inline mr-3 fill-current"
+    class="h-5 w-5 inline fill-current"
   >
     <slot />
   </svg>

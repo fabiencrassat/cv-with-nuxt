@@ -26,10 +26,10 @@
         },
       ]"
     />
-    <main class="relative h-screen p-4">
+    <main class="relative h-screen p-4 pt-10 sm:pt-4">
       <section :id="$t('identity.url')">
         <H1Heading>{{ $t('identity.name') }}</H1Heading>
-        <p>
+        <p class="text-justify">
           <span class="text-lg text-blue-700 italic whitespace-no-wrap">
             39 years
           </span>
@@ -38,11 +38,62 @@
             Paris
           </span>
           &nbsp;/&nbsp;
-          <span class="text-lg text-blue-700 italic whitespace-no-wrap">
+          <span class="text-lg text-blue-700 italic">
             {{ CurriculumVitae.getLastJob() }}
           </span>
         </p>
-        <p>{{ description }}</p>
+        <p class="text-justify">
+          {{ description }}
+        </p>
+        <a
+          target="_blank"
+          aria-label="Follow me in LinkedIn"
+          href="http://www.linkedin.com/in/fabiencrassat"
+        >
+          <LinkedInSvgIcon />
+        </a>
+        <a
+          target="_blank"
+          aria-label="Follow me in Viadeo"
+          href="http://fr.viadeo.com/fr/profile/fabien.crassat"
+        >
+          <ViadeoSvgIcon />
+        </a>
+        <a
+          target="_blank"
+          aria-label="Follow me in Monster"
+          href="http://beknown.com/fabien-crassat"
+        >
+          <MonsterInSvgIcon />
+        </a>
+        <a
+          target="_blank"
+          aria-label="Follow me in Twitter"
+          href="https://twitter.com/fabiencrassat"
+        >
+          <TwitterSvgIcon />
+        </a>
+        <a
+          target="_blank"
+          aria-label="Follow me in Facebook"
+          href="https://www.facebook.com/fabien.crassat"
+        >
+          <FacebookSvgIcon />
+        </a>
+        <a
+          target="_blank"
+          aria-label="Follow me in Scrum Alliance"
+          href="http://www.scrumalliance.org/community/profile/fcrassat"
+        >
+          <ScrumAllianceSvgIcon />
+        </a>
+        <a
+          target="_blank"
+          aria-label="Follow me in Github"
+          href="https://github.com/fabiencrassat"
+        >
+          <GithubSvgIcon />
+        </a>
       </section>
       <section :id="$t('contactMe.url')">
         <H1Heading>{{ $t('contactMe.name') }}</H1Heading>
@@ -116,10 +167,17 @@
 <script>
 import BriefcaseSvgIcon from '~/components/svgIcons/briefcase';
 import ColoursSvgIcon from '~/components/svgIcons/colours';
+import FacebookSvgIcon from '~/components/svgIcons/facebook';
+import GithubSvgIcon from '~/components/svgIcons/github';
 import H1Heading from '~/components/headings/h1.vue';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
+import LinkedInSvgIcon from '~/components/svgIcons/linkedin';
+import MonsterInSvgIcon from '~/components/svgIcons/monster';
 import PhoneSvgIcon from '~/components/svgIcons/phone';
+import ScrumAllianceSvgIcon from '~/components/svgIcons/scrumalliance';
+import TwitterSvgIcon from '~/components/svgIcons/twitter';
 import UserSvgIcon from '~/components/svgIcons/user';
+import ViadeoSvgIcon from '~/components/svgIcons/viadeo';
 import CurriculumVitae from '~/lib/curriculumVitae';
 
 export default {
@@ -128,12 +186,19 @@ export default {
     BriefcaseSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
     ColoursSvgIcon,
+    FacebookSvgIcon,
+    GithubSvgIcon,
     H1Heading,
     LeftSideNavigation,
+    LinkedInSvgIcon,
+    MonsterInSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
     PhoneSvgIcon,
+    ScrumAllianceSvgIcon,
+    TwitterSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
     UserSvgIcon,
+    ViadeoSvgIcon,
   },
   data() {
     // eslint-disable-next-line no-use-before-define
