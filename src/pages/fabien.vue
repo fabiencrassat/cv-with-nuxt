@@ -49,6 +49,7 @@
           target="_blank"
           aria-label="Follow me in LinkedIn"
           href="http://www.linkedin.com/in/fabiencrassat"
+          rel="noopener noreferrer"
         >
           <LinkedInSvgIcon />
         </a>
@@ -56,6 +57,7 @@
           target="_blank"
           aria-label="Follow me in Viadeo"
           href="http://fr.viadeo.com/fr/profile/fabien.crassat"
+          rel="noopener noreferrer"
         >
           <ViadeoSvgIcon />
         </a>
@@ -63,6 +65,7 @@
           target="_blank"
           aria-label="Follow me in Monster"
           href="http://beknown.com/fabien-crassat"
+          rel="noopener noreferrer"
         >
           <MonsterInSvgIcon />
         </a>
@@ -70,6 +73,7 @@
           target="_blank"
           aria-label="Follow me in Twitter"
           href="https://twitter.com/fabiencrassat"
+          rel="noopener noreferrer"
         >
           <TwitterSvgIcon />
         </a>
@@ -77,6 +81,7 @@
           target="_blank"
           aria-label="Follow me in Facebook"
           href="https://www.facebook.com/fabien.crassat"
+          rel="noopener noreferrer"
         >
           <FacebookSvgIcon />
         </a>
@@ -84,6 +89,7 @@
           target="_blank"
           aria-label="Follow me in Scrum Alliance"
           href="http://www.scrumalliance.org/community/profile/fcrassat"
+          rel="noopener noreferrer"
         >
           <ScrumAllianceSvgIcon />
         </a>
@@ -91,6 +97,7 @@
           target="_blank"
           aria-label="Follow me in Github"
           href="https://github.com/fabiencrassat"
+          rel="noopener noreferrer"
         >
           <GithubSvgIcon />
         </a>

@@ -19,19 +19,19 @@ exports[`fabien renders properly 1`] = `
         </span></p>
       <p class="text-justify">
         getPresentation
-      </p> <a target="_blank" aria-label="Follow me in LinkedIn" href="http://www.linkedin.com/in/fabiencrassat">
+      </p> <a target="_blank" aria-label="Follow me in LinkedIn" href="http://www.linkedin.com/in/fabiencrassat" rel="noopener noreferrer">
         <linkedinsvgicon-stub></linkedinsvgicon-stub>
-      </a> <a target="_blank" aria-label="Follow me in Viadeo" href="http://fr.viadeo.com/fr/profile/fabien.crassat">
+      </a> <a target="_blank" aria-label="Follow me in Viadeo" href="http://fr.viadeo.com/fr/profile/fabien.crassat" rel="noopener noreferrer">
         <viadeosvgicon-stub></viadeosvgicon-stub>
-      </a> <a target="_blank" aria-label="Follow me in Monster" href="http://beknown.com/fabien-crassat">
+      </a> <a target="_blank" aria-label="Follow me in Monster" href="http://beknown.com/fabien-crassat" rel="noopener noreferrer">
         <monsterinsvgicon-stub></monsterinsvgicon-stub>
-      </a> <a target="_blank" aria-label="Follow me in Twitter" href="https://twitter.com/fabiencrassat">
+      </a> <a target="_blank" aria-label="Follow me in Twitter" href="https://twitter.com/fabiencrassat" rel="noopener noreferrer">
         <twittersvgicon-stub></twittersvgicon-stub>
-      </a> <a target="_blank" aria-label="Follow me in Facebook" href="https://www.facebook.com/fabien.crassat">
+      </a> <a target="_blank" aria-label="Follow me in Facebook" href="https://www.facebook.com/fabien.crassat" rel="noopener noreferrer">
         <facebooksvgicon-stub></facebooksvgicon-stub>
-      </a> <a target="_blank" aria-label="Follow me in Scrum Alliance" href="http://www.scrumalliance.org/community/profile/fcrassat">
+      </a> <a target="_blank" aria-label="Follow me in Scrum Alliance" href="http://www.scrumalliance.org/community/profile/fcrassat" rel="noopener noreferrer">
         <scrumalliancesvgicon-stub></scrumalliancesvgicon-stub>
-      </a> <a target="_blank" aria-label="Follow me in Github" href="https://github.com/fabiencrassat">
+      </a> <a target="_blank" aria-label="Follow me in Github" href="https://github.com/fabiencrassat" rel="noopener noreferrer">
         <githubsvgicon-stub></githubsvgicon-stub>
       </a>
     </section>
