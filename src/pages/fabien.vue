@@ -45,62 +45,7 @@
         <p class="text-justify">
           {{ description }}
         </p>
-        <a
-          target="_blank"
-          aria-label="Follow me in LinkedIn"
-          href="http://www.linkedin.com/in/fabiencrassat"
-          rel="noopener noreferrer"
-        >
-          <LinkedInSvgIcon />
-        </a>
-        <a
-          target="_blank"
-          aria-label="Follow me in Viadeo"
-          href="http://fr.viadeo.com/fr/profile/fabien.crassat"
-          rel="noopener noreferrer"
-        >
-          <ViadeoSvgIcon />
-        </a>
-        <a
-          target="_blank"
-          aria-label="Follow me in Monster"
-          href="http://beknown.com/fabien-crassat"
-          rel="noopener noreferrer"
-        >
-          <MonsterInSvgIcon />
-        </a>
-        <a
-          target="_blank"
-          aria-label="Follow me in Twitter"
-          href="https://twitter.com/fabiencrassat"
-          rel="noopener noreferrer"
-        >
-          <TwitterSvgIcon />
-        </a>
-        <a
-          target="_blank"
-          aria-label="Follow me in Facebook"
-          href="https://www.facebook.com/fabien.crassat"
-          rel="noopener noreferrer"
-        >
-          <FacebookSvgIcon />
-        </a>
-        <a
-          target="_blank"
-          aria-label="Follow me in Scrum Alliance"
-          href="http://www.scrumalliance.org/community/profile/fcrassat"
-          rel="noopener noreferrer"
-        >
-          <ScrumAllianceSvgIcon />
-        </a>
-        <a
-          target="_blank"
-          aria-label="Follow me in Github"
-          href="https://github.com/fabiencrassat"
-          rel="noopener noreferrer"
-        >
-          <GithubSvgIcon />
-        </a>
+        <FollowMe :links="CurriculumVitae.getFollowMe()" />
       </section>
       <section :id="$t('contactMe.url')">
         <H1Heading>{{ $t('contactMe.name') }}</H1Heading>
@@ -174,17 +119,11 @@
 <script>
 import BriefcaseSvgIcon from '~/components/svgIcons/briefcase';
 import ColoursSvgIcon from '~/components/svgIcons/colours';
-import FacebookSvgIcon from '~/components/svgIcons/facebook';
-import GithubSvgIcon from '~/components/svgIcons/github';
+import FollowMe from '~/components/about/followMe';
 import H1Heading from '~/components/headings/h1.vue';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
-import LinkedInSvgIcon from '~/components/svgIcons/linkedin';
-import MonsterInSvgIcon from '~/components/svgIcons/monster';
 import PhoneSvgIcon from '~/components/svgIcons/phone';
-import ScrumAllianceSvgIcon from '~/components/svgIcons/scrumalliance';
-import TwitterSvgIcon from '~/components/svgIcons/twitter';
 import UserSvgIcon from '~/components/svgIcons/user';
-import ViadeoSvgIcon from '~/components/svgIcons/viadeo';
 import CurriculumVitae from '~/lib/curriculumVitae';
 
 export default {
@@ -193,19 +132,13 @@ export default {
     BriefcaseSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
     ColoursSvgIcon,
-    FacebookSvgIcon,
-    GithubSvgIcon,
+    FollowMe,
     H1Heading,
     LeftSideNavigation,
-    LinkedInSvgIcon,
-    MonsterInSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
     PhoneSvgIcon,
-    ScrumAllianceSvgIcon,
-    TwitterSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
     UserSvgIcon,
-    ViadeoSvgIcon,
   },
   data() {
     // eslint-disable-next-line no-use-before-define

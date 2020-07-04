@@ -9,19 +9,11 @@
     viewBox="0 0 20 20"
     enable-background="new 0 0 20 20"
     xml:space="preserve"
-    class="h-5 w-5 inline fill-current"
+    class="inline fill-current"
   >
     <slot />
   </svg>
 </template>
-
-<style scoped>
-svg {
-  @media (min-width: 640px) and (max-width: 767px) {
-    @apply w-8 h-8 mx-3;
-  }
-}
-</style>
 
 <script>
 export default {

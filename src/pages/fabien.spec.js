@@ -5,6 +5,7 @@ jest.mock('~/lib/curriculumVitae', () => {
   return jest.fn().mockImplementation(() => {
     return {
       getPresentation: jest.fn(() => 'getPresentation'),
+      getFollowMe: jest.fn(() => []),
       getFullName: jest.fn(() => 'getFullName'),
       getPicture: jest.fn(() => 'getPicture'),
       getLastJob: jest.fn(() => 'getLastJob'),

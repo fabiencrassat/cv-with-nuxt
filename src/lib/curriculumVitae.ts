@@ -24,6 +24,13 @@ interface ICrossRef {
   crossref: string;
 }
 
+interface IFollowMe {
+  label: ILang;
+  url: string;
+  svg: string;
+  [key: string]: any;
+}
+
 interface ICurriculumVitae {
   identity: {
     myself: {
@@ -31,6 +38,7 @@ interface ICurriculumVitae {
       picture: string;
     };
   };
+  followMe: Array<IFollowMe>;
   lookingFor: {
     experience: ICrossRef;
     presentation: ILang;
@@ -83,6 +91,26 @@ export default class CurriculumVitae {
 
   public getPresentation() {
     return this.curriculumVitae.lookingFor.presentation[this._lang];
+  }
+
+  /*
+   * About
+   */
+
+  public getFollowMe() {
+    const followMe = this.curriculumVitae.followMe;
+    const result = [];
+    for (const index in followMe) {
+      const item = followMe[index];
+      const resultItem = Object.assign({}, item);
+      for (const key in item) {
+        let element = item[key];
+        element = Tools.getLangValue(element, this._lang);
+        resultItem[key] = element;
+      }
+      result.push(resultItem);
+    }
+    return result;
   }
 
   /*

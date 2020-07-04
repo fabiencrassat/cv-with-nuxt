@@ -159,6 +159,12 @@ header:hover h2 {
     @apply opacity-100;
   }
 }
+svg {
+  @apply h-5 w-5;
+  @media (min-width: 640px) and (max-width: 767px) {
+    @apply w-8 h-8 mx-3;
+  }
+}
 </style>
 
 <script>
