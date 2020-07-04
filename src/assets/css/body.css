@@ -6,7 +6,6 @@ body {
   --background-color: #EEE;
 
   background: var(--background-color);
-  font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
   padding-left: 0;
   @screen sm {
     padding-left: 90px;

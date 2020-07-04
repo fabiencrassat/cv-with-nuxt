@@ -69,6 +69,11 @@ module.exports = {
     title,
     link: [
       {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Roboto:wght@400;900&display=swap',
+      },
+      {
         rel: 'apple-touch-icon',
         sizes: '180x180',
         href: '/apple-touch-icon.png?v=pglLvXNvMx',

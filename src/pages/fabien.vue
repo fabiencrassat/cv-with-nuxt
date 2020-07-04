@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-display">
     <LeftSideNavigation
       :name="CurriculumVitae.getFullName()"
       :picture="CurriculumVitae.getPicture()"
