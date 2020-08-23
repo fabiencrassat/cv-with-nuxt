@@ -115,15 +115,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: amondnet/now-deployment@v2
-        id: now-deployment
+      - uses: amondnet/vercel-action@v19
+        id: vercel-deployment
         with:
-          zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
+          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
           github-token: ${{ secrets.GITHUB_TOKEN }} #Optional
-          now-org-id: ${{ secrets.ZEIT_ORG_ID }} #Required
-          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} #Required
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} #Required
     outputs:
-      preview-url: ${{ steps.now-deployment.outputs.preview-url }}
+      preview-url: ${{ steps.vercel-deployment.outputs.preview-url }}
   sonarqube:
     name: SonarQube
     needs: [test, lint]
@@ -209,7 +209,7 @@ jobs:
             ${{ runner.OS }}-node-modules-
       - name: Audit with Lighthouse
         env:
-          LHCI_BASE_URL: https://cv-with-nuxt-git-refs-headsmaster.fabiencrassat.now.sh
+          LHCI_BASE_URL: https://cv-with-nuxt-git-refs-headsmaster.fabiencrassat.vercel.app
           LHCI_SERVER_BASE_URL: https://lighthouse-ci-server.herokuapp.com
           LHCI_TOKEN: ${{ secrets.LHCI_TOKEN }}
         run: yarn validate:lighthouse
@@ -220,10 +220,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: amondnet/now-deployment@v2
+      - uses: amondnet/vercel-action@v19
         with:
-          zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
+          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
           github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
-          now-args: --prod 
-          now-org-id: ${{ secrets.ZEIT_ORG_ID }} #Required
-          now-project-id: ${{ secrets.ZEIT_PROJECT_ID }} #Required 
+          vercel-args: --prod 
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} #Required
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} #Required 

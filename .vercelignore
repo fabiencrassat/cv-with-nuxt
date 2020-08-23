@@ -1,8 +1,15 @@
 .github
+.lighthouseci
 .nuxt
+.scannerwork
+/build
 config/*
 !config/tailwind.config.js
+/dist
+/lib
 node_modules
+/scripts
+.env
 .babelrc
 .env.dist
 .eslintrc.json
@@ -11,8 +18,6 @@ node_modules
 jsconfig.json
 sonar-project.properties
 
-/lib
-/scripts
 
 **/__snapshots__
 **/*.spec.js

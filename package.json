@@ -12,14 +12,14 @@
     "dev:offline": "nuxt",
     "generate": "nuxt generate --fail-on-error",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
-    "now-build": "yarn generate",
     "start": "nuxt start",
     "start:static": "yarn http-server -p 3000 ./dist",
     "test": "jest --config ./config/jest.config.js",
     "test:coverage": "yarn test --coverage",
     "test:watch": "yarn test --watch",
     "validate:lighthouse": "yarn lhci autorun --config=./config/lighthouserc.js",
-    "validate:pages": "node scripts/validate_pages.js"
+    "validate:pages": "node scripts/validate_pages.js",
+    "vercel-build": "yarn generate"
   },
   "dependencies": {
     "@nuxtjs/robots": "^2.4.2",
