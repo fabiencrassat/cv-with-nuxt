@@ -3,7 +3,7 @@ const getBaseUrl = function getBaseUrl() {
     return 'https://cv2.crassat.com';
   }
   if (process.env.ENVIRONMENT_DEPLOYMENT === 'preview') {
-    return 'https://cv-with-nuxt-git-refs-headsmaster.fabiencrassat.now.sh';
+    return 'https://cv-with-nuxt-git-refs-headsmaster.fabiencrassat.vercel.app';
   }
   return 'http://localhost:3000';
 };

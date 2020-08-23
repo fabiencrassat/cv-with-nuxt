@@ -1,11 +1,10 @@
 .lighthouseci
-.now
 .nuxt
 .scannerwork
+.vercel
 build
 coverage
 dist
 node_modules
 .env
 
-.vercel

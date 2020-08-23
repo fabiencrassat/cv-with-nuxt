@@ -8,5 +8,5 @@
       "@@/*": ["./*"]
     }
   },
-  "exclude": [".github", ".now", ".nuxt", ".scannerwork", "build", "node_modules"]
+  "exclude": [".github", ".nuxt", ".scannerwork", ".vercel", "build", "node_modules"]
 }

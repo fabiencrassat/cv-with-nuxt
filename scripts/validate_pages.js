@@ -8,7 +8,6 @@ if (url !== undefined) {
   urlSanitize = new URL(url);
   const regexList = [
     /http:\/\/localhost:3000/,
-    /https:\/\/cv-with-nuxt-.*\.now\.sh/,
     /https:\/\/cv-with-nuxt-.*\.vercel\.app/,
     /https:\/\/cv2\.crassat\.com/,
   ];

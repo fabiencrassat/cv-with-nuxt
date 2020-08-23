@@ -63,7 +63,7 @@ Go to <http://localhost:3000/fabien>
 The product source code is structured with:
 
 | Folder            | Explanation                                                                   |
-|-------------------|-------------------------------------------------------------------------------|
+| ----------------- | ----------------------------------------------------------------------------- |
 | `config/`         | Built and runtime configuration files.                                        |
 | `lib/`            | All codes used into the application but that **do not use nuxt and vue**.     |
 | `scripts/`        | All files called in the `package.json` script section.                        |
@@ -100,10 +100,10 @@ Adding some files in the root or config folder will change how the pipeline or t
 In this case and depending the context, exclude theses files in:
 
 | Exclude in                 | Why                                                      |
-|----------------------------|----------------------------------------------------------|
+| -------------------------- | -------------------------------------------------------- |
 | `config/jest.config.js`    | For the coverage in the key `collectCoverageFrom`.       |
 | `.gitignore`               | Files not used in the version control system.            |
-| `.nowignore`               | Files not used in the now deployment.                    |
+| `.vercelignore`            | Files not used in the vercel deployment.                 |
 | `sonar-project.properties` | For the coverage in the key `sonar.coverage.exclusions`. |
 
 ## Code Analysis
@@ -188,7 +188,7 @@ yarn validate:lighthouse
 
 ## Todos
 
-- [ ] Move all configuration files (babel, nuxt, now) into `config/` folder.
+- [ ] Move all configuration files (babel, nuxt, vercel) into `config/` folder.
 - [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
 - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
 - [ ] Add `vue-styleguidist` package.
