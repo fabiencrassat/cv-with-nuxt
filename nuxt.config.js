@@ -168,6 +168,7 @@ module.exports = {
     ['nuxt-i18n', nuxtConfig.nuxti18n],
     '@nuxtjs/sitemap', // always declare the sitemap module after nuxt-i18n
     ['@nuxtjs/robots', nuxtConfig.robots],
+    'nuxt-lazy-load',
   ],
   sitemap: {
     cacheTime: 1000 * 60 * 15,
