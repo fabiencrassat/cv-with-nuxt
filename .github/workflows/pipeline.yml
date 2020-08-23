@@ -122,6 +122,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }} #Optional
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} #Required
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} #Required
+          vercel-project-name: cv-with-nuxt # TODO: remove when https://github.com/amondnet/vercel-action/issues/30 is close
     outputs:
       preview-url: ${{ steps.vercel-deployment.outputs.preview-url }}
   sonarqube:
@@ -223,7 +224,8 @@ jobs:
       - uses: amondnet/vercel-action@v19
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
-          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
+          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional
           vercel-args: --prod 
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} #Required
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} #Required 
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} #Required
+          vercel-project-name: cv-with-nuxt # TODO: remove when https://github.com/amondnet/vercel-action/issues/30 is close
