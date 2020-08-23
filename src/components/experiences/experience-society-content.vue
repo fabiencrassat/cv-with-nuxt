@@ -7,10 +7,10 @@
       :alt="society.name"
     />
     <div class="text-sm">
-      <p class="text-gray-900 leading-none">
+      <p class="leading-none">
         {{ society.name }}
       </p>
-      <p class="text-gray-600">
+      <p class="text-gray-700">
         {{ society.address }}
       </p>
     </div>

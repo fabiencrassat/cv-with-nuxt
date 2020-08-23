@@ -15,9 +15,9 @@
         class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal lg:w-full"
       >
         <div class="mb-4">
-          <p class="text-sm text-gray-600 flex">
+          <p class="text-sm text-gray-700 flex">
             <svg
-              class="fill-current text-gray-500 w-5 h-5 mr-2"
+              class="fill-current w-5 h-5 mr-2"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -29,7 +29,7 @@
             </svg>
             {{ item.date }}
           </p>
-          <div class="text-gray-900 font-bold text-xl mb-2">
+          <div class="font-bold text-xl mb-2">
             {{ item.job }}
           </div>
           <ul

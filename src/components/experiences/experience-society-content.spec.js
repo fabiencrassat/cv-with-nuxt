@@ -22,10 +22,10 @@ describe('content', () => {
     ).toMatchInlineSnapshot(`
       <div class="flex items-center"><img src="/img/societies/office-building.svg" class="w-10 h-10 rounded-full mr-4">
         <div class="text-sm">
-          <p class="text-gray-900 leading-none">
+          <p class="leading-none">
 
           </p>
-          <p class="text-gray-600">
+          <p class="text-gray-700">
 
           </p>
         </div>
@@ -47,10 +47,10 @@ describe('content', () => {
     ).toMatchInlineSnapshot(`
       <div class="flex items-center"><img src="path/to/icon" alt="society name" class="w-10 h-10 rounded-full mr-4">
         <div class="text-sm">
-          <p class="text-gray-900 leading-none">
+          <p class="leading-none">
             society name
           </p>
-          <p class="text-gray-600">
+          <p class="text-gray-700">
             society address
           </p>
         </div>
