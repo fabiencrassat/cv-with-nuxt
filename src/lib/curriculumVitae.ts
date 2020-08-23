@@ -17,7 +17,7 @@ interface ISocieties {
     name: string;
     address: string;
     siteurl?: string;
-    icon?: String;
+    icon?: string;
   };
 }
 
