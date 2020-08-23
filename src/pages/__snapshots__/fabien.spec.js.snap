@@ -32,37 +32,7 @@ exports[`fabien renders properly 1`] = `
     </section>
     <section id="$t('experiences.url')">
       <h1heading-stub>$t('experiences.name')</h1heading-stub>
-      <ul class="flex flex-wrap">
-        <li class="flex-grow my-2 sm:m-4 rounded-sm border-2 border-solid border-blue-700">
-          <h2><span>job1</span> <span class="whitespace-no-wrap float-right">
-              date1
-            </span></h2>
-          <ul>
-            <li>
-              missionItem1
-            </li>
-          </ul>
-          <div><a href="siteurl" target="_blank" rel="noopener noreferrer">
-              society1, address1
-            </a></div>
-        </li>
-        <li class="flex-grow my-2 sm:m-4 rounded-sm border-2 border-solid border-blue-700">
-          <h2><span>job2</span> <span class="whitespace-no-wrap float-right">
-              date2
-            </span></h2>
-          <ul></ul>
-          <div>
-            <p>society2, address2</p>
-          </div>
-        </li>
-        <li class="flex-grow my-2 sm:m-4 rounded-sm border-2 border-solid border-blue-700">
-          <h2><span>job3</span> <span class="whitespace-no-wrap float-right">
-              date3
-            </span></h2>
-          <ul></ul>
-          <!---->
-        </li>
-      </ul>
+      <experiences-stub></experiences-stub>
     </section>
     <section id="$t('skill.url')">
       <h1heading-stub>$t('skill.name')</h1heading-stub>

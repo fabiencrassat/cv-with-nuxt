@@ -75,13 +75,14 @@
   "experiences": {
     "Reacteev": {
       "date": {
-        "fr": "Sept. 2017 - Aujourd'hui",
-        "en": "Sept. 2017 - Present"
+        "fr": "Septembre 2017 - Aujourd'hui",
+        "en": "September 2017 - Present"
       },
       "job": {
         "fr": "Coach Agile, DevOps et Lean Startup",
         "en": "Agile, DevOps and Lean Startup Coach"
       },
+      "jobImage": "/img/experiences/coach.jpg",
       "society": {
         "crossref": "societies.reacteev"
       },
@@ -93,6 +94,343 @@
         "en": [
           "Improves the efficiency of the IT departments of the clients: studies, analyzes and accompaniments of teams and partners.",
           "Approach new clients through participation in trade shows or events and prospecting."
+        ]
+      }
+    },
+    "EnablonInfraSquad": {
+      "date": {
+        "fr": "Juillet 2015 - Août 2017",
+        "en": "July 2015 - August 2017"
+      },
+      "job": {
+        "fr": "Tech Leader d'une équipe agile",
+        "en": "Tech Leader in Agile team"
+      },
+      "jobImage": "/img/experiences/tech-leader.jpg",
+      "society": {
+        "crossref": "societies.enablon"
+      },
+      "missions": {
+        "fr": [
+          "Dirige l'équipe de développement du framework d'Enablon et du gestionnaire de source.",
+          "Fournie des solutions techniques pertinentes fondées sur les meilleures pratiques / expériences / projets similaires.",
+          "Établit la vision technique / architecture avec l'équipe de développement.",
+          "Fournie l'examen technique et les estimations des composantes de développement / temps requis pour les projets.",
+          "Identifier les risques, les résultats, les voies d'amélioration de l'effort de développement."
+        ],
+        "en": [
+          "Responsible for leading the development team of Enablon framework and source management.",
+          "Deliver relevant technical solutions based on best practice / experiences / similar projects.",
+          "Establishes technical vision / architecture with the development team.",
+          "Provide technical review and estimations of the development components / time required for the projects.",
+          "Identify risks, findings and ways of improvement for development effort."
+        ]
+      }
+    },
+    "EnablonBackbone": {
+      "date": {
+        "fr": "Mai 2014 - Juin 2015",
+        "en": "May 2014 - June 2015"
+      },
+      "job": {
+        "fr": "Responsable Coordinateur Support Niveau 3",
+        "en": "Support Level 3 Lead Coordinator"
+      },
+      "jobImage": "/img/experiences/support.jpg",
+      "society": {
+        "crossref": "societies.enablon"
+      },
+      "missions": {
+        "fr": [
+          "Coordonne toute l'activité du support niveau 3 d'une équipe agile internationale.",
+          "Construit et met à jour les tableaux de bord pour le suivi interne et la communication externe.",
+          "Unifie le planning prévisionnel des livrables et les Releases Notes.",
+          "Gère la relation et assiste aux réunions de suivi des parties prenante en conduisant des questionnaires réguliers pour mesurer le niveau de satisfaction.",
+          "Améliore la qualité.",
+          "En plus en tant que Architecte logiciel Suite Enablon: Définie et développe un gestionnaire de source (semblable à GIT) incluant l'installation, le commit, la mise à jour et la suppression à travers le cycle de vie du produit."
+        ],
+        "en": [
+          "Coordinate Support level 3 Activity of an international agile team.",
+          "Build and update Dashboards (for internal follow-Up and external communication).",
+          "Unified Forecasted planning and Releases Notes.",
+          "Manage relationship and attend following stakeholders meetings conducting regular surveys to measure the level of satisfaction.",
+          "Improve quality.",
+          "Extra as Enablon Software Architect: Design and develop a Delivery (Git Like) Tool including \"Installation, Commit, Update, Delete\" across the entire product lifecycle."
+        ]
+      }
+    },
+    "EnablonArchitect": {
+      "date": {
+        "fr": "Avril 2011 - Mai 2014",
+        "en": "April 2011 - May 2014"
+      },
+      "job": {
+        "fr": "Architecte logiciel Suite Enablon",
+        "en": "Enablon Suite Software Architect"
+      },
+      "jobImage": "/img/experiences/architect.jpg",
+      "society": {
+        "crossref": "societies.enablon"
+      },
+      "missions": {
+        "fr": [
+          "Passionné par l'optimisation de l'architecture, je joue un rôle clé dans l'expansion des solutions Enablon développé par des équipes distribuées répartis dans le monde. Je contribue dans la conception, les coûts et je guide l'équipe pour fournir des logiciels avec un niveau élevé de qualité. En étroite collaboration avec les chefs de produits, les testeurs et les autres ingénieurs logiciels, je conçois, test, code, fournie et maintiens des modules logiciels en utilisant le langage propriétaire Enablon et les langages du web dans un environnement Agile Scrum.",
+          "Analyse et guide l'équipe pour résoudre des problèmes complexes.",
+          "Travail en étroite collaboration avec l'équipe d'architectes des différentes applications pour discuter des challenges et des solutions pour assurer une consistance à travers la suite Enablon.",
+          "Réfléchie et résous de très intéressants problèmes à l'attention directe d'une expérience utilisateur.",
+          "Accompagne et guide les membres juniors de l'équipe.",
+          "Partage les connaissances à travers la collaboration, les formations, les revues, les présentations, les articles, ...",
+          "Responsable des livraisons dans les délais impartis des solutions Enablon.",
+          "Participe au recrutement.",
+          "Développe un gestionnaire de source (semblable à GIT)."
+        ],
+        "en": [
+          "Passionate about architecture optimization, I am a key contributor in the expansion of the Enablon solution developed by distributed teams located across the world. I am the go-to-person in designing, costing and guiding the team to deliver software within a high quality level. Collaborating closely with product managers, testers and other software engineers, I design, test, code, deliver and maintain software modules using proprietary and non-proprietary language within an Agile Scrum environment.",
+          "Troubleshoot and guide the team to resolve complex problems.",
+          "Work with team of architects from various applications to discuss challenges and solutions to ensure consistency across the application suite.",
+          "Brainstorm and solve very interesting problems that will considerably increase product user experience.",
+          "Coach and mentor junior team members.",
+          "Share knowledge through collaboration, training, peer review, presentations, articles, etc.",
+          "Responsible for delivering in time new application versions to the application suite.",
+          "Participate in recruitment.",
+          "Development of version control (GIT like)."
+        ]
+      }
+    },
+    "EnablonGRCArchitect": {
+      "date": {
+        "fr": "Novembre 2009 - Avril 2011",
+        "en": "November 2009 - April 2011"
+      },
+      "job": {
+        "fr": "Architecte logiciel Suite GRC",
+        "en": "GRC Suite Software Architect"
+      },
+      "jobImage": "/img/experiences/architect2.jpg",
+      "society": {
+        "crossref": "societies.enablon"
+      },
+      "missions": {
+        "fr": [
+          "Définition et conception des architectures d’applications complexes des solutions de Gouvernance des Risques et de la Conformité.",
+          "Participation au chiffrage détaillé des propositions techniques par la faisabilité technique et les choix technologiques.",
+          "Rédaction des propositions techniques et des dossiers d’architecture logicielle.",
+          "Définition des prototypes et collaboration aux missions d’avant-vente.",
+          "Pérennisation de l'information, valorisation de l'expérience et capitalisation des meilleures pratiques par des documents de déploiement et de transfert de compétences.",
+          "Assistance à la livraison des solutions et la mise en place de nouvelles fonctionnalités.",
+          "Expertise et accompagnement des clients en avant-vente et durant leur projet."
+        ],
+        "en": [
+          "Architecture definition and design of complex Governance Risk Conformity applications.",
+          "Participation in detailed proposals by the technical feasibility and technology choices.",
+          "Writing of technical proposals and software architecture cases.",
+          "Definition of prototypes and cooperation of pre-sales missions.",
+          "Continuity of information, valorisation of experience and capitalizing on best practices with documents of deployment and transfer of skills.",
+          "Support the delivery of solutions and the implementation of new features.",
+          "Expertise and support to customers in pre-sales then during their project."
+        ]
+      }
+    },
+    "EnablonAnalyst": {
+      "collapse": true,
+      "date": {
+        "fr": "Janvier 2007 - Octobre 2009",
+        "en": "January 2007 - October 2009"
+      },
+      "job": {
+        "fr": "Analyste Logiciel",
+        "en": "Software Analyst"
+      },
+      "jobImage": "/img/experiences/analyst.jpg",
+      "society": {
+        "crossref": "societies.enablon"
+      },
+      "missions": {
+        "fr": [
+          "Définition et réalisation des solutions standards métiers de gestion des risques et de contrôles.",
+          "Collaboration aux missions d’avant-vente et réalisation de prototypes.",
+          "Support du département conseil dans la livraison des solutions et la mise en place de nouvelles fonctionnalités."
+        ],
+        "en": [
+          "Definition and realisation of risks and controls management suite software.",
+          "Definition of prototypes and cooperation of pre-sales missions.",
+          "Support the delivery of solutions and the implementation of new features."
+        ]
+      }
+    },
+    "EnablonInternship": {
+      "collapse": true,
+      "date": {
+        "fr": "Mars - Décembre 2006",
+        "en": "March - December 2006"
+      },
+      "job": {
+        "fr": "Stage de fin d’étude de l’ESIEA",
+        "en": "Internship for the end of ESIEA"
+      },
+      "jobImage": "/img/experiences/developer.jpg",
+      "society": {
+        "crossref": "societies.enablon"
+      },
+      "missions": {
+        "fr": [
+          "Analyste et développeur logiciel ; Soutien Avant-vente de logiciel de reporting, spécialement le contrôle interne."
+        ],
+        "en": [
+          "Analyst and software developer; pre-sales support on reporting software, especially internal control."
+        ]
+      }
+    },
+    "BostonTeaParty": {
+      "collapse": true,
+      "date": {
+        "fr": "Eté 2005",
+        "en": "Summer 2005"
+      },
+      "job": {
+        "fr": "Travail saisonnier : cuisinier, serveur et plongeur",
+        "en": "Learnt English language through jobs: cook, waiter and washer"
+      },
+      "jobImage": "/img/experiences/waiter.jpg",
+      "society": {
+        "crossref": "societies.bostonTeaParty"
+      },
+      "missions": {
+        "fr": [
+          "Mission à l’étranger de 4ième année de l’ESIEA."
+        ],
+        "en": [
+          "Traineeship abroad in 4th year of ESIEA."
+        ]
+      }
+    },
+    "PAIR": {
+      "collapse": true,
+      "date": {
+        "fr": "Février - Mai 2005",
+        "en": "February - May 2005"
+      },
+      "job": {
+        "fr": "Projet à application industrielle de 4ième année de l’ESIEA",
+        "en": "‘Projet d’Application Industrielle ou de Recherche’ (PAIR) in 4th year of ESIEA"
+      },
+      "jobImage": "/img/experiences/wifi-vpn-developer.jpg",
+      "society": {
+        "crossref": "societies.suez"
+      },
+      "missions": {
+        "fr": [
+          "Réalisation d’un VPN sécurisé sur un réseau Wifi entre 2 sites industriels."
+        ],
+        "en": [
+          "Made a security VPN on a Wi-Fi network between 2 industrial sites."
+        ]
+      }
+    },
+    "Korrigan": {
+      "collapse": true,
+      "date": {
+        "fr": "Eté 2004",
+        "en": "Summer 2004"
+      },
+      "job": {
+        "fr": "Stage technique de l’ESIEA",
+        "en": "ESIEA Technical internship"
+      },
+      "jobImage": "/img/experiences/vba-developer.jpg",
+      "society": {
+        "crossref": "societies.korrigan"
+      },
+      "missions": {
+        "fr": [
+          "Developpement de macros VBA pour automatiser des extractions en lien avec un outil de gestion."
+        ],
+        "en": [
+          "Development of VBA macros to automate extractions in connection with a management tool."
+        ]
+      }
+    },
+    "OBIWarehouseman": {
+      "collapse": true,
+      "date": {
+        "fr": "Eté 2003",
+        "en": "Summer 2003"
+      },
+      "job": {
+        "fr": "Manutentionnaire et vendeur dans les rayonnages",
+        "en": "Warehouseman on sale in the shelf"
+      },
+      "jobImage": "/img/experiences/warehouseman.jpg",
+      "society": {
+        "crossref": "societies.obi"
+      }
+    },
+    "SalesEngineer": {
+      "collapse": true,
+      "date": {
+        "fr": "Septembre 2002",
+        "en": "September 2002"
+      },
+      "job": {
+        "fr": "Technico-commercial spécialisé dans le traitement de l’eau",
+        "en": "Sales Engineer specialized in the water treatment"
+      },
+      "jobImage": "/img/experiences/water-seller.jpg",
+      "society": {
+        "crossref": "societies.cge"
+      },
+      "missions": {
+        "fr": [
+          "Définir les contacts utiles et présentation du produit chez les particuliers, 1 vente réussie."
+        ],
+        "en": [
+          "Worked with the sale department, defined the useful contacts to have appointments and presentation of the product: one successful sale."
+        ]
+      }
+    },
+    "DUTInternship": {
+      "collapse": true,
+      "date": {
+        "fr": "Avril - Juin 2002",
+        "en": "April - June 2002"
+      },
+      "job": {
+        "fr": "Stage de fin d’étude de l'IUT",
+        "en": "Internship for the end of DUT"
+      },
+      "jobImage": "/img/experiences/technician.jpg",
+      "society": {
+        "crossref": "societies.leseth"
+      },
+      "missions": {
+        "fr": [
+          "Conception, réalisation et étalonnage d’un débitmètre de type Venturi en régime transitoire."
+        ],
+        "en": [
+          "Designed, realised and calibrated a flowmeter in transient state."
+        ]
+      }
+    },
+    "SVGSOwarehouseman": {
+      "collapse": true,
+      "date": {
+        "fr": "Eté 2001",
+        "en": "Summer 2001"
+      },
+      "job": {
+        "fr": "Intérimaire",
+        "en": "Temporary worker"
+      },
+      "jobImage": "/img/experiences/wine-worker.jpg",
+      "society": {
+        "crossref": "societies.svgso"
+      },
+      "missions": {
+        "fr": [
+          "Travail temporaire en conditionnement de chaîne d’embouteillage."
+        ],
+        "en": [
+          "Warehouseman in conditioning of chain."
         ]
       }
     }

@@ -21,5 +21,7 @@ module.exports = {
       display: ['Roboto', 'Open Sans'],
     },
   },
-  variants: {},
+  variants: {
+    margin: ['responsive', 'last'],
+  },
 };

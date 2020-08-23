@@ -2,32 +2,38 @@
   "reacteev": {
     "name": "Reacteev",
     "address": "Paris, France",
-    "siteurl": "https://reacteev.com"
+    "siteurl": "https://reacteev.com",
+    "icon": "/img/societies/reacteev.png"
   },
   "enablon": {
     "name": "Enablon",
     "address": "Courbevoie, Hauts de Seine, France",
-    "siteurl": "http://www.enablon.com"
+    "siteurl": "http://www.enablon.com",
+    "icon": "/img/societies/enablon.jpg"
   },
   "bostonTeaParty": {
     "name": "Boston Tea Party",
     "address": "Bristol, Royaume-Uni",
-    "siteurl": "http://www.bostonteaparty.co.uk"
+    "siteurl": "http://www.bostonteaparty.co.uk",
+    "icon": "/img/societies/boston-tea-party.jpg"
   },
   "suez": {
     "name": "Suez",
     "address": "Paris, France",
-    "siteurl": "http://www.suez-environnement.com"
+    "siteurl": "http://www.suez-environnement.com",
+    "icon": "/img/societies/suez.gif"
   },
   "korrigan": {
     "name": "Korrigan",
     "address": "Paris, France",
-    "siteurl": "http://www.korrigan-graffiti.com"
+    "siteurl": "http://www.korrigan-graffiti.com",
+    "icon": "/img/societies/korrigan.png"
   },
   "obi": {
     "name": "OBI",
     "address": "Cahors, Lot, France",
-    "siteurl": "http://www.obi.com"
+    "siteurl": "http://www.obi.com",
+    "icon": "/img/societies/obi.png"
   },
   "cge": {
     "name": "Confort Général Européen",

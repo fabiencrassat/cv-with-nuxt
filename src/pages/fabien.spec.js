@@ -9,30 +9,7 @@ jest.mock('~/lib/curriculumVitae', () => {
       getFullName: jest.fn(() => 'getFullName'),
       getPicture: jest.fn(() => 'getPicture'),
       getLastJob: jest.fn(() => 'getLastJob'),
-      getExperiences: jest.fn(() => [
-        {
-          job: 'job1',
-          date: 'date1',
-          missions: ['missionItem1'],
-          society: {
-            name: 'society1',
-            address: 'address1',
-            siteurl: 'siteurl',
-          },
-        },
-        {
-          job: 'job2',
-          date: 'date2',
-          society: {
-            name: 'society2',
-            address: 'address2',
-          },
-        },
-        {
-          job: 'job3',
-          date: 'date3',
-        },
-      ]),
+      getExperiences: jest.fn(() => {}),
     };
   });
 });

@@ -139,9 +139,12 @@ describe('fabien', () => {
       },
     });
     expect(curriculumVitae.getExperiences()).toStrictEqual({
-      myLastJob: {},
+      myLastJob: {
+        id: 'myLastJob',
+      },
       myFirstJob: {
         date: 'Il y a longtemps',
+        id: 'myFirstJob',
         job: 'Un super job',
         society: {
           name: 'Foo Company',

@@ -77,37 +77,7 @@
       </section>
       <section :id="$t('experiences.url')">
         <H1Heading>{{ $t('experiences.name') }}</H1Heading>
-        <ul class="flex flex-wrap">
-          <li
-            v-for="(item, index) in CurriculumVitae.getExperiences()"
-            :key="index"
-            class="flex-grow my-2 sm:m-4 rounded-sm border-2 border-solid border-blue-700"
-          >
-            <h2>
-              <span class="">{{ item.job }}</span>
-              <span class="whitespace-no-wrap float-right">
-                {{ item.date }}
-              </span>
-            </h2>
-            <ul>
-              <li v-for="(mission, i) in item.missions" :key="i">
-                {{ mission }}
-              </li>
-            </ul>
-            <div v-if="item.society">
-              <a
-                v-if="item.society.siteurl"
-                :href="item.society.siteurl"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {{ item.society.name }}, {{ item.society.address }}
-              </a>
-              <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
-              <p v-else>{{ item.society.name }}, {{ item.society.address }}</p>
-            </div>
-          </li>
-        </ul>
+        <Experiences :experiences="CurriculumVitae.getExperiences()" />
       </section>
       <section :id="$t('skill.url')">
         <H1Heading>{{ $t('skill.name') }}</H1Heading>
@@ -119,6 +89,7 @@
 <script>
 import BriefcaseSvgIcon from '~/components/svgIcons/briefcase';
 import ColoursSvgIcon from '~/components/svgIcons/colours';
+import Experiences from '~/components/experiences/experiences';
 import FollowMe from '~/components/about/followMe';
 import H1Heading from '~/components/headings/h1.vue';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
@@ -132,6 +103,7 @@ export default {
     BriefcaseSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
     ColoursSvgIcon,
+    Experiences,
     FollowMe,
     H1Heading,
     LeftSideNavigation,

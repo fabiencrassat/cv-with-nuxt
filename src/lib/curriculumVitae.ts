@@ -17,6 +17,7 @@ interface ISocieties {
     name: string;
     address: string;
     siteurl?: string;
+    icon?: String;
   };
 }
 
@@ -47,8 +48,9 @@ interface ICurriculumVitae {
     [key: string]: {
       date: ILang;
       job: ILang;
+      jobImage: string;
       society: ICrossRef;
-      missions: ILangArray;
+      missions?: ILangArray;
       [key: string]: any;
     };
   };
@@ -131,6 +133,7 @@ export default class CurriculumVitae {
         element = Tools.getCrossRefValue(this, element);
         result[experienceKey][key] = element;
       }
+      result[experienceKey].id = experienceKey;
     }
     return result;
   }
