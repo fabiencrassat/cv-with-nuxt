@@ -95,12 +95,15 @@ nav:focus .menu-trigger:after {
 }
 header img {
   width: 100px;
+  height: 100px;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
   @screen sm {
     width: 60px;
+    height: 60px;
   }
   @screen md {
     width: 100px;
+    height: 100px;
   }
 }
 header h2 {
