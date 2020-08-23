@@ -82,7 +82,7 @@
         "fr": "Coach Agile, DevOps et Lean Startup",
         "en": "Agile, DevOps and Lean Startup Coach"
       },
-      "jobImage": "/img/experiences/coach.jpg",
+      "jobImage": "/img/experiences/coach.webp",
       "society": {
         "crossref": "societies.reacteev"
       },
@@ -106,7 +106,7 @@
         "fr": "Tech Leader d'une équipe agile",
         "en": "Tech Leader in Agile team"
       },
-      "jobImage": "/img/experiences/tech-leader.jpg",
+      "jobImage": "/img/experiences/tech-leader.webp",
       "society": {
         "crossref": "societies.enablon"
       },
@@ -136,7 +136,7 @@
         "fr": "Responsable Coordinateur Support Niveau 3",
         "en": "Support Level 3 Lead Coordinator"
       },
-      "jobImage": "/img/experiences/support.jpg",
+      "jobImage": "/img/experiences/support.webp",
       "society": {
         "crossref": "societies.enablon"
       },
@@ -168,7 +168,7 @@
         "fr": "Architecte logiciel Suite Enablon",
         "en": "Enablon Suite Software Architect"
       },
-      "jobImage": "/img/experiences/architect.jpg",
+      "jobImage": "/img/experiences/architect.webp",
       "society": {
         "crossref": "societies.enablon"
       },
@@ -206,7 +206,7 @@
         "fr": "Architecte logiciel Suite GRC",
         "en": "GRC Suite Software Architect"
       },
-      "jobImage": "/img/experiences/architect2.jpg",
+      "jobImage": "/img/experiences/architect2.webp",
       "society": {
         "crossref": "societies.enablon"
       },
@@ -241,7 +241,7 @@
         "fr": "Analyste Logiciel",
         "en": "Software Analyst"
       },
-      "jobImage": "/img/experiences/analyst.jpg",
+      "jobImage": "/img/experiences/analyst.webp",
       "society": {
         "crossref": "societies.enablon"
       },
@@ -268,7 +268,7 @@
         "fr": "Stage de fin d’étude de l’ESIEA",
         "en": "Internship for the end of ESIEA"
       },
-      "jobImage": "/img/experiences/developer.jpg",
+      "jobImage": "/img/experiences/developer.webp",
       "society": {
         "crossref": "societies.enablon"
       },
@@ -291,7 +291,7 @@
         "fr": "Travail saisonnier : cuisinier, serveur et plongeur",
         "en": "Learnt English language through jobs: cook, waiter and washer"
       },
-      "jobImage": "/img/experiences/waiter.jpg",
+      "jobImage": "/img/experiences/waiter.webp",
       "society": {
         "crossref": "societies.bostonTeaParty"
       },
@@ -314,7 +314,7 @@
         "fr": "Projet à application industrielle de 4ième année de l’ESIEA",
         "en": "‘Projet d’Application Industrielle ou de Recherche’ (PAIR) in 4th year of ESIEA"
       },
-      "jobImage": "/img/experiences/wifi-vpn-developer.jpg",
+      "jobImage": "/img/experiences/wifi-vpn-developer.webp",
       "society": {
         "crossref": "societies.suez"
       },
@@ -337,7 +337,7 @@
         "fr": "Stage technique de l’ESIEA",
         "en": "ESIEA Technical internship"
       },
-      "jobImage": "/img/experiences/vba-developer.jpg",
+      "jobImage": "/img/experiences/vba-developer.webp",
       "society": {
         "crossref": "societies.korrigan"
       },
@@ -360,7 +360,7 @@
         "fr": "Manutentionnaire et vendeur dans les rayonnages",
         "en": "Warehouseman on sale in the shelf"
       },
-      "jobImage": "/img/experiences/warehouseman.jpg",
+      "jobImage": "/img/experiences/warehouseman.webp",
       "society": {
         "crossref": "societies.obi"
       }
@@ -375,7 +375,7 @@
         "fr": "Technico-commercial spécialisé dans le traitement de l’eau",
         "en": "Sales Engineer specialized in the water treatment"
       },
-      "jobImage": "/img/experiences/water-seller.jpg",
+      "jobImage": "/img/experiences/water-seller.webp",
       "society": {
         "crossref": "societies.cge"
       },
@@ -398,7 +398,7 @@
         "fr": "Stage de fin d’étude de l'IUT",
         "en": "Internship for the end of DUT"
       },
-      "jobImage": "/img/experiences/technician.jpg",
+      "jobImage": "/img/experiences/technician.webp",
       "society": {
         "crossref": "societies.leseth"
       },
@@ -421,7 +421,7 @@
         "fr": "Intérimaire",
         "en": "Temporary worker"
       },
-      "jobImage": "/img/experiences/wine-worker.jpg",
+      "jobImage": "/img/experiences/wine-worker.webp",
       "society": {
         "crossref": "societies.svgso"
       },
