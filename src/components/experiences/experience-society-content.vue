@@ -25,5 +25,9 @@ export default {
       required: true,
     },
   },
+  // TODO: Remove data() when coverage is successful with vue-jest@4.x.x
+  data() {
+    return {};
+  },
 };
 </script>
