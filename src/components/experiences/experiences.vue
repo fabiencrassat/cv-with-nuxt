@@ -12,9 +12,9 @@
         :title="item.job"
       />
       <div
-        class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal lg:w-full"
+        class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal lg:w-full"
       >
-        <div class="mb-4">
+        <div class="m-4">
           <p class="text-sm text-gray-700 flex">
             <svg
               class="fill-current w-5 h-5 mr-2"
@@ -46,6 +46,7 @@
           :href="item.society.siteurl"
           target="_blank"
           rel="noopener noreferrer"
+          class="p-4 hover:bg-blue-100"
         >
           <SocietyContent :society="item.society" />
         </a>
