@@ -9,19 +9,19 @@
     "name": "Enablon",
     "address": "Courbevoie, Hauts de Seine, France",
     "siteurl": "http://www.enablon.com",
-    "icon": "/img/societies/enablon.jpg"
+    "icon": "/img/societies/enablon.png"
   },
   "bostonTeaParty": {
     "name": "Boston Tea Party",
     "address": "Bristol, Royaume-Uni",
     "siteurl": "http://www.bostonteaparty.co.uk",
-    "icon": "/img/societies/boston-tea-party.jpg"
+    "icon": "/img/societies/boston-tea-party.png"
   },
   "suez": {
     "name": "Suez",
     "address": "Paris, France",
     "siteurl": "http://www.suez-environnement.com",
-    "icon": "/img/societies/suez.gif"
+    "icon": "/img/societies/suez.png"
   },
   "korrigan": {
     "name": "Korrigan",
