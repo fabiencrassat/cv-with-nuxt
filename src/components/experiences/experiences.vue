@@ -50,7 +50,11 @@
         >
           <SocietyContent :society="item.society" />
         </a>
-        <SocietyContent v-else-if="item.society" :society="item.society" />
+        <SocietyContent
+          v-else-if="item.society"
+          :society="item.society"
+          class="p-4"
+        />
       </div>
     </div>
   </div>

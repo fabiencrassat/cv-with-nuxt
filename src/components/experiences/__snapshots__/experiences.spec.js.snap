@@ -34,7 +34,7 @@ exports[`experiences renders properly with props 1`] = `
         </div>
         <!---->
       </div>
-      <societycontent-stub society="[object Object]"></societycontent-stub>
+      <societycontent-stub society="[object Object]" class="p-4"></societycontent-stub>
     </div>
   </div>
   <div id="myFirstExperience" class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
