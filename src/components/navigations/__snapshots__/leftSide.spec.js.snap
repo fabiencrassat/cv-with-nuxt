@@ -3,7 +3,7 @@
 exports[`leftSide renders properly 1`] = `
 <nav tabindex="0" class="h-screen fixed top-0 left-0 outline-none z-10 bg-blue-700 transition-all duration-300 ease-in-out text-gray-200">
   <div class="menu-trigger absolute sm:hidden bg-blue-700"></div>
-  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img src="bar" alt="foo" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-blue-300">
+  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img height="100" width="100" src="bar" alt="foo" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-blue-300">
     <h2 class="pt-4">
       foo
     </h2>
@@ -23,7 +23,7 @@ exports[`leftSide renders properly 1`] = `
 exports[`leftSide renders properly en lang 1`] = `
 <nav tabindex="0" class="h-screen fixed top-0 left-0 outline-none z-10 bg-blue-700 transition-all duration-300 ease-in-out text-gray-200">
   <div class="menu-trigger absolute sm:hidden bg-blue-700"></div>
-  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img src="bar" alt="foo" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-blue-300">
+  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img height="100" width="100" src="bar" alt="foo" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-blue-300">
     <h2 class="pt-4">
       foo
     </h2>
@@ -41,7 +41,7 @@ exports[`leftSide renders properly en lang 1`] = `
 exports[`leftSide renders properly fr lang 1`] = `
 <nav tabindex="0" class="h-screen fixed top-0 left-0 outline-none z-10 bg-blue-700 transition-all duration-300 ease-in-out text-gray-200">
   <div class="menu-trigger absolute sm:hidden bg-blue-700"></div>
-  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img src="bar" alt="foo" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-blue-300">
+  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img height="100" width="100" src="bar" alt="foo" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-blue-300">
     <h2 class="pt-4">
       foo
     </h2>
@@ -59,7 +59,7 @@ exports[`leftSide renders properly fr lang 1`] = `
 exports[`leftSide renders properly with props 1`] = `
 <nav tabindex="0" class="h-screen fixed top-0 left-0 outline-none z-10 bg-blue-700 transition-all duration-300 ease-in-out text-gray-200">
   <div class="menu-trigger absolute sm:hidden bg-blue-700"></div>
-  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img src="bar" alt="foo" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-blue-300">
+  <header class="py-8 px-2 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img height="100" width="100" src="bar" alt="foo" class="overflow-hidden mx-auto rounded-full border-4 border-solid border-blue-300">
     <h2 class="pt-4">
       foo
     </h2>

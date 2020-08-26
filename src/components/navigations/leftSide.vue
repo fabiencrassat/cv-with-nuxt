@@ -10,6 +10,8 @@
       <!-- eslint-disable-next-line vue/html-self-closing -->
       <img
         class="overflow-hidden mx-auto rounded-full border-4 border-solid border-blue-300"
+        height="100"
+        width="100"
         :src="picture"
         :alt="name"
       />
