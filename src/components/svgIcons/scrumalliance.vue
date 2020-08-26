@@ -4,7 +4,7 @@
     <g transform="translate(0,-1032.3622)">
       <ellipse
         id="path4204"
-        style="stroke: none;"
+        style="stroke: none"
         cx="10.101525"
         cy="1042.3555"
         rx="9.989377"
