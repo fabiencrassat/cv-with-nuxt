@@ -4,8 +4,8 @@
     <img
       v-if="society.icon"
       class="w-10 h-10 mr-4"
-      height="2.5rem"
-      width="2.5rem"
+      height="40"
+      width="40"
       :src="society.icon"
       :alt="society.name"
       :title="society.name"

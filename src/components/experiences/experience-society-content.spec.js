@@ -47,7 +47,7 @@ describe('content', () => {
         },
       })
     ).toMatchInlineSnapshot(`
-      <div class="flex items-center"><img height="2.5rem" width="2.5rem" src="path/to/icon" alt="society name" title="society name" class="w-10 h-10 mr-4">
+      <div class="flex items-center"><img height="40" width="40" src="path/to/icon" alt="society name" title="society name" class="w-10 h-10 mr-4">
         <div class="text-sm">
           <p class="leading-none">
             society name
