@@ -6,11 +6,10 @@ body {
   --background-color: #EEE;
 
   background: var(--background-color);
-  padding-left: 0;
   @screen sm {
-    padding-left: 90px;
+    padding-left: 6rem;
   }
   @screen md {
-    padding-left: 240px;
+    padding-left: 14rem;
   }
 }

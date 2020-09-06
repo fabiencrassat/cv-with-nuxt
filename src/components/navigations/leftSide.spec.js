@@ -2,7 +2,7 @@ import NavigationLeftSide from './leftSide';
 import testUtils from '~~/lib/tests/testUtils';
 
 const propsData = { name: 'foo', picture: 'bar' };
-const stubs = ['nuxt-link', 'component1', 'component2'];
+const stubs = ['nuxt-link', 'component', 'component1', 'component2'];
 
 describe('leftSide', () => {
   it('mounts properly', () => {
@@ -14,28 +14,6 @@ describe('leftSide', () => {
     expect.hasAssertions();
     expect(
       testUtils.htmlFactory(NavigationLeftSide, { propsData, stubs })
-      // eslint-disable-next-line jest/prefer-inline-snapshots
-    ).toMatchSnapshot();
-  });
-  it('renders properly en lang', () => {
-    expect.hasAssertions();
-    expect(
-      testUtils.htmlFactory(
-        NavigationLeftSide,
-        { propsData, stubs },
-        { locale: 'en' }
-      )
-      // eslint-disable-next-line jest/prefer-inline-snapshots
-    ).toMatchSnapshot();
-  });
-  it('renders properly fr lang', () => {
-    expect.hasAssertions();
-    expect(
-      testUtils.htmlFactory(
-        NavigationLeftSide,
-        { propsData, stubs },
-        { locale: 'fr' }
-      )
       // eslint-disable-next-line jest/prefer-inline-snapshots
     ).toMatchSnapshot();
   });
@@ -54,5 +32,21 @@ describe('leftSide', () => {
       })
       // eslint-disable-next-line jest/prefer-inline-snapshots
     ).toMatchSnapshot();
+  });
+  it('click on an anchor in the menu to close the burger menu', async () => {
+    expect.hasAssertions();
+    const propsDataWithMenuItems = Object.assign({}, propsData, {
+      'menu-items': [{ name: 'Page', url: 'page', svg: 'component' }],
+    });
+    const wrapper = testUtils.factory(NavigationLeftSide, {
+      propsData: propsDataWithMenuItems,
+      stubs,
+    });
+    const checkbox = wrapper.find('input');
+    expect(checkbox.element.checked).toBe(false);
+    expect(wrapper.vm.checkbox).toBe(false);
+    await wrapper.find('li').trigger('click');
+    expect(checkbox.element.checked).toBe(true);
+    expect(wrapper.vm.checkbox).toBe(true);
   });
 });

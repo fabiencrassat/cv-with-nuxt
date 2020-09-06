@@ -9,6 +9,7 @@ module.exports = {
     // Disable transform property due to invalid w3c validator:
     // Error: CSS: “transform”: too few values for the property “transform”
     transform: false,
+    translate: false,
   },
   plugins: [],
   purge: {

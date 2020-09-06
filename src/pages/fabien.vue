@@ -26,7 +26,7 @@
         },
       ]"
     />
-    <main class="relative h-screen p-4 pt-10 sm:pt-4">
+    <main class="p-4 pt-10 sm:pt-4">
       <section :id="$t('identity.url')">
         <H1Heading>{{ $t('identity.name') }}</H1Heading>
         <p class="text-justify">

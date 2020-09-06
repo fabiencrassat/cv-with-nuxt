@@ -3,7 +3,7 @@
 exports[`fabien renders properly 1`] = `
 <div class="font-display">
   <leftsidenavigation-stub name="getFullName" picture="getPicture" menuitems="[object Object],[object Object],[object Object],[object Object]"></leftsidenavigation-stub>
-  <main class="relative h-screen p-4 pt-10 sm:pt-4">
+  <main class="p-4 pt-10 sm:pt-4">
     <section id="$t('identity.url')">
       <h1heading-stub>$t('identity.name')</h1heading-stub>
       <p class="text-justify"><span class="text-lg text-blue-700 italic whitespace-no-wrap">

@@ -1,0 +1,16 @@
+/*
+ * 'transform' is disable in the configuration
+ * Add only what is necessary
+ */
+
+.transform {
+  transform: translateX(0);
+}
+.-translate-x-full {
+  transform: translateX(-100%);
+}
+@media (min-width: 640px) {
+  .sm\:translate-x-0 {
+    transform: translateX(0);
+  }
+}
