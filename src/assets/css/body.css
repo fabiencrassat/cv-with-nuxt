@@ -19,6 +19,7 @@
        url('/fonts/roboto-v20-latin-regular.woff') format('woff'),
        url('/fonts/roboto-v20-latin-regular.ttf') format('truetype'),
        url('/fonts/roboto-v20-latin-regular.svg#Roboto') format('svg');
+  font-display: swap;
 }
 /* roboto-900 - latin */
 @font-face {
@@ -32,6 +33,7 @@
        url('/fonts/roboto-v20-latin-900.woff') format('woff'),
        url('/fonts/roboto-v20-latin-900.ttf') format('truetype'),
        url('/fonts/roboto-v20-latin-900.svg#Roboto') format('svg');
+  font-display: swap;
 }
 /* open-sans-regular - latin */
 @font-face {
@@ -45,6 +47,7 @@
        url('/fonts/open-sans-v17-latin-regular.woff') format('woff'),
        url('/fonts/open-sans-v17-latin-regular.ttf') format('truetype'),
        url('/fonts/open-sans-v17-latin-regular.svg#OpenSans') format('svg');
+  font-display: swap;
 }
 /* open-sans-800 - latin */
 @font-face {
@@ -58,6 +61,7 @@
        url('/fonts/open-sans-v17-latin-800.woff') format('woff'),
        url('/fonts/open-sans-v17-latin-800.ttf') format('truetype'),
        url('/fonts/open-sans-v17-latin-800.svg#OpenSans') format('svg');
+  font-display: swap;
 }
 body {
   --primary-color: #428bca;
