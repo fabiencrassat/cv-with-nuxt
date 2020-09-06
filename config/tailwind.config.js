@@ -19,7 +19,7 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      display: ['Roboto', 'Open Sans'],
+      display: ['Roboto', 'Open Sans', 'sans-serif'],
     },
   },
   variants: {
