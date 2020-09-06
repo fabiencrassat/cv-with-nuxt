@@ -8,6 +8,7 @@
       :aria-label="item.label"
       :href="item.url"
       rel="noopener noreferrer"
+      :title="item.label"
     >
       <component :is="item.svg" />
     </a>
