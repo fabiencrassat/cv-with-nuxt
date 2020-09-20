@@ -5,18 +5,14 @@ export default {
   },
   identity: {
     name: 'about',
-    url: 'about',
   },
-  contactMe: {
+  'contact-me': {
     name: 'contact me',
-    url: 'contact-me',
   },
   experiences: {
-    name: 'my jobs',
-    url: 'my-jobs',
+    name: 'experiences',
   },
-  skill: {
-    name: 'my skills',
-    url: 'my-skills',
+  skills: {
+    name: 'skills',
   },
 };

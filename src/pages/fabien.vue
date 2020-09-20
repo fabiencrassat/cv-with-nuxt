@@ -6,28 +6,28 @@
       :menu-items="[
         {
           name: $t('identity.name'),
-          url: $t('identity.url'),
+          url: 'identity',
           svg: UserSvgIcon,
         },
         {
-          name: $t('contactMe.name'),
-          url: $t('contactMe.url'),
+          name: $t('contact-me.name'),
+          url: 'contact-me',
           svg: PhoneSvgIcon,
         },
         {
           name: $t('experiences.name'),
-          url: $t('experiences.url'),
+          url: 'experiences',
           svg: BriefcaseSvgIcon,
         },
         {
-          name: $t('skill.name'),
-          url: $t('skill.url'),
+          name: $t('skills.name'),
+          url: 'skills',
           svg: ColoursSvgIcon,
         },
       ]"
     />
     <main class="p-4 pt-10 sm:pt-4">
-      <section :id="$t('identity.url')">
+      <section id="identity">
         <H1Heading>{{ $t('identity.name') }}</H1Heading>
         <p class="text-justify">
           <span class="text-lg text-blue-700 italic whitespace-no-wrap">
@@ -47,8 +47,8 @@
         </p>
         <FollowMe :links="CurriculumVitae.getFollowMe()" />
       </section>
-      <section :id="$t('contactMe.url')">
-        <H1Heading>{{ $t('contactMe.name') }}</H1Heading>
+      <section id="contact-me">
+        <H1Heading>{{ $t('contact-me.name') }}</H1Heading>
         <p>
           <svg
             id="Location_pin"
@@ -75,12 +75,12 @@
           </a>
         </p>
       </section>
-      <section :id="$t('experiences.url')">
+      <section id="experiences">
         <H1Heading>{{ $t('experiences.name') }}</H1Heading>
         <Experiences :experiences="CurriculumVitae.getExperiences()" />
       </section>
-      <section :id="$t('skill.url')">
-        <H1Heading>{{ $t('skill.name') }}</H1Heading>
+      <section id="skills">
+        <H1Heading>{{ $t('skills.name') }}</H1Heading>
       </section>
     </main>
   </div>
