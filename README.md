@@ -62,16 +62,18 @@ Go to <http://localhost:3000/fabien>
 
 The product source code is structured with:
 
-| Folder            | Explanation                                                                   |
-| ----------------- | ----------------------------------------------------------------------------- |
-| `config/`         | Built and runtime configuration files.                                        |
-| `lib/`            | All codes used into the application but that **do not use nuxt and vue**.     |
-| `scripts/`        | All files called in the `package.json` script section.                        |
-| `src/assets/`     | All static files that need to be served without i18n.                         |
-| `src/components/` | All codes imported in the `src/pages/` files, **using nuxt and vue**.         |
-| `src/locales/`    | All i18n json files.                                                          |
-| `src/middleware/` | All files used in the server side.                                            |
-| `src/pages/`      | All the application pages called with URL, served with **nuxt** and **i18n**. |
+```text
+  .
+  ├── config          # Built and runtime configuration.
+  ├── lib             # All codes used into the application but that **do not use nuxt and vue**.
+  ├── scripts         # All files called in the `package.json` script section.
+  └── src
+      ├── assets      # All static files that need to be served without i18n.
+      ├── components  # All codes imported in the `src/pages/` files, **using nuxt and vue**.
+      ├── locales     # All i18n json files.
+      ├── middleware  # All files used in the server side.
+      └── pages       # All the application pages called with URL, served with **nuxt** and **i18n**.
+```
 
 ## Start like production
 
@@ -188,16 +190,22 @@ yarn validate:lighthouse
 
 ## Todos
 
-- [ ] Move all configuration files (babel, nuxt, vercel) into `config/` folder.
-- [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
-- [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
-- [ ] Add `vue-styleguidist` package.
-- [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
-- [ ] **[Waiting vue-jest@4.x.x]** Remove executable code in `vue` file to allow coverage with **vue-jest@3.x.x** (`h1.vue`, `leftSide.vue`).
-  > Search for *`coverage is successful with vue-jest@4.x.x`* in the code.
-- [ ] Fix in `config/lighthouserc.js` the exception assertions.
-- [ ] Use the preview url in `robots.txt` and `sitemap.xml`.
-- [ ] Translate to English only the console warning.
+- Configuration
+  - [ ] Move all configuration files (babel, nuxt, vercel) into `config/` folder.
+- Build
+  - [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
+  - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
+  - [ ] Fix in `config/lighthouserc.js` the exception assertions.
+  - [ ] Use the preview url in `robots.txt` and `sitemap.xml`.
+- Test
+  - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
+  - [ ] **[Waiting vue-jest@4.x.x]** Remove executable code in `vue` file to allow coverage with **vue-jest@3.x.x** (`h1.vue`, `leftSide.vue`).
+    > Search for *`coverage is successful with vue-jest@4.x.x`* in the code.
+- Product
+  - [ ] Add one toggle (hide/expand) for experiences from October 2009
+  - [ ] Add a reading progress bar
+- Extra
+  - [ ] Add `vue-styleguidist` package.
 
 ## SVG images
 
