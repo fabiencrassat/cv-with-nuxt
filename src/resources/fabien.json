@@ -434,5 +434,121 @@
         ]
       }
     }
+  },
+  "skills": {
+    "working": {
+      "label": {
+        "fr": "Méthode de travail",
+        "en": "Way of working"
+      },
+      "svg": "BriefcaseSvgIcon",
+      "items": [
+        {
+          "percentage": 90,
+          "label": "Agile, SCRUM, Kanban, DevOps, Craftsmanship"
+        },
+        {
+          "percentage": 60,
+          "label": "Lean Startup, Design Thinking"
+        }
+      ]
+    },
+    "functional" : {
+      "label": {
+        "fr": "Fonctionnel",
+        "en": "Fonctionnal"
+      },
+      "svg": "ColoursSvgIcon",
+      "items": [
+        {
+          "percentage": 90,
+          "label": {
+            "fr": "Gouvernance des Risques, Contrôle Interne et Permanent, Audit, Plans de continuité d'activités",
+            "en": "Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management"
+          }
+        },
+        {
+          "percentage": 80,
+          "label": {
+            "fr": "Plan d'action, Circuit d'approbation",
+            "en": "Action Plan, Approval Process"
+          }
+        },
+        {
+          "percentage": 40,
+          "label": {
+            "fr": "Management des incidents, Délégation des autorisations et des signatures",
+            "en": "Event Management, Authorized and Sign Management"
+          }
+        }
+      ]
+    },
+    "languages" : {
+      "label": {
+        "fr": "Langages",
+        "en": "Languages"
+      },
+      "svg": "CodeSvgIcon",
+      "items": [
+        {
+          "percentage": 90,
+          "label": "Enablon"
+        },
+        {
+          "percentage": 80,
+          "label": "HTML, CSS, JavaScript, jQuery"
+        },
+        {
+          "percentage": 40,
+          "label": "C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor"
+        },
+        {
+          "percentage": 40,
+          "label": "Network, Prolog, Interpreter (Lex, Yacc)"
+        }
+      ]
+    },
+    "softwares" : {
+      "label": {
+        "fr": "Logiciels",
+        "en": "Softwares"
+      },
+      "svg": "BrowserSvgIcon",
+      "items": [
+        {
+          "percentage": 80,
+          "label": "Word, Excel, PowerPoint, MS Project"
+        },
+        {
+          "percentage": 60,
+          "label": "GIT"
+        },
+        {
+          "percentage": 40,
+          "label": "Photoshop CS"
+        },
+        {
+          "percentage": 20,
+          "label": "Maple, Matlab, LabView, LabCVI, Aphelion, AutoCAD, Quark, Illustrator CS, Pspice"
+        }
+      ]
+    },
+    "environments" : {
+      "label": {
+        "fr": "Environnements",
+        "en": "Environments"
+      },
+      "svg": "LaptopSvgIcon",
+      "items": [
+        {
+          "percentage": 80,
+          "label": "Microsoft Windows"
+        },
+        {
+          "percentage": 40,
+          "label": "Linux"
+        }
+      ]
+    }
   }
 }

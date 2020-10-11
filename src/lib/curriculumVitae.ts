@@ -32,6 +32,18 @@ interface IFollowMe {
   [key: string]: any;
 }
 
+interface ISkill {
+  percentage: Number;
+  label: ILang | string;
+}
+
+interface ISkillsGroup {
+  label: ILang | string;
+  svg: string;
+  items: ISkill[];
+  [key: string]: any;
+}
+
 interface ICurriculumVitae {
   identity: {
     myself: {
@@ -53,6 +65,9 @@ interface ICurriculumVitae {
       missions?: ILangArray;
       [key: string]: any;
     };
+  };
+  skills: {
+    [key: string]: ISkillsGroup;
   };
 }
 
@@ -134,6 +149,31 @@ export default class CurriculumVitae {
         result[experienceKey][key] = element;
       }
       result[experienceKey].id = experienceKey;
+    }
+    return result;
+  }
+
+  /*
+   * Skills
+   */
+
+  public getSkills() {
+    const skills = this.curriculumVitae.skills;
+    // Clone the object not to alter it
+    const result = Object.assign({}, skills);
+    for (const skillsGroupKey in skills) {
+      const skillGroup = skills[skillsGroupKey];
+      // Clone the object not to alter it
+      result[skillsGroupKey] = Object.assign({}, skillGroup);
+      result[skillsGroupKey].label = Tools.getLangValue(
+        skillGroup.label,
+        this._lang
+      );
+      for (const skillsKey in skillGroup.items) {
+        const skill = skillGroup.items[skillsKey];
+        skill.label = Tools.getLangValue(skill.label, this._lang);
+        result[skillsGroupKey].items[skillsKey] = skill;
+      }
     }
     return result;
   }

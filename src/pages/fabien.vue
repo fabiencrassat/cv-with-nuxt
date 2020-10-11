@@ -81,6 +81,7 @@
       </section>
       <section id="skills">
         <H1Heading>{{ $t('skills.name') }}</H1Heading>
+        <Skills :skills="CurriculumVitae.getSkills()" />
       </section>
     </main>
   </div>
@@ -93,6 +94,7 @@ import Experiences from '~/components/experiences/experiences';
 import FollowMe from '~/components/about/followMe';
 import H1Heading from '~/components/headings/h1.vue';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
+import Skills from '~/components/skills/skills';
 import PhoneSvgIcon from '~/components/svgIcons/phone';
 import UserSvgIcon from '~/components/svgIcons/user';
 import CurriculumVitae from '~/lib/curriculumVitae';
@@ -109,6 +111,7 @@ export default {
     LeftSideNavigation,
     // eslint-disable-next-line vue/no-unused-components
     PhoneSvgIcon,
+    Skills,
     // eslint-disable-next-line vue/no-unused-components
     UserSvgIcon,
   },

@@ -153,4 +153,71 @@ describe('fabien', () => {
       },
     });
   });
+  it('should return no skills', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest({});
+    expect(curriculumVitae.getSkills()).toStrictEqual({});
+  });
+  it('should return skills', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest({
+      mockFabien: {
+        skills: {
+          foo: {
+            label: 'foo',
+            svg: 'SvgIcon',
+            items: [
+              {
+                percentage: 90,
+                label: 'item at 90%',
+              },
+              {
+                percentage: 60,
+                label: 'item at 60%',
+              },
+            ],
+          },
+          bar: {
+            label: {
+              fr: 'bar-fr',
+              en: 'bar-en',
+            },
+            svg: 'SvgIcon',
+            items: [
+              {
+                percentage: 50,
+                label: 'item at 50%',
+              },
+            ],
+          },
+        },
+      },
+    });
+    expect(curriculumVitae.getSkills()).toStrictEqual({
+      foo: {
+        label: 'foo',
+        svg: 'SvgIcon',
+        items: [
+          {
+            percentage: 90,
+            label: 'item at 90%',
+          },
+          {
+            percentage: 60,
+            label: 'item at 60%',
+          },
+        ],
+      },
+      bar: {
+        label: 'bar-fr',
+        svg: 'SvgIcon',
+        items: [
+          {
+            percentage: 50,
+            label: 'item at 50%',
+          },
+        ],
+      },
+    });
+  });
 });
