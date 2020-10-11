@@ -1,6 +1,6 @@
 <template>
   <!-- Created with Inkscape (http://www.inkscape.org/) -->
-  <svgIcon :id="'ScrumAlliance'">
+  <svgIcon>
     <g transform="translate(0,-1032.3622)">
       <ellipse
         id="path4204"

@@ -5,7 +5,7 @@ describe('briefcase', () => {
   it('renders properly', () => {
     expect.hasAssertions();
     expect(testUtils.htmlFactory(briefcase)).toMatchInlineSnapshot(`
-      <svgicon-stub id="ScrumAlliance">
+      <svgicon-stub>
         <g transform="translate(0,-1032.3622)">
           <ellipse id="path4204" cx="10.101525" cy="1042.3555" rx="9.989377" ry="9.9827976" style="stroke: none;"></ellipse>
           <ellipse id="path3361" cx="8.0804596" cy="1036.2057" rx="0.45664638" ry="0.45882437" style="display: inline; fill: #ffffff; fill-opacity: 1; fill-rule: evenodd; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"></ellipse>

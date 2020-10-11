@@ -1,6 +1,5 @@
 <template>
   <svg
-    :id="'svg-' + id"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -17,12 +16,6 @@
 
 <script>
 export default {
-  props: {
-    id: {
-      type: String,
-      required: true,
-    },
-  },
   // TODO: Remove data() when coverage is successful with vue-jest@4.x.x
   data() {
     return {};
