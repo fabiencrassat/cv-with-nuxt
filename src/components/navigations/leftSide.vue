@@ -69,6 +69,52 @@
   </nav>
 </template>
 
+<script>
+import Name from './name';
+import ProfilePicture from './profilePicture';
+import SwitchLang from './switchLang';
+export default {
+  components: {
+    Name,
+    ProfilePicture,
+    SwitchLang,
+  },
+  filters: {
+    // eslint-disable-next-line object-shorthand
+    capitalize: function (value) {
+      return value.replace(/\w\S*/g, function (word) {
+        return word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
+      });
+    },
+  },
+  props: {
+    name: {
+      type: String,
+      required: true,
+    },
+    picture: {
+      type: String,
+      required: true,
+    },
+    // eslint-disable-next-line vue/prop-name-casing
+    'menu-items': {
+      // Example: [{ name: 'Page 1', url: 'page1', svg: 'component' }]
+      type: Array,
+      default: () => [],
+    },
+  },
+  data() {
+    return { checkbox: false };
+  },
+  methods: {
+    // eslint-disable-next-line object-shorthand
+    closeMenu: function () {
+      this.checkbox = !this.checkbox;
+    },
+  },
+};
+</script>
+
 <style scoped>
 #menuToggle input {
   left: -3px;
@@ -117,49 +163,3 @@
   }
 }
 </i18n>
-
-<script>
-import Name from './name';
-import ProfilePicture from './profilePicture';
-import SwitchLang from './switchLang';
-export default {
-  components: {
-    Name,
-    ProfilePicture,
-    SwitchLang,
-  },
-  filters: {
-    // eslint-disable-next-line object-shorthand
-    capitalize: function (value) {
-      return value.replace(/\w\S*/g, function (word) {
-        return word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
-      });
-    },
-  },
-  props: {
-    name: {
-      type: String,
-      required: true,
-    },
-    picture: {
-      type: String,
-      required: true,
-    },
-    // eslint-disable-next-line vue/prop-name-casing
-    'menu-items': {
-      // Example: [{ name: 'Page 1', url: 'page1', svg: 'component' }]
-      type: Array,
-      default: () => [],
-    },
-  },
-  data() {
-    return { checkbox: false };
-  },
-  methods: {
-    // eslint-disable-next-line object-shorthand
-    closeMenu: function () {
-      this.checkbox = !this.checkbox;
-    },
-  },
-};
-</script>

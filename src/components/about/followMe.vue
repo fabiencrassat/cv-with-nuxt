@@ -15,12 +15,6 @@
   </div>
 </template>
 
-<style scoped>
-svg {
-  @apply h-8 w-8;
-}
-</style>
-
 <script>
 import FacebookSvgIcon from '~/components/svgIcons/facebook';
 import GithubSvgIcon from '~/components/svgIcons/github';
@@ -52,3 +46,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+svg {
+  @apply h-8 w-8;
+}
+</style>
