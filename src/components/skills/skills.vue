@@ -3,7 +3,7 @@
     <div
       v-for="(skillsGroup, indexSkills) in skills"
       :key="indexSkills"
-      class="flex bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl mb-4"
+      class="flex bg-white shadow-lg rounded-lg md:mx-auto max-w-md md:max-w-2xl mb-4"
     >
       <div class="flex items-start px-4 py-6 w-full">
         <component :is="skillsGroup.svg" class="w-12 mr-4" />

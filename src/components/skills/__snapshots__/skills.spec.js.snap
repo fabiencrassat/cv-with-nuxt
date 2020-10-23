@@ -2,7 +2,7 @@
 
 exports[`skills renders properly with props 1`] = `
 <div>
-  <div class="flex bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl mb-4">
+  <div class="flex bg-white shadow-lg rounded-lg md:mx-auto max-w-md md:max-w-2xl mb-4">
     <div class="flex items-start px-4 py-6 w-full">
       <svgicon-stub class="w-12 mr-4"></svgicon-stub>
       <div class="w-full">
@@ -14,7 +14,7 @@ exports[`skills renders properly with props 1`] = `
       </div>
     </div>
   </div>
-  <div class="flex bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl mb-4">
+  <div class="flex bg-white shadow-lg rounded-lg md:mx-auto max-w-md md:max-w-2xl mb-4">
     <div class="flex items-start px-4 py-6 w-full">
       <svgicon-stub class="w-12 mr-4"></svgicon-stub>
       <div class="w-full">
