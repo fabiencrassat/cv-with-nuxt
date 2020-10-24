@@ -33,7 +33,7 @@ interface IFollowMe {
 }
 
 interface ISkill {
-  percentage: Number;
+  percentage: number;
   label: ILang | string;
 }
 
