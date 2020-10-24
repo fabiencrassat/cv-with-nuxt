@@ -169,11 +169,11 @@ export default class CurriculumVitae {
         skillGroup.label,
         this._lang
       );
-      for (const skillsKey in skillGroup.items) {
-        const skill = skillGroup.items[skillsKey];
-        skill.label = Tools.getLangValue(skill.label, this._lang);
-        result[skillsGroupKey].items[skillsKey] = skill;
-      }
+      skillGroup.items.forEach((skill, index) => {
+        const value = skill;
+        value.label = Tools.getLangValue(skill.label, this._lang);
+        result[skillsGroupKey].items[index] = value;
+      }, this);
     }
     return result;
   }
