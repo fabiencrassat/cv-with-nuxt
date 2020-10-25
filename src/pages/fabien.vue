@@ -66,6 +66,7 @@
       </section>
       <section id="educations">
         <H1Heading>{{ $t('educations.name') }}</H1Heading>
+        <Educations :educations="CurriculumVitae.getEducations()" />
       </section>
     </main>
   </div>
@@ -75,6 +76,7 @@
 import BriefcaseSvgIcon from '~/components/svgIcons/briefcase';
 import ColoursSvgIcon from '~/components/svgIcons/colours';
 import ContactMe from '~/components/contact-me/contact-me';
+import Educations from '~/components/educations/educations';
 import Experiences from '~/components/experiences/experiences';
 import FollowMe from '~/components/about/followMe';
 import GraduationCapSvgIcon from '~/components/svgIcons/graduation-cap';
@@ -92,6 +94,7 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     ColoursSvgIcon,
     ContactMe,
+    Educations,
     Experiences,
     FollowMe,
     // eslint-disable-next-line vue/no-unused-components

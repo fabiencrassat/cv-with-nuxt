@@ -222,4 +222,71 @@ describe('fabien', () => {
       },
     });
   });
+  it('should return no education', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest();
+    expect(curriculumVitae.getEducations()).toStrictEqual({});
+  });
+  it('should return educations', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest({
+      mockFabien: {
+        educations: {
+          highSchool: {},
+          school1: {
+            dates: [2000, 2020],
+            label: {
+              fr: 'school1',
+            },
+            description: {
+              fr: 'school1 description',
+            },
+          },
+          school2: {
+            date: 'jan 2020',
+            label: {
+              fr: 'school2',
+            },
+            description: {
+              fr: 'school2 description',
+            },
+          },
+          school3: {
+            date: {
+              fr: 'dec 2000',
+            },
+            label: {
+              fr: 'school3',
+            },
+            description: {
+              fr: 'school3 description',
+            },
+          },
+        },
+      },
+    });
+    expect(curriculumVitae.getEducations()).toStrictEqual({
+      highSchool: {
+        id: 'highSchool',
+      },
+      school1: {
+        dates: [2000, 2020],
+        id: 'school1',
+        label: 'school1',
+        description: 'school1 description',
+      },
+      school2: {
+        date: 'jan 2020',
+        id: 'school2',
+        label: 'school2',
+        description: 'school2 description',
+      },
+      school3: {
+        date: 'dec 2000',
+        id: 'school3',
+        label: 'school3',
+        description: 'school3 description',
+      },
+    });
+  });
 });

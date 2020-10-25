@@ -36,6 +36,7 @@ exports[`fabien renders properly 1`] = `
     </section>
     <section id="educations">
       <h1heading-stub>$t('educations.name')</h1heading-stub>
+      <educations-stub></educations-stub>
     </section>
   </main>
 </div>

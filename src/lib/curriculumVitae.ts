@@ -69,6 +69,15 @@ interface ICurriculumVitae {
   skills: {
     [key: string]: ISkillsGroup;
   };
+  educations: {
+    [key: string]: {
+      date?: ILang | string;
+      dates?: number[];
+      label: ILang;
+      description: ILang;
+      [key: string]: any;
+    };
+  };
 }
 
 export default class CurriculumVitae {
@@ -174,6 +183,29 @@ export default class CurriculumVitae {
         value.label = Tools.getLangValue(skill.label, this._lang);
         result[skillsGroupKey].items[index] = value;
       }, this);
+    }
+    return result;
+  }
+
+  /*
+   * Educations
+   */
+
+  public getEducations() {
+    const educations = this.curriculumVitae.educations;
+    // Clone the object not to alter it
+    const result = Object.assign({}, educations);
+    for (const educationKey in educations) {
+      const education = educations[educationKey];
+      // Clone the object not to alter it
+      result[educationKey] = Object.assign({}, education);
+      for (const key in education) {
+        let element = education[key];
+        element = Tools.getLangValue(element, this._lang);
+        element = Tools.getCrossRefValue(this, element);
+        result[educationKey][key] = element;
+      }
+      result[educationKey].id = educationKey;
     }
     return result;
   }

@@ -550,5 +550,68 @@
         }
       ]
     }
+  },
+  "educations": {
+    "esiea": {
+      "dates": [2003, 2006],
+      "label": {
+        "fr": "Diplôme d’Ingénieur ESIEA – mention Très Honorable avec félicitation des jurys",
+        "en": "ESIEA (Ecole Supérieure d’Informatique, Electronique, Automatique), PARIS."
+      },
+      "description": {
+        "fr": "Ecole d’ingénieur spécialisée dans l’information technologique et électronique ; PARIS (75).",
+        "en": "A top French engineering school specialised in Information Technology and Electronics offering a five-year degree comparable to a Master of Science."
+      }
+    },
+    "cnam": {
+      "dates": [2002, 2003],
+      "label": {
+        "fr": "Cours du soir « Instrumentation – Mesures »",
+        "en": "Conservatoire National des Arts et Métiers, ‘Instrumentation – Mesures’ studies, TOULOUSE."
+      },
+      "description": {
+        "fr": "dispensé par le CNAM TOULOUSE (31).",
+        "en": "Acquisition of the fundamental principles of industrial sensors and control of their optimal use while knowing to choose and assemble the elements of measuring equipment, to know to analyse, interpret and have results of measurement."
+      }
+    },
+    "waterSaleman": {
+      "date": "Sept 2002",
+      "label": {
+        "fr": "Formation aux méthodes de vente et aux techniques de traitement d’eau",
+        "en": "Training in sales techniques of water treatment, MONTPELLIER."
+      },
+      "description": {
+        "fr": "dispensé par Confort Général Européen, MONTPELLIER (34).",
+        "en": "Exempted by CONFORT GENERAL EUROPEEN."
+      }
+    },
+    "iut": {
+      "date": {
+        "fr": "Juin 2002",
+        "en": "June 2002"
+      },
+      "label": {
+        "fr": "DUT Mesures Physiques option Techniques Instrumentales – mention A-Bien",
+        "en": "DUT (Diplôme Universitaire de Technologie) Mesures Physiques, TOULOUSE."
+      },
+      "description": {
+        "fr": "IUT de l’Université Paul Sabatier, TOULOUSE (31).",
+        "en": "Post-baccalaureate technical qualification awarded after two years studies.\nComprehension, design and implementation of an 'automated chain of measurements' from the sensor to the computer, and specialised in measurement and instrumentation."
+      }
+    },
+    "bac": {
+      "date": {
+        "fr": "Juin 2000",
+        "en": "June 2000"
+      },
+      "label": {
+        "fr": "Baccalauréat S, option Technologie Industrielle, spécialité Physique – Chimie",
+        "en": "Baccalauréat Scientifique, CAHORS."
+      },
+      "description": {
+        "fr": "Lycée Gaston Monnerville, CAHORS (46).",
+        "en": "High school graduation in science subjects comparable to A-levels."
+      }
+    }
   }
 }
