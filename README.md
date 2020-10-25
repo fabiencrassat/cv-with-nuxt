@@ -12,6 +12,7 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Structure](#structure)
+  - [Testing files conventions](#testing-files-conventions)
 - [Start like production](#start-like-production)
 - [Before commit](#before-commit)
   - [Github Workflow](#github-workflow)
@@ -74,6 +75,14 @@ The product source code is structured with:
       ├── middleware  # All files used in the server side.
       └── pages       # All the application pages called with URL, served with **nuxt** and **i18n**.
 ```
+
+### Testing files conventions
+
+In order to group test files, they are following a naming convention:
+
+- `*.test.js` are test files name for javascript files (eg. `.js`)
+- `*.spec.js` are test files name for vue files (eg. `*.vue`)
+- `*.spec.ts` are test files name for typescript files (eg. `*.ts`)
 
 ## Start like production
 
@@ -201,6 +210,7 @@ yarn validate:lighthouse
   - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
   - [ ] **[Waiting vue-jest@4.x.x]** Remove executable code in `vue` file to allow coverage with **vue-jest@3.x.x** (`h1.vue`, `leftSide.vue`).
     > Search for *`coverage is successful with vue-jest@4.x.x`* in the code.
+  - [ ] Remove `levenary` node module due to import error with `@babel/preset-env:7.12.1`.
 - Product
   - [ ] Add one toggle (hide/expand) for experiences from October 2009
   - [ ] Add a reading progress bar
