@@ -15,9 +15,9 @@ describe('fabien', () => {
       }),
       { virtual: true }
     );
-    const CurriculumVitae = require('./curriculumVitae').default;
-    const curriculumVitae: CurriculumVitae = new CurriculumVitae(lang);
-    expect(curriculumVitae).toBeInstanceOf(CurriculumVitae);
+    const CurriculumVitaeClass = require('./curriculumVitae').default;
+    const curriculumVitae: CurriculumVitae = new CurriculumVitaeClass(lang);
+    expect(curriculumVitae).toBeInstanceOf(CurriculumVitaeClass);
     return curriculumVitae;
   }
 
