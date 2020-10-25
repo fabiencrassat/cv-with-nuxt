@@ -78,6 +78,13 @@ interface ICurriculumVitae {
       [key: string]: any;
     };
   };
+  languages: {
+    [key: string]: {
+      label: ILang;
+      description: ILang;
+      [key: string]: any;
+    };
+  };
 }
 
 export default class CurriculumVitae {
@@ -206,6 +213,29 @@ export default class CurriculumVitae {
         result[educationKey][key] = element;
       }
       result[educationKey].id = educationKey;
+    }
+    return result;
+  }
+
+  /*
+   * Languages
+   */
+
+  public getLanguages() {
+    const languages = this.curriculumVitae.languages;
+    // Clone the object not to alter it
+    const result = Object.assign({}, languages);
+    for (const languageKey in languages) {
+      const language = languages[languageKey];
+      // Clone the object not to alter it
+      result[languageKey] = Object.assign({}, language);
+      for (const key in language) {
+        let element = language[key];
+        element = Tools.getLangValue(element, this._lang);
+        element = Tools.getCrossRefValue(this, element);
+        result[languageKey][key] = element;
+      }
+      result[languageKey].id = languageKey;
     }
     return result;
   }

@@ -75,6 +75,7 @@
       </section>
       <section id="languages">
         <H1Heading>{{ $t('languages.name') }}</H1Heading>
+        <Languages :languages="CurriculumVitae.getLanguages()" />
       </section>
     </main>
   </div>
@@ -89,6 +90,7 @@ import Experiences from '~/components/experiences/experiences';
 import FollowMe from '~/components/about/followMe';
 import GraduationCapSvgIcon from '~/components/svgIcons/graduation-cap';
 import H1Heading from '~/components/headings/h1.vue';
+import Languages from '~/components/languages/languages';
 import LanguageSvgIcon from '~/components/svgIcons/language';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
 import Skills from '~/components/skills/skills';
@@ -109,6 +111,7 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     GraduationCapSvgIcon,
     H1Heading,
+    Languages,
     // eslint-disable-next-line vue/no-unused-components
     LanguageSvgIcon,
     LeftSideNavigation,

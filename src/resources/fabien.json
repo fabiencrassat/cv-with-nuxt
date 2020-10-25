@@ -613,5 +613,27 @@
         "en": "High school graduation in science subjects comparable to A-levels."
       }
     }
+  },
+  "languages": {
+    "french": {
+      "label": {
+        "fr": "Français",
+        "en": "French"
+      },
+      "description": {
+        "fr": "Langue maternelle.",
+        "en": "Mother tongue."
+      }
+    },
+    "english": {
+      "label": {
+        "fr": "Anglais",
+        "en": "English"
+      },
+      "description": {
+        "fr": "Langue de travail.",
+        "en": "Work Language."
+      }
+    }
   }
 }

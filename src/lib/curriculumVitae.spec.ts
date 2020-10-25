@@ -289,4 +289,46 @@ describe('fabien', () => {
       },
     });
   });
+  it('should return no language', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest();
+    expect(curriculumVitae.getLanguages()).toStrictEqual({});
+  });
+  it('should return languages', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest({
+      mockFabien: {
+        languages: {
+          english: {
+            label: {
+              fr: 'english',
+            },
+            description: {
+              fr: 'english description',
+            },
+          },
+          french: {
+            label: {
+              fr: 'french',
+            },
+            description: {
+              fr: 'french description',
+            },
+          },
+        },
+      },
+    });
+    expect(curriculumVitae.getLanguages()).toStrictEqual({
+      english: {
+        id: 'english',
+        label: 'english',
+        description: 'english description',
+      },
+      french: {
+        id: 'french',
+        label: 'french',
+        description: 'french description',
+      },
+    });
+  });
 });
