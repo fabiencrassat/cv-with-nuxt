@@ -1,8 +1,10 @@
+import CurriculumVitae from './curriculumVitae';
+
 describe('fabien', () => {
   function preTest({
     lang,
     mockFabien,
-  }: { lang?: string; mockFabien?: any } = {}) {
+  }: { lang?: string; mockFabien?: any } = {}): CurriculumVitae {
     jest.mock('~/resources/fabien.json', () => mockFabien || jest.fn(), {
       virtual: true,
     });
@@ -14,7 +16,7 @@ describe('fabien', () => {
       { virtual: true }
     );
     const CurriculumVitae = require('./curriculumVitae').default;
-    const curriculumVitae = new CurriculumVitae(lang);
+    const curriculumVitae: CurriculumVitae = new CurriculumVitae(lang);
     expect(curriculumVitae).toBeInstanceOf(CurriculumVitae);
     return curriculumVitae;
   }
@@ -75,7 +77,7 @@ describe('fabien', () => {
   });
   it('should return no follow link', () => {
     expect.assertions(2);
-    const curriculumVitae = preTest({});
+    const curriculumVitae = preTest();
     expect(curriculumVitae.getFollowMe()).toStrictEqual([]);
   });
   it('should return follow links', () => {
@@ -112,7 +114,7 @@ describe('fabien', () => {
   });
   it('should return no experiences', () => {
     expect.assertions(2);
-    const curriculumVitae = preTest({});
+    const curriculumVitae = preTest();
     expect(curriculumVitae.getExperiences()).toStrictEqual({});
   });
   it('should return experiences', () => {
@@ -155,7 +157,7 @@ describe('fabien', () => {
   });
   it('should return no skills', () => {
     expect.assertions(2);
-    const curriculumVitae = preTest({});
+    const curriculumVitae = preTest();
     expect(curriculumVitae.getSkills()).toStrictEqual({});
   });
   it('should return skills', () => {
