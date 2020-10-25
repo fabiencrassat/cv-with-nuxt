@@ -3,7 +3,7 @@
 exports[`languages renders properly with props 1`] = `
 <div>
   <dl>
-    <div id="french" class="bg-white odd:bg-gray-500 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+    <div id="french" class="bg-white odd:bg-gray-200 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
       <dt class="text-sm leading-5 font-medium text-gray-700">
         french
       </dt>
@@ -11,7 +11,7 @@ exports[`languages renders properly with props 1`] = `
         french description
       </dd>
     </div>
-    <div id="english" class="bg-white odd:bg-gray-500 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+    <div id="english" class="bg-white odd:bg-gray-200 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
       <dt class="text-sm leading-5 font-medium text-gray-700">
         english
       </dt>
