@@ -61,7 +61,6 @@ li > span::after {
   content: '';
   position: absolute;
   top: 0;
-  left: 0;
   width: 14px;
   height: 14px;
   border: 2px solid #fff;
