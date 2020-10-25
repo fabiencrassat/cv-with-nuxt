@@ -15,4 +15,7 @@ export default {
   skills: {
     name: 'compétences',
   },
+  educations: {
+    name: 'formations',
+  },
 };

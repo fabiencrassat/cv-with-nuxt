@@ -24,6 +24,11 @@
           url: 'skills',
           svg: ColoursSvgIcon,
         },
+        {
+          name: $t('educations.name'),
+          url: 'educations',
+          svg: GraduationCapSvgIcon,
+        },
       ]"
     />
     <main class="p-4 pt-10 sm:pt-4">
@@ -59,6 +64,9 @@
         <H1Heading>{{ $t('skills.name') }}</H1Heading>
         <Skills :skills="CurriculumVitae.getSkills()" />
       </section>
+      <section id="educations">
+        <H1Heading>{{ $t('educations.name') }}</H1Heading>
+      </section>
     </main>
   </div>
 </template>
@@ -69,6 +77,7 @@ import ColoursSvgIcon from '~/components/svgIcons/colours';
 import ContactMe from '~/components/contact-me/contact-me';
 import Experiences from '~/components/experiences/experiences';
 import FollowMe from '~/components/about/followMe';
+import GraduationCapSvgIcon from '~/components/svgIcons/graduation-cap';
 import H1Heading from '~/components/headings/h1.vue';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
 import Skills from '~/components/skills/skills';
@@ -85,6 +94,8 @@ export default {
     ContactMe,
     Experiences,
     FollowMe,
+    // eslint-disable-next-line vue/no-unused-components
+    GraduationCapSvgIcon,
     H1Heading,
     LeftSideNavigation,
     // eslint-disable-next-line vue/no-unused-components
@@ -102,6 +113,7 @@ export default {
       ColoursSvgIcon,
       description: curriculumVitae.getPresentation(),
       CurriculumVitae: curriculumVitae,
+      GraduationCapSvgIcon,
       path: this.$nuxt.$route.path,
       PhoneSvgIcon,
       shortTitle: this.$i18n.t('page.shortTitle', {
