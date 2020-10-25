@@ -1,10 +1,10 @@
-import briefcase from './scrumalliance';
+import scrumalliance from './scrumalliance';
 import testUtils from '~~/lib/tests/testUtils';
 
-describe('briefcase', () => {
+describe('scrumalliance', () => {
   it('renders properly', () => {
     expect.hasAssertions();
-    expect(testUtils.htmlFactory(briefcase)).toMatchInlineSnapshot(`
+    expect(testUtils.htmlFactory(scrumalliance)).toMatchInlineSnapshot(`
       <svgicon-stub>
         <g transform="translate(0,-1032.3622)">
           <ellipse id="path4204" cx="10.101525" cy="1042.3555" rx="9.989377" ry="9.9827976" style="stroke: none;"></ellipse>
