@@ -29,6 +29,11 @@
           url: 'educations',
           svg: GraduationCapSvgIcon,
         },
+        {
+          name: $t('languages.name'),
+          url: 'languages',
+          svg: LanguageSvgIcon,
+        },
       ]"
     />
     <main class="p-4 pt-10 sm:pt-4">
@@ -48,7 +53,7 @@
           </span>
         </p>
         <p class="text-justify">
-          {{ description }}
+          {{ CurriculumVitae.getPresentation() }}
         </p>
         <FollowMe :links="CurriculumVitae.getFollowMe()" />
       </section>
@@ -68,6 +73,9 @@
         <H1Heading>{{ $t('educations.name') }}</H1Heading>
         <Educations :educations="CurriculumVitae.getEducations()" />
       </section>
+      <section id="languages">
+        <H1Heading>{{ $t('languages.name') }}</H1Heading>
+      </section>
     </main>
   </div>
 </template>
@@ -81,6 +89,7 @@ import Experiences from '~/components/experiences/experiences';
 import FollowMe from '~/components/about/followMe';
 import GraduationCapSvgIcon from '~/components/svgIcons/graduation-cap';
 import H1Heading from '~/components/headings/h1.vue';
+import LanguageSvgIcon from '~/components/svgIcons/language';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
 import Skills from '~/components/skills/skills';
 import PhoneSvgIcon from '~/components/svgIcons/phone';
@@ -100,6 +109,8 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     GraduationCapSvgIcon,
     H1Heading,
+    // eslint-disable-next-line vue/no-unused-components
+    LanguageSvgIcon,
     LeftSideNavigation,
     // eslint-disable-next-line vue/no-unused-components
     PhoneSvgIcon,
@@ -114,9 +125,11 @@ export default {
     return {
       BriefcaseSvgIcon,
       ColoursSvgIcon,
-      description: curriculumVitae.getPresentation(),
+      description:
+        curriculumVitae.getLastJob() + '. ' + curriculumVitae.getPresentation(),
       CurriculumVitae: curriculumVitae,
       GraduationCapSvgIcon,
+      LanguageSvgIcon,
       path: this.$nuxt.$route.path,
       PhoneSvgIcon,
       shortTitle: this.$i18n.t('page.shortTitle', {

@@ -33,7 +33,7 @@ describe('fabien', () => {
     expect(testUtils.metaHeadInfoFactory(fabien)).toStrictEqual({
       meta: [
         {
-          content: 'getPresentation',
+          content: 'getLastJob. getPresentation',
           hid: 'description',
           name: 'description',
         },
@@ -49,7 +49,7 @@ describe('fabien', () => {
           name: 'og:title',
         },
         {
-          content: 'getPresentation',
+          content: 'getLastJob. getPresentation',
           hid: 'og:description',
           name: 'og:description',
         },

@@ -18,4 +18,7 @@ export default {
   educations: {
     name: 'formations',
   },
+  languages: {
+    name: 'langues',
+  },
 };
