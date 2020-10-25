@@ -34,6 +34,11 @@
           url: 'languages',
           svg: LanguageSvgIcon,
         },
+        {
+          name: $t('miscellaneous.name'),
+          url: 'miscellaneous',
+          svg: ListSvgIcon,
+        },
       ]"
     />
     <main class="p-4 pt-10 sm:pt-4">
@@ -77,6 +82,9 @@
         <H1Heading>{{ $t('languages.name') }}</H1Heading>
         <Languages :languages="CurriculumVitae.getLanguages()" />
       </section>
+      <section id="miscellaneous">
+        <H1Heading>{{ $t('miscellaneous.name') }}</H1Heading>
+      </section>
     </main>
   </div>
 </template>
@@ -93,6 +101,7 @@ import H1Heading from '~/components/headings/h1.vue';
 import Languages from '~/components/languages/languages';
 import LanguageSvgIcon from '~/components/svgIcons/language';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
+import ListSvgIcon from '~/components/svgIcons/list.vue';
 import Skills from '~/components/skills/skills';
 import PhoneSvgIcon from '~/components/svgIcons/phone';
 import UserSvgIcon from '~/components/svgIcons/user';
@@ -116,6 +125,8 @@ export default {
     LanguageSvgIcon,
     LeftSideNavigation,
     // eslint-disable-next-line vue/no-unused-components
+    ListSvgIcon,
+    // eslint-disable-next-line vue/no-unused-components
     PhoneSvgIcon,
     Skills,
     // eslint-disable-next-line vue/no-unused-components
@@ -133,6 +144,7 @@ export default {
       CurriculumVitae: curriculumVitae,
       GraduationCapSvgIcon,
       LanguageSvgIcon,
+      ListSvgIcon,
       path: this.$nuxt.$route.path,
       PhoneSvgIcon,
       shortTitle: this.$i18n.t('page.shortTitle', {

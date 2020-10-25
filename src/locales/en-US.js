@@ -21,4 +21,7 @@ export default {
   languages: {
     name: 'languages',
   },
+  miscellaneous: {
+    name: 'miscellaneous',
+  },
 };
