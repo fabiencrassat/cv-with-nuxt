@@ -59,11 +59,18 @@ module.exports = {
     },
   },
   buildModules: [
+    '@nuxtjs/google-analytics',
     ['@nuxt/typescript-build', { typeCheck: false }],
     '@nuxtjs/tailwindcss',
   ],
   generate: {
     subFolders: false,
+  },
+  googleAnalytics: {
+    id: 'UA-45807436-1',
+    debug: {
+      sendHitTask: true,
+    },
   },
   head: {
     title,
