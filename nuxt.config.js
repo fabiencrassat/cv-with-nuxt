@@ -71,6 +71,10 @@ module.exports = {
     debug: {
       sendHitTask: true,
     },
+    set: [
+      // Remove the stat.g.doubleclick.net request
+      { allow_ad_personalization_signals: false },
+    ],
   },
   head: {
     title,
