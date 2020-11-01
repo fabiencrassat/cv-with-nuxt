@@ -304,6 +304,29 @@
         ]
       }
     },
+    "BDE": {
+      "collapse": true,
+      "date": {
+        "fr": "Septembre 2004 - Juin 2005",
+        "en": "September 2004 - June 2005"
+      },
+      "job": {
+        "fr": "Chargé de communication au Bureau des Etudiants",
+        "en": "Communications Officer at Office of Students (BDE)"
+      },
+      "jobImage": "/img/experiences/communications-officer.webp",
+      "society": {
+        "crossref": "societies.esiea"
+      },
+      "missions": {
+        "fr": [
+          "Mise en place d’un journal et relation inter et extra BdE par l’intermédiaire d’outils communicatifs."
+        ],
+        "en": [
+          "Establishment of a newspaper through communicative tools, and communication inter-and extra BdE."
+        ]
+      }
+    },
     "PAIR": {
       "collapse": true,
       "date": {

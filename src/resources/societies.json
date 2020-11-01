@@ -11,6 +11,12 @@
     "siteurl": "http://www.enablon.com",
     "icon": "/img/societies/enablon.png"
   },
+  "esiea": {
+    "name": "ESIEA",
+    "address": "Paris, France",
+    "siteurl": "http://www.esiea.fr",
+    "icon": "/img/societies/esiea.png"
+  },
   "bostonTeaParty": {
     "name": "Boston Tea Party",
     "address": "Bristol, Royaume-Uni",
