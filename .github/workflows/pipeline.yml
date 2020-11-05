@@ -152,7 +152,7 @@ jobs:
           name: CodeCoverageResult
           path: build/coverage
       - name: Setup SonarQube
-        uses: warchant/setup-sonar-scanner@v1
+        uses: warchant/setup-sonar-scanner@v3
       - name: Run SonarQube
         env:
           # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
