@@ -206,6 +206,7 @@ yarn validate:lighthouse
   - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
   - [ ] Fix in `config/lighthouserc.js` the exception assertions.
   - [ ] Use the preview url in `robots.txt` and `sitemap.xml`.
+  - [ ] Stop CI when warning is present in `yarn generate` command.
 - Test
   - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
   - [ ] **[Waiting vue-jest@4.x.x]** Remove executable code in `vue` file to allow coverage with **vue-jest@3.x.x** (`h1.vue`, `leftSide.vue`).
