@@ -331,4 +331,50 @@ describe('fabien', () => {
       },
     });
   });
+  it('should return no certification', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest();
+    expect(curriculumVitae.getCertifications()).toStrictEqual({});
+  });
+  it('should return certifications', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest({
+      mockFabien: {
+        certifications: {
+          certification1: {
+            date: {
+              fr: 'date1',
+            },
+            label: {
+              fr: 'label1',
+            },
+            image: '/img1',
+          },
+          certification2: {
+            date: {
+              fr: 'date2',
+            },
+            label: {
+              fr: 'label2',
+            },
+            image: '/img2',
+          },
+        },
+      },
+    });
+    expect(curriculumVitae.getCertifications()).toStrictEqual({
+      certification1: {
+        date: 'date1',
+        id: 'certification1',
+        label: 'label1',
+        image: '/img1',
+      },
+      certification2: {
+        date: 'date2',
+        id: 'certification2',
+        label: 'label2',
+        image: '/img2',
+      },
+    });
+  });
 });

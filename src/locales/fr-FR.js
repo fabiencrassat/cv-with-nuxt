@@ -21,6 +21,9 @@ export default {
   languages: {
     name: 'langues',
   },
+  certifications: {
+    name: 'certifications',
+  },
   miscellaneous: {
     name: 'divers',
   },

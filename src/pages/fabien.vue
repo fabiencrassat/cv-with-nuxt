@@ -35,6 +35,11 @@
           svg: LanguageSvgIcon,
         },
         {
+          name: $t('certifications.name'),
+          url: 'certifications',
+          svg: MedalSvgIcon,
+        },
+        {
           name: $t('miscellaneous.name'),
           url: 'miscellaneous',
           svg: ListSvgIcon,
@@ -82,6 +87,10 @@
         <H1Heading>{{ $t('languages.name') }}</H1Heading>
         <Languages :languages="CurriculumVitae.getLanguages()" />
       </section>
+      <section id="certifications">
+        <H1Heading>{{ $t('certifications.name') }}</H1Heading>
+        <Certifications :certifications="CurriculumVitae.getCertifications()" />
+      </section>
       <section id="miscellaneous">
         <H1Heading>{{ $t('miscellaneous.name') }}</H1Heading>
       </section>
@@ -91,6 +100,7 @@
 
 <script>
 import BriefcaseSvgIcon from '~/components/svgIcons/briefcase';
+import Certifications from '~/components/certifications/certifications';
 import ColoursSvgIcon from '~/components/svgIcons/colours';
 import ContactMe from '~/components/contact-me/contact-me';
 import Educations from '~/components/educations/educations';
@@ -102,6 +112,7 @@ import Languages from '~/components/languages/languages';
 import LanguageSvgIcon from '~/components/svgIcons/language';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
 import ListSvgIcon from '~/components/svgIcons/list.vue';
+import MedalSvgIcon from '~/components/svgIcons/medal.vue';
 import Skills from '~/components/skills/skills';
 import PhoneSvgIcon from '~/components/svgIcons/phone';
 import UserSvgIcon from '~/components/svgIcons/user';
@@ -111,6 +122,7 @@ export default {
   components: {
     // eslint-disable-next-line vue/no-unused-components
     BriefcaseSvgIcon,
+    Certifications,
     // eslint-disable-next-line vue/no-unused-components
     ColoursSvgIcon,
     ContactMe,
@@ -126,6 +138,8 @@ export default {
     LeftSideNavigation,
     // eslint-disable-next-line vue/no-unused-components
     ListSvgIcon,
+    // eslint-disable-next-line vue/no-unused-components
+    MedalSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
     PhoneSvgIcon,
     Skills,
@@ -145,6 +159,7 @@ export default {
       GraduationCapSvgIcon,
       LanguageSvgIcon,
       ListSvgIcon,
+      MedalSvgIcon,
       path: this.$nuxt.$route.path,
       PhoneSvgIcon,
       shortTitle: this.$i18n.t('page.shortTitle', {

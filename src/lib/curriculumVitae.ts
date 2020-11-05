@@ -85,6 +85,13 @@ interface ICurriculumVitae {
       [key: string]: any;
     };
   };
+  certifications: {
+    [key: string]: {
+      date: ILang;
+      label: ILang;
+      [key: string]: any;
+    };
+  };
 }
 
 export default class CurriculumVitae {
@@ -236,6 +243,29 @@ export default class CurriculumVitae {
         result[languageKey][key] = element;
       }
       result[languageKey].id = languageKey;
+    }
+    return result;
+  }
+
+  /*
+   * Certifications
+   */
+
+  public getCertifications() {
+    const certifications = this.curriculumVitae.certifications;
+    // Clone the object not to alter it
+    const result = Object.assign({}, certifications);
+    for (const certificationKey in certifications) {
+      const certification = certifications[certificationKey];
+      // Clone the object not to alter it
+      result[certificationKey] = Object.assign({}, certification);
+      for (const key in certification) {
+        let element = certification[key];
+        element = Tools.getLangValue(element, this._lang);
+        element = Tools.getCrossRefValue(this, element);
+        result[certificationKey][key] = element;
+      }
+      result[certificationKey].id = certificationKey;
     }
     return result;
   }

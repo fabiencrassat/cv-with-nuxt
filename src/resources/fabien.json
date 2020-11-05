@@ -658,5 +658,40 @@
         "en": "Work Language."
       }
     }
+  },
+  "certifications": {
+    "spc4": {
+      "date": {
+        "fr": "Octobre 2019",
+        "en": "October 2019"
+      },
+      "label": {
+        "fr": "SAFe® 4 Program Consultant Certifié",
+        "en": "Certified SAFe® 4 Program Consultant"
+      },
+      "image": "/img/certifications/safe-pc4.png"
+    },
+    "productOwner": {
+      "date": {
+        "fr": "Juillet 2013",
+        "en": "July 2013"
+      },
+      "label": {
+        "fr": "Scrum Product Owner Certifié",
+        "en": "Certified Scrum Product Owner"
+      },
+      "image": "/img/certifications/scrum-alliance-cspo.png"
+    },
+    "scrumMaster": {
+      "date": {
+        "fr": "Juin 2012",
+        "en": "June 2012"
+      },
+      "label": {
+        "fr": "Scrum Master Certifié",
+        "en": "Certified Scrum Master"
+      },
+      "image": "/img/certifications/scrum-alliance-csm.png"
+    }
   }
 }

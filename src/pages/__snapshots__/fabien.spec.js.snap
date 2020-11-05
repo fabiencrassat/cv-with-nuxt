@@ -2,7 +2,7 @@
 
 exports[`fabien renders properly 1`] = `
 <div class="font-display">
-  <leftsidenavigation-stub name="getFullName" picture="getPicture" menuitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"></leftsidenavigation-stub>
+  <leftsidenavigation-stub name="getFullName" picture="getPicture" menuitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"></leftsidenavigation-stub>
   <main class="p-4 pt-10 sm:pt-4">
     <section id="identity">
       <h1heading-stub>$t('identity.name')</h1heading-stub>
@@ -41,6 +41,10 @@ exports[`fabien renders properly 1`] = `
     <section id="languages">
       <h1heading-stub>$t('languages.name')</h1heading-stub>
       <languages-stub></languages-stub>
+    </section>
+    <section id="certifications">
+      <h1heading-stub>$t('certifications.name')</h1heading-stub>
+      <certifications-stub></certifications-stub>
     </section>
     <section id="miscellaneous">
       <h1heading-stub>$t('miscellaneous.name')</h1heading-stub>
