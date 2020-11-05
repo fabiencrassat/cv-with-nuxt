@@ -7,7 +7,13 @@
       class="relative rounded-lg shadow-lg text-center bg-white m-5 p-5 w-64"
     >
       <!-- eslint-disable-next-line vue/html-self-closing -->
-      <img :src="item.image" height="200" class="h-48 m-auto" />
+      <img
+        :src="item.image"
+        :alt="item.label"
+        height="200"
+        width="200"
+        class="m-auto"
+      />
       <p class="font-black mt-5 mb-3">
         {{ item.label }}
       </p>
