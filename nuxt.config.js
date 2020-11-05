@@ -188,6 +188,7 @@ module.exports = {
     cssPath: '~/assets/css/tailwind.css',
     exposeConfig: false,
   },
+  target: 'static',
   typescript: {
     typeCheck: {
       eslint: true,
