@@ -37,12 +37,12 @@ describe('hobbies', () => {
         <div id="foo" class="w-full bg-white rounded h-full text-grey-darkest no-underline shadow-md">
           <h1 class="text-3xl p-6 whitespace-no-wrap">
             foo
-          </h1> <img src="/foo.jpg" alt="foo" class="w-full block rounded-b">
+          </h1> <img height="333" width="500" src="/foo.jpg" alt="foo" class="w-full block rounded-b">
         </div>
         <div id="bar" class="w-full bg-white rounded h-full text-grey-darkest no-underline shadow-md">
           <h1 class="text-3xl p-6 whitespace-no-wrap">
             bar
-          </h1> <img src="/bar.jpg" alt="bar" class="w-full block rounded-b">
+          </h1> <img height="333" width="500" src="/bar.jpg" alt="bar" class="w-full block rounded-b">
         </div>
       </div>
     `);

@@ -12,7 +12,13 @@
         {{ item.label }}
       </h1>
       <!-- eslint-disable-next-line vue/html-self-closing -->
-      <img class="w-full block rounded-b" :src="item.image" :alt="item.label" />
+      <img
+        class="w-full block rounded-b"
+        height="333"
+        width="500"
+        :src="item.image"
+        :alt="item.label"
+      />
     </div>
   </div>
 </template>
