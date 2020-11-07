@@ -24,7 +24,7 @@ export default {
   certifications: {
     name: 'certifications',
   },
-  miscellaneous: {
-    name: 'miscellaneous',
+  hobbies: {
+    name: 'hobbies',
   },
 };

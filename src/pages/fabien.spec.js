@@ -14,6 +14,7 @@ jest.mock('~/lib/curriculumVitae', () => {
       getEducations: jest.fn(() => {}),
       getLanguages: jest.fn(() => {}),
       getCertifications: jest.fn(() => {}),
+      getHobbies: jest.fn(() => {}),
     };
   });
 });

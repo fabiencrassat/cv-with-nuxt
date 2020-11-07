@@ -40,9 +40,9 @@
           svg: MedalSvgIcon,
         },
         {
-          name: $t('miscellaneous.name'),
-          url: 'miscellaneous',
-          svg: ListSvgIcon,
+          name: $t('hobbies.name'),
+          url: 'hobbies',
+          svg: HeartSvgIcon,
         },
       ]"
     />
@@ -91,8 +91,9 @@
         <H1Heading>{{ $t('certifications.name') }}</H1Heading>
         <Certifications :certifications="CurriculumVitae.getCertifications()" />
       </section>
-      <section id="miscellaneous">
-        <H1Heading>{{ $t('miscellaneous.name') }}</H1Heading>
+      <section id="hobbies">
+        <H1Heading>{{ $t('hobbies.name') }}</H1Heading>
+        <Hobbies :hobbies="CurriculumVitae.getHobbies()" />
       </section>
     </main>
   </div>
@@ -108,10 +109,11 @@ import Experiences from '~/components/experiences/experiences';
 import FollowMe from '~/components/about/followMe';
 import GraduationCapSvgIcon from '~/components/svgIcons/graduation-cap';
 import H1Heading from '~/components/headings/h1.vue';
+import Hobbies from '~/components/hobbies/hobbies.vue';
 import Languages from '~/components/languages/languages';
 import LanguageSvgIcon from '~/components/svgIcons/language';
 import LeftSideNavigation from '~/components/navigations/leftSide.vue';
-import ListSvgIcon from '~/components/svgIcons/list.vue';
+import HeartSvgIcon from '~/components/svgIcons/heart.vue';
 import MedalSvgIcon from '~/components/svgIcons/medal.vue';
 import Skills from '~/components/skills/skills';
 import PhoneSvgIcon from '~/components/svgIcons/phone';
@@ -132,12 +134,13 @@ export default {
     // eslint-disable-next-line vue/no-unused-components
     GraduationCapSvgIcon,
     H1Heading,
+    Hobbies,
     Languages,
     // eslint-disable-next-line vue/no-unused-components
     LanguageSvgIcon,
     LeftSideNavigation,
     // eslint-disable-next-line vue/no-unused-components
-    ListSvgIcon,
+    HeartSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
     MedalSvgIcon,
     // eslint-disable-next-line vue/no-unused-components
@@ -158,7 +161,7 @@ export default {
       CurriculumVitae: curriculumVitae,
       GraduationCapSvgIcon,
       LanguageSvgIcon,
-      ListSvgIcon,
+      HeartSvgIcon,
       MedalSvgIcon,
       path: this.$nuxt.$route.path,
       PhoneSvgIcon,

@@ -693,5 +693,63 @@
       },
       "image": "/img/certifications/scrum-alliance-csm.png"
     }
+  },
+  "hobbies": {
+    "swimming": {
+      "label": {
+        "fr": "Piscine",
+        "en": "Swimming"
+      },
+      "image": "/img/hobbies/swimming.webp"
+    },
+    "automobile": {
+      "label": {
+        "fr": "Automobile",
+        "en": "Automobile"
+      },
+      "image": "/img/hobbies/automobile.webp"
+    },
+    "astronomie": {
+      "label": {
+        "fr": "Astronomie",
+        "en": "Astronomy"
+      },
+      "image": "/img/hobbies/astronomy.webp"
+    },
+    "aérospatial": {
+      "label": {
+        "fr": "Aérospatial",
+        "en": "Aerospace"
+      },
+      "image": "/img/hobbies/aerospace.webp"
+    },
+    "music": {
+      "label": {
+        "fr": "Musique",
+        "en": "Music"
+      },
+      "image": "/img/hobbies/music.webp"
+    },
+    "voyages": {
+      "label": {
+        "fr": "Voyages",
+        "en": "Voyages"
+      },
+      "image": "/img/hobbies/voyages.webp"
+    },
+    "cinema": {
+      "label": {
+        "fr": "Cinema",
+        "en": "Movies"
+      },
+      "image": "/img/hobbies/cinema.webp"
+    },
+    "videoGames": {
+      "label": {
+        "fr": "Jeux vidéo",
+        "en": "Video games"
+      },
+      "image": "/img/hobbies/video-games.webp"
+    }
   }
 }

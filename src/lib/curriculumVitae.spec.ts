@@ -377,4 +377,42 @@ describe('fabien', () => {
       },
     });
   });
+  it('should return no hooby', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest();
+    expect(curriculumVitae.getHobbies()).toStrictEqual({});
+  });
+  it('should return hobbies', () => {
+    expect.assertions(2);
+    const curriculumVitae = preTest({
+      mockFabien: {
+        hobbies: {
+          foo: {
+            label: {
+              fr: 'foo',
+            },
+            image: '/foo.jpg',
+          },
+          bar: {
+            label: {
+              fr: 'bar',
+            },
+            image: '/bar.jpg',
+          },
+        },
+      },
+    });
+    expect(curriculumVitae.getHobbies()).toStrictEqual({
+      foo: {
+        id: 'foo',
+        label: 'foo',
+        image: '/foo.jpg',
+      },
+      bar: {
+        id: 'bar',
+        label: 'bar',
+        image: '/bar.jpg',
+      },
+    });
+  });
 });

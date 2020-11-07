@@ -46,8 +46,9 @@ exports[`fabien renders properly 1`] = `
       <h1heading-stub>$t('certifications.name')</h1heading-stub>
       <certifications-stub></certifications-stub>
     </section>
-    <section id="miscellaneous">
-      <h1heading-stub>$t('miscellaneous.name')</h1heading-stub>
+    <section id="hobbies">
+      <h1heading-stub>$t('hobbies.name')</h1heading-stub>
+      <hobbies-stub></hobbies-stub>
     </section>
   </main>
 </div>

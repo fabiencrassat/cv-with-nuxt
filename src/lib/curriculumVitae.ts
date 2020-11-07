@@ -92,6 +92,13 @@ interface ICurriculumVitae {
       [key: string]: any;
     };
   };
+  hobbies: {
+    [key: string]: {
+      label: ILang;
+      image: string;
+      [key: string]: any;
+    };
+  };
 }
 
 export default class CurriculumVitae {
@@ -266,6 +273,29 @@ export default class CurriculumVitae {
         result[certificationKey][key] = element;
       }
       result[certificationKey].id = certificationKey;
+    }
+    return result;
+  }
+
+  /*
+   * Hobbies
+   */
+
+  public getHobbies() {
+    const hobbies = this.curriculumVitae.hobbies;
+    // Clone the object not to alter it
+    const result = Object.assign({}, hobbies);
+    for (const hobbyKey in hobbies) {
+      const hobby = hobbies[hobbyKey];
+      // Clone the object not to alter it
+      result[hobbyKey] = Object.assign({}, hobby);
+      for (const key in hobby) {
+        let element = hobby[key];
+        element = Tools.getLangValue(element, this._lang);
+        element = Tools.getCrossRefValue(this, element);
+        result[hobbyKey][key] = element;
+      }
+      result[hobbyKey].id = hobbyKey;
     }
     return result;
   }
