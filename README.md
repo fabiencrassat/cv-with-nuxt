@@ -88,14 +88,14 @@ In order to group test files, they are following a naming convention:
 
 ## Start like production
 
-This site is a staic website. So to replicate what is deployed in the website there are some things to do first.
+This site is a static website. So to replicate what is deployed in the website there are some things to do first.
 
 ```shell
 yarn generate
 yarn start:static
 ```
 
-And open the pages without extension: <http://localhost:3000/fabien>
+And open the page: <http://localhost:3000/fabien>
 
 ## Before commit
 
@@ -125,14 +125,12 @@ In this case and depending the context, exclude theses files in:
 
 In two shell windows:
 
-```bash
-yarn generate
-yarn start:static # like production or yarn dev
-```
+1. [Start like production](#start-like-production)
+2. Run the validation
 
-```bash
-yarn validate:pages
-```
+    ```bash
+    yarn validate:pages
+    ```
 
 The source code of the pages from `src/pages` for each languages are output in `build/html-pages`.
 
