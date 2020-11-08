@@ -18,6 +18,7 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
   - [Github Workflow](#github-workflow)
   - [Exclude some files](#exclude-some-files)
 - [Code Analysis](#code-analysis)
+  - [HTML & A11Y validator](#html--a11y-validator)
   - [SonarQube](#sonarqube)
     - [SonarQube Installation [Local Only]](#sonarqube-installation-local-only)
     - [SonarQube Usage [Local Only]](#sonarqube-usage-local-only)
@@ -119,6 +120,26 @@ In this case and depending the context, exclude theses files in:
 | `sonar-project.properties` | For the coverage in the key `sonar.coverage.exclusions`. |
 
 ## Code Analysis
+
+### HTML & A11Y validator
+
+In two shell windows:
+
+```bash
+yarn generate
+yarn start:static # like production or yarn dev
+```
+
+```bash
+yarn validate:pages
+```
+
+The source code of the pages from `src/pages` for each languages are output in `build/html-pages`.
+
+If there are some exceptions to exclude, add entries in:
+
+- `lib/utils/validators/htmlValidator.js` for HTML validator.
+- `lib/utils/validators/a11yValidator.js` for a11y validator (TODO: need to be checked).
 
 ### SonarQube
 
