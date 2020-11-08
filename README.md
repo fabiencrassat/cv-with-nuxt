@@ -72,8 +72,9 @@ The product source code is structured with:
       ├── assets      # All static files that need to be served without i18n.
       ├── components  # All codes imported in the `src/pages/` files, **using nuxt and vue**.
       ├── locales     # All i18n json files.
-      ├── middleware  # All files used in the server side.
-      └── pages       # All the application pages called with URL, served with **nuxt** and **i18n**.
+      ├── pages       # All the application pages called with URL, served with **nuxt** and **i18n**.
+      ├── resources   # All resources to build the curriculum vitae.
+      └── static      # All public files that can be link from the root website.
 ```
 
 ### Testing files conventions
