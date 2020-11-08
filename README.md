@@ -136,10 +136,7 @@ yarn validate:pages
 
 The source code of the pages from `src/pages` for each languages are output in `build/html-pages`.
 
-If there are some exceptions to exclude, add entries in:
-
-- `lib/utils/validators/htmlValidator.js` for HTML validator.
-- `lib/utils/validators/a11yValidator.js` for a11y validator (TODO: need to be checked).
+If there are some exceptions to exclude, add entries in `config/validators.config.js`.
 
 ### SonarQube
 
