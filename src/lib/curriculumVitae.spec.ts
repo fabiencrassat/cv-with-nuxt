@@ -78,39 +78,41 @@ describe('fabien', () => {
   it('should return no follow link', () => {
     expect.assertions(2);
     const curriculumVitae = preTest();
-    expect(curriculumVitae.getFollowMe()).toStrictEqual([]);
+    expect(curriculumVitae.getFollowMe()).toStrictEqual({});
   });
   it('should return follow links', () => {
     expect.assertions(2);
     const curriculumVitae = preTest({
       lang: 'en',
       mockFabien: {
-        followMe: [
-          {
+        followMe: {
+          foo: {
             label: { en: 'Label en 1', fr: 'Label fr 1' },
             url: 'url1',
             svg: 'component1',
           },
-          {
+          bar: {
             label: { en: 'Label en 2', fr: 'Label fr 2' },
             url: 'url2',
             svg: 'component2',
           },
-        ],
+        },
       },
     });
-    expect(curriculumVitae.getFollowMe()).toStrictEqual([
-      {
+    expect(curriculumVitae.getFollowMe()).toStrictEqual({
+      foo: {
+        id: 'foo',
         label: 'Label en 1',
         url: 'url1',
         svg: 'component1',
       },
-      {
+      bar: {
+        id: 'bar',
         label: 'Label en 2',
         url: 'url2',
         svg: 'component2',
       },
-    ]);
+    });
   });
   it('should return no experiences', () => {
     expect.assertions(2);

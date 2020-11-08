@@ -20,10 +20,20 @@ describe('leftSide', () => {
     expect(
       testUtils.htmlFactory(FollowMe, {
         propsData: {
-          links: [
-            { label: 'Label 1', url: 'url1', svg: 'component1' },
-            { label: 'Label 2', url: 'url2', svg: 'component2' },
-          ],
+          links: {
+            foo: {
+              id: 'foo',
+              label: 'Label 1',
+              url: 'url1',
+              svg: 'component1',
+            },
+            bar: {
+              id: 'bar',
+              label: 'Label 2',
+              url: 'url2',
+              svg: 'component2',
+            },
+          },
         },
         stubs,
       })

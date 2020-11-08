@@ -5,8 +5,8 @@
       "picture": "/fabien-crassat.jpeg"
     }
   },
-  "followMe": [
-    {
+  "followMe": {
+    "linkedin": {
       "label": {
         "en": "Follow me in LinkedIn",
         "fr": "Suivez moi sur LinkedIn"
@@ -14,7 +14,7 @@
       "url": "http://www.linkedin.com/in/fabiencrassat",
       "svg": "LinkedInSvgIcon"
     },
-    {
+    "viadeo": {
       "label": {
         "en": "Follow me in Viadeo",
         "fr": "Suivez moi sur Viadeo"
@@ -22,7 +22,7 @@
       "url": "http://fr.viadeo.com/fr/profile/fabien.crassat",
       "svg": "ViadeoSvgIcon"
     },
-    {
+    "monster": {
       "label": {
         "en": "Follow me in Monster",
         "fr": "Suivez moi sur Monster"
@@ -30,7 +30,7 @@
       "url": "http://beknown.com/fabien-crassat",
       "svg": "MonsterInSvgIcon"
     },
-    {
+    "twitter": {
       "label": {
         "en": "Follow me in Twitter",
         "fr": "Suivez moi sur Twitter"
@@ -38,7 +38,7 @@
       "url": "https://twitter.com/fabiencrassat",
       "svg": "TwitterSvgIcon"
     },
-    {
+    "facebook": {
       "label": {
         "en": "Follow me in Facebook",
         "fr": "Suivez moi sur Facebook"
@@ -46,7 +46,7 @@
       "url": "https://www.facebook.com/fabien.crassat",
       "svg": "FacebookSvgIcon"
     },
-    {
+    "scrumalliance": {
       "label": {
         "en": "Follow me in Scrum Alliance",
         "fr": "Suivez moi sur Scrum Alliance"
@@ -54,7 +54,7 @@
       "url": "http://www.scrumalliance.org/community/profile/fcrassat",
       "svg": "ScrumAllianceSvgIcon"
     },
-    {
+    "github": {
       "label": {
         "en": "Follow me in Github",
         "fr": "Suivez moi sur Github"
@@ -62,7 +62,7 @@
       "url": "https://github.com/fabiencrassat",
       "svg": "GithubSvgIcon"
     }
-  ],
+  },
   "lookingFor": {
     "experience": {
       "crossref": "curriculumVitae.experiences.Reacteev.job"

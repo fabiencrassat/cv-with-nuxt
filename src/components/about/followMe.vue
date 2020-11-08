@@ -39,9 +39,9 @@ export default {
   },
   props: {
     links: {
-      // Example: [{ label: 'Foo', url: 'Bar', svg: 'component' }]
-      type: Array,
-      default: () => [],
+      // Example: {}
+      type: Object,
+      default: () => {},
     },
   },
 };
