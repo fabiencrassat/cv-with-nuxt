@@ -8,9 +8,14 @@
     >
       <div
         class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center"
-        :style="'background-image: url(' + item.jobImage + ');'"
-        :title="item.job"
-      />
+      >
+        <!-- eslint-disable-next-line vue/html-self-closing -->
+        <img
+          :src="item.jobImage"
+          :alt="item.job"
+          class="h-48 w-full object-cover"
+        />
+      </div>
       <div
         class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal lg:w-full"
       >
