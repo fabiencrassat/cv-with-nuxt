@@ -219,7 +219,6 @@ yarn validate:lighthouse
 - Configuration
   - [ ] Move all configuration files (babel, nuxt, vercel) into `config/` folder.
 - Build
-  - [ ] Optimize the Yarn cache folder in the Github pipeline (<https://github.com/actions/cache/blob/master/examples.md#node---yarn>).
   - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
   - [ ] Fix in `config/lighthouserc.js` the exception assertions.
   - [ ] Use the preview url in `robots.txt` and `sitemap.xml`.
