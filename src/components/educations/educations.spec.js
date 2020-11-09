@@ -10,7 +10,7 @@ describe('educations', () => {
   it('renders properly', () => {
     expect.hasAssertions();
     expect(testUtils.htmlFactory(Educations)).toMatchInlineSnapshot(`
-      <section class="py-1 px-12">
+      <section class="px-12">
         <ul class="relative"></ul>
       </section>
     `);

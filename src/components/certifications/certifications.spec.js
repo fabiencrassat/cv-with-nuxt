@@ -10,7 +10,7 @@ describe('certifications', () => {
   it('renders properly', () => {
     expect.hasAssertions();
     expect(testUtils.htmlFactory(Certifications)).toMatchInlineSnapshot(
-      '<div class="flex flex-wrap"></div>'
+      '<div class="flex flex-wrap -mb-5"></div>'
     );
   });
   it('renders properly with props', () => {
@@ -33,8 +33,8 @@ describe('certifications', () => {
         },
       })
     ).toMatchInlineSnapshot(`
-      <div class="flex flex-wrap">
-        <div class="relative rounded-lg shadow-lg text-center bg-white m-5 p-5 w-64"><img src="/img1" alt="label1" height="200" width="200" class="m-auto">
+      <div class="flex flex-wrap -mb-5">
+        <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img1" alt="label1" height="200" width="200" class="m-auto">
           <p class="font-black mt-5 mb-3">
             label1
           </p>
@@ -42,7 +42,7 @@ describe('certifications', () => {
             date1
           </p>
         </div>
-        <div class="relative rounded-lg shadow-lg text-center bg-white m-5 p-5 w-64"><img src="/img2" alt="label2" height="200" width="200" class="m-auto">
+        <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img2" alt="label2" height="200" width="200" class="m-auto">
           <p class="font-black mt-5 mb-3">
             label2
           </p>

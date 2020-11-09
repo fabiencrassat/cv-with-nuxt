@@ -46,7 +46,7 @@
         },
       ]"
     />
-    <main class="p-4 pt-10 sm:pt-4">
+    <main class="p-4">
       <section id="identity">
         <H1Heading>{{ $t('identity.name') }}</H1Heading>
         <p class="text-justify">

@@ -27,6 +27,6 @@ module.exports = {
   },
   variants: {
     backgroundColor: ['odd'],
-    margin: ['responsive', 'last'],
+    margin: ['responsive', 'last', 'first'],
   },
 };

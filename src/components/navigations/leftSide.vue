@@ -22,7 +22,7 @@
         />
         <div
           id="menu"
-          class="z-20 fixed top-0 left-0 bg-blue-700 w-screen sm:w-24 md:w-56 h-screen transform -translate-x-full sm:translate-x-0 transition-transform duration-500 ease-in-out overflow-y-scroll"
+          class="z-20 fixed top-0 left-0 bg-blue-700 w-screen sm:w-24 md:w-56 h-screen transform -translate-x-full sm:translate-x-0 transition-transform duration-500 ease-in-out overflow-y-auto"
         >
           <header
             class="py-8 pl-2 pr-6 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"
@@ -35,7 +35,7 @@
             <Name class="pt-4" :name="name" />
             <SwitchLang class="pt-4" />
           </header>
-          <ul class="py-2">
+          <ul>
             <li
               v-for="(item, index) in menuItems"
               :key="index"
@@ -150,6 +150,14 @@ export default {
  */
 #menuToggle input:checked ~ #menu {
   transform: none;
+}
+
+li:not(:last-child)::after {
+  content: '';
+  width: 95%;
+  border-bottom: #27598f solid 1px;
+  display: block;
+  margin: auto;
 }
 </style>
 

@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-wrap">
+  <div class="flex flex-wrap -mb-5">
     <div
       v-for="(item, index) in certifications"
       :id="item.id"
       :key="index"
-      class="relative rounded-lg shadow-lg text-center bg-white m-5 p-5 w-64"
+      class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"
     >
       <!-- eslint-disable-next-line vue/html-self-closing -->
       <img

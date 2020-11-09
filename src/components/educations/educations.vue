@@ -1,11 +1,11 @@
 <template>
-  <section class="py-1 px-12">
+  <section class="px-12">
     <ul class="relative">
       <li
         v-for="(item, index) in educations"
         :id="item.id"
         :key="index"
-        class="relative w-full my-16 mx-8"
+        class="relative w-full my-16 ml-8 last:mb-5 first:mt-5"
       >
         <span class="absolute top-0 left-0" />
         <div class="text-lg">

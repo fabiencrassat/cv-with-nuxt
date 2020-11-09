@@ -3,12 +3,12 @@
     <div
       v-for="(skillsGroup, indexSkills) in skills"
       :key="indexSkills"
-      class="flex bg-white shadow-lg rounded-lg md:mx-auto max-w-md md:max-w-2xl mb-4"
+      class="flex bg-white shadow-lg rounded-lg md:mx-auto max-w-md md:max-w-2xl mb-4 last:mb-0"
     >
       <div class="flex items-start px-4 py-6 w-full">
         <component :is="skillsGroup.svg" class="w-12 mr-4" />
         <div class="w-full">
-          <h2 class="text-lg font-semibold text-gray-900 -mt-1 mb-4">
+          <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">
             {{ skillsGroup.label }}
           </h2>
           <ProgressBar
