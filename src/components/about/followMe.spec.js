@@ -11,9 +11,15 @@ describe('leftSide', () => {
 
   it('renders properly', () => {
     expect.hasAssertions();
-    expect(testUtils.htmlFactory(FollowMe)).toMatchInlineSnapshot(
-      '<div class="flex justify-around flex-wrap"></div>'
-    );
+    expect(testUtils.htmlFactory(FollowMe)).toMatchInlineSnapshot('""');
+  });
+  it('renders properly with empty object', () => {
+    expect.hasAssertions();
+    expect(
+      testUtils.htmlFactory(FollowMe, {
+        propsData: { links: {} },
+      })
+    ).toMatchInlineSnapshot('""');
   });
   it('renders properly with props', () => {
     expect.hasAssertions();

@@ -1,5 +1,11 @@
+<!-- eslint-disable vue/html-indent -->
 <template>
-  <div class="flex justify-around flex-wrap">
+  <div
+    v-if="
+      links && Object.keys(links).length !== 0 && links.constructor === Object
+    "
+    class="flex justify-around flex-wrap"
+  >
     <a
       v-for="(item, index) in links"
       :key="index"

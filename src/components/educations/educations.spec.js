@@ -9,11 +9,13 @@ describe('educations', () => {
 
   it('renders properly', () => {
     expect.hasAssertions();
-    expect(testUtils.htmlFactory(Educations)).toMatchInlineSnapshot(`
-      <section class="px-12">
-        <ul class="relative"></ul>
-      </section>
-    `);
+    expect(testUtils.htmlFactory(Educations)).toMatchInlineSnapshot('""');
+  });
+  it('renders properly with empty object', () => {
+    expect.hasAssertions();
+    expect(
+      testUtils.htmlFactory(Educations, { propsData: { educations: {} } })
+    ).toMatchInlineSnapshot('""');
   });
   it('renders properly with props', () => {
     expect.hasAssertions();

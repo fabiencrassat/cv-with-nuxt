@@ -1,5 +1,12 @@
+<!-- eslint-disable vue/html-indent -->
 <template>
-  <div>
+  <div
+    v-if="
+      experiences &&
+      Object.keys(experiences).length !== 0 &&
+      experiences.constructor === Object
+    "
+  >
     <div
       v-for="(item, index) in experiences"
       :id="item.id"

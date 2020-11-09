@@ -1,5 +1,12 @@
+<!-- eslint-disable vue/html-indent -->
 <template>
-  <div>
+  <div
+    v-if="
+      languages &&
+      Object.keys(languages).length !== 0 &&
+      languages.constructor === Object
+    "
+  >
     <dl>
       <div
         v-for="(item, index) in languages"

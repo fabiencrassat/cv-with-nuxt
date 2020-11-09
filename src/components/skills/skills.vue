@@ -1,5 +1,12 @@
+<!-- eslint-disable vue/html-indent -->
 <template>
-  <div>
+  <div
+    v-if="
+      skills &&
+      Object.keys(skills).length !== 0 &&
+      skills.constructor === Object
+    "
+  >
     <div
       v-for="(skillsGroup, indexSkills) in skills"
       :key="indexSkills"

@@ -9,9 +9,15 @@ describe('certifications', () => {
 
   it('renders properly', () => {
     expect.hasAssertions();
-    expect(testUtils.htmlFactory(Certifications)).toMatchInlineSnapshot(
-      '<div class="flex flex-wrap -mb-5"></div>'
-    );
+    expect(testUtils.htmlFactory(Certifications)).toMatchInlineSnapshot('""');
+  });
+  it('renders properly with empty object', () => {
+    expect.hasAssertions();
+    expect(
+      testUtils.htmlFactory(Certifications, {
+        propsData: { certifications: {} },
+      })
+    ).toMatchInlineSnapshot('""');
   });
   it('renders properly with props', () => {
     expect.hasAssertions();

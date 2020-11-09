@@ -35,7 +35,7 @@
             <Name class="pt-4" :name="name" />
             <SwitchLang class="pt-4" />
           </header>
-          <ul>
+          <ul v-if="menuItems && menuItems.length !== 0">
             <li
               v-for="(item, index) in menuItems"
               :key="index"

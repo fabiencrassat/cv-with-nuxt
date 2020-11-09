@@ -1,5 +1,13 @@
+<!-- eslint-disable vue/html-indent -->
 <template>
-  <section class="px-12">
+  <div
+    v-if="
+      educations &&
+      Object.keys(educations).length !== 0 &&
+      educations.constructor === Object
+    "
+    class="px-12"
+  >
     <ul class="relative">
       <li
         v-for="(item, index) in educations"
@@ -24,7 +32,7 @@
         </div>
       </li>
     </ul>
-  </section>
+  </div>
 </template>
 
 <script>

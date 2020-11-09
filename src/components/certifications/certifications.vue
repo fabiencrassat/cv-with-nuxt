@@ -1,5 +1,13 @@
+<!-- eslint-disable vue/html-indent -->
 <template>
-  <div class="flex flex-wrap -mb-5">
+  <div
+    v-if="
+      certifications &&
+      Object.keys(certifications).length !== 0 &&
+      certifications.constructor === Object
+    "
+    class="flex flex-wrap -mb-5"
+  >
     <div
       v-for="(item, index) in certifications"
       :id="item.id"

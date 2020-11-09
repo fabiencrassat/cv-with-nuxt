@@ -1,5 +1,11 @@
+<!-- eslint-disable vue/html-indent -->
 <template>
   <div
+    v-if="
+      hobbies &&
+      Object.keys(hobbies).length !== 0 &&
+      hobbies.constructor === Object
+    "
     class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto px-8"
   >
     <div

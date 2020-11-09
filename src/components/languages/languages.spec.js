@@ -9,11 +9,15 @@ describe('languages', () => {
 
   it('renders properly', () => {
     expect.hasAssertions();
-    expect(testUtils.htmlFactory(Languages)).toMatchInlineSnapshot(`
-      <div>
-        <dl></dl>
-      </div>
-    `);
+    expect(testUtils.htmlFactory(Languages)).toMatchInlineSnapshot('""');
+  });
+  it('renders properly with empty object', () => {
+    expect.hasAssertions();
+    expect(
+      testUtils.htmlFactory(Languages, {
+        propsData: { languages: {} },
+      })
+    ).toMatchInlineSnapshot('""');
   });
   it('renders properly with props', () => {
     expect.hasAssertions();

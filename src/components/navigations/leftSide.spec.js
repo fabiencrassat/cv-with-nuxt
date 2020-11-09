@@ -17,6 +17,19 @@ describe('leftSide', () => {
       // eslint-disable-next-line jest/prefer-inline-snapshots
     ).toMatchSnapshot();
   });
+  it('renders properly with empty object', () => {
+    expect.hasAssertions();
+    const propsDataWithMenuItems = Object.assign({}, propsData, {
+      'menu-items': [],
+    });
+    expect(
+      testUtils.htmlFactory(NavigationLeftSide, {
+        propsData: propsDataWithMenuItems,
+        stubs,
+      })
+      // eslint-disable-next-line jest/prefer-inline-snapshots
+    ).toMatchSnapshot();
+  });
   it('renders properly with props', () => {
     expect.hasAssertions();
     const propsDataWithMenuItems = Object.assign({}, propsData, {

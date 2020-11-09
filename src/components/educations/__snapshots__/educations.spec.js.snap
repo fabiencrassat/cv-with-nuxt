@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`educations renders properly with props 1`] = `
-<section class="px-12">
+<div class="px-12">
   <ul class="relative">
     <li id="school1" class="relative w-full my-16 ml-8 last:mb-5 first:mt-5"><span class="absolute top-0 left-0"></span>
       <div class="text-lg">
@@ -31,5 +31,5 @@ exports[`educations renders properly with props 1`] = `
       <div class="year"><span class="absolute text-right">dec 2000</span> <span class="absolute text-right"></span></div>
     </li>
   </ul>
-</section>
+</div>
 `;

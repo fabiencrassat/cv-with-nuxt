@@ -9,9 +9,15 @@ describe('experiences', () => {
 
   it('renders properly', () => {
     expect.hasAssertions();
-    expect(testUtils.htmlFactory(Experiences)).toMatchInlineSnapshot(
-      '<div></div>'
-    );
+    expect(testUtils.htmlFactory(Experiences)).toMatchInlineSnapshot('""');
+  });
+  it('renders properly with empty object', () => {
+    expect.hasAssertions();
+    expect(
+      testUtils.htmlFactory(Experiences, {
+        propsData: { experiences: {} },
+      })
+    ).toMatchInlineSnapshot('""');
   });
   it('renders properly with props', () => {
     expect.hasAssertions();

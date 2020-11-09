@@ -9,9 +9,15 @@ describe('hobbies', () => {
 
   it('renders properly', () => {
     expect.hasAssertions();
-    expect(testUtils.htmlFactory(Hobbies)).toMatchInlineSnapshot(
-      '<div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto px-8"></div>'
-    );
+    expect(testUtils.htmlFactory(Hobbies)).toMatchInlineSnapshot('""');
+  });
+  it('renders properly with empty object', () => {
+    expect.hasAssertions();
+    expect(
+      testUtils.htmlFactory(Hobbies, {
+        propsData: { hobbies: {} },
+      })
+    ).toMatchInlineSnapshot('""');
   });
   it('renders properly with props', () => {
     expect.hasAssertions();

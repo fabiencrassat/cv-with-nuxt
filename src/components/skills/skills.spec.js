@@ -11,7 +11,15 @@ describe('skills', () => {
 
   it('renders properly', () => {
     expect.hasAssertions();
-    expect(testUtils.htmlFactory(Skills)).toMatchInlineSnapshot('<div></div>');
+    expect(testUtils.htmlFactory(Skills)).toMatchInlineSnapshot('""');
+  });
+  it('renders properly with empty object', () => {
+    expect.hasAssertions();
+    expect(
+      testUtils.htmlFactory(Skills, {
+        propsData: { languages: {} },
+      })
+    ).toMatchInlineSnapshot('""');
   });
   it('renders properly with props', () => {
     expect.hasAssertions();
