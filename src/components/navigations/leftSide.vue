@@ -22,7 +22,7 @@
         />
         <div
           id="menu"
-          class="z-20 fixed top-0 left-0 bg-blue-700 w-screen sm:w-24 md:w-56 h-screen transform -translate-x-full sm:translate-x-0 transition-transform duration-500 ease-in-out"
+          class="z-20 fixed top-0 left-0 bg-blue-700 w-screen sm:w-24 md:w-56 h-screen transform -translate-x-full sm:translate-x-0 transition-transform duration-500 ease-in-out overflow-y-scroll"
         >
           <header
             class="py-8 pl-2 pr-6 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"
