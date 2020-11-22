@@ -48,7 +48,9 @@
     />
     <main class="p-4">
       <section id="identity">
-        <H1Heading>{{ $t('identity.name') }}</H1Heading>
+        <H1Heading :first="true">
+          {{ $t('identity.name') }}
+        </H1Heading>
         <p class="text-justify">
           <span class="text-lg text-blue-700 italic whitespace-no-wrap">
             39 years
