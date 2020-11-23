@@ -67,10 +67,10 @@
         <p class="text-justify">
           {{ CurriculumVitae.getPresentation() }}
         </p>
-        <FollowMe :links="CurriculumVitae.getFollowMe()" />
       </section>
       <section id="contact-me">
         <H1Heading>{{ $t('contact-me.name') }}</H1Heading>
+        <FollowMe :links="CurriculumVitae.getFollowMe()" />
         <ContactMe />
       </section>
       <section id="experiences">
@@ -108,7 +108,7 @@ import ColoursSvgIcon from '~/components/svgIcons/colours';
 import ContactMe from '~/components/contact-me/contact-me';
 import Educations from '~/components/educations/educations';
 import Experiences from '~/components/experiences/experiences';
-import FollowMe from '~/components/about/followMe';
+import FollowMe from '~/components/follow-me/followMe';
 import GraduationCapSvgIcon from '~/components/svgIcons/graduation-cap';
 import H1Heading from '~/components/headings/h1.vue';
 import Hobbies from '~/components/hobbies/hobbies.vue';

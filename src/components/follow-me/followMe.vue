@@ -4,12 +4,12 @@
     v-if="
       links && Object.keys(links).length !== 0 && links.constructor === Object
     "
-    class="flex justify-around flex-wrap"
+    class="flex flex-wrap"
   >
     <a
       v-for="(item, index) in links"
       :key="index"
-      class="hover:text-blue-700 p-2 m-2"
+      class="hover:text-blue-700 p-2 m-2 first:ml-0"
       target="_blank"
       :aria-label="item.label"
       :href="item.url"

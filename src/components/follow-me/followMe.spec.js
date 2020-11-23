@@ -44,9 +44,9 @@ describe('leftSide', () => {
         stubs,
       })
     ).toMatchInlineSnapshot(`
-      <div class="flex justify-around flex-wrap"><a target="_blank" aria-label="Label 1" href="url1" rel="noopener noreferrer" title="Label 1" class="hover:text-blue-700 p-2 m-2">
+      <div class="flex flex-wrap"><a target="_blank" aria-label="Label 1" href="url1" rel="noopener noreferrer" title="Label 1" class="hover:text-blue-700 p-2 m-2 first:ml-0">
           <component1-stub></component1-stub>
-        </a><a target="_blank" aria-label="Label 2" href="url2" rel="noopener noreferrer" title="Label 2" class="hover:text-blue-700 p-2 m-2">
+        </a><a target="_blank" aria-label="Label 2" href="url2" rel="noopener noreferrer" title="Label 2" class="hover:text-blue-700 p-2 m-2 first:ml-0">
           <component2-stub></component2-stub>
         </a></div>
     `);

@@ -22,10 +22,10 @@ exports[`fabien renders properly 1`] = `
       <p class="text-justify">
         getPresentation
       </p>
-      <followme-stub></followme-stub>
     </section>
     <section id="contact-me">
       <h1heading-stub>$t('contact-me.name')</h1heading-stub>
+      <followme-stub></followme-stub>
       <contactme-stub></contactme-stub>
     </section>
     <section id="experiences">
