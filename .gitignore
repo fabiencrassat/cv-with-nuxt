@@ -8,3 +8,5 @@ dist
 node_modules
 .env
 
+# PWA module
+src/static/sw.js

@@ -6,10 +6,7 @@ const baseUrl = process.env.LHCI_BASE_URL || localhostUrl;
 const assertions = function assertions() {
   // FIXME: Resolve and remove them
   const result = {
-    'offline-start-url': 'warn',
-    'service-worker': 'warn',
     'unused-javascript': 'warn',
-    'works-offline': 'warn',
   };
   if (baseUrl === localhostUrl) {
     return Object.assign(result, {

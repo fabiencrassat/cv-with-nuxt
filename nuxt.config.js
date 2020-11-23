@@ -1,3 +1,5 @@
+import curriculumVitae from './src/resources/fabien';
+
 const getBaseUrl = function getBaseUrl() {
   if (process.env.ENVIRONMENT_DEPLOYMENT === 'production') {
     return 'https://cv2.crassat.com';
@@ -10,7 +12,8 @@ const getBaseUrl = function getBaseUrl() {
 
 const baseUrl = getBaseUrl();
 const siteMapUrl = '/sitemap.xml';
-const title = 'Curriculum Vitae';
+const title = `${curriculumVitae.identity.myself.fullName} CV`;
+const description = `${curriculumVitae.identity.myself.fullName} - ${curriculumVitae.experiences.Reacteev.job.en}`;
 const nuxtConfig = {
   nuxti18n: {
     baseUrl,
@@ -60,6 +63,7 @@ module.exports = {
   },
   buildModules: [
     '@nuxtjs/google-analytics',
+    '@nuxtjs/pwa',
     ['@nuxt/typescript-build', { typeCheck: false }],
     '@nuxtjs/tailwindcss',
   ],
@@ -77,13 +81,7 @@ module.exports = {
     ],
   },
   head: {
-    title,
     link: [
-      {
-        rel: 'apple-touch-icon',
-        sizes: '180x180',
-        href: '/apple-touch-icon.png?v=pglLvXNvMx',
-      },
       {
         rel: 'icon',
         type: 'image/png',
@@ -100,7 +98,7 @@ module.exports = {
         rel: 'icon',
         type: 'image/png',
         sizes: '192x192',
-        href: '/android-chrome-192x192.png?v=pglLvXNvMx',
+        href: '/favicon-192x192.png?v=pglLvXNvMx',
       },
       {
         rel: 'icon',
@@ -109,58 +107,25 @@ module.exports = {
         href: '/favicon-16x16.png?v=pglLvXNvMx',
       },
       {
-        rel: 'manifest',
-        href: '/site.webmanifest?v=pglLvXNvMx',
-      },
-      {
         rel: 'mask-icon',
         href: '/safari-pinned-tab.svg?v=pglLvXNvMx',
         color: '#2d89ef',
       },
-      {
-        rel: 'shortcut icon',
-        href: '/favicon.ico?v=pglLvXNvMx',
-      },
     ],
     meta: [
-      { charset: 'utf-8' },
+      // No meta tag depending of the language here, add them inside the pages
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: '',
-      },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       {
         hid: 'og:url',
         name: 'og:url',
         content: baseUrl,
       },
-      {
-        hid: 'og:title',
-        name: 'og:title',
-        content: title,
-      },
-      {
-        hid: 'og:site_name',
-        name: 'og:site_name',
-        content: title,
-      },
       { hid: 'og:locale', name: 'og:locale', content: 'fr_FR' },
       {
         hid: 'og:image',
         name: 'og:image',
         content: '/fabien-crassat.jpeg',
-      },
-      {
-        hid: 'apple-mobile-web-app-title',
-        name: 'apple-mobile-web-app-title',
-        content: title,
-      },
-      {
-        hid: 'application-name',
-        name: 'application-name',
-        content: title,
       },
       { name: 'msapplication-TileColor', content: '#2d89ef' },
       {
@@ -176,6 +141,23 @@ module.exports = {
     ['@nuxtjs/robots', nuxtConfig.robots],
     'nuxt-lazy-load',
   ],
+  pwa: {
+    icon: {
+      sizes: [36, 48, 64, 72, 96, 120, 144, 152, 192, 256, 384, 512],
+    },
+    manifest: {
+      name: title,
+      short_name: title,
+      description,
+    },
+    meta: {
+      description,
+      theme_color: '#ffffff',
+    },
+    workbox: {
+      offlineAnalytics: true,
+    },
+  },
   sitemap: {
     cacheTime: 1000 * 60 * 15,
     gzip: true,
