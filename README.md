@@ -221,7 +221,6 @@ yarn validate:lighthouse
 - Build
   - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
   - [ ] Fix in `config/lighthouserc.js` the exception assertions.
-  - [ ] Use the preview url in `robots.txt` and `sitemap.xml`.
   - [ ] Stop CI when warning is present in `yarn generate` command.
   - [ ] FIXME: The conservative purge mode will be removed in **Tailwind 2.0**, switch to the new layers mode instead.
 - Test
