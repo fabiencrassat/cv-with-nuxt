@@ -12,11 +12,11 @@
       v-for="(item, index) in hobbies"
       :id="item.id"
       :key="index"
-      class="w-full bg-white rounded h-full text-grey-darkest no-underline shadow-md"
+      class="flex flex-col justify-between w-full bg-white rounded h-full text-grey-darkest no-underline shadow-md"
     >
-      <h1 class="text-3xl p-6 whitespace-no-wrap">
+      <div class="text-2xl sm:text-3xl p-6">
         {{ item.label }}
-      </h1>
+      </div>
       <!-- eslint-disable-next-line vue/html-self-closing -->
       <img
         class="w-full block rounded-b"

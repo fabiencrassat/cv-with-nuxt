@@ -697,57 +697,57 @@
   "hobbies": {
     "swimming": {
       "label": {
-        "fr": "Piscine",
-        "en": "Swimming"
+        "fr": "Compter les longueurs de piscine",
+        "en": "Count pool lengths"
       },
       "image": "/img/hobbies/swimming.webp"
     },
     "automobile": {
       "label": {
-        "fr": "Automobile",
-        "en": "Automobile"
+        "fr": "Conducteur de 2CV",
+        "en": "2CV driver"
       },
       "image": "/img/hobbies/automobile.webp"
     },
     "astronomie": {
       "label": {
-        "fr": "Astronomie",
-        "en": "Astronomy"
+        "fr": "Connaitre les étoiles",
+        "en": "Know the stars"
       },
       "image": "/img/hobbies/astronomy.webp"
     },
     "aérospatial": {
       "label": {
-        "fr": "Aérospatial",
-        "en": "Aerospace"
+        "fr": "Suivre l'exploration spatial",
+        "en": "Follow space exploration"
       },
       "image": "/img/hobbies/aerospace.webp"
     },
     "music": {
       "label": {
-        "fr": "Musique",
-        "en": "Music"
+        "fr": "Écouter FIP",
+        "en": "Listen to FIP"
       },
       "image": "/img/hobbies/music.webp"
     },
     "voyages": {
       "label": {
-        "fr": "Voyages",
-        "en": "Voyages"
+        "fr": "Découvrir le monde",
+        "en": "Discover the world"
       },
       "image": "/img/hobbies/voyages.webp"
     },
     "cinema": {
       "label": {
-        "fr": "Cinema",
-        "en": "Movies"
+        "fr": "Les bons films et les bonnes séries",
+        "en": "The good movies and the good series"
       },
       "image": "/img/hobbies/cinema.webp"
     },
     "videoGames": {
       "label": {
-        "fr": "Jeux vidéo",
-        "en": "Video games"
+        "fr": "Les jeux vidéo online avec les copains",
+        "en": "Online video games with friends"
       },
       "image": "/img/hobbies/video-games.webp"
     }
