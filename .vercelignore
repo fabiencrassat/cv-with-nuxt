@@ -9,9 +9,10 @@ config/*
 /lib
 node_modules
 /scripts
-.env
 .babelrc
+.env
 .env.dist
+.eslintcache
 .eslintrc.json
 .gitattributes
 .prettierrc.json

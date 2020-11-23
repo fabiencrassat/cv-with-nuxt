@@ -7,6 +7,7 @@ coverage
 dist
 node_modules
 .env
+.eslintcache
 
 # PWA module
 src/static/sw.js
