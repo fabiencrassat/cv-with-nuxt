@@ -2,7 +2,13 @@ import NavigationLeftSide from './leftSide';
 import testUtils from '~~/lib/tests/testUtils';
 
 const propsData = { name: 'foo', picture: 'bar' };
-const stubs = ['nuxt-link', 'component', 'component1', 'component2'];
+const stubs = [
+  'nuxt-link',
+  'component',
+  'component1',
+  'component2',
+  'component3',
+];
 
 describe('leftSide', () => {
   it('mounts properly', () => {
@@ -36,6 +42,7 @@ describe('leftSide', () => {
       'menu-items': [
         { name: 'Page 1', url: 'page1', svg: 'component1' },
         { name: 'Page 2', url: 'page2', svg: 'component2' },
+        { name: 'à propos', url: 'about', svg: 'component3' },
       ],
     });
     expect(

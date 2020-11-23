@@ -52,16 +52,23 @@ exports[`leftSide renders properly with props 1`] = `
         </header>
         <ul>
           <li>
-            <nuxt-link-stub to="#page1" title="Page 1" class="link block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left">
+            <nuxt-link-stub to="#page1" title="Page 1" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left">
               <component1-stub class="h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5"></component1-stub> <span class="ml-3 capitalize sm:hidden md:inline">
                 Page 1
               </span>
             </nuxt-link-stub>
           </li>
           <li>
-            <nuxt-link-stub to="#page2" title="Page 2" class="link block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left">
+            <nuxt-link-stub to="#page2" title="Page 2" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left">
               <component2-stub class="h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5"></component2-stub> <span class="ml-3 capitalize sm:hidden md:inline">
                 Page 2
+              </span>
+            </nuxt-link-stub>
+          </li>
+          <li>
+            <nuxt-link-stub to="#about" title="À Propos" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left">
+              <component3-stub class="h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5"></component3-stub> <span class="ml-3 capitalize sm:hidden md:inline">
+                à propos
               </span>
             </nuxt-link-stub>
           </li>

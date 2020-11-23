@@ -43,7 +43,7 @@
             >
               <nuxt-link
                 :to="'#' + item.url"
-                class="link block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left"
+                class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left"
                 :title="item.name | capitalize"
               >
                 <component
@@ -82,7 +82,7 @@ export default {
   filters: {
     // eslint-disable-next-line object-shorthand
     capitalize: function (value) {
-      return value.replace(/\w\S*/g, function (word) {
+      return value.replace(/[A-Za-zÀ-ÖØ-öø-ÿ]\S*/g, function (word) {
         return word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
       });
     },
