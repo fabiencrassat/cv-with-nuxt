@@ -2,7 +2,7 @@ import curriculumVitae from './src/resources/fabien';
 
 const getBaseUrl = function getBaseUrl() {
   if (process.env.ENVIRONMENT_DEPLOYMENT === 'production') {
-    return 'https://cv2.crassat.com';
+    return 'https://cv.crassat.com';
   }
   if (process.env.ENVIRONMENT_DEPLOYMENT === 'preview') {
     return 'https://cv-with-nuxt-git-refs-headsmaster.fabiencrassat.vercel.app';
