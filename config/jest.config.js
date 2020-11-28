@@ -9,6 +9,7 @@ module.exports = {
     '!<rootDir>/config/**',
     '!<rootDir>/dist/**',
     '!<rootDir>/src/locales/**',
+    '!<rootDir>/src/static/sw.js',
     '!<rootDir>/nuxt.config.js',
   ],
   coverageDirectory: '<rootDir>/build/coverage',
