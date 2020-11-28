@@ -1,6 +1,6 @@
 # fabiencrassat / My Curriculum Vitae with Nuxt
 
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for mys site.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://app.renovatebot.com/dashboard#github/fabiencrassat/cv-with-nuxt)
 [![Pipeline](https://github.com/fabiencrassat/cv-with-nuxt/workflows/Pipeline/badge.svg)](https://github.com/fabiencrassat/cv-with-nuxt/actions?query=workflow%3APipeline)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cv-with-nuxt&metric=alert_status)](https://sonarcloud.io/dashboard?id=cv-with-nuxt)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=cv-with-nuxt&metric=coverage)](https://sonarcloud.io/dashboard?id=cv-with-nuxt)
