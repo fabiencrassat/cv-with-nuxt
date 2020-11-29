@@ -9,24 +9,23 @@
     class="flex flex-wrap -mb-5"
   >
     <div
-      v-for="(item, index) in certifications"
-      :id="item.id"
-      :key="index"
+      v-for="(value, key) in certifications"
+      :key="key"
       class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"
     >
       <!-- eslint-disable-next-line vue/html-self-closing -->
       <img
-        :src="item.image"
-        :alt="item.label"
+        :src="value.image"
+        :alt="value.label"
         height="200"
         width="200"
         class="m-auto"
       />
       <p class="font-black mt-5 mb-3">
-        {{ item.label }}
+        {{ value.label }}
       </p>
       <p>
-        {{ item.date }}
+        {{ value.date }}
       </p>
     </div>
   </div>

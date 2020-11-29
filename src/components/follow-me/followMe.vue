@@ -7,16 +7,16 @@
     class="flex flex-wrap"
   >
     <a
-      v-for="(item, index) in links"
-      :key="index"
+      v-for="(value, key) in links"
+      :key="key"
       class="hover:text-blue-700 p-2 m-2 first:ml-0"
       target="_blank"
-      :aria-label="item.label"
-      :href="item.url"
+      :aria-label="value.label"
+      :href="value.url"
       rel="noopener noreferrer"
-      :title="item.label"
+      :title="value.label"
     >
-      <component :is="item.svg" />
+      <component :is="value.svg" />
     </a>
   </div>
 </template>

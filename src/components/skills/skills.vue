@@ -8,22 +8,22 @@
     "
   >
     <div
-      v-for="(skillsGroup, indexSkills) in skills"
-      :key="indexSkills"
+      v-for="(skillsGroupValue, skillsGroupKey) in skills"
+      :key="skillsGroupKey"
       class="flex bg-white shadow-lg rounded-lg md:mx-auto max-w-md md:max-w-2xl mb-4 last:mb-0"
     >
       <div class="flex items-start px-4 py-6 w-full">
-        <component :is="skillsGroup.svg" class="w-12 mr-4" />
+        <component :is="skillsGroupValue.svg" class="w-12 mr-4" />
         <div class="w-full">
           <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">
-            {{ skillsGroup.label }}
+            {{ skillsGroupValue.label }}
           </h2>
           <ProgressBar
-            v-for="(item, index) in skillsGroup.items"
+            v-for="(skill, index) in skillsGroupValue.items"
             :key="index"
             class="mb-4"
-            :label="item.label"
-            :percentage="item.percentage"
+            :label="skill.label"
+            :percentage="skill.percentage"
           />
         </div>
       </div>

@@ -8,15 +8,14 @@
     "
   >
     <div
-      v-for="(item, index) in experiences"
-      :id="item.id"
-      :key="index"
+      v-for="(value, key) in experiences"
+      :key="key"
       class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0"
     >
       <div
         class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center"
-        :lazy-background="item.jobImage"
-        :title="item.job"
+        :lazy-background="value.jobImage"
+        :title="value.job"
       />
       <div
         class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full"
@@ -34,32 +33,32 @@
                 clip-rule="evenodd"
               />
             </svg>
-            {{ item.date }}
+            {{ value.date }}
           </p>
           <div class="font-bold text-xl mb-2">
-            {{ item.job }}
+            {{ value.job }}
           </div>
           <ul
-            v-if="item.missions && item.missions.length > 0"
+            v-if="value.missions && value.missions.length > 0"
             class="text-gray-700 text-base"
           >
-            <li v-for="(mission, i) in item.missions" :key="i">
+            <li v-for="(mission, i) in value.missions" :key="i">
               {{ mission }}
             </li>
           </ul>
         </div>
         <a
-          v-if="item.society && item.society.siteurl"
-          :href="item.society.siteurl"
+          v-if="value.society && value.society.siteurl"
+          :href="value.society.siteurl"
           target="_blank"
           rel="noopener noreferrer"
           class="p-4 hover:bg-blue-100"
         >
-          <SocietyContent :society="item.society" />
+          <SocietyContent :society="value.society" />
         </a>
         <SocietyContent
-          v-else-if="item.society"
-          :society="item.society"
+          v-else-if="value.society"
+          :society="value.society"
           class="p-4"
         />
       </div>

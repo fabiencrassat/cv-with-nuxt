@@ -101,13 +101,11 @@ describe('fabien', () => {
     });
     expect(curriculumVitae.getFollowMe()).toStrictEqual({
       foo: {
-        id: 'foo',
         label: 'Label en 1',
         url: 'url1',
         svg: 'component1',
       },
       bar: {
-        id: 'bar',
         label: 'Label en 2',
         url: 'url2',
         svg: 'component2',
@@ -143,12 +141,9 @@ describe('fabien', () => {
       },
     });
     expect(curriculumVitae.getExperiences()).toStrictEqual({
-      myLastJob: {
-        id: 'myLastJob',
-      },
+      myLastJob: {},
       myFirstJob: {
         date: 'Il y a longtemps',
-        id: 'myFirstJob',
         job: 'Un super job',
         society: {
           name: 'Foo Company',
@@ -268,24 +263,19 @@ describe('fabien', () => {
       },
     });
     expect(curriculumVitae.getEducations()).toStrictEqual({
-      highSchool: {
-        id: 'highSchool',
-      },
+      highSchool: {},
       school1: {
         dates: [2000, 2020],
-        id: 'school1',
         label: 'school1',
         description: 'school1 description',
       },
       school2: {
         date: 'jan 2020',
-        id: 'school2',
         label: 'school2',
         description: 'school2 description',
       },
       school3: {
         date: 'dec 2000',
-        id: 'school3',
         label: 'school3',
         description: 'school3 description',
       },
@@ -322,12 +312,10 @@ describe('fabien', () => {
     });
     expect(curriculumVitae.getLanguages()).toStrictEqual({
       english: {
-        id: 'english',
         label: 'english',
         description: 'english description',
       },
       french: {
-        id: 'french',
         label: 'french',
         description: 'french description',
       },
@@ -367,13 +355,11 @@ describe('fabien', () => {
     expect(curriculumVitae.getCertifications()).toStrictEqual({
       certification1: {
         date: 'date1',
-        id: 'certification1',
         label: 'label1',
         image: '/img1',
       },
       certification2: {
         date: 'date2',
-        id: 'certification2',
         label: 'label2',
         image: '/img2',
       },
@@ -406,12 +392,10 @@ describe('fabien', () => {
     });
     expect(curriculumVitae.getHobbies()).toStrictEqual({
       foo: {
-        id: 'foo',
         label: 'foo',
         image: '/foo.jpg',
       },
       bar: {
-        id: 'bar',
         label: 'bar',
         image: '/bar.jpg',
       },

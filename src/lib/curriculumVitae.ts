@@ -201,7 +201,6 @@ class Tools {
         element = Tools.getCrossRefValue(_this, element);
         result[entryKey][key] = element;
       }
-      result[entryKey].id = entryKey;
     }
     return result;
   }

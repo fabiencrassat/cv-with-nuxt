@@ -10,24 +10,23 @@
   >
     <ul class="relative">
       <li
-        v-for="(item, index) in educations"
-        :id="item.id"
-        :key="index"
+        v-for="(value, key) in educations"
+        :key="key"
         class="relative w-full my-16 ml-8 last:mb-5 first:mt-5"
       >
         <span class="absolute top-0 left-0" />
         <div class="text-lg">
-          {{ item.label }}
+          {{ value.label }}
         </div>
         <div class="italic text-gray-700">
-          {{ item.description }}
+          {{ value.description }}
         </div>
         <div class="year">
           <span class="absolute text-right">{{
-            item.dates ? item.dates[1] : item.date
+            value.dates ? value.dates[1] : value.date
           }}</span>
           <span class="absolute text-right">{{
-            item.dates ? item.dates[0] : ''
+            value.dates ? value.dates[0] : ''
           }}</span>
         </div>
       </li>

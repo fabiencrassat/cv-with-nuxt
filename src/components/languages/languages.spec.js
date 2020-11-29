@@ -41,7 +41,7 @@ describe('languages', () => {
     ).toMatchInlineSnapshot(`
       <div>
         <dl>
-          <div id="french" class="bg-white odd:bg-gray-200 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <div class="bg-white odd:bg-gray-200 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt class="text-sm leading-5 font-medium text-gray-900">
               french
             </dt>
@@ -49,7 +49,7 @@ describe('languages', () => {
               french description
             </dd>
           </div>
-          <div id="english" class="bg-white odd:bg-gray-200 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <div class="bg-white odd:bg-gray-200 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt class="text-sm leading-5 font-medium text-gray-900">
               english
             </dt>
