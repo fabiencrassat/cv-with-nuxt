@@ -38,7 +38,7 @@ describe('get_sonar_quality_gate', () => {
   });
   // eslint-disable-next-line jest/prefer-expect-assertions, jest/expect-expect
   it('should throw an error', () => {
-    preTest('http://invalid.url');
+    preTest('https://invalid.url');
     expect(() => {
       require('./get_sonar_quality_gate');
     }).toThrow('Url parameter is not in the whitelist');
