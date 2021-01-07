@@ -190,6 +190,7 @@ jobs:
   lighthouse:
     name: Lighthouse Audit
     needs: [deploy-preview]
+    if: "!startsWith(github.ref, 'refs/heads/renovate')"
     runs-on: ubuntu-latest
     strategy:
       matrix:
