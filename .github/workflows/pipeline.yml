@@ -10,6 +10,9 @@ name: Pipeline
 
 on:
   push:
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
 
 jobs:
   install:

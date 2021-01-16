@@ -229,7 +229,6 @@ yarn validate:lighthouse
     > Search for *`coverage is successful with vue-jest@4.x.x`* in the code.
   - [ ] Remove `levenary` node module due to import error with `@babel/preset-env:7.12.1`.
 - Product
-  - [ ] Add one toggle (hide/expand) for experiences from October 2009
   - [ ] Add a reading progress bar
 - Extra
   - [ ] Add `vue-styleguidist` package.
