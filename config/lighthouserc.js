@@ -28,11 +28,7 @@ module.exports = {
     },
     collect: {
       chromePath: process.env.CHROME_PATH,
-      url: [
-        `${baseUrl}/fabien`,
-        `${baseUrl}/en/fabien`,
-        `${baseUrl}/fr/fabien`,
-      ],
+      url: [`${baseUrl}/en/fabien`, `${baseUrl}/fr/fabien`],
     },
     upload: {
       target: 'lhci',
