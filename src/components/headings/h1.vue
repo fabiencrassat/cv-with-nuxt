@@ -11,7 +11,6 @@
 export default {
   props: {
     first: {
-      // Example: {}
       type: Boolean,
       default: false,
     },

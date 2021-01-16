@@ -100,7 +100,9 @@ export default {
     'menu-items': {
       // Example: [{ name: 'Page 1', url: 'page1', svg: 'component' }]
       type: Array,
-      default: () => [],
+      default() {
+        return [];
+      },
     },
   },
   data() {

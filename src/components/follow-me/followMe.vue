@@ -45,9 +45,10 @@ export default {
   },
   props: {
     links: {
-      // Example: {}
       type: Object,
-      default: () => {},
+      default() {
+        return {};
+      },
     },
   },
 };

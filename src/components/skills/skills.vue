@@ -51,7 +51,9 @@ export default {
   props: {
     skills: {
       type: Object,
-      default: () => {},
+      default() {
+        return {};
+      },
     },
   },
 };

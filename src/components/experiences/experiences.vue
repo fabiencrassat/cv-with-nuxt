@@ -75,9 +75,10 @@ export default {
   },
   props: {
     experiences: {
-      // Example: {}
       type: Object,
-      default: () => {},
+      default() {
+        return {};
+      },
     },
   },
 };

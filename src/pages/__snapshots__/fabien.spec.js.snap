@@ -25,32 +25,32 @@ exports[`fabien renders properly 1`] = `
     </section>
     <section id="contact-me">
       <h1heading-stub>$t('contact-me.name')</h1heading-stub>
-      <followme-stub></followme-stub>
+      <followme-stub links="[object Object]"></followme-stub>
       <contactme-stub></contactme-stub>
     </section>
     <section id="experiences">
       <h1heading-stub>$t('experiences.name')</h1heading-stub>
-      <experiences-stub></experiences-stub>
+      <experiences-stub experiences="[object Object]"></experiences-stub>
     </section>
     <section id="skills">
       <h1heading-stub>$t('skills.name')</h1heading-stub>
-      <skills-stub></skills-stub>
+      <skills-stub skills="[object Object]"></skills-stub>
     </section>
     <section id="educations">
       <h1heading-stub>$t('educations.name')</h1heading-stub>
-      <educations-stub></educations-stub>
+      <educations-stub educations="[object Object]"></educations-stub>
     </section>
     <section id="languages">
       <h1heading-stub>$t('languages.name')</h1heading-stub>
-      <languages-stub></languages-stub>
+      <languages-stub languages="[object Object]"></languages-stub>
     </section>
     <section id="certifications">
       <h1heading-stub>$t('certifications.name')</h1heading-stub>
-      <certifications-stub></certifications-stub>
+      <certifications-stub certifications="[object Object]"></certifications-stub>
     </section>
     <section id="hobbies">
       <h1heading-stub>$t('hobbies.name')</h1heading-stub>
-      <hobbies-stub></hobbies-stub>
+      <hobbies-stub hobbies="[object Object]"></hobbies-stub>
     </section>
   </main>
 </div>

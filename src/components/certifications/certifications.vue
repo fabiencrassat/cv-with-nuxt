@@ -35,9 +35,10 @@
 export default {
   props: {
     certifications: {
-      // Example: {}
       type: Object,
-      default: () => {},
+      default() {
+        return {};
+      },
     },
   },
   // TODO: Remove data() when coverage is successful with vue-jest@4.x.x
