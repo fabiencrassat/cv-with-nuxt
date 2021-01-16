@@ -55,4 +55,53 @@ describe('experiences', () => {
       // eslint-disable-next-line jest/prefer-inline-snapshots
     ).toMatchSnapshot();
   });
+  it('renders a lot of experiences with show more button', async () => {
+    expect.hasAssertions();
+    const wrapper = testUtils.factory(Experiences, {
+      propsData: {
+        experiences: {
+          experience1: {
+            id: 'experience1',
+            jobImage: '/url/to/jobImage',
+            job: 'job',
+            date: 'date',
+          },
+          experience2: {
+            id: 'experience2',
+            jobImage: '/url/to/jobImage',
+            job: 'job',
+            date: 'date',
+          },
+          experience3: {
+            id: 'experience3',
+            jobImage: '/url/to/jobImage',
+            job: 'job',
+            date: 'date',
+          },
+          experience4: {
+            id: 'experience4',
+            jobImage: '/url/to/jobImage',
+            job: 'job',
+            date: 'date',
+          },
+          experience5: {
+            id: 'experience5',
+            jobImage: '/url/to/jobImage',
+            job: 'job',
+            date: 'date',
+          },
+          experience6: {
+            id: 'experience6',
+            jobImage: '/url/to/jobImageAfterClick',
+            job: 'jobAfterClick',
+            date: 'dateAfterClick',
+          },
+        },
+      },
+    });
+    // eslint-disable-next-line jest/prefer-inline-snapshots
+    expect(wrapper.html()).toMatchSnapshot();
+    await wrapper.find('button').trigger('click');
+    expect(wrapper.html()).toMatchSnapshot();
+  });
 });

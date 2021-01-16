@@ -2,13 +2,13 @@
 <template>
   <div
     v-if="
-      experiences &&
-      Object.keys(experiences).length !== 0 &&
-      experiences.constructor === Object
+      showingExperiences &&
+      Object.keys(showingExperiences).length !== 0 &&
+      showingExperiences.constructor === Object
     "
   >
     <div
-      v-for="(value, key) in experiences"
+      v-for="(value, key) in showingExperiences"
       :key="key"
       class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0"
     >
@@ -63,11 +63,23 @@
         />
       </div>
     </div>
+    <div
+      v-if="showingElements < experiencesMaxLength"
+      class="flex items-center justify-center"
+    >
+      <button
+        class="bg-white text-gray-800 font-bold rounded border-b-2 border-blue-500 hover:border-blue-600 hover:bg-blue-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+        @click="showMore"
+      >
+        Show more...
+      </button>
+    </div>
   </div>
 </template>
 
 <script>
 import SocietyContent from './experience-society-content';
+import Config from '~/config/experiences';
 
 export default {
   components: {
@@ -79,6 +91,32 @@ export default {
       default() {
         return {};
       },
+    },
+  },
+  data() {
+    return {
+      experiencesMaxLength: Object.keys(this.experiences).length,
+      showingElements: Config.defaultShowingElements,
+      showingExperiences: this.getShowingExperiences(
+        this.experiences,
+        Config.defaultShowingElements
+      ),
+    };
+  },
+  methods: {
+    getShowingExperiences(experiences, itemToShow) {
+      const showingExperiences = Object.assign({}, experiences);
+      const experienceKeysHidden = Object.keys(showingExperiences);
+      experienceKeysHidden.splice(0, itemToShow);
+      experienceKeysHidden.forEach((key) => delete showingExperiences[key]);
+      return showingExperiences;
+    },
+    showMore() {
+      this.showingElements += this.experiencesMaxLength;
+      this.showingExperiences = this.getShowingExperiences(
+        this.experiences,
+        this.showingElements
+      );
     },
   },
 };

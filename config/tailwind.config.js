@@ -26,7 +26,7 @@ module.exports = {
     },
   },
   variants: {
-    backgroundColor: ['odd'],
+    backgroundColor: ['hover', 'odd'],
     margin: ['responsive', 'last', 'first'],
   },
 };
