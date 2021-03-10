@@ -24,7 +24,7 @@
   "dependencies": {
     "@nuxtjs/robots": "2.5.0",
     "@nuxtjs/sitemap": "2.4.0",
-    "@nuxtjs/tailwindcss": "3.4.2",
+    "@nuxtjs/tailwindcss": "3.4.3",
     "nuxt": "2.14.12",
     "nuxt-i18n": "6.18.0",
     "nuxt-lazy-load": "1.2.4"
