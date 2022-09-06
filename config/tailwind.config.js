@@ -11,7 +11,7 @@ module.exports = {
     transform: false,
     translate: false,
   },
-  // TODO: Remove future when tailwindcss 2.X is used
+  // INFO: Remove future when tailwindcss 2.X is used
   future: {
     purgeLayersByDefault: true,
     removeDeprecatedGapUtilities: true,

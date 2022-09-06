@@ -4,7 +4,6 @@ const localhostUrl = 'http://localhost:3000';
 const baseUrl = process.env.LHCI_BASE_URL || localhostUrl;
 
 const assertions = function assertions() {
-  // FIXME: Resolve and remove them
   const result = {
     'unused-javascript': 'warn',
   };
@@ -13,7 +12,6 @@ const assertions = function assertions() {
       'uses-text-compression': 'warn',
     });
   }
-  // FIXME: Resolve and remove them
   return Object.assign(result, {
     canonical: 'warn',
     'is-crawlable': 'warn',
