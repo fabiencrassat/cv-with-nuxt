@@ -27,7 +27,7 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
     - [Lighthouse Usage [Local Only]](#lighthouse-usage-local-only)
 - [Todos](#todos)
 - [SVG images](#svg-images)
-- [Licence](#licence)
+- [License](#license)
 
 ## Prerequisites
 
@@ -88,7 +88,7 @@ In order to group test files, they are following a naming convention:
 
 ## Start like production
 
-This site is a static website. So to replicate what is deployed in the website there are some things to do first.
+This site is a static website. So to replicate what is deployed on the website there are some things to do first.
 
 ```shell
 yarn generate
@@ -101,7 +101,7 @@ And open the page: <http://localhost:3000/fabien>
 
 ### Github Workflow
 
-To ensure the Github CI CD pipeline will stay green, launch the following command before commit and have no error.
+To ensure the Github CI CD pipeline will stay green, launch the following command before committing and have no error.
 
 ```shell
 yarn lint & yarn test:coverage
@@ -110,7 +110,7 @@ yarn lint & yarn test:coverage
 ### Exclude some files
 
 Adding some files in the root or config folder will change how the pipeline or test coverage will work.  
-In this case and depending the context, exclude theses files in:
+In this case and depending on the context, exclude these files in:
 
 | Exclude in                 | Why                                                      |
 | -------------------------- | -------------------------------------------------------- |
@@ -132,7 +132,7 @@ In two shell windows:
     yarn validate:pages
     ```
 
-The source code of the pages from `src/pages` for each languages are output in `build/html-pages`.
+The source code of the pages from `src/pages` for each language is output in `build/html-pages`.
 
 If there are some exceptions to exclude, add entries in `config/validators.config.js`.
 
@@ -208,7 +208,7 @@ yarn generate
 yarn start:static
 ```
 
-And in an other shell:
+And in another shell:
 
 ```shell
 yarn validate:lighthouse
@@ -221,7 +221,7 @@ yarn validate:lighthouse
 - Build
   - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
   - [ ] Fix in `config/lighthouserc.js` the exception assertions.
-  - [ ] Stop CI when warning is present in `yarn generate` command.
+  - [ ] Stop CI when a warning is present in `yarn generate` command.
 - Test
   - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
   - [ ] **[Waiting vue-jest@4.x.x]** Remove executable code in `vue` file to allow coverage with **vue-jest@3.x.x** (`h1.vue`, `leftSide.vue`).
@@ -236,6 +236,6 @@ yarn validate:lighthouse
 
 The SVG images library comes from <http://www.entypo.com/>
 
-## Licence
+## License
 
 MIT
