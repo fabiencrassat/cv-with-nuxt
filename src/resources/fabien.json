@@ -671,6 +671,17 @@
       },
       "image": "/img/certifications/safe-pc4.png"
     },
+    "Cegos": {
+      "date": {
+        "fr": "Décembre 2014",
+        "en": "December 2014"
+      },
+      "label": {
+        "fr": "Gestion multi-projets niveau 2",
+        "en": "Multi-project management level 2"
+      },
+      "image": "/img/certifications/cegos.png"
+    },
     "productOwner": {
       "date": {
         "fr": "Juillet 2013",
