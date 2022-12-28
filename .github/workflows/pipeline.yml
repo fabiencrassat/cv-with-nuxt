@@ -156,7 +156,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-modules-
       - name: Download code coverage results
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: CodeCoverageResult
           path: build/coverage
