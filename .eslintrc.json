@@ -11,13 +11,19 @@
   "extends": [
     "@nuxtjs/eslint-config-typescript",
     "eslint:recommended",
-    "plugin:jest/all",
     "plugin:prettier/recommended",
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
     // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
     "plugin:vue/strongly-recommended"
   ],
   "ignorePatterns": ["**/*.d.ts"],
+  "overrides": [
+    {
+      "files": ["**/*.test.*', '**/*.spec.*"],
+      "plugins": ["jest"],
+      "extends": ["plugin:jest/all"]
+    }
+  ],
   // required to lint *.vue files
   "plugins": [
     "vue"
