@@ -30,8 +30,8 @@
     "nuxt-lazy-load": "1.2.4"
   },
   "devDependencies": {
-    "@babel/core": "7.12.10",
-    "@babel/preset-env": "7.12.11",
+    "@babel/core": "7.20.7",
+    "@babel/preset-env": "7.20.2",
     "@lhci/cli": "0.6.1",
     "@nuxt/types": "2.14.12",
     "@nuxt/typescript-build": "2.0.4",
