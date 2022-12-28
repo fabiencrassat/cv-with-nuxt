@@ -5,7 +5,7 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cv-with-nuxt&metric=alert_status)](https://sonarcloud.io/dashboard?id=cv-with-nuxt)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=cv-with-nuxt&metric=coverage)](https://sonarcloud.io/dashboard?id=cv-with-nuxt)
 
-Welcome to the fabiencrassat's Curriculum Vitae source code - a development with [NuxtJs][1] framework.
+Welcome to the fabiencrassat's Curriculum Vitae source code - a development with the [NuxtJs][1] framework.
 
 [1]: https://nuxtjs.org/
 
@@ -15,16 +15,16 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
   - [Testing files conventions](#testing-files-conventions)
 - [Start like production](#start-like-production)
 - [Before commit](#before-commit)
-  - [Github Workflow](#github-workflow)
+  - [GitHub Workflow](#github-workflow)
   - [Exclude some files](#exclude-some-files)
 - [Code Analysis](#code-analysis)
-  - [HTML & A11Y validator](#html--a11y-validator)
+  - [HTML \& A11Y validator](#html--a11y-validator)
   - [SonarQube](#sonarqube)
-    - [SonarQube Installation [Local Only]](#sonarqube-installation-local-only)
-    - [SonarQube Usage [Local Only]](#sonarqube-usage-local-only)
+    - [SonarQube Installation \[Local Only\]](#sonarqube-installation-local-only)
+    - [SonarQube Usage \[Local Only\]](#sonarqube-usage-local-only)
   - [Google Chrome Lighthouse](#google-chrome-lighthouse)
-    - [Lightouse Server [Local Only]](#lightouse-server-local-only)
-    - [Lighthouse Usage [Local Only]](#lighthouse-usage-local-only)
+    - [Lighthouse Server \[Local Only\]](#lighthouse-server-local-only)
+    - [Lighthouse Usage \[Local Only\]](#lighthouse-usage-local-only)
 - [Todos](#todos)
 - [SVG images](#svg-images)
 - [License](#license)
@@ -82,9 +82,9 @@ The product source code is structured with:
 
 In order to group test files, they are following a naming convention:
 
-- `*.test.js` are test files name for javascript files (eg. `.js`)
-- `*.spec.js` are test files name for vue files (eg. `*.vue`)
-- `*.spec.ts` are test files name for typescript files (eg. `*.ts`)
+- `*.test.js` are test files name for Javascript files (eg. `.js`)
+- `*.spec.js` are test files name for Vue files (eg. `*.vue`)
+- `*.spec.ts` are test files name for Typescript files (eg. `*.ts`)
 
 ## Start like production
 
@@ -99,7 +99,7 @@ And open the page: <http://localhost:3000/fabien>
 
 ## Before commit
 
-### Github Workflow
+### GitHub Workflow
 
 To ensure the Github CI CD pipeline will stay green, launch the following command before committing and have no error.
 
@@ -110,7 +110,7 @@ yarn lint & yarn test:coverage
 ### Exclude some files
 
 Adding some files in the root or config folder will change how the pipeline or test coverage will work.  
-In this case and depending on the context, exclude these files in:
+In this case and depending on the context, exclude these files:
 
 | Exclude in                 | Why                                                      |
 | -------------------------- | -------------------------------------------------------- |
@@ -145,7 +145,7 @@ Source: <https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes>
 
 #### SonarQube Usage [Local Only]
 
-> Do the [SonarQube Installation](#SonarQube-Installation-Local-Only) before starting any developments in order to know how it will change the metrics.  
+> Do the [SonarQube Installation](#sonarqube-installation-local-only) before starting any developments in order to know how it will change the metrics.  
 
 Each time you want to know about your quality code, launch a scan with the following
 command in the `cv-with-nuxt` folder! And you will have your evolution ;)
@@ -161,7 +161,7 @@ yarn test:coverage
 
 ### Google Chrome Lighthouse
 
-#### Lightouse Server [Local Only]
+#### Lighthouse Server [Local Only]
 
 If you want to know about your code audit, you can use Google Chrome Lighthouse for that. To do so, use the docker image already published:  
 Source: <https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/recipes/docker-server/README.md#building-locally>
@@ -188,7 +188,7 @@ Use token xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx to add data.
 Use admin token xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx to manage data. KEEP THIS SECRET!
 ```
 
-Use the **LHCI server url** and the **token xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx** in your `.env` file.
+Use the **LHCI server URL** and the **token xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx** in your `.env` file.
 
 ```properties
 LHCI_SERVER_BASE_URL=http://localhost:9001
@@ -197,7 +197,7 @@ LHCI_TOKEN=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 #### Lighthouse Usage [Local Only]
 
-> Do the [Lighthouse Usage](#lightouse-installation-local-only) before starting any developments in order to know how it will change the metrics.  
+> Do the [Lighthouse Usage](#lighthouse-usage-local-only) before starting any developments in order to know how it will change the metrics.  
 
 Each time you want to know about your audit code, launch an audit with the following command in the `cv-with-nuxt` folder! And you will have your evolution ;)
 
@@ -217,16 +217,16 @@ yarn validate:lighthouse
 ## Todos
 
 - Configuration
-  - [ ] Move all configuration files (babel, nuxt, vercel) into `config/` folder.
+  - [ ] Move all configuration files (Babel, Nuxt, Vercel) into `config/` folder.
 - Build
-  - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in Github pipeline.
+  - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in the GitHub pipeline.
   - [ ] Fix in `config/lighthouserc.js` the exception assertions.
-  - [ ] Stop CI when a warning is present in `yarn generate` command.
+  - [ ] Stop CI when a warning is present in the `yarn generate` command.
 - Test
   - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
   - [ ] **[Waiting vue-jest@4.x.x]** Remove executable code in `vue` file to allow coverage with **vue-jest@3.x.x** (`h1.vue`, `leftSide.vue`).
     > Search for *`coverage is successful with vue-jest@4.x.x`* in the code.
-  - [ ] Remove `levenary` node module due to import error with `@babel/preset-env:7.12.1`.
+  - [ ] Remove `levenary` node module due to an import error with `@babel/preset-env:7.12.1`.
 - Product
   - [ ] Add a reading progress bar
 - Extra
