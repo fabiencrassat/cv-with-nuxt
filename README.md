@@ -80,7 +80,7 @@ The product source code is structured with:
 
 ### Testing files conventions
 
-In order to group test files, they are following a naming convention:
+To group test files, they are following a naming convention:
 
 - `*.test.js` are test files name for Javascript files (eg. `.js`)
 - `*.spec.js` are test files name for Vue files (eg. `*.vue`)
