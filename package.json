@@ -32,7 +32,7 @@
   "devDependencies": {
     "@babel/core": "7.20.7",
     "@babel/preset-env": "7.20.2",
-    "@lhci/cli": "0.6.1",
+    "@lhci/cli": "0.10.0",
     "@nuxt/types": "2.15.8",
     "@nuxt/typescript-build": "2.1.0",
     "@nuxtjs/eslint-config-typescript": "5.0.0",
