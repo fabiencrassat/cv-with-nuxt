@@ -2,7 +2,7 @@
   "name": "cv-with-nuxt",
   "license": "MIT",
   "engines": {
-    "node": ">=12.15.0"
+    "node": ">=12.15.0 <15"
   },
   "scripts": {
     "audit:packages": "yarn install --audit",
