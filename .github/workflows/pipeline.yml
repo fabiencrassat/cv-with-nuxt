@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-node-module
         with:
           path: node_modules
@@ -52,7 +52,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-node-module
         with:
           path: node_modules
@@ -81,7 +81,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-node-module
         with:
           path: node_modules
@@ -105,7 +105,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-node-module
         with:
           path: node_modules
@@ -148,7 +148,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-node-module
         with:
           path: node_modules
@@ -194,7 +194,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-node-module
         with:
           path: node_modules
