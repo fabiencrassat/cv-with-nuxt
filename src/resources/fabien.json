@@ -660,6 +660,17 @@
     }
   },
   "certifications": {
+    "ckad": {
+      "date": {
+        "fr": "Décembre 2022",
+        "en": "December 2022"
+      },
+      "label": {
+        "fr": "Développeur d'application Kubernetes certifié (CKAD)",
+        "en": "Certified Kubernetes Application Developer (CKAD)"
+      },
+      "image": "/img/certifications/kubernetes-ckad.png"
+    },
     "spc4": {
       "date": {
         "fr": "Octobre 2019",
