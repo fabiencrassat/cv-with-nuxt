@@ -62,7 +62,7 @@ jobs:
       - name: Test the source code
         run: yarn test:coverage
       - name: Archive code coverage results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: CodeCoverageResult
           path: build/coverage
