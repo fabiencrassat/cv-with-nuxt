@@ -13,6 +13,7 @@
     "generate": "nuxt generate --fail-on-error",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
     "now-build": "yarn generate",
+    "prepare": "husky install",
     "start": "nuxt start",
     "start:static": "yarn http-server -p 3000 ./dist",
     "test": "jest --config ./config/jest.config.js",
