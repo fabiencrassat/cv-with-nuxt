@@ -23,7 +23,7 @@
     "validate:pages": "node scripts/validate_pages.js"
   },
   "dependencies": {
-    "@nuxtjs/robots": "2.5.0",
+    "@nuxtjs/robots": "3.0.0",
     "@nuxtjs/sitemap": "2.4.0",
     "@nuxtjs/tailwindcss": "3.4.3",
     "nuxt": "2.14.12",
