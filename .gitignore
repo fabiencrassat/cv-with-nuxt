@@ -1,13 +1,27 @@
-.lighthouseci
+# Nuxt dev/build outputs
+.output
+.data
 .nuxt
-.scannerwork
-.vercel
-build
-coverage
+.nitro
+.cache
 dist
-node_modules
-.env
-.eslintcache
 
-# PWA module
-src/static/sw.js
+# Vitest test coverage
+coverage
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example

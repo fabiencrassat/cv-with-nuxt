@@ -12,11 +12,9 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Structure](#structure)
-  - [Testing files conventions](#testing-files-conventions)
 - [Start like production](#start-like-production)
 - [Before commit](#before-commit)
   - [GitHub Workflow](#github-workflow)
-  - [Exclude some files](#exclude-some-files)
 - [Code Analysis](#code-analysis)
   - [HTML \& A11Y validator](#html--a11y-validator)
   - [SonarQube](#sonarqube)
@@ -25,15 +23,18 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
   - [Google Chrome Lighthouse](#google-chrome-lighthouse)
     - [Lighthouse Server \[Local Only\]](#lighthouse-server-local-only)
     - [Lighthouse Usage \[Local Only\]](#lighthouse-usage-local-only)
-- [Todos](#todos)
 - [SVG images](#svg-images)
 - [License](#license)
 
 ## Prerequisites
 
 - [GIT](https://git-scm.com/)
-- [NodeJS and NPM](https://nodejs.org/) Version 12
-- [Yarn](https://yarnpkg.com/) Version 1.22
+- [NodeJS and NPM](https://nodejs.org/) Version 20
+
+Or
+
+- [GIT](https://git-scm.com/)
+- [Podman](https://podman.io/)
 
 ## Installation
 
@@ -47,15 +48,20 @@ Then install the packages
 
 ```bash
 cd cv-with-nuxt
-yarn
+yarn install
+
+# Or with Podman
+podman run --interactive --name cv-with-nuxt-dev -p 3000:3000 --rm --tty --entrypoint /bin/sh --volume "$(pwd):/app" docker.io/node:20.16.0-alpine3.20
+# After existing the container, the ports 8000 & 9000 are still in used "sudo netstat -tulpn" and need to be killed "kill -9 PID"
+cd app
+yarn install
 ```
 
 Run it!
 
 ```bash
+# Start the development server on http://localhost:3000
 yarn dev
-# or in the offline mode
-yarn dev:offline
 ```
 
 Go to <http://localhost:3000/fabien>
@@ -74,25 +80,19 @@ The product source code is structured with:
       ├── components  # All codes imported in the `src/pages/` files, **using nuxt and vue**.
       ├── locales     # All i18n json files.
       ├── pages       # All the application pages called with URL, served with **nuxt** and **i18n**.
-      ├── resources   # All resources to build the curriculum vitae.
-      └── static      # All public files that can be link from the root website.
+      ├── public      # All public files that can be link from the root website.
+      └── resources   # All resources to build the curriculum vitae.
 ```
-
-### Testing files conventions
-
-To group test files, they are following a naming convention:
-
-- `*.test.js` are test files name for Javascript files (eg. `.js`)
-- `*.spec.js` are test files name for Vue files (eg. `*.vue`)
-- `*.spec.ts` are test files name for Typescript files (eg. `*.ts`)
 
 ## Start like production
 
 This site is a static website. So to replicate what is deployed on the website there are some things to do first.
 
 ```shell
-yarn generate
-yarn start:static
+# Build the application for production
+yarn build
+# Locally preview production build
+yarn run preview
 ```
 
 And open the page: <http://localhost:3000/fabien>
@@ -101,23 +101,11 @@ And open the page: <http://localhost:3000/fabien>
 
 ### GitHub Workflow
 
-To ensure the Github CI CD pipeline will stay green, launch the following command before committing and have no error.
+To ensure the GitHub CI CD pipeline will stay green, launch the following command before committing and have no error.
 
 ```shell
 yarn lint & yarn test:coverage
 ```
-
-### Exclude some files
-
-Adding some files in the root or config folder will change how the pipeline or test coverage will work.  
-In this case and depending on the context, exclude these files:
-
-| Exclude in                 | Why                                                      |
-| -------------------------- | -------------------------------------------------------- |
-| `config/jest.config.js`    | For the coverage in the key `collectCoverageFrom`.       |
-| `.gitignore`               | Files not used in the version control system.            |
-| `.vercelignore`            | Files not used in the vercel deployment.                 |
-| `sonar-project.properties` | For the coverage in the key `sonar.coverage.exclusions`. |
 
 ## Code Analysis
 
@@ -148,7 +136,7 @@ Source: <https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes>
 > Do the [SonarQube Installation](#sonarqube-installation-local-only) before starting any developments in order to know how it will change the metrics.  
 
 Each time you want to know about your quality code, launch a scan with the following
-command in the `cv-with-nuxt` folder! And you will have your evolution ;)
+command in the root folder! And you will have your evolution ;)
 
 ```bash
 # Start the server if needed
@@ -167,7 +155,7 @@ If you want to know about your code audit, you can use Google Chrome Lighthouse 
 Source: <https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/recipes/docker-server/README.md#building-locally>
 
 > The docker command is wrong for Windows, use instead:
->  
+>
 > ```shell
 > docker container run --publish 9001:9001 --mount source=lhci-data,target=/data --detach patrickhulce/lhci-server
 > ```
@@ -199,7 +187,7 @@ LHCI_TOKEN=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 > Do the [Lighthouse Usage](#lighthouse-usage-local-only) before starting any developments in order to know how it will change the metrics.  
 
-Each time you want to know about your audit code, launch an audit with the following command in the `cv-with-nuxt` folder! And you will have your evolution ;)
+Each time you want to know about your audit code, launch an audit with the following command in the root folder! And you will have your evolution ;)
 
 > if needed, configure your `CHROME_PATH` in your `.env` file.
 
@@ -213,24 +201,6 @@ And in another shell:
 ```shell
 yarn validate:lighthouse
 ```
-
-## Todos
-
-- Configuration
-  - [ ] Move all configuration files (Babel, Nuxt, Vercel) into `config/` folder.
-- Build
-  - [ ] Optimize the Sonar cache folders (~/.sonar/cache, .scannerwork) in the GitHub pipeline.
-  - [ ] Fix in `config/lighthouserc.js` the exception assertions.
-  - [ ] Stop CI when a warning is present in the `yarn generate` command.
-- Test
-  - [ ] Change test runner to cover Single File Component (<https://vue-test-utils.vuejs.org/guides/choosing-a-test-runner.html#testing-single-file-components>).
-  - [ ] **[Waiting vue-jest@4.x.x]** Remove executable code in `vue` file to allow coverage with **vue-jest@3.x.x** (`h1.vue`, `leftSide.vue`).
-    > Search for *`coverage is successful with vue-jest@4.x.x`* in the code.
-  - [ ] Remove `levenary` node module due to an import error with `@babel/preset-env:7.12.1`.
-- Product
-  - [ ] Add a reading progress bar
-- Extra
-  - [ ] Add `vue-styleguidist` package.
 
 ## SVG images
 
