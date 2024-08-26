@@ -2,7 +2,7 @@ name: Pipeline
 
 ##                      test
 ##           ↗                         ↘
-##  Install  →          lint           →        sonarqube       →  deploy-production
+##  Install  →          check           →        sonarqube       →  deploy-production
 ##           ↘                                                  ↗
 ##              generate  →  deploy-preview  →  validate-pages
 
@@ -66,8 +66,8 @@ jobs:
         with:
           name: CodeCoverageResult
           path: coverage
-  lint:
-    name: Lint
+  check:
+    name: Check
     needs: [install]
     runs-on: ubuntu-latest
     strategy:
@@ -88,8 +88,10 @@ jobs:
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
-      - name: Lint the source code
-        run: yarn lint
+      - name: Check the source code
+        run: |
+          yarn lint
+          yarn typecheck
   generate:
     name: Generate
     needs: [install]
@@ -133,7 +135,7 @@ jobs:
       preview-url: ${{ steps.vercel-deployment.outputs.preview-url }}
   sonarqube:
     name: SonarQube
-    needs: [test, lint]
+    needs: [test, check]
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -161,7 +163,7 @@ jobs:
           name: CodeCoverageResult
           path: coverage
       - name: Setup SonarQube
-        uses: warchant/setup-sonar-scanner@v3
+        uses: warchant/setup-sonar-scanner@v7
       - name: Get version
         id: version
         shell: bash
@@ -177,8 +179,7 @@ jobs:
             -Dsonar.host.url=https://sonarcloud.io/
             -Dsonar.projectKey=cv-with-nuxt
             -Dsonar.projectVersion=${{ steps.version.outputs.version }}
-      - name: Get Sonar quality gate
-        run: node scripts/get_sonar_quality_gate.js https://${{ secrets.SONAR_TOKEN }}:@sonarcloud.io
+            -Dsonar.qualitygate.wait=true
   validate-pages:
     name: Validate pages
     needs: [deploy-preview]
