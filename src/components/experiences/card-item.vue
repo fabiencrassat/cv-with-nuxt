@@ -8,8 +8,8 @@
       <CardContent :items="experience.missions" />
     </div>
     <a
-      v-if="experience.society && experience.society.siteurl"
-      :href="experience.society.siteurl"
+      v-if="experience.society && sanitizeUrl !== 'about:blank'"
+      :href="sanitizeUrl"
       target="_blank"
       rel="noopener noreferrer"
       class="p-4 hover:bg-blue-100"
@@ -25,6 +25,8 @@
 </template>
 
 <script>
+import { sanitizeUrl } from '@braintree/sanitize-url';
+// eslint-disable-next-line sort-imports
 import CardContent from './card-content';
 import CardDates from './card-dates';
 import CardTitle from './card-title';
@@ -42,6 +44,12 @@ export default {
       required: true,
       type: Object,
     },
+  },
+  // eslint-disable-next-line sort-keys
+  data() {
+    return {
+      sanitizeUrl: sanitizeUrl(this.experience.society.siteurl),
+    };
   },
 };
 </script>

@@ -154,7 +154,7 @@ exports[`can mount an app with /en/fabien route 1`] = `
                   <li>Improves the efficiency of the IT departments of the clients: studies, analyzes and accompaniments of teams and partners.</li>
                   <li>Approach new clients through participation in trade shows or events and prospecting.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -175,7 +175,7 @@ exports[`can mount an app with /en/fabien route 1`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching a development team of a world leader in luxury goods in order to train them in Scrum and to accompany them during the redesign of their e-commerce website.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -196,7 +196,7 @@ exports[`can mount an app with /en/fabien route 1`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching a tribe of 100 people with 8 development teams of a world leader in banking by coaching them by example as a Craftsman &amp; DevOps developer and by implementing best practices, improving their CI/CD chain, increasing interactivity between people in Paris and Lisbon.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -217,7 +217,7 @@ exports[`can mount an app with /en/fabien route 1`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching of a team of a world leader communication agency in luxury &amp; culture in order to accompany and train them in Scrum and to coach them during the Sprint 0.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -240,7 +240,7 @@ exports[`can mount an app with /en/fabien route 1`] = `
                   <li>Coaching an infrastructure team to build a PAAS and a CI/CD pipeline with Cloud Foundry, Kubernetes, Rancher, Jenkins and VMWare.</li>
                   <li>Coaching a development team for a financial reporting product with PowerBI.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -659,7 +659,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   <li>Improves the efficiency of the IT departments of the clients: studies, analyzes and accompaniments of teams and partners.</li>
                   <li>Approach new clients through participation in trade shows or events and prospecting.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -680,7 +680,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching a development team of a world leader in luxury goods in order to train them in Scrum and to accompany them during the redesign of their e-commerce website.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -701,7 +701,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching a tribe of 100 people with 8 development teams of a world leader in banking by coaching them by example as a Craftsman &amp; DevOps developer and by implementing best practices, improving their CI/CD chain, increasing interactivity between people in Paris and Lisbon.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -722,7 +722,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching of a team of a world leader communication agency in luxury &amp; culture in order to accompany and train them in Scrum and to coach them during the Sprint 0.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -745,7 +745,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   <li>Coaching an infrastructure team to build a PAAS and a CI/CD pipeline with Cloud Foundry, Kubernetes, Rancher, Jenkins and VMWare.</li>
                   <li>Coaching a development team for a financial reporting product with PowerBI.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -766,7 +766,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching of a multidisciplinary team of a world leader in the automotive industry to increase and improve the customer's buying experience.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -788,7 +788,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   <li>Coaching of 4 development teams on Big Data (Spark, Hadoop, Hue, DataLake) and Web (Angular, Java, Docker) technologies for a world leader in the automotive industry in order to improve their work process - methods (Kanban, Scrum), team interaction (internal and offshore), requirements discovery, workshop animation.</li>
                   <li>Set up a CI/CD chain on GitLab for Angular/Scala/Spark products.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -809,7 +809,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching of 3 feature teams (Development and Production) of a global bank leader in order to asset the team Agility level and to start their transformation fostering continuous improvements.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -830,7 +830,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching of 3 feature teams (Marketing, Sales, Research) of a global leader industry in order to foster innovation on existing products using Lean Startup techniques.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -855,7 +855,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   <li>Provide technical review and estimations of the development components / time required for the projects.</li>
                   <li>Identify risks, findings and ways of improvement for development effort.</li>
                 </ul>
-              </div><a href="http://www.enablon.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.enablon.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/enablon.png" alt="Enablon" title="Enablon">
                   <div class="text-sm">
                     <p class="leading-none">Enablon</p>
@@ -881,7 +881,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   <li>Improve quality.</li>
                   <li>Extra as Enablon Software Architect: Design and develop a Delivery (Git Like) Tool including "Installation, Commit, Update, Delete" across the entire product lifecycle.</li>
                 </ul>
-              </div><a href="http://www.enablon.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.enablon.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/enablon.png" alt="Enablon" title="Enablon">
                   <div class="text-sm">
                     <p class="leading-none">Enablon</p>
@@ -910,7 +910,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   <li>Participate in recruitment.</li>
                   <li>Development of version control (GIT like).</li>
                 </ul>
-              </div><a href="http://www.enablon.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.enablon.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/enablon.png" alt="Enablon" title="Enablon">
                   <div class="text-sm">
                     <p class="leading-none">Enablon</p>
@@ -937,7 +937,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   <li>Support the delivery of solutions and the implementation of new features.</li>
                   <li>Expertise and support to customers in pre-sales then during their project.</li>
                 </ul>
-              </div><a href="http://www.enablon.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.enablon.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/enablon.png" alt="Enablon" title="Enablon">
                   <div class="text-sm">
                     <p class="leading-none">Enablon</p>
@@ -960,7 +960,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   <li>Definition of prototypes and cooperation of pre-sales missions.</li>
                   <li>Support the delivery of solutions and the implementation of new features.</li>
                 </ul>
-              </div><a href="http://www.enablon.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.enablon.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/enablon.png" alt="Enablon" title="Enablon">
                   <div class="text-sm">
                     <p class="leading-none">Enablon</p>
@@ -981,7 +981,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Analyst and software developer; pre-sales support on reporting software, especially internal control.</li>
                 </ul>
-              </div><a href="http://www.enablon.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.enablon.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/enablon.png" alt="Enablon" title="Enablon">
                   <div class="text-sm">
                     <p class="leading-none">Enablon</p>
@@ -1002,7 +1002,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Traineeship abroad in 4th year of ESIEA.</li>
                 </ul>
-              </div><a href="http://www.bostonteaparty.co.uk" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.bostonteaparty.co.uk/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/boston-tea-party.png" alt="Boston Tea Party" title="Boston Tea Party">
                   <div class="text-sm">
                     <p class="leading-none">Boston Tea Party</p>
@@ -1023,7 +1023,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Establishment of a newspaper through communicative tools, and communication inter-and extra BdE.</li>
                 </ul>
-              </div><a href="http://www.esiea.fr" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.esiea.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/esiea.png" alt="ESIEA" title="ESIEA">
                   <div class="text-sm">
                     <p class="leading-none">ESIEA</p>
@@ -1044,7 +1044,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Made a security VPN on a Wi-Fi network between 2 industrial sites.</li>
                 </ul>
-              </div><a href="http://www.suez-environnement.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.suez-environnement.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/suez.png" alt="Suez" title="Suez">
                   <div class="text-sm">
                     <p class="leading-none">Suez</p>
@@ -1065,7 +1065,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Development of VBA macros to automate extractions in connection with a management tool.</li>
                 </ul>
-              </div><a href="http://www.korrigan-graffiti.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.korrigan-graffiti.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/korrigan.png" alt="Korrigan" title="Korrigan">
                   <div class="text-sm">
                     <p class="leading-none">Korrigan</p>
@@ -1084,7 +1084,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   </svg> Summer 2003</p>
                 <div class="font-bold text-xl mb-2">Warehouseman on sale in the shelf</div>
                 <!--v-if-->
-              </div><a href="http://www.obi.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.obi.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/obi.png" alt="OBI" title="OBI">
                   <div class="text-sm">
                     <p class="leading-none">OBI</p>
@@ -1127,7 +1127,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Designed, realised and calibrated a flowmeter in transient state.</li>
                 </ul>
-              </div><a href="http://www.univ-tlse3.fr" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="http://www.univ-tlse3.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-10 h-10 mr-4">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
@@ -1570,7 +1570,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
                   <li>Améliore l’efficience des départements informatiques des clients : études, analyses et accompagnements des équipes et partenaires.</li>
                   <li>Démarche de nouveaux clients à travers la participation à des salons ou événements et de la prospection commerciale.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -1591,7 +1591,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching d’une équipe de développement d’un leader mondial du luxe afin de les former en Scrum et de les accompagner pendant le refonte de leur site vitrine e-commerce.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -1612,7 +1612,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching d’une tribu de 100 personnes avec 8 équipes de développement d’un leader mondial bancaire en les accompagnant par l’exemple en tant que développeur Craftsman &amp; DevOps et par la mise en place des bonnes pratiques, de l’amélioration de leur chaîne CI/CD, l’augmentation de l’interactivité entre les personnes de Paris et Lisbonne.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -1633,7 +1633,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Coaching d’une équipe d’un leader mondial d’agence de communication dans le luxe &amp; la culture afin de les accompagner et de les former en Scrum et de les coacher pendant le Sprint 0.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>
@@ -1656,7 +1656,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
                   <li>Accompagnement d’une équipe infrastructure pour une construction d’un PAAS et d’un pipeline CI/CD avec Cloud Foundry, Kubernetes, Rancher, Jenkins et VMWare.</li>
                   <li>Accompagnement d’une équipe de développement pour un produit de reporting financier avec PowerBI.</li>
                 </ul>
-              </div><a href="https://reacteev.com" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
                     <p class="leading-none">Reacteev</p>

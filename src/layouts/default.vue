@@ -1,5 +1,6 @@
 <script setup>
 /* global useLocaleHead */
+import { sanitizeUrl } from '@braintree/sanitize-url';
 
 // eslint-disable-next-line no-useless-assignment
 const head = useLocaleHead({
@@ -14,6 +15,12 @@ const title = 'TBD';
 <script>
 export default {
   name: 'DefaultLayout',
+  // eslint-disable-next-line sort-keys
+  data() {
+    return {
+      sanitizeUrl,
+    };
+  },
 };
 </script>
 
@@ -32,7 +39,7 @@ export default {
           <Link
             :id="link.id"
             :rel="link.rel"
-            :href="link.href"
+            :href="sanitizeUrl(link.href)"
             :hreflang="link.hreflang"
           />
         </template>

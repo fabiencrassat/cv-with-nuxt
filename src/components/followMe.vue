@@ -6,7 +6,7 @@
       class="hover:text-blue-700 p-2 m-2 first:ml-0"
       target="_blank"
       :aria-label="value.label"
-      :href="value.url"
+      :href="sanitizeUrl(value.url)"
       rel="noopener noreferrer"
       :title="value.label"
     >
@@ -16,6 +16,8 @@
 </template>
 
 <script>
+import { sanitizeUrl } from '@braintree/sanitize-url';
+// eslint-disable-next-line sort-imports
 import FacebookSvgIcon from '~/components/svgIcons/facebook';
 import GithubSvgIcon from '~/components/svgIcons/github';
 import LinkedInSvgIcon from '~/components/svgIcons/linkedin';
@@ -42,6 +44,12 @@ export default {
       required: true,
       type: Object,
     },
+  },
+  // eslint-disable-next-line sort-keys
+  data() {
+    return {
+      sanitizeUrl,
+    };
   },
 };
 </script>
