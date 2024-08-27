@@ -21,13 +21,13 @@ jobs:
         node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
@@ -46,13 +46,13 @@ jobs:
         node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
@@ -60,7 +60,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-modules-
       - name: Cache nuxt
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-nuxt
         with:
           path: .nuxt
@@ -78,13 +78,13 @@ jobs:
         node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
@@ -92,7 +92,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-modules-
       - name: Cache nuxt
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-nuxt
         with:
           path: .nuxt
@@ -102,7 +102,7 @@ jobs:
       - name: Test the source code
         run: yarn test:coverage
       - name: Archive code coverage results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: CodeCoverageResult
           path: coverage
@@ -115,13 +115,13 @@ jobs:
         node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
@@ -129,7 +129,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-modules-
       - name: Cache nuxt
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-nuxt
         with:
           path: .nuxt
@@ -149,13 +149,13 @@ jobs:
         node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
@@ -163,7 +163,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-modules-
       - name: Cache nuxt
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-nuxt
         with:
           path: .nuxt
@@ -178,7 +178,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - uses: amondnet/vercel-action@v25
         id: vercel-deployment
         with:
@@ -198,15 +198,15 @@ jobs:
         node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
@@ -214,7 +214,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-modules-
       - name: Cache nuxt
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-nuxt
         with:
           path: .nuxt
@@ -253,13 +253,13 @@ jobs:
         node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
@@ -275,7 +275,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
