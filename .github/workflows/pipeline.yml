@@ -36,7 +36,9 @@ jobs:
             ${{ runner.OS }}-node-modules-
       - name: Install dependencies
         if: steps.cache-node-module.outputs.cache-hit != 'true'
-        run: yarn --frozen-lockfile
+        run: |
+          yarn --frozen-lockfile
+          yarn postinstall
   test:
     name: Test
     needs: [install]
