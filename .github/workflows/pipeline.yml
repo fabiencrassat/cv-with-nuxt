@@ -1,10 +1,10 @@
 name: Pipeline
 
-##                      test
-##           ↗                         ↘
-##  Install  →          check           →        sonarqube       →  deploy-production
-##           ↘                                                  ↗
-##              generate  →  deploy-preview  →  validate-pages
+##                                      test
+##                           ↗                         ↘
+##  install  →  postinstall  →          check           →        sonarqube       →  deploy-production
+##                           ↘                                                  ↗
+##                              generate  →  deploy-preview  →  validate-pages
 
 on:
   push:
@@ -36,11 +36,9 @@ jobs:
             ${{ runner.OS }}-node-modules-
       - name: Install dependencies
         if: steps.cache-node-module.outputs.cache-hit != 'true'
-        run: |
-          yarn --frozen-lockfile
-          yarn postinstall
-  test:
-    name: Test
+        run: yarn --frozen-lockfile
+  postinstall:
+    name: Prepare Nuxt
     needs: [install]
     runs-on: ubuntu-latest
     strategy:
@@ -61,6 +59,46 @@ jobs:
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v2
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
+      - name: Install dependencies
+        run: yarn postinstall
+  test:
+    name: Test
+    needs: [postinstall]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v2
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v2
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Test the source code
         run: yarn test:coverage
       - name: Archive code coverage results
@@ -70,7 +108,7 @@ jobs:
           path: coverage
   check:
     name: Check
-    needs: [install]
+    needs: [postinstall]
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -90,13 +128,21 @@ jobs:
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v2
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Check the source code
         run: |
           yarn lint
           yarn typecheck
   generate:
     name: Generate
-    needs: [install]
+    needs: [postinstall]
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -116,6 +162,14 @@ jobs:
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v2
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Generate the static app
         run: yarn generate
   deploy-preview:
@@ -159,6 +213,14 @@ jobs:
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v2
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Download code coverage results
         uses: actions/download-artifact@v3
         with:
