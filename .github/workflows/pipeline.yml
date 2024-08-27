@@ -222,7 +222,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-nuxt-
       - name: Download code coverage results
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: CodeCoverageResult
           path: coverage
