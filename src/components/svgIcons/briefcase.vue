@@ -11,6 +11,8 @@
 import svgIcon from './svgIcon';
 
 export default {
+  name: 'BriefcaseSvgIcon',
+  // eslint-disable-next-line sort-keys
   components: { svgIcon },
 };
 </script>

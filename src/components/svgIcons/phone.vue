@@ -11,6 +11,8 @@
 import svgIcon from './svgIcon';
 
 export default {
+  name: 'PhoneSvgIcon',
+  // eslint-disable-next-line sort-keys
   components: { svgIcon },
 };
 </script>

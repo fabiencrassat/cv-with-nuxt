@@ -17,17 +17,13 @@
 export default {
   props: {
     label: {
-      type: String,
       default: '',
+      type: String,
     },
     percentage: {
-      type: Number,
       default: 100,
+      type: Number,
     },
-  },
-  // INFO: Remove data() when coverage is successful with vue-jest@4.x.x
-  data() {
-    return {};
   },
 };
 </script>

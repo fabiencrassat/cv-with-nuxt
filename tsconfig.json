@@ -1,33 +1,4 @@
 {
-  "compilerOptions": {
-    "target": "es2018",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "lib": [
-      "esnext",
-      "esnext.asynciterable",
-      "dom"
-    ],
-    "esModuleInterop": true,
-    "allowJs": true,
-    "sourceMap": true,
-    "strict": true,
-    "noEmit": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./src/*"],
-      "@/*": ["./src/*"],
-      "~~/*": ["./*"],
-      "@@/*": ["./*"],
-    },
-    "resolveJsonModule": true,
-    "types": [
-      "@types/jest",
-      "@types/node",
-      "@nuxt/types"
-    ]
-  },
-  "exclude": [
-    "node_modules"
-  ]
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json"
 }

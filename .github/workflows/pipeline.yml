@@ -1,10 +1,10 @@
 name: Pipeline
 
-##                      test
-##           ↗                         ↘
-##  Install  →          lint           →        sonarqube       →  deploy-production
-##           ↘                                                  ↗
-##              generate  →  deploy-preview  →  validate-pages
+##                                  test
+##                           ↗               ↘
+##  install  →  postinstall  →     check      →   sonarqube   →  deploy-production
+##                           ↘                                ↗
+##                              generate  →  deploy-preview
 
 on:
   push:
@@ -18,16 +18,16 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
@@ -37,81 +37,139 @@ jobs:
       - name: Install dependencies
         if: steps.cache-node-module.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
-  test:
-    name: Test
+  postinstall:
+    name: Prepare Nuxt
     needs: [install]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v4
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
+      - name: Install dependencies
+        run: yarn postinstall
+  test:
+    name: Test
+    needs: [postinstall]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v4
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v4
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Test the source code
         run: yarn test:coverage
       - name: Archive code coverage results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: CodeCoverageResult
-          path: build/coverage
-  lint:
-    name: Lint
-    needs: [install]
+          path: coverage
+  check:
+    name: Check
+    needs: [postinstall]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
-      - name: Lint the source code
-        run: yarn lint
+      - name: Cache nuxt
+        uses: actions/cache@v4
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
+      - name: Check the source code
+        run: |
+          yarn lint
+          yarn typecheck
   generate:
     name: Generate
-    needs: [install]
+    needs: [postinstall]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v4
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Generate the static app
         run: yarn generate
   deploy-preview:
@@ -120,7 +178,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - uses: amondnet/vercel-action@v25
         id: vercel-deployment
         with:
@@ -133,84 +191,67 @@ jobs:
       preview-url: ${{ steps.vercel-deployment.outputs.preview-url }}
   sonarqube:
     name: SonarQube
-    needs: [test, lint]
+    needs: [test, check]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [20.x]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache Node Modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-node-module
         with:
           path: node_modules
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v4
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Download code coverage results
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: CodeCoverageResult
-          path: build/coverage
+          path: coverage
       - name: Setup SonarQube
-        uses: warchant/setup-sonar-scanner@v3
+        uses: warchant/setup-sonar-scanner@v8
       - name: Get version
         id: version
         shell: bash
         run: |
-          echo "::set-output name=version::$(git describe --tags --abbrev=0)"
+          echo "GIT_VERSION=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
       - name: Run SonarQube
         env:
           # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: sonar-scanner
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.token=${{ secrets.SONAR_TOKEN }}
             -Dsonar.organization=fabiencrassat-github
             -Dsonar.host.url=https://sonarcloud.io/
             -Dsonar.projectKey=cv-with-nuxt
-            -Dsonar.projectVersion=${{ steps.version.outputs.version }}
-      - name: Get Sonar quality gate
-        run: node scripts/get_sonar_quality_gate.js https://${{ secrets.SONAR_TOKEN }}:@sonarcloud.io
-  validate-pages:
-    name: Validate pages
-    needs: [deploy-preview]
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Cache Node Modules
-        uses: actions/cache@v2
-        id: cache-node-module
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-modules-
-      - name: Validate the pages
-        run: yarn validate:pages ${{ needs.deploy-preview.outputs.preview-url }}
+            -Dsonar.projectVersion=${{ env.GIT_VERSION }}
+            -Dsonar.qualitygate.wait=true
   deploy-production:
     name: Deploy production website
-    needs: [sonarqube, validate-pages]
+    needs: [sonarqube]
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required

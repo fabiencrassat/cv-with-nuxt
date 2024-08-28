@@ -9,15 +9,12 @@
 
 <script>
 export default {
+  name: 'HeadingLevel1',
   props: {
     first: {
-      type: Boolean,
       default: false,
+      type: Boolean,
     },
-  },
-  // INFO: Remove data() when coverage is successful with vue-jest@4.x.x
-  data() {
-    return {};
   },
 };
 </script>
