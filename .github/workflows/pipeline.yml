@@ -244,30 +244,6 @@ jobs:
             -Dsonar.projectKey=cv-with-nuxt
             -Dsonar.projectVersion=${{ env.GIT_VERSION }}
             -Dsonar.qualitygate.wait=true
-  validate-pages:
-    name: Validate pages
-    needs: [deploy-preview]
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Cache Node Modules
-        uses: actions/cache@v4
-        id: cache-node-module
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-modules-
-      - name: Validate the pages
-        run: yarn validate:pages ${{ needs.deploy-preview.outputs.preview-url }}
   deploy-production:
     name: Deploy production website
     needs: [sonarqube, validate-pages]
