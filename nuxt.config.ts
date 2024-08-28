@@ -57,6 +57,11 @@ export default defineNuxtConfig({
     vueI18n: './config/i18n.config.ts',
   },
   modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxt/test-utils/module', '@nuxt/eslint', 'nuxt-gtag'],
+  routeRules: {
+    '/': { redirect: '/fabien' },
+    '/fabien/en': { redirect: '/en/fabien' },
+    '/fabien/fr': { redirect: '/fr/fabien' },
+  },
   srcDir: 'src/',
   tailwindcss: {
     configPath: '~~/config/tailwind.config.ts',
