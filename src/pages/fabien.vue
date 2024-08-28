@@ -86,7 +86,7 @@ export default {
         },
       ]"
     />
-    <main class="p-4">
+    <main class="p-4 sm:pl-28 md:pl-60">
       <section id="identity">
         <HeadingsH1 :first="true">
           {{ $t('identity.name') }}

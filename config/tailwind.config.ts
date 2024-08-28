@@ -20,8 +20,10 @@ export default {
   },
   plugins: [],
   theme: {
-    fontFamily: {
-      display: ['Roboto', 'Open Sans', 'sans-serif'],
+    extend: {
+      fontFamily: {
+        display: ['Roboto', 'Open Sans', 'sans-serif'],
+      },
     },
   },
   variants: {

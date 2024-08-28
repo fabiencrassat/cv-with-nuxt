@@ -74,7 +74,7 @@ exports[`can mount an app with /en/fabien route 1`] = `
         </p>
       </div>
     </nav>
-    <main class="p-4">
+    <main class="p-4 sm:pl-28 md:pl-60">
       <section id="identity">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-8">identity.name</h1>
         <p class="text-justify"><span class="text-lg text-blue-700 italic whitespace-no-wrap">identity.years</span> &nbsp;/&nbsp; <span class="text-lg text-blue-700 italic whitespace-no-wrap"> Paris </span> &nbsp;/&nbsp; <span class="text-lg text-blue-700 italic">Agile, DevOps and Lean Startup Coach</span></p>
@@ -579,7 +579,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
         </p>
       </div>
     </nav>
-    <main class="p-4">
+    <main class="p-4 sm:pl-28 md:pl-60">
       <section id="identity">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-8">identity.name</h1>
         <p class="text-justify"><span class="text-lg text-blue-700 italic whitespace-no-wrap">identity.years</span> &nbsp;/&nbsp; <span class="text-lg text-blue-700 italic whitespace-no-wrap"> Paris </span> &nbsp;/&nbsp; <span class="text-lg text-blue-700 italic">Agile, DevOps and Lean Startup Coach</span></p>
@@ -1490,7 +1490,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
         </p>
       </div>
     </nav>
-    <main class="p-4">
+    <main class="p-4 sm:pl-28 md:pl-60">
       <section id="identity">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-8">identity.name</h1>
         <p class="text-justify"><span class="text-lg text-blue-700 italic whitespace-no-wrap">identity.years</span> &nbsp;/&nbsp; <span class="text-lg text-blue-700 italic whitespace-no-wrap"> Paris </span> &nbsp;/&nbsp; <span class="text-lg text-blue-700 italic">Coach Agile, DevOps et Lean Startup</span></p>

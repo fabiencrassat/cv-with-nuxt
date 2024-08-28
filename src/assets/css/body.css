@@ -71,10 +71,4 @@ body {
   --background-color: #EEE;
 
   background: var(--background-color);
-  @screen sm {
-    padding-left: 6rem;
-  }
-  @screen md {
-    padding-left: 14rem;
-  }
 }
