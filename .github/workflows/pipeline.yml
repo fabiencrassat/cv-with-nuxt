@@ -1,10 +1,10 @@
 name: Pipeline
 
-##                                      test
-##                           ↗                         ↘
-##  install  →  postinstall  →          check           →        sonarqube       →  deploy-production
-##                           ↘                                                  ↗
-##                              generate  →  deploy-preview  →  validate-pages
+##                                  test
+##                           ↗               ↘
+##  install  →  postinstall  →     check      →   sonarqube   →  deploy-production
+##                           ↘                                ↗
+##                              generate  →  deploy-preview
 
 on:
   push:
@@ -246,7 +246,7 @@ jobs:
             -Dsonar.qualitygate.wait=true
   deploy-production:
     name: Deploy production website
-    needs: [sonarqube, validate-pages]
+    needs: [sonarqube]
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
