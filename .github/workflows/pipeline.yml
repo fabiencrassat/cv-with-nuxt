@@ -71,7 +71,7 @@ jobs:
           key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
           restore-keys: |
             ${{ runner.OS }}-nuxt-
-      - name: Install dependencies
+      - name: Prepare Nuxt
         run: yarn postinstall
   test:
     name: Test
