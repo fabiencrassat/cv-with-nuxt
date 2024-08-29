@@ -190,10 +190,30 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v4
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v4
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
       - name: Pull Vercel Environment Information
-        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+        run: |
+          vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+          ls -al .
+          ls -al ./.vercel
+          cat ./.vercel/project.json
       - name: Build Project Artifacts
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy Project Artifacts to Vercel
@@ -260,7 +280,7 @@ jobs:
             -Dsonar.qualitygate.wait=true
   deploy-production:
     name: Deploy production website
-    needs: [sonarqube]
+    needs: [deploy-preview, sonarqube]
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     strategy:
@@ -273,6 +293,22 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v4
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v4
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
       - name: Pull Vercel Environment Information
