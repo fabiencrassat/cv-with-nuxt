@@ -1,6 +1,5 @@
 {
   "cleanUrls": true,
-  "outputDirectory": ".output",
   "redirects": [
     { "source": "/", "destination": "/fabien", "permanent": true },
     { "source": "/fabien/fr", "destination": "/fr/fabien", "permanent": true },
