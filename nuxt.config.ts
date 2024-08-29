@@ -45,12 +45,12 @@ export default defineNuxtConfig({
       {
         code: 'en',
         file: 'en-US.ts',
-        iso: 'en-US',
+        language: 'en-US',
       },
       {
         code: 'fr',
         file: 'fr-FR.ts',
-        iso: 'fr-FR',
+        language: 'fr-FR',
       },
     ],
     strategy: 'prefix_and_default',
