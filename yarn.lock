@@ -1141,15 +1141,14 @@
     which "^3.0.1"
     ws "^8.18.0"
 
-"@nuxt/eslint-config@0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@nuxt/eslint-config/-/eslint-config-0.5.4.tgz#2027325ed2c470e34389ed6e7d9329d2a82ff608"
-  integrity sha512-RzIAtmCfHA5F7cYmc//M1uX6vgeyo3yOU9YHFS6DkE04+gpml4PcRgBpG2SPZWMlzWEZHwvkeNVcuCltuS8G9A==
+"@nuxt/eslint-config@0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@nuxt/eslint-config/-/eslint-config-0.5.5.tgz#b23e62967326ff0519fb1319efe5f70053f42446"
+  integrity sha512-g99Q6VEGUTg8VKklNE5AaDyHFCcJTepTS6f2ea5yQRlAsJe8VUUUSnwqYw68saU3Mq6R/QOip2ic6A5SxZOy0w==
   dependencies:
     "@eslint/js" "^9.9.1"
-    "@nuxt/eslint-plugin" "0.5.4"
-    "@rushstack/eslint-patch" "^1.10.4"
-    "@stylistic/eslint-plugin" "^2.7.1"
+    "@nuxt/eslint-plugin" "0.5.5"
+    "@stylistic/eslint-plugin" "^2.7.2"
     "@typescript-eslint/eslint-plugin" "^8.3.0"
     "@typescript-eslint/parser" "^8.3.0"
     eslint-config-flat-gitignore "^0.2.0"
@@ -1162,26 +1161,25 @@
     globals "^15.9.0"
     local-pkg "^0.5.0"
     pathe "^1.1.2"
-    tslib "^2.7.0"
     vue-eslint-parser "^9.4.3"
 
-"@nuxt/eslint-plugin@0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@nuxt/eslint-plugin/-/eslint-plugin-0.5.4.tgz#59db77b337dffd9a5e364919aeec59f389063a65"
-  integrity sha512-uJ02Mc+L4DEq/bi2LPLZ4ygZ7IhygOqQ9U65g2gOb8QRjQ1ZY2wucCNL2OAdtJgjJ6tLd504QhjDg8fwGENbpQ==
+"@nuxt/eslint-plugin@0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@nuxt/eslint-plugin/-/eslint-plugin-0.5.5.tgz#cf4725f1b35222c2e85b887265c5f1b5822f7e2e"
+  integrity sha512-Qwz+sz4HWa+QTTAYveryq25a2wXB0FgR0WvVGKYPhD1nBxJGkE6nwM8CILrsdICL6fKp2nfWLBzUr/UlGPqHkw==
   dependencies:
     "@typescript-eslint/types" "^8.3.0"
     "@typescript-eslint/utils" "^8.3.0"
 
 "@nuxt/eslint@^0.5.1":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@nuxt/eslint/-/eslint-0.5.4.tgz#1327ebfb48fe00cadefbff3320a3027077c0c151"
-  integrity sha512-/meZHYxbzw3UXEjTAbEcvYKE1xHe5bp8Ze+5mBtZnqxjqH42pNvpK8Nd3/qkcarMsMFFY3chknZUa7MJkCcz4A==
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@nuxt/eslint/-/eslint-0.5.5.tgz#c928d468a46d813c9e0c892f8285b69501dfc217"
+  integrity sha512-QfSPHNyZdRNKmjMcvSNK/kP7lZvW+u4sCazCbcsHRm+FD+LFcAeawZAS0qOwMoPxuaQMP/HR2xzxOZN+u1XFhA==
   dependencies:
     "@eslint/config-inspector" "^0.5.4"
     "@nuxt/devtools-kit" "^1.4.1"
-    "@nuxt/eslint-config" "0.5.4"
-    "@nuxt/eslint-plugin" "0.5.4"
+    "@nuxt/eslint-config" "0.5.5"
+    "@nuxt/eslint-plugin" "0.5.5"
     "@nuxt/kit" "^3.13.0"
     chokidar "^3.6.0"
     eslint-flat-config-utils "^0.3.1"
@@ -1779,20 +1777,15 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.21.1.tgz#4d3ec02dbf280c20bfeac7e50cd5669b66f9108f"
   integrity sha512-xGiIH95H1zU7naUyTKEyOA/I0aexNMUdO9qRv0bLKN3qu25bBdrxZHqA3PTJ24YNN/GdMzG4xkDcd/GvjuhfLg==
 
-"@rushstack/eslint-patch@^1.10.4":
-  version "1.10.4"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.4.tgz#427d5549943a9c6fce808e39ea64dbe60d4047f1"
-  integrity sha512-WJgX9nzTqknM393q1QJDJmoW28kUfEnybeTfVNcNAPnIx210RXm2DiXiHzfNPJNIUUb1tJnz/l4QGtJ30PgWmA==
-
 "@sindresorhus/merge-streams@^2.1.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
-"@stylistic/eslint-plugin@^2.7.1":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@stylistic/eslint-plugin/-/eslint-plugin-2.7.1.tgz#6dc8c1efcc12de4fe400b520325641c108a40eb8"
-  integrity sha512-JqnHom8CP14oOgPhwTPbn0QgsBJwgNySQSe00V9GQQDlY1tEqZUlK4jM2DIOJ5nE+oXoy51vZWHnHkfZ6rEruw==
+"@stylistic/eslint-plugin@^2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@stylistic/eslint-plugin/-/eslint-plugin-2.7.2.tgz#627dc1383214dab01150c9bd114d66335c2c2f5c"
+  integrity sha512-3DVLU5HEuk2pQoBmXJlzvrxbKNpu2mJ0SRqz5O/CJjyNCr12ZiPcYMEtuArTyPOk5i7bsAU44nywh1rGfe3gKQ==
   dependencies:
     "@types/eslint" "^9.6.1"
     "@typescript-eslint/utils" "^8.3.0"
@@ -2744,9 +2737,9 @@ caniuse-lite@^1.0.0:
   integrity sha512-9Cf+Xv1jJNe1xPZLGuUXLNkE1BoDkqRqYyFJ9TDYSqhduqA4hu4oR9HluGoWYQC/aj8WHjsGVV+bwkh0+tegRg==
 
 caniuse-lite@^1.0.30001646:
-  version "1.0.30001653"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001653.tgz#b8af452f8f33b1c77f122780a4aecebea0caca56"
-  integrity sha512-XGWQVB8wFQ2+9NZwZ10GxTYC5hk0Fa+q8cSkr0tgvMhYhMHP/QC+WTgrePMDBWiWc/pV+1ik82Al20XOK25Gcw==
+  version "1.0.30001655"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001655.tgz#0ce881f5a19a2dcfda2ecd927df4d5c1684b982f"
+  integrity sha512-jRGVy3iSGO5Uutn2owlb5gR6qsGngTw9ZTb4ali9f3glshcNmJ2noam4Mo9zia5P9Dk3jNNydy7vQjuE5dQmfg==
 
 chai@^5.1.1:
   version "5.1.1"
@@ -3536,10 +3529,15 @@ esbuild@^0.23.1:
     "@esbuild/win32-ia32" "0.23.1"
     "@esbuild/win32-x64" "0.23.1"
 
-escalade@^3.1.1, escalade@^3.1.2:
+escalade@^3.1.1:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.2.tgz#54076e9ab29ea5bf3d8f1ed62acffbb88272df27"
   integrity sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==
+
+escalade@^3.1.2:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.2.0.tgz#011a3f69856ba189dffa7dc8fcce99d2a87903e5"
+  integrity sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==
 
 escape-html@^1.0.3, escape-html@~1.0.3:
   version "1.0.3"
@@ -7115,7 +7113,7 @@ ts-interface-checker@^0.1.9:
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
-tslib@^2.6.2, tslib@^2.6.3, tslib@^2.7.0:
+tslib@^2.6.2, tslib@^2.6.3:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.7.0.tgz#d9b40c5c40ab59e8738f297df3087bf1a2690c01"
   integrity sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==
@@ -7306,13 +7304,22 @@ unplugin@^1.1.0, unplugin@^1.10.0, unplugin@^1.10.1, unplugin@^1.12.0:
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.6.2"
 
-unplugin@^1.12.1, unplugin@^1.12.2, unplugin@^1.3.1:
+unplugin@^1.12.1:
   version "1.12.2"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-1.12.2.tgz#cc85aef010614394898caccf5f17002af8a4cd6f"
   integrity sha512-bEqQxeC7rxtxPZ3M5V4Djcc4lQqKPgGe3mAWZvxcSmX5jhGxll19NliaRzQSQPrk4xJZSGniK3puLWpRuZN7VQ==
   dependencies:
     acorn "^8.12.1"
     chokidar "^3.6.0"
+    webpack-sources "^3.2.3"
+    webpack-virtual-modules "^0.6.2"
+
+unplugin@^1.12.2, unplugin@^1.3.1:
+  version "1.12.3"
+  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-1.12.3.tgz#35cc4088b553c0b4cfbdd308c3e947f3efe23f36"
+  integrity sha512-my8DH0/T/Kx33KO+6QXAqdeMYgyy0GktlOpdQjpagfHKw5DrD0ctPr7SHUyOT3g4ZVpzCQGt/qcpuoKJ/pniHA==
+  dependencies:
+    acorn "^8.12.1"
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.6.2"
 
