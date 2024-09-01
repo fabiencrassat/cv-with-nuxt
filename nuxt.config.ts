@@ -34,7 +34,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   gtag: {
-    id: 'UA-45807436-1',
+    id: 'G-LBT5GENK84',
   },
   i18n: {
     baseUrl: getBaseUrl(),
