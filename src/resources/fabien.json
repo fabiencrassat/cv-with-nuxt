@@ -97,6 +97,214 @@
         ]
       }
     },
+    "Dauphine": {
+      "date": {
+        "fr": "Novembre 2022 - Aujourd’hui",
+        "en": "Novmber 2021 - Present"
+      },
+      "job": {
+        "fr": "Enseignant à l’université de Dauphine",
+        "en": "Teacher at Dauphine University"
+      },
+      "jobImage": "/img/experiences/dauphine.webp",
+      "society": {
+        "crossref": "societies.dauphine"
+      },
+      "missions": {
+        "fr": [
+          "Formation certifiante de Product Owner (PO) pour approfondir les compétences en gestion de produits numériques, en maîtrisant les techniques de définition de vision produit, de priorisation du backlog et de collaboration efficace avec les équipes.",
+          "Formation Master 2 pour acquérir une expertise approfondie en gestion de projet et en Lean Startup, en maîtrisant les méthodologies agiles pour lancer des projets innovants, réduire les risques et maximiser l’impact des produits sur le marché."
+        ],
+        "en": [
+          "Product Owner (PO) certification training to deepen your digital product management skills, mastering techniques for defining the product vision, prioritising the backlog and working effectively with teams.",
+          "Master 2 training to acquire in-depth expertise in project management and Lean Startup, mastering agile methodologies to launch innovative projects, reduce risks and maximise the impact of products on the market"
+        ]
+      }
+    },
+    "Ifocop": {
+      "date": {
+        "fr": "Octobre 2021 - Aujourd’hui",
+        "en": "October 2021 - Present"
+      },
+      "job": {
+        "fr": "Enseignant à l’Ifocop",
+        "en": "Ifocop teacher"
+      },
+      "jobImage": "/img/experiences/ifocop.webp",
+      "society": {
+        "crossref": "societies.ifocop"
+      },
+      "missions": {
+        "fr": [
+          "Formation Gestion de Projet en Informatique pour maîtriser les compétences nécessaires pour diriger efficacement des projets informatiques, en appliquant des méthodologies agiles et en assurant la compréhension des élèves dans les équipes de développement."
+        ],
+        "en": [
+          "IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams."
+        ]
+      }
+    },
+    "IfcamLcl": {
+      "date": {
+        "fr": "Janvier - Septembre 2024",
+        "en": "January - September 2024"
+      },
+      "job": {
+        "fr": "Formation Squad Leader",
+        "en": "Squad Leader training"
+      },
+      "jobImage": "/img/experiences/lcl.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Formation intensive de 2 jours destinée à 80 collaborateurs sur 10 sessions pour développer les compétences en leadership opérationnel agile, encourager l’autonomie des équipes et optimiser la performance collective."
+        ],
+        "en": [
+          "Intensive 2-day training for 80 employees over 10 sessions to develop agile operational leadership skills, encourage team autonomy and optimise collective performance."
+        ]
+      }
+    },
+    "IfcamCamca": {
+      "date": {
+        "fr": "Juin 2024",
+        "en": "June 2024"
+      },
+      "job": {
+        "fr": "Formation Product Owner pour CAMCA",
+        "en": "Product Owner training"
+      },
+      "jobImage": "/img/experiences/CAMCA.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Formation de Product Owner (PO) pour approfondir les compétences en gestion de produits numériques, en maîtrisant les techniques de définition de vision produit, de priorisation du backlog et de collaboration efficace avec les équipes."
+        ],
+        "en": [
+          "Product Owner (PO) training to deepen skills in digital product management, mastering techniques for defining the product vision, prioritising the backlog and collaborating effectively with teams."
+        ]
+      }
+    },
+    "BnppRiskCoach": {
+      "date": {
+        "fr": "Février - Avril 2024",
+        "en": "February - April 2024"
+      },
+      "job": {
+        "fr": "Coach Agile",
+        "en": "Agile Coach"
+      },
+      "jobImage": "/img/experiences/BNPP.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "J’ai piloté l’implémentation de deux centres d’excellence transverses, dédiés à l’Agilité, au DevOps et à la gestion des risques, au sein de la transformation Agile@Scale d’une grande banque mondiale. Ces centres ont été conçus pour harmoniser les pratiques à travers les différentes équipes, renforcer l’efficacité opérationnelle et diffuser les meilleures pratiques en matière de gestion de projet et de collaboration. Mon intervention a permis de centraliser les compétences clés, d’optimiser les processus et de favoriser une culture d’amélioration continue au sein de l’organisation."
+        ],
+        "en": [
+          "I led the implementation of two cross-functional centres of excellence, dedicated to Agility, DevOps and risk management, within the Agile@Scale transformation of a major global bank. These centres were designed to harmonise practices across the different teams, boost operational efficiency and disseminate best practice in project management and collaboration. My involvement helped to centralise key skills, optimise processes and foster a culture of continuous improvement within the organisation."
+        ]
+      }
+    },
+    "CardifLuxUlysseCoachTech": {
+      "date": {
+        "fr": "Février - Avril 2024",
+        "en": "February - April 2024"
+      },
+      "job": {
+        "fr": "Audit organisationnel d’une gestion de projet",
+        "en": "Organisational audit of project management"
+      },
+      "jobImage": "/img/experiences/cardif-lux-vie.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "J’ai mené un audit organisationnel exhaustif de la gestion de projet dans une Banque d’Affaires au Luxembourg pour leur initiative stratégique majeure. L’objectif était d’évaluer l’efficacité des processus existants, d’identifier les points de friction et de proposer des recommandations pour améliorer la coordination entre les équipes, la gestion des ressources et la gouvernance de projet. Cet audit a permis de mettre en lumière des axes d’amélioration clés pour optimiser les délais, la qualité des livrables, et l’alignement stratégique, garantissant ainsi la réussite du projet dans un environnement complexe et régulé."
+        ],
+        "en": [
+          "I carried out an exhaustive organisational audit of project management at a Luxembourg investment bank for their major strategic initiative. The aim was to assess the effectiveness of existing processes, identify areas of friction and propose recommendations for improving coordination between teams, resource management and project governance. The audit highlighted key areas for improvement to optimise deadlines, quality of deliverables and strategic alignment, thereby ensuring the success of the project in a complex and regulated environment."
+        ]
+      }
+    },
+    "PMICoach": {
+      "date": {
+        "fr": "Novembre - Décembre 2023",
+        "en": "November - December 2023"
+      },
+      "job": {
+        "fr": "Coach Agile",
+        "en": "Agile Coach"
+      },
+      "jobImage": "/img/experiences/philip-morris-international.svg",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Réalisation d’un audit agile de la transformation de la DSI pour un grand groupe du Fortune 500, visant à évaluer l’efficacité de l’adoption des pratiques agiles à l’échelle de l’entreprise. L’audit a analysé la maturité agile des équipes, l’intégration des méthodologies Scrum et SAFe, ainsi que l’alignement stratégique des initiatives technologiques. Les résultats ont conduit à des recommandations précises pour renforcer l’agilité organisationnelle, améliorer la collaboration inter-équipes et maximiser la valeur produite par la DSI dans un contexte de transformation numérique à grande échelle."
+        ],
+        "en": [
+          "Carried out an agile audit of the IT department’s transformation for a major Fortune 500 group, with the aim of assessing the effectiveness of the adoption of agile practices throughout the company. The audit analysed the agile maturity of teams, the integration of Scrum and SAFe methodologies, and the strategic alignment of technology initiatives. The results led to specific recommendations for strengthening organisational agility, improving inter-team collaboration and maximising the value produced by the IT Department in a context of large-scale digital transformation."
+        ]
+      }
+    },
+    "AuditGoyard": {
+      "date": {
+        "fr": "Juillet - Décembre 2023",
+        "en": "July - December 2023"
+      },
+      "job": {
+        "fr": "Expert front-end et audit performance",
+        "en": "Expert front-end and audit performance"
+      },
+      "jobImage": "/img/experiences/goyard.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Audit approfondi des performances du site web du plus ancien des malletiers parisiens, avec identification et correction des goulots d’étranglement techniques pour optimiser la vitesse de chargement et l’expérience utilisateur. L’intervention a inclus l’analyse du code, l’optimisation des assets, ainsi que l’application des meilleures pratiques en matière de responsive design et de SEO technique. Ces actions ont conduit à une réduction significative des temps de latence, à une fluidité améliorée pour les utilisateurs, et à une meilleure performance globale sur tous les appareils et navigateurs."
+        ],
+        "en": [
+          "In-depth performance audit of the website of Paris’s oldest trunk-maker, with identification and correction of technical bottlenecks to optimise loading speed and user experience. The work included code analysis, asset optimisation and the application of best practice in terms of responsive design and technical SEO. These actions led to a significant reduction in latency times, improved fluidity for users, and better overall performance across all devices and browsers."
+        ]
+      }
+    },
+    "ReacteevBPSSCraftCoach": {
+      "date": {
+        "fr": "Décembre 2021 - Septembre 2023",
+        "en": "August 2021 - September 2023"
+      },
+      "job": {
+        "fr": "Coach Agile - DevOps - Craftsman",
+        "en": "Agile & DevOps & Craftsman Coach"
+      },
+      "jobImage": "/img/experiences/BNPP.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Coaching de deux domaines métiers d’un leader mondial bancaire au sein d’une grande banque mondial et de leur transformation Agile@Scale :", 
+          "- Accompagnement et formation au Craftsmanship, méthodes Agile & DevOps,",
+          "- Mise en place des bonnes pratiques,",
+          "- Amélioration de leur chaîne CI/CD,",
+          "- Augmentation de l’interactivité entre les collaborateurs de Paris, Chennai (Inde) et Lisbonne (Portugal)."
+        ],
+        "en": [
+          "Coaching two business areas of a world leader in banking within a major global bank and their Agile@Scale transformation:",
+          "- Coaching and training in Craftsmanship, Agile & DevOps methods,",
+          "- Implementation of best practices,",
+          "- Improvement of their CI/CD chain,",
+          "- Increased interactivity between staff in Paris, Chennai (India) and Lisbon (Portugal)."
+        ]
+      }
+    },
     "ReacteevLouboutin": {
       "date": {
         "fr": "Août 2021 - Septembre 2022",
@@ -207,7 +415,7 @@
           "Coaching d’une équipe multidisciplinaire d’un leader mondial de l’automobile afin d’augmenter et d’améliorer les parcours d’achat des clients."
         ],
         "en": [
-          "Coaching of a multidisciplinary team of a world leader in the automotive industry to increase and improve the customer's buying experience."
+          "Coaching of a multidisciplinary team of a world leader in the automotive industry to increase and improve the customer’s buying experience."
         ]
       }
     },

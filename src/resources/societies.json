@@ -5,6 +5,18 @@
     "siteurl": "https://reacteev.com",
     "icon": "/img/societies/reacteev.png"
   },
+  "dauphine": {
+    "name": "Université Dauphine",
+    "address": "Paris, France",
+    "siteurl": "https://dauphine.psl.eu/",
+    "icon": "/img/societies/dauphine.webp"
+  },
+  "ifocop": {
+    "name": "Ifocop",
+    "address": "Paris, France",
+    "siteurl": "https://www.ifocop.fr/",
+    "icon": "/img/societies/ifocop.webp"
+  },
   "enablon": {
     "name": "Enablon",
     "address": "Courbevoie, Hauts de Seine, France",
