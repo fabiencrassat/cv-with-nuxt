@@ -1894,19 +1894,19 @@ exports[`can mount an app with /fr/fabien route 1`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Fonctionnel</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Gouvernance des Risques, Contrôle Interne et Permanent, Audit, Plans de continuité d’activités</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Action Plan, Approval Process</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Plan d’action, Circuit d’approbation</span><span>80%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Event Management, Authorized and Sign Management</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Management des incidents, Délégation des autorisations et des signatures</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>

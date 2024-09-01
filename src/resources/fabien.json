@@ -858,11 +858,17 @@
       "items": [
         {
           "percentage": 90,
-          "label": "Agile, SCRUM, Kanban, DevOps, Craftsmanship"
+          "name": {
+            "fr": "Agile, SCRUM, Kanban, DevOps, Craftsmanship",
+            "en": "Agile, SCRUM, Kanban, DevOps, Craftsmanship"
+          }
         },
         {
           "percentage": 60,
-          "label": "Lean Startup, Design Thinking"
+          "name": {
+            "fr": "Lean Startup, Design Thinking",
+            "en": "Lean Startup, Design Thinking"
+          }
         }
       ]
     },
@@ -875,21 +881,21 @@
       "items": [
         {
           "percentage": 90,
-          "label": {
+          "name": {
             "fr": "Gouvernance des Risques, Contrôle Interne et Permanent, Audit, Plans de continuité d’activités",
             "en": "Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management"
           }
         },
         {
           "percentage": 80,
-          "label": {
+          "name": {
             "fr": "Plan d’action, Circuit d’approbation",
             "en": "Action Plan, Approval Process"
           }
         },
         {
           "percentage": 40,
-          "label": {
+          "name": {
             "fr": "Management des incidents, Délégation des autorisations et des signatures",
             "en": "Event Management, Authorized and Sign Management"
           }
@@ -905,19 +911,31 @@
       "items": [
         {
           "percentage": 90,
-          "label": "Enablon"
+          "name": {
+            "fr": "Enablon",
+            "en": "Enablon"
+          }
         },
         {
           "percentage": 80,
-          "label": "HTML, CSS, JavaScript, jQuery"
+          "name": {
+            "fr": "HTML, CSS, JavaScript, jQuery",
+            "en": "HTML, CSS, JavaScript, jQuery"
+          }
         },
         {
           "percentage": 40,
-          "label": "C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor"
+          "name": {
+            "fr": "C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor",
+            "en": "C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor"
+          }
         },
         {
           "percentage": 40,
-          "label": "Network, Prolog, Interpreter (Lex, Yacc)"
+          "name": {
+            "fr": "Network, Prolog, Interpreter (Lex, Yacc)",
+            "en": "Network, Prolog, Interpreter (Lex, Yacc)"
+          }
         }
       ]
     },
@@ -930,19 +948,31 @@
       "items": [
         {
           "percentage": 80,
-          "label": "Word, Excel, PowerPoint, MS Project"
+          "name": {
+            "fr": "Word, Excel, PowerPoint, MS Project",
+            "en": "Word, Excel, PowerPoint, MS Project"
+          }
         },
         {
           "percentage": 60,
-          "label": "GIT"
+          "name": {
+            "fr": "GIT",
+            "en": "GIT"
+          }
         },
         {
           "percentage": 40,
-          "label": "Photoshop CS"
+          "name": {
+            "fr": "Photoshop CS",
+            "en": "Photoshop CS"
+          }
         },
         {
           "percentage": 20,
-          "label": "Maple, Matlab, LabView, LabCVI, Aphelion, AutoCAD, Quark, Illustrator CS, Pspice"
+          "name": {
+            "fr": "Maple, Matlab, LabView, LabCVI, Aphelion, AutoCAD, Quark, Illustrator CS, Pspice",
+            "en": "Maple, Matlab, LabView, LabCVI, Aphelion, AutoCAD, Quark, Illustrator CS, Pspice"
+          }
         }
       ]
     },
@@ -955,11 +985,17 @@
       "items": [
         {
           "percentage": 80,
-          "label": "Microsoft Windows"
+          "name": {
+            "fr": "Microsoft Windows",
+            "en": "Microsoft Windows"
+          }
         },
         {
           "percentage": 40,
-          "label": "Linux"
+          "name": {
+            "fr": "Linux",
+            "en": "Linux"
+          }
         }
       ]
     }

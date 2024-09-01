@@ -27,7 +27,8 @@ interface ICrossRef {
 
 interface ISkill {
   percentage: number;
-  label: ILang | string;
+  name: ILang;
+  label?: string;
 }
 
 interface ISkillsGroup {
@@ -199,7 +200,7 @@ export default class CurriculumVitae {
       );
       skillGroup.items.forEach((skill, index) => {
         const value = skill;
-        value.label = Tools.getLangValue(skill.label, this.lang);
+        value.label = Tools.getLangValue(skill.name, this.lang) as string;
         result[skillsGroupKey].items[index] = value;
       }, this);
     }

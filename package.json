@@ -9,6 +9,7 @@
     "analyze": "nuxt analyze",
     "audit:packages": "yarn install --audit",
     "build": "nuxt build",
+    "clean": "nuxt cleanup",
     "dev": "yarn outdated & nuxt dev",
     "generate": "nuxt generate",
     "lint": "eslint .",
