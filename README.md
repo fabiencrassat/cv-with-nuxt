@@ -48,13 +48,13 @@ Then install the packages
 
 ```bash
 cd cv-with-nuxt
-yarn install
+yarn install --frozen-lockfile
 
 # Or with Podman
 podman run --interactive --name cv-with-nuxt-dev -p 3000:3000 --rm --tty --entrypoint /bin/sh --volume "$(pwd):/app" docker.io/node:20.16.0-alpine3.20
 # After existing the container, the ports 8000 & 9000 are still in used "sudo netstat -tulpn" and need to be killed "kill -9 PID"
 cd app
-yarn install
+yarn install --frozen-lockfile
 ```
 
 Run it!

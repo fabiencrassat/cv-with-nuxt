@@ -448,6 +448,18 @@ exports[`can mount an app with /en/fabien route 1`] = `
       <section id="certifications">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
         <div class="flex flex-wrap -mb-5">
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
+            <p>November 17, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
+            <p>November 15, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
+            <p>November 3, 2023</p>
+          </div>
           <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
             <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
             <p>December 2022</p>
@@ -1553,6 +1565,18 @@ exports[`can mount an app with /en/fabien route 2`] = `
       <section id="certifications">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
         <div class="flex flex-wrap -mb-5">
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
+            <p>November 17, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
+            <p>November 15, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
+            <p>November 3, 2023</p>
+          </div>
           <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
             <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
             <p>December 2022</p>
@@ -2056,6 +2080,18 @@ exports[`can mount an app with /fr/fabien route 1`] = `
       <section id="certifications">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
         <div class="flex flex-wrap -mb-5">
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile à l'échelle - Accréditation de la prestation technique" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Agile à l'échelle - Accréditation de la prestation technique</p>
+            <p>17 novembre 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
+            <p>15 novembre 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Badge Jira Fondamentaux" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Badge Jira Fondamentaux</p>
+            <p>3 novembre 2023</p>
+          </div>
           <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Développeur d’application Kubernetes certifié (CKAD)" height="200" class="m-auto">
             <p class="font-black mt-5 mb-3">Développeur d’application Kubernetes certifié (CKAD)</p>
             <p>Décembre 2022</p>

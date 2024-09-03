@@ -40,7 +40,7 @@ jobs:
             ${{ runner.OS }}-node-modules-
       - name: Install dependencies
         if: steps.cache-node-module.outputs.cache-hit != 'true'
-        run: yarn --frozen-lockfile
+        run: yarn install --frozen-lockfile
   postinstall:
     name: Prepare Nuxt
     needs: [install]

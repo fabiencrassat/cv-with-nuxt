@@ -1086,6 +1086,39 @@
     }
   },
   "certifications": {
+    "jiraAtScale": {
+      "date": {
+        "fr": "17 novembre 2023",
+        "en": "November 17, 2023"
+      },
+      "label": {
+        "fr": "Agile à l'échelle - Accréditation de la prestation technique",
+        "en": "Agile at Scale Technical Delivery Accreditation"
+      },
+      "image": "/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png"
+    },
+    "jiraAlign": {
+      "date": {
+        "fr": "15 novembre 2023",
+        "en": "November 15, 2023"
+      },
+      "label": {
+        "fr": "Jira Align Program Essentials",
+        "en": "Jira Align Program Essentials"
+      },
+      "image": "/img/certifications/uni-completioncertificate-badge.png"
+    },
+    "jiraFondamentals": {
+      "date": {
+        "fr": "3 novembre 2023",
+        "en": "November 3, 2023"
+      },
+      "label": {
+        "fr": "Badge Jira Fondamentaux",
+        "en": "Jira Fundamentals Badge"
+      },
+      "image": "/img/certifications/uni-credential-emblem-jirafundamentals.png"
+    },
     "ckad": {
       "date": {
         "fr": "Décembre 2022",
