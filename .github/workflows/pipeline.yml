@@ -1,10 +1,10 @@
 name: Pipeline
 
-##                                  test
-##                           ↗               ↘
-##  install  →  postinstall  →     check      →   sonarqube   →  deploy-production
-##                           ↘                                ↗
-##                              generate  →  deploy-preview
+##                test
+##           ↗             ↘
+##  install  →    check     →    sonarqube    →  deploy-production
+##           ↘                                ↗
+##              generate  →  deploy-preview
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
@@ -38,31 +38,6 @@ jobs:
           key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.OS }}-node-modules-
-      - name: Install dependencies
-        if: steps.cache-node-module.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
-  postinstall:
-    name: Prepare Nuxt
-    needs: [install]
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Cache Node Modules
-        uses: actions/cache@v4
-        id: cache-node-module
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-modules-
       - name: Cache nuxt
         uses: actions/cache@v4
         id: cache-nuxt
@@ -71,11 +46,16 @@ jobs:
           key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
           restore-keys: |
             ${{ runner.OS }}-nuxt-
+      - name: Install dependencies
+        if: steps.cache-node-module.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile
+      - name: Outdated listing
+        run: yarn outdated
       - name: Prepare Nuxt
         run: yarn postinstall
   test:
     name: Test
-    needs: [postinstall]
+    needs: [install]
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -112,7 +92,7 @@ jobs:
           path: coverage
   check:
     name: Check
-    needs: [postinstall]
+    needs: [install]
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -146,7 +126,7 @@ jobs:
           yarn typecheck
   generate:
     name: Generate
-    needs: [postinstall]
+    needs: [install]
     runs-on: ubuntu-latest
     strategy:
       matrix:
