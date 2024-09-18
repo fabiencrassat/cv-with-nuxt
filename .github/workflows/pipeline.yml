@@ -1,10 +1,8 @@
 name: Pipeline
 
-##                test
-##           ↗             ↘
-##  install  →    check     →    sonarqube    →  deploy-production
-##           ↘                                ↗
-##              generate  →  deploy-preview
+##  preparation  →     sonarqube    →  deploy-production
+##               ↘                  ↗
+##                  deploy-preview
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
@@ -17,8 +15,8 @@ on:
     - 'README.md'
 
 jobs:
-  install:
-    name: Install Dependencies
+  preparation:
+    name: Preparation
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -53,36 +51,10 @@ jobs:
         run: yarn outdated
       - name: Prepare Nuxt
         run: yarn postinstall
-  test:
-    name: Test
-    needs: [install]
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Cache Node Modules
-        uses: actions/cache@v4
-        id: cache-node-module
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-modules-
-      - name: Cache nuxt
-        uses: actions/cache@v4
-        id: cache-nuxt
-        with:
-          path: .nuxt
-          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
-          restore-keys: |
-            ${{ runner.OS }}-nuxt-
+      - name: Check the source code
+        run: |
+          yarn lint
+          yarn typecheck
       - name: Test the source code
         run: yarn test:coverage
       - name: Archive code coverage results
@@ -90,75 +62,11 @@ jobs:
         with:
           name: CodeCoverageResult
           path: coverage
-  check:
-    name: Check
-    needs: [install]
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Cache Node Modules
-        uses: actions/cache@v4
-        id: cache-node-module
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-modules-
-      - name: Cache nuxt
-        uses: actions/cache@v4
-        id: cache-nuxt
-        with:
-          path: .nuxt
-          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
-          restore-keys: |
-            ${{ runner.OS }}-nuxt-
-      - name: Check the source code
-        run: |
-          yarn lint
-          yarn typecheck
-  generate:
-    name: Generate
-    needs: [install]
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Cache Node Modules
-        uses: actions/cache@v4
-        id: cache-node-module
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-modules-
-      - name: Cache nuxt
-        uses: actions/cache@v4
-        id: cache-nuxt
-        with:
-          path: .nuxt
-          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
-          restore-keys: |
-            ${{ runner.OS }}-nuxt-
       - name: Generate the static app
         run: yarn generate
   deploy-preview:
     name: Deploy preview website
-    needs: [generate]
+    needs: [preparation]
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -201,7 +109,7 @@ jobs:
           path: deployment-url.txt
   sonarqube:
     name: SonarQube
-    needs: [test, check]
+    needs: [preparation]
     runs-on: ubuntu-latest
     strategy:
       matrix:
