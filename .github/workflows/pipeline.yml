@@ -49,6 +49,7 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Outdated listing
         run: yarn outdated
+        continue-on-error: true
       - name: Prepare Nuxt
         run: yarn postinstall
       - name: Check the source code
