@@ -143,7 +143,7 @@ const Tools = {
 };
 
 export default class CurriculumVitae {
-  private lang: string;
+  private readonly lang: string;
 
   private curriculumVitae: ICurriculumVitae;
   // It is called dynamicaly by eval()
