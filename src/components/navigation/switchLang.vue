@@ -16,3 +16,8 @@
     </nuxt-link>
   </p>
 </template>
+
+<script>
+// Do not remive this export, it is used to import switchLocalePath
+export default {};
+</script>
