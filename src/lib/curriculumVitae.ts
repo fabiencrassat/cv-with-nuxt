@@ -145,9 +145,9 @@ const Tools = {
 export default class CurriculumVitae {
   private readonly lang: string;
 
-  private curriculumVitae: ICurriculumVitae;
+  private readonly curriculumVitae: ICurriculumVitae;
   // It is called dynamicaly by eval()
-  private societies: ISocieties;
+  private readonly societies: ISocieties;
 
   public constructor(lang = 'fr') {
     this.lang = lang;
