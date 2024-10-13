@@ -90,9 +90,9 @@ This site is a static website. So to replicate what is deployed on the website t
 
 ```shell
 # Build the application for production
-yarn build
+yarn build:node_server
 # Locally preview production build
-yarn run preview
+yarn preview
 ```
 
 And open the page: <http://localhost:3000/fabien>

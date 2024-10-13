@@ -57,9 +57,6 @@ export default defineNuxtConfig({
     vueI18n: './config/i18n.config.ts',
   },
   modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxt/test-utils/module', '@nuxt/eslint', 'nuxt-gtag'],
-  nitro: {
-    preset: 'vercel-edge',
-  },
   routeRules: {
     '/': { redirect: '/fabien' },
     '/fabien/en': { redirect: '/en/fabien' },
