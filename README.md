@@ -16,7 +16,7 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
 - [Before commit](#before-commit)
   - [GitHub Workflow](#github-workflow)
 - [Code Analysis](#code-analysis)
-  - [HTML \& A11Y validator](#html--a11y-validator)
+  - [HTML validator](#html-validator)
   - [SonarQube](#sonarqube)
     - [SonarQube Installation \[Local Only\]](#sonarqube-installation-local-only)
     - [SonarQube Usage \[Local Only\]](#sonarqube-usage-local-only)
@@ -109,20 +109,12 @@ yarn lint & yarn test:coverage
 
 ## Code Analysis
 
-### HTML & A11Y validator
+### HTML validator
 
-In two shell windows:
-
-1. [Start like production](#start-like-production)
-2. Run the validation
-
-    ```bash
-    yarn validate:pages
-    ```
-
-The source code of the pages from `src/pages` for each language is output in `build/html-pages`.
-
-If there are some exceptions to exclude, add entries in `config/validators.config.js`.
+```bash
+yarn generate
+yarn validate:html
+```
 
 ### SonarQube
 

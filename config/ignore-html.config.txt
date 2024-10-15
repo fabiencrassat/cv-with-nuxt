@@ -1,0 +1,3 @@
+# Ignore Config for w3c-html-validator
+
+/^A “link” element with an “as” attribute must have a “rel” attribute that contains the value “preload” or the value “modulepreload”/

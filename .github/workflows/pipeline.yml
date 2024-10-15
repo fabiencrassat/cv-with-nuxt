@@ -1,5 +1,7 @@
 name: Pipeline
 
+##                     validation
+##               ↗                  ↘
 ##  preparation  →     sonarqube    →  deploy-production
 ##               ↘                  ↗
 ##                  deploy-preview
@@ -63,8 +65,40 @@ jobs:
         with:
           name: CodeCoverageResult
           path: coverage
+  validation:
+    name: Validation
+    needs: [preparation]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache Node Modules
+        uses: actions/cache@v4
+        id: cache-node-module
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-modules-
+      - name: Cache nuxt
+        uses: actions/cache@v4
+        id: cache-nuxt
+        with:
+          path: .nuxt
+          key: ${{ runner.OS }}-nuxt-${{ hashFiles('**/nuxt.config.ts') }}
+          restore-keys: |
+            ${{ runner.OS }}-nuxt-
       - name: Generate the static app
         run: yarn generate
+      - name: Check the HTML
+        run: yarn validate:html
   deploy-preview:
     name: Deploy preview website
     needs: [preparation]
