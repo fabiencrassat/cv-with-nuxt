@@ -12,6 +12,10 @@ const getBaseUrl = function getBaseUrl() {
 };
 
 export default defineNuxtConfig({
+  modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxt/test-utils/module', '@nuxt/eslint', 'nuxt-gtag'],
+  // eslint-disable-next-line sort-keys
+  devtools: { enabled: true },
+  // eslint-disable-next-line sort-keys
   app: {
     head: {
       link: [
@@ -31,8 +35,15 @@ export default defineNuxtConfig({
       ],
     },
   },
+  srcDir: 'src/',
+  // eslint-disable-next-line sort-keys
+  routeRules: {
+    '/': { redirect: '/fabien' },
+    '/fabien/en': { redirect: '/en/fabien' },
+    '/fabien/fr': { redirect: '/fr/fabien' },
+  },
+  // eslint-disable-next-line sort-keys
   compatibilityDate: '2024-04-03',
-  devtools: { enabled: true },
   gtag: {
     id: 'G-LBT5GENK84',
   },
@@ -56,13 +67,6 @@ export default defineNuxtConfig({
     strategy: 'prefix_and_default',
     vueI18n: './config/i18n.config.ts',
   },
-  modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxt/test-utils/module', '@nuxt/eslint', 'nuxt-gtag'],
-  routeRules: {
-    '/': { redirect: '/fabien' },
-    '/fabien/en': { redirect: '/en/fabien' },
-    '/fabien/fr': { redirect: '/fr/fabien' },
-  },
-  srcDir: 'src/',
   tailwindcss: {
     configPath: '~~/config/tailwind.config.ts',
   },
