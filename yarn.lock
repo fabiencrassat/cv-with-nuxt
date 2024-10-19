@@ -1378,9 +1378,9 @@
     std-env "^3.7.0"
 
 "@nuxt/test-utils@>=3.13.1", "@nuxt/test-utils@^3.14.1":
-  version "3.14.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/test-utils/-/test-utils-3.14.3.tgz#ba202cbd7b9f2bb05f7496ccfd87e563efa58ba7"
-  integrity sha512-5SoyaR9bQG7xcyj6kSnzFVWvpAdiKSruRkq3KVDKEAbxwHhtyz2Ijqxf8iGE3W9dAM0F+omIvLmjen3ITgd3rA==
+  version "3.14.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/test-utils/-/test-utils-3.14.4.tgz#d2c99070a22ec4570643c5f8f28449dde93bb5e9"
+  integrity sha512-1rSYMXjN651t+c8zSaPAoP78YE1WVcI3baPC2cic9my+J5FIsT1IuTU6M9XwDFBUnwGL6/sV5pPsyEumkIl3eA==
   dependencies:
     "@nuxt/kit" "^3.13.2"
     "@nuxt/schema" "^3.13.2"
@@ -1392,15 +1392,15 @@
     fake-indexeddb "^6.0.0"
     get-port-please "^3.1.2"
     local-pkg "^0.5.0"
-    magic-string "^0.30.11"
+    magic-string "^0.30.12"
     node-fetch-native "^1.6.4"
-    ofetch "^1.4.0"
+    ofetch "^1.4.1"
     pathe "^1.1.2"
     perfect-debounce "^1.0.0"
     radix3 "^1.1.2"
     scule "^1.3.0"
     std-env "^3.7.0"
-    tinyexec "^0.3.0"
+    tinyexec "^0.3.1"
     ufo "^1.5.4"
     unenv "^1.10.0"
     unplugin "^1.14.1"
@@ -5117,12 +5117,7 @@ jiti@^1.21.0, jiti@^1.21.6:
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.6.tgz#6c7f7398dd4b3142767f9a168af2f317a428d268"
   integrity sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==
 
-jiti@^2.3.0:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/jiti/-/jiti-2.3.2.tgz#ea3620d59372cf4829458fa4b921b54255435819"
-  integrity sha512-9ZLDe7kYLCyWTAP6EIyg3B4ZuHy5W0gdy6y1rgrWrAOpTrUU+vKuKa1+OXB7MBkujyvm6a2b7i0ETHQDbgY98A==
-
-jiti@^2.3.1:
+jiti@^2.3.0, jiti@^2.3.1:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-2.3.3.tgz#39c66fc77476b92a694e65dfe04b294070e2e096"
   integrity sha512-EX4oNDwcXSivPrw2qKH2LB5PoFxEvgtv2JgwW0bU858HoLQ+kutSvjLMUqBd0PeJYEinLWhoI9Ol0eYMqj/wNQ==
@@ -5475,7 +5470,7 @@ magic-string-ast@^0.6.2:
   dependencies:
     magic-string "^0.30.10"
 
-magic-string@^0.30.0, magic-string@^0.30.11:
+magic-string@^0.30.0, magic-string@^0.30.11, magic-string@^0.30.12:
   version "0.30.12"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.12.tgz#9eb11c9d072b9bcb4940a5b2c2e1a217e4ee1a60"
   integrity sha512-Ea8I3sQMVXr8JhN4z+H/d8zwo+tYDgHE9+5G4Wnrwhs0gaK9fXTKx0Tw5Xwsd/bCPTTZNRAdpyzvoeORe9LYpw==
@@ -6062,10 +6057,10 @@ ofetch@^1.3.4:
     node-fetch-native "^1.6.3"
     ufo "^1.5.3"
 
-ofetch@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/ofetch/-/ofetch-1.4.0.tgz#89ef58fb673fbe2a87250973d4586ce7725e8399"
-  integrity sha512-MuHgsEhU6zGeX+EMh+8mSMrYTnsqJQQrpM00Q6QHMKNqQ0bKy0B43tk8tL1wg+CnsSTy1kg4Ir2T5Ig6rD+dfQ==
+ofetch@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/ofetch/-/ofetch-1.4.1.tgz#b6bf6b0d75ba616cef6519dd8b6385a8bae480ec"
+  integrity sha512-QZj2DfGplQAr2oj9KzceK9Hwz6Whxazmn85yYeVuS3u9XTMOGMRx0kO95MQ+vLsj/S/NwBDMMLU5hpxvI6Tklw==
   dependencies:
     destr "^2.0.3"
     node-fetch-native "^1.6.4"
@@ -7606,6 +7601,11 @@ tinyexec@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-0.3.0.tgz#ed60cfce19c17799d4a241e06b31b0ec2bee69e6"
   integrity sha512-tVGE0mVJPGb0chKhqmsoosjsS+qUnJVGJpZgsHYQcGoPlG3B51R3PouqTgEGH2Dc9jjFyOqOpix6ZHNMXp1FZg==
+
+tinyexec@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-0.3.1.tgz#0ab0daf93b43e2c211212396bdb836b468c97c98"
+  integrity sha512-WiCJLEECkO18gwqIp6+hJg0//p23HXp4S+gGtAKu3mI2F2/sXC4FvHvXvB0zJVVaTPhx1/tOwdbRsa1sOBIKqQ==
 
 tinyglobby@0.2.6, tinyglobby@^0.2.6:
   version "0.2.6"
