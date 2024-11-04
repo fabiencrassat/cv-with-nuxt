@@ -50,7 +50,7 @@ export default defineNuxtConfig({
   i18n: {
     baseUrl: getBaseUrl(),
     defaultLocale: 'fr',
-    langDir: 'locales/',
+    langDir: '../i18n/locales/',
     lazy: true,
     locales: [
       {

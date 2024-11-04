@@ -5,7 +5,7 @@ import { mountSuspended } from '@nuxt/test-utils/runtime';
 // eslint-disable-next-line sort-imports
 import App from './app.vue';
 
-const setup = function setup(locale: string) {
+const setup = function setup(locale: 'en' | 'fr' | undefined) {
   const i18n = createI18n({
     locale,
     // eslint-disable-next-line id-length
