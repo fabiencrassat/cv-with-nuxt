@@ -1098,7 +1098,7 @@
     pathe "^1.1.2"
     unimport "^3.13.3"
 
-"@nuxt/kit@3.14.1592", "@nuxt/kit@^3.14.1592":
+"@nuxt/kit@^3.13.1", "@nuxt/kit@^3.13.2", "@nuxt/kit@3.14.1592", "@nuxt/kit@^3.14.1592":
   version "3.14.1592"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.14.1592.tgz#f959a269424c1ee313585a46112e474b6ccab3bc"
   integrity sha512-r9r8bISBBisvfcNgNL3dSIQHSBe0v5YkX5zwNblIC2T0CIEgxEVoM5rq9O5wqgb5OEydsHTtT2hL57vdv6VT2w==
@@ -1124,52 +1124,7 @@
     unimport "^3.13.2"
     untyped "^1.5.1"
 
-"@nuxt/kit@^3.13.1", "@nuxt/kit@^3.13.2":
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.14.0.tgz#2ea6409a4e3548267889b8d62153fc8c9aea55e1"
-  integrity sha512-Gl30WrzX7YSJqkTyOJlG4LkErShkGoHigWF/htFt9Q27Lx9JNCkOpXlEf+rA/vsDlXJeo8mVNRoMhS4Q+0d1Kg==
-  dependencies:
-    "@nuxt/schema" "3.14.0"
-    c12 "^2.0.1"
-    consola "^3.2.3"
-    defu "^6.1.4"
-    destr "^2.0.3"
-    globby "^14.0.2"
-    hash-sum "^2.0.0"
-    ignore "^6.0.2"
-    jiti "^2.4.0"
-    klona "^2.0.6"
-    knitwork "^1.1.0"
-    mlly "^1.7.2"
-    pathe "^1.1.2"
-    pkg-types "^1.2.1"
-    scule "^1.3.0"
-    semver "^7.6.3"
-    ufo "^1.5.4"
-    unctx "^2.3.1"
-    unimport "^3.13.1"
-    untyped "^1.5.1"
-
-"@nuxt/schema@3.14.0", "@nuxt/schema@^3.13.2":
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.14.0.tgz#b98223ecf5d5469b126b056842b317ef6105a5c1"
-  integrity sha512-uLAAS7Za7+JXJg6phAjUecqBUfON/WZN/NbYic7uCM+4LUT8B4M/5WM9zFCZJi1g9Krns5Wr5GmJJPIfaYt0eQ==
-  dependencies:
-    c12 "^2.0.1"
-    compatx "^0.1.8"
-    consola "^3.2.3"
-    defu "^6.1.4"
-    hookable "^5.5.3"
-    pathe "^1.1.2"
-    pkg-types "^1.2.1"
-    scule "^1.3.0"
-    std-env "^3.7.0"
-    ufo "^1.5.4"
-    uncrypto "^0.1.3"
-    unimport "^3.13.1"
-    untyped "^1.5.1"
-
-"@nuxt/schema@3.14.1592":
+"@nuxt/schema@3.14.0", "@nuxt/schema@^3.13.2", "@nuxt/schema@3.14.1592":
   version "3.14.1592"
   resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.14.1592.tgz#38c5c0af51d0b95e011db6c332f578aac97c8c82"
   integrity sha512-A1d/08ueX8stTXNkvGqnr1eEXZgvKn+vj6s7jXhZNWApUSqMgItU4VK28vrrdpKbjIPwq2SwhnGOHUYvN9HwCQ==
