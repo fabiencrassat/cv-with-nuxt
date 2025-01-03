@@ -8,10 +8,11 @@
         class="block relative mx-2 text-left"
       >
         <input
-          v-model="checkbox"
           type="checkbox"
           class="block absolute cursor-pointer opacity-0 z-50 w-10 h-8 top-0 sm:hidden"
           :title="$t('menu')"
+          :checked="!menuClosed"
+          @change="switchMenu"
         >
         <span
           class="z-40 block relative bg-gray-200 w-8 h-1 my-1 rounded-sm transition-transform duration-500 ease-in-out sm:hidden"
@@ -29,18 +30,18 @@
           <header
             class="py-8 pl-2 pr-6 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"
           >
-            <ProfilePicture
+            <NavigationProfilePicture
               class="overflow-hidden mx-auto sm:w-16 sm:h-16 md:w-24 md:h-24"
               :name="name"
               :picture="picture"
             />
-            <Name
+            <NavigationName
               class="pt-4"
               :name="name"
             />
-            <SwitchLang class="pt-4" />
+            <NavigationSwitchLang class="pt-4" />
           </header>
-          <ul v-if="menuItems && menuItems.length !== 0">
+          <ul>
             <li
               v-for="(item, index) in menuItems"
               :key="index"
@@ -63,31 +64,22 @@
           </ul>
         </div>
       </div>
-      <ProfilePicture
+      <NavigationProfilePicture
         class="w-16 h-16 mx-1 sm:hidden"
         :name="name"
         :picture="picture"
       />
-      <Name
+      <NavigationName
         class="mx-1 sm:hidden"
         :name="name"
       />
-      <SwitchLang class="mx-1 sm:hidden" />
+      <NavigationSwitchLang class="mx-1 sm:hidden" />
     </div>
   </nav>
 </template>
 
 <script>
-import Name from './name';
-import ProfilePicture from './profilePicture';
-import SwitchLang from './switchLang';
-
 export default {
-  components: {
-    Name,
-    ProfilePicture,
-    SwitchLang,
-  },
   props: {
     // eslint-disable-next-line vue/prop-name-casing
     'menu-items': {
@@ -106,7 +98,7 @@ export default {
   },
   // eslint-disable-next-line sort-keys
   data() {
-    return { checkbox: false };
+    return { menuClosed: true };
   },
   methods: {
     capitalize(value) {
@@ -114,7 +106,10 @@ export default {
       return value.replace(/[A-Za-zÀ-ÖØ-öø-ÿ]\S*/gu, (word) => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
     },
     closeMenu() {
-      this.checkbox = !this.checkbox;
+      this.menuClosed = true;
+    },
+    switchMenu() {
+      this.menuClosed = !this.menuClosed;
     },
   },
 };

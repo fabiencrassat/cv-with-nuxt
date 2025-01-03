@@ -2,14 +2,14 @@
   <p class="text-xs">
     <nuxt-link
       v-if="$i18n.locale !== 'en'"
-      :to="switchLocalePath('en')"
+      :to="$switchLocalePath('en')"
       class="block transition-all duration-150 ease-linear"
     >
       Switch language
     </nuxt-link>
     <nuxt-link
       v-if="$i18n.locale !== 'fr'"
-      :to="switchLocalePath('fr')"
+      :to="$switchLocalePath('fr')"
       class="block transition-all duration-150 ease-linear"
     >
       Changer de langue
@@ -18,6 +18,6 @@
 </template>
 
 <script>
-// Do not remive this export, it is used to import switchLocalePath
+// Do not remive this export, it is used to import $switchLocalePath
 export default {};
 </script>
