@@ -4214,10 +4214,10 @@ h3@^1.13.1:
     uncrypto "^0.1.3"
     unenv "^1.10.0"
 
-happy-dom@^16.5.3:
-  version "16.5.3"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-16.5.3.tgz#c2a46ffaafc378b243f08d30b47fd8799e4bb4bf"
-  integrity sha512-7zGnyROZuntn+5X84MQ535qiQ3ccm45uHl+Q7EFAcPP0NhkbrfPitqprz0GgszX91/QqsZKQ7nTYkyObCTDUjg==
+happy-dom@^16.6.0:
+  version "16.6.0"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-16.6.0.tgz#e35e8568deb4f394cd5488c29f2519676661c1af"
+  integrity sha512-Zz5S9sog8a3p8XYZbO+eI1QMOAvCNnIoyrH8A8MLX+X2mJrzADTy+kdETmc4q+uD9AGAvQYGn96qBAn2RAciKw==
   dependencies:
     webidl-conversions "^7.0.0"
     whatwg-mimetype "^3.0.0"
