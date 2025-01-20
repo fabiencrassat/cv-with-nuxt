@@ -4300,10 +4300,10 @@ h3@^1.13.1:
     uncrypto "^0.1.3"
     unenv "^1.10.0"
 
-happy-dom@^16.6.0:
-  version "16.6.0"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-16.6.0.tgz#e35e8568deb4f394cd5488c29f2519676661c1af"
-  integrity sha512-Zz5S9sog8a3p8XYZbO+eI1QMOAvCNnIoyrH8A8MLX+X2mJrzADTy+kdETmc4q+uD9AGAvQYGn96qBAn2RAciKw==
+happy-dom@^16.7.0:
+  version "16.7.0"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-16.7.0.tgz#aea5ac9499f0203b8ceb3431b6794ac4176a8d3c"
+  integrity sha512-vxjSgX/beuuVfuhEfxFfnOyYg4mLQHHomzVNumYyVqI23IMyjYI7RtmIFr9xnWiWyR2m7TS2BXa5Vht+J76VHQ==
   dependencies:
     webidl-conversions "^7.0.0"
     whatwg-mimetype "^3.0.0"
