@@ -4400,10 +4400,10 @@ h3@^1.14.0:
     uncrypto "^0.1.3"
     unenv "^1.10.0"
 
-happy-dom@^16.7.2:
-  version "16.7.2"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-16.7.2.tgz#a2fd53c573c175fbf529e2e9c33af8790e5b904b"
-  integrity sha512-zOzw0xyYlDaF/ylwbAsduYZZVRTd5u7IwlFkGbEathIeJMLp3vrN3cHm3RS7PZpD9gr/IO16bHEswcgNyWTsqw==
+happy-dom@^16.7.3:
+  version "16.7.3"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-16.7.3.tgz#8f3033265c4e0d31bc7e68f8678676bb92f0e7f7"
+  integrity sha512-76uiE9jCpC849cOyYZ8YBROpPcstW/hwCKoQYd3aiZaxHeR9zdjpup4z7qYEWbt+lY8Rb3efW2gmrckyoBftKg==
   dependencies:
     webidl-conversions "^7.0.0"
     whatwg-mimetype "^3.0.0"
@@ -7800,18 +7800,7 @@ vite-hot-client@^0.2.4:
   resolved "https://registry.yarnpkg.com/vite-hot-client/-/vite-hot-client-0.2.4.tgz#c88789f1615cf4e95690cd5fca98b2e449a29637"
   integrity sha512-a1nzURqO7DDmnXqabFOliz908FRmIppkBKsJthS8rbe8hBEXwEwe4C3Pp33Z1JoFCYfVL4kTOMLKk0ZZxREIeA==
 
-vite-node@3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-3.0.4.tgz#6db5bc4c182baf04986265d46bc3193c5491f41f"
-  integrity sha512-7JZKEzcYV2Nx3u6rlvN8qdo3QV7Fxyt6hx+CCKz9fbWxdX5IvUOmTWEAxMrWxaiSf7CKGLJQ5rFu8prb/jBjOA==
-  dependencies:
-    cac "^6.7.14"
-    debug "^4.4.0"
-    es-module-lexer "^1.6.0"
-    pathe "^2.0.2"
-    vite "^5.0.0 || ^6.0.0"
-
-vite-node@^3.0.4:
+vite-node@3.0.4, vite-node@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-3.0.4.tgz#6db5bc4c182baf04986265d46bc3193c5491f41f"
   integrity sha512-7JZKEzcYV2Nx3u6rlvN8qdo3QV7Fxyt6hx+CCKz9fbWxdX5IvUOmTWEAxMrWxaiSf7CKGLJQ5rFu8prb/jBjOA==
