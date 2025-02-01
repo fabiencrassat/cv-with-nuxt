@@ -208,7 +208,7 @@ exports[`can mount an app with /en/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Squad Leader training"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Squad Leader trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -229,13 +229,13 @@ exports[`can mount an app with /en/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner training"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer for CAMCA"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> June 2024</p>
-                <div class="font-bold text-xl mb-2">Product Owner training</div>
+                <div class="font-bold text-xl mb-2">Product Owner trainer for CAMCA</div>
                 <ul class="text-gray-700 text-base">
                   <li>Product Owner (PO) training to deepen skills in digital product management, mastering techniques for defining the product vision, prioritising the backlog and collaborating effectively with teams.</li>
                 </ul>
@@ -724,7 +724,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Squad Leader training"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Squad Leader trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -745,13 +745,13 @@ exports[`can mount an app with /en/fabien route 2`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner training"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer for CAMCA"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> June 2024</p>
-                <div class="font-bold text-xl mb-2">Product Owner training</div>
+                <div class="font-bold text-xl mb-2">Product Owner trainer for CAMCA</div>
                 <ul class="text-gray-700 text-base">
                   <li>Product Owner (PO) training to deepen skills in digital product management, mastering techniques for defining the product vision, prioritising the backlog and collaborating effectively with teams.</li>
                 </ul>
@@ -1841,7 +1841,7 @@ exports[`can mount an app with /en/fabien route 3`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Squad Leader training"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Squad Leader trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -1862,13 +1862,13 @@ exports[`can mount an app with /en/fabien route 3`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner training"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer for CAMCA"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> June 2024</p>
-                <div class="font-bold text-xl mb-2">Product Owner training</div>
+                <div class="font-bold text-xl mb-2">Product Owner trainer for CAMCA</div>
                 <ul class="text-gray-700 text-base">
                   <li>Product Owner (PO) training to deepen skills in digital product management, mastering techniques for defining the product vision, prioritising the backlog and collaborating effectively with teams.</li>
                 </ul>
@@ -2958,7 +2958,7 @@ exports[`can mount an app with /en/fabien route 4`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Squad Leader training"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Squad Leader trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -2979,13 +2979,13 @@ exports[`can mount an app with /en/fabien route 4`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner training"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer for CAMCA"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> June 2024</p>
-                <div class="font-bold text-xl mb-2">Product Owner training</div>
+                <div class="font-bold text-xl mb-2">Product Owner trainer for CAMCA</div>
                 <ul class="text-gray-700 text-base">
                   <li>Product Owner (PO) training to deepen skills in digital product management, mastering techniques for defining the product vision, prioritising the backlog and collaborating effectively with teams.</li>
                 </ul>
@@ -4075,13 +4075,13 @@ exports[`can mount an app with /fr/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Formation Squad Leader"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Formateur Squad Leader"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> Janvier - Septembre 2024</p>
-                <div class="font-bold text-xl mb-2">Formation Squad Leader</div>
+                <div class="font-bold text-xl mb-2">Formateur Squad Leader</div>
                 <ul class="text-gray-700 text-base">
                   <li>Formation intensive de 2 jours destinée à 80 collaborateurs sur 10 sessions pour développer les compétences en leadership opérationnel agile, encourager l’autonomie des équipes et optimiser la performance collective.</li>
                 </ul>
