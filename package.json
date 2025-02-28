@@ -42,7 +42,7 @@
     "happy-dom": "^17.1.2",
     "husky": "^9.1.7",
     "playwright-core": "^1.50.1",
-    "typescript": "^5.7.3",
+    "typescript": "^5.8.2",
     "vitest": "^3.0.6",
     "vue-tsc": "^2.2.4",
     "w3c-html-validator": "^1.8.2"
