@@ -8,6 +8,7 @@
         class="block relative mx-2 text-left"
       >
         <input
+          id="menuToggleInput"
           type="checkbox"
           class="block absolute cursor-pointer opacity-0 z-50 w-10 h-8 top-0 sm:hidden"
           :title="$t('menu')"
