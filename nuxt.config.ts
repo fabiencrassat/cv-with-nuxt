@@ -65,7 +65,7 @@ export default defineNuxtConfig({
       },
     ],
     strategy: 'prefix_and_default',
-    vueI18n: './config/i18n.config.ts',
+    vueI18n: '~~/config/i18n.config.ts',
   },
   tailwindcss: {
     configPath: '~~/config/tailwind.config.ts',
