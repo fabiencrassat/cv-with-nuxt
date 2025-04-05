@@ -12,7 +12,7 @@
     "build:node_server": "nuxt build --preset node_server",
     "build:vercel": "nuxt build --preset vercel-edge",
     "clean": "nuxt cleanup && rm -rf .vercel",
-    "dev": "yarn outdated & nuxt dev",
+    "dev": "yarn outdated & nuxt dev --host 0.0.0.0",
     "generate": "nuxt generate",
     "lint": "eslint .",
     "prepare": "husky",
