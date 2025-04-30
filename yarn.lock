@@ -1503,10 +1503,10 @@
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-11.1.2.tgz#d780bc8eb4e3c3ef8a3e45c421f0f5ecf59651f2"
   integrity sha512-dF2iMMy8P9uKVHV/20LA1ulFLL+MKSbfMiixSmn6fpwqzvix38OIc7ebgnFbBqElvghZCW9ACtzKTGKsTGTWGA==
 
-"@intlify/unplugin-vue-i18n@^6.0.5":
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/@intlify/unplugin-vue-i18n/-/unplugin-vue-i18n-6.0.5.tgz#d09aa6f969726c51879572af53a9f1b135da29c5"
-  integrity sha512-0MKaYhLvM46Mtm+OArkK75ztmqaFfhIvnm5mg8XKqCPAKVAK98o+8tB6gUQFkKrF5PMYsNXvyMJCi40cRCDJbA==
+"@intlify/unplugin-vue-i18n@^6.0.8":
+  version "6.0.8"
+  resolved "https://registry.yarnpkg.com/@intlify/unplugin-vue-i18n/-/unplugin-vue-i18n-6.0.8.tgz#2162dced28b01f7ea471b577ba10ecc4ba523d0d"
+  integrity sha512-Vvm3KhjE6TIBVUQAk37rBiaYy2M5OcWH0ZcI1XKEsOTeN1o0bErk+zeuXmcrcMc/73YggfI8RoxOUz9EB/69JQ==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     "@intlify/bundle-utils" "^10.0.1"
@@ -2359,14 +2359,14 @@
     vite-plugin-checker "^0.9.2"
     vue-bundle-renderer "^2.1.1"
 
-"@nuxtjs/i18n@^9.5.3":
-  version "9.5.3"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/i18n/-/i18n-9.5.3.tgz#94eb01b17a98bf1dc709f35c321de38e90ed2867"
-  integrity sha512-pw8xU6PFzCop8tYts5IqqoL4F5eol18Xg+0wgVeptlzdki4LR0NnNQkO5nHhwsKUK8e+g8+Efc6ppqKdTqPGig==
+"@nuxtjs/i18n@^9.5.4":
+  version "9.5.4"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/i18n/-/i18n-9.5.4.tgz#41e38c5d187071857784a1c89d4162180888b1d6"
+  integrity sha512-HSCC6bLvkI74AOJ/Hsa8+52uy92Bzpu/lVOKYJZIR/HV4TtV48fgKLPRlL8RmCXx/AmKBtrPsLfhAAIj9RBAKQ==
   dependencies:
     "@intlify/h3" "^0.6.1"
     "@intlify/shared" "^10.0.7"
-    "@intlify/unplugin-vue-i18n" "^6.0.5"
+    "@intlify/unplugin-vue-i18n" "^6.0.8"
     "@intlify/utils" "^0.13.0"
     "@miyaneee/rollup-plugin-json5" "^1.2.0"
     "@nuxt/kit" "^3.16.2"
