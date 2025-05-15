@@ -2014,7 +2014,7 @@
     pathe "^2.0.3"
     unimport "^4.1.3"
 
-"@nuxt/kit@3.17.2", "@nuxt/kit@^3.17.1":
+"@nuxt/kit@3.17.2":
   version "3.17.2"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.17.2.tgz#1c462d774e263e9fdf75370d3bad01218a6dacbd"
   integrity sha512-Mz2Ni8iUwty5LBs3LepUL43rI2xXbuAz3Cqq37L9frOD2QI2tQUtasYaSoKk6U7nvYzuW2z/2b3YOLkMNi/k2w==
@@ -2178,6 +2178,34 @@
     unimport "^4.1.3"
     untyped "^2.0.0"
 
+"@nuxt/kit@^3.17.3":
+  version "3.17.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.17.3.tgz#58a54b0155b1a3b277f434de024d7d5e738c38e2"
+  integrity sha512-aw6u6mT3TnM/MmcCRDMv3i9Sbm5/ZMSJgDl+N+WsrWNDIQ2sWmsqdDkjb/HyXF20SNwc2891hRBkaQr3hG2mhA==
+  dependencies:
+    c12 "^3.0.3"
+    consola "^3.4.2"
+    defu "^6.1.4"
+    destr "^2.0.5"
+    errx "^0.1.0"
+    exsolve "^1.0.5"
+    ignore "^7.0.4"
+    jiti "^2.4.2"
+    klona "^2.0.6"
+    knitwork "^1.2.0"
+    mlly "^1.7.4"
+    ohash "^2.0.11"
+    pathe "^2.0.3"
+    pkg-types "^2.1.0"
+    scule "^1.3.0"
+    semver "^7.7.1"
+    std-env "^3.9.0"
+    tinyglobby "^0.2.13"
+    ufo "^1.6.1"
+    unctx "^2.4.1"
+    unimport "^5.0.1"
+    untyped "^2.0.0"
+
 "@nuxt/schema@3.15.0", "@nuxt/schema@^3.14.1592":
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.15.0.tgz#d3e6127b02b15cd51bd1f3894e020cffddfd17f3"
@@ -2197,7 +2225,7 @@
     unimport "^3.14.5"
     untyped "^1.5.2"
 
-"@nuxt/schema@3.17.2", "@nuxt/schema@^3.17.1":
+"@nuxt/schema@3.17.2":
   version "3.17.2"
   resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.17.2.tgz#e1315dfac1beac2a8dbd2b20d4b2018bf2196a51"
   integrity sha512-DzmvgqcfIoCkNKXrBU6wpGckIXSxHHU+7OTlE68qNq6y0lVYnUA0Akrn0I8j+n/vFdQTIpJXiRD4dAgcomsBAg==
@@ -2223,6 +2251,17 @@
   resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.17.0.tgz#79b5c24cec25069c06acd3baf82b1d5c410e1d9a"
   integrity sha512-BwHD1NBtZRlk+qPZYvNzzdp7MG8s4i5gmTQ+12hbxc9x09osB9RivAU2ekwMMLfykx90wDszDu0DJ5Zec4Svgg==
   dependencies:
+    consola "^3.4.2"
+    defu "^6.1.4"
+    pathe "^2.0.3"
+    std-env "^3.9.0"
+
+"@nuxt/schema@^3.17.3":
+  version "3.17.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.17.3.tgz#fd6133dd53470a2cabe5ea5c93e25d9029153059"
+  integrity sha512-z4hbeTtg8B2/2I8zqnCAQQ9JmIQA/BfFy/8cRkGKRIMNjOaTOdmAqMnNriSpyp9xfzWGpnvxPFgab/5uSjsAgA==
+  dependencies:
+    "@vue/shared" "^3.5.13"
     consola "^3.4.2"
     defu "^6.1.4"
     pathe "^2.0.3"
@@ -2278,19 +2317,19 @@
     vitest-environment-nuxt "^1.0.1"
     vue "^3.5.13"
 
-"@nuxt/test-utils@^3.18.0":
-  version "3.18.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/test-utils/-/test-utils-3.18.0.tgz#727ea8a0600c9cb46b1819c0b7dc1eead5e89bc4"
-  integrity sha512-i/kF1zc4YMT+tp3eBu5fTk1qxiQeQfjkCBl0Jta/O7s2x61pb0hiOGmX/ZTU3w0JFTXtTkqVMPqJuqFb+F5jCg==
+"@nuxt/test-utils@^3.19.0":
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/test-utils/-/test-utils-3.19.0.tgz#ce97f04f417661d73650c1ab154012eb4930145a"
+  integrity sha512-rhy01aH1Gioh1uCiiESpeI5m6ZCk4k+0FHwooV01NAGtIY2hJaFxgKf0s+6vjiSvHqoIDMzjaQ9g3SoccDJ4kA==
   dependencies:
-    "@nuxt/kit" "^3.17.1"
-    "@nuxt/schema" "^3.17.1"
+    "@nuxt/kit" "^3.17.3"
+    "@nuxt/schema" "^3.17.3"
     c12 "^3.0.3"
     consola "^3.4.2"
     defu "^6.1.4"
     destr "^2.0.5"
     estree-walker "^3.0.3"
-    fake-indexeddb "^6.0.0"
+    fake-indexeddb "^6.0.1"
     get-port-please "^3.1.2"
     h3 "^1.15.3"
     local-pkg "^1.1.1"
@@ -2305,8 +2344,8 @@
     std-env "^3.9.0"
     tinyexec "^1.0.1"
     ufo "^1.6.1"
-    unplugin "^2.3.2"
-    vite "^6.3.4"
+    unplugin "^2.3.3"
+    vite "^6.3.5"
     vitest-environment-nuxt "^1.0.1"
     vue "^3.5.13"
 
@@ -5908,6 +5947,11 @@ fake-indexeddb@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/fake-indexeddb/-/fake-indexeddb-6.0.0.tgz#3173d5ad141436dace95f8de6e9ecdc3d9787d5d"
   integrity sha512-YEboHE5VfopUclOck7LncgIqskAqnv4q0EWbYCaxKKjAvO93c+TJIaBuGy8CBFdbg9nKdpN3AuPRwVBJ4k7NrQ==
+
+fake-indexeddb@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/fake-indexeddb/-/fake-indexeddb-6.0.1.tgz#03937a9065c2ea09733e2147a473c904411b6f2c"
+  integrity sha512-He2AjQGHe46svIFq5+L2Nx/eHDTI1oKgoevBP+TthnjymXiKkeJQ3+ITeWey99Y5+2OaPFbI1qEsx/5RsGtWnQ==
 
 fancy-log@~2.0:
   version "2.0.0"
@@ -10465,6 +10509,15 @@ unplugin@^2.3.2:
     picomatch "^4.0.2"
     webpack-virtual-modules "^0.6.2"
 
+unplugin@^2.3.3:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-2.3.4.tgz#f3cf35f36656404cb9078be59f993941d649d87c"
+  integrity sha512-m4PjxTurwpWfpMomp8AptjD5yj8qEZN5uQjjGM3TAs9MWWD2tXSSNNj6jGR2FoVGod4293ytyV6SwBbertfyJg==
+  dependencies:
+    acorn "^8.14.1"
+    picomatch "^4.0.2"
+    webpack-virtual-modules "^0.6.2"
+
 unrs-resolver@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/unrs-resolver/-/unrs-resolver-1.3.3.tgz#46bd5dd2ecc650365e050055fc208b5f4ae57803"
@@ -10702,7 +10755,7 @@ vite@^5.4.11:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vite@^6.3.4:
+vite@^6.3.4, vite@^6.3.5:
   version "6.3.5"
   resolved "https://registry.yarnpkg.com/vite/-/vite-6.3.5.tgz#fec73879013c9c0128c8d284504c6d19410d12a3"
   integrity sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==
