@@ -1953,7 +1953,7 @@
     pathe "^2.0.3"
     unimport "^5.0.1"
 
-"@nuxt/kit@3.17.4":
+"@nuxt/kit@3.17.4", "@nuxt/kit@^3.17.4":
   version "3.17.4"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.17.4.tgz#602d2cf9a1ced93a29a47321c69946abfff51b58"
   integrity sha512-l+hY8sy2XFfg3PigZj+PTu6+KIJzmbACTRimn1ew/gtCz+F38f6KTF4sMRTN5CUxiB8TRENgEonASmkAWfpO9Q==
@@ -2136,7 +2136,7 @@
     unimport "^3.14.5"
     untyped "^1.5.2"
 
-"@nuxt/schema@3.17.4":
+"@nuxt/schema@3.17.4", "@nuxt/schema@^3.17.4":
   version "3.17.4"
   resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.17.4.tgz#f5ab03af273b60c5e2da263bc03f3a65961c94ed"
   integrity sha512-bsfJdWjKNYLkVQt7Ykr9YsAql1u8Tuo6iecSUOltTIhsvAIYsknRFPHoNKNmaiv/L6FgCQgUgQppPTPUAXiJQQ==
@@ -2208,14 +2208,14 @@
     vitest-environment-nuxt "^1.0.1"
     vue "^3.5.13"
 
-"@nuxt/test-utils@^3.19.0":
-  version "3.19.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/test-utils/-/test-utils-3.19.0.tgz#ce97f04f417661d73650c1ab154012eb4930145a"
-  integrity sha512-rhy01aH1Gioh1uCiiESpeI5m6ZCk4k+0FHwooV01NAGtIY2hJaFxgKf0s+6vjiSvHqoIDMzjaQ9g3SoccDJ4kA==
+"@nuxt/test-utils@^3.19.1":
+  version "3.19.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/test-utils/-/test-utils-3.19.1.tgz#20d82a4779e9e3380a5f8571da0b45e56da088c9"
+  integrity sha512-qq2ioRgPCM7JwPIeJO2OzzqCWr8NR5eQINoskX2NEXTHzucvb8N9mt2UB2+NUe8OL9yNjGDZA+oA51GUKNhqhg==
   dependencies:
-    "@nuxt/kit" "^3.17.3"
-    "@nuxt/schema" "^3.17.3"
-    c12 "^3.0.3"
+    "@nuxt/kit" "^3.17.4"
+    "@nuxt/schema" "^3.17.4"
+    c12 "^3.0.4"
     consola "^3.4.2"
     defu "^6.1.4"
     destr "^2.0.5"
@@ -2235,10 +2235,10 @@
     std-env "^3.9.0"
     tinyexec "^1.0.1"
     ufo "^1.6.1"
-    unplugin "^2.3.3"
+    unplugin "^2.3.4"
     vite "^6.3.5"
     vitest-environment-nuxt "^1.0.1"
-    vue "^3.5.13"
+    vue "^3.5.14"
 
 "@nuxt/vite-builder@3.17.4":
   version "3.17.4"
@@ -10559,7 +10559,7 @@ unplugin@^2.3.2:
     picomatch "^4.0.2"
     webpack-virtual-modules "^0.6.2"
 
-unplugin@^2.3.3, unplugin@^2.3.4:
+unplugin@^2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-2.3.4.tgz#f3cf35f36656404cb9078be59f993941d649d87c"
   integrity sha512-m4PjxTurwpWfpMomp8AptjD5yj8qEZN5uQjjGM3TAs9MWWD2tXSSNNj6jGR2FoVGod4293ytyV6SwBbertfyJg==
