@@ -1,5 +1,7 @@
-import { type VueWrapper, config } from '@vue/test-utils';
 import { expect, it } from 'vitest';
+import type { VueWrapper } from '@vue/test-utils';
+// eslint-disable-next-line no-duplicate-imports
+import { config } from '@vue/test-utils';
 import { createI18n } from 'vue-i18n';
 import { mountSuspended } from '@nuxt/test-utils/runtime';
 // eslint-disable-next-line sort-imports
