@@ -4228,10 +4228,10 @@ clean-regexp@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-cli-argv-util@~1.2:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/cli-argv-util/-/cli-argv-util-1.2.6.tgz#5583b3367f983b1d95c161b63d9cb14879911bd2"
-  integrity sha512-TxdSefm6I7eTj7JXOcj34ucba/JcD17Xc8zBBe4bLd0ibL1GBjANhDAB1QjtOrU53d9cdPDzeDcr33okJJ6Q3A==
+cli-argv-util@~1.3:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/cli-argv-util/-/cli-argv-util-1.3.0.tgz#f49a01493cce0b7667e6bce18deb30f93ab7c2fd"
+  integrity sha512-4iSn+6NbtHECc/MZmbijCOKg70H8C/+g2/DuIBVInffggqCbVHx8L/PcYQaXiDDN5F5BJ6ElJj1tG+e+IAnR+g==
   dependencies:
     slash "~5.1"
 
@@ -5777,7 +5777,7 @@ formdata-polyfill@^4.0.10:
   dependencies:
     fetch-blob "^3.1.2"
 
-formidable@^3.5.2:
+formidable@^3.5.4:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/formidable/-/formidable-3.5.4.tgz#ac9a593b951e829b3298f21aa9a2243932f32ed9"
   integrity sha512-YikH+7CUTOtP44ZTnUhR7Ic2UASBPOqmaRkRKxRbywPTe5VxF7RRCck4af9wutiZ/QKM5nME9Bie2fFaPz5Gug==
@@ -9304,17 +9304,17 @@ sucrase@^3.35.0:
     pirates "^4.0.1"
     ts-interface-checker "^0.1.9"
 
-superagent@~10.1:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/superagent/-/superagent-10.1.1.tgz#2f112591a5701a1d4467048580bcfda104e5a94d"
-  integrity sha512-9pIwrHrOj3uAnqg9gDlW7EA2xv+N5au/dSM0kM22HTqmUu8jBxNT+8uA7tA3UoCnmiqzpSbu8rasIUZvbyamMQ==
+superagent@~10.2:
+  version "10.2.2"
+  resolved "https://registry.yarnpkg.com/superagent/-/superagent-10.2.2.tgz#7cb361250069962c2037154ae9d0f4051efa72ac"
+  integrity sha512-vWMq11OwWCC84pQaFPzF/VO3BrjkCeewuvJgt1jfV0499Z1QSAWN4EqfMM5WlFDDX9/oP8JjlDKpblrmEoyu4Q==
   dependencies:
     component-emitter "^1.3.0"
     cookiejar "^2.1.4"
     debug "^4.3.4"
     fast-safe-stringify "^2.1.1"
     form-data "^4.0.0"
-    formidable "^3.5.2"
+    formidable "^3.5.4"
     methods "^1.1.2"
     mime "2.6.0"
     qs "^6.11.0"
@@ -10288,17 +10288,17 @@ vue@^3.5.17:
     "@vue/server-renderer" "3.5.17"
     "@vue/shared" "3.5.17"
 
-w3c-html-validator@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/w3c-html-validator/-/w3c-html-validator-1.8.3.tgz#ec2be17d7d77b938ac64575e1d604b85d5a37a1b"
-  integrity sha512-WJpW+uTn0+8GF2lym26sAGSlhc1ium9Ns1KMU75/FnVHCoZEQXp6Efna83PzWEy3ogQTLugHJyw0PASSfFjWQg==
+w3c-html-validator@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/w3c-html-validator/-/w3c-html-validator-1.9.0.tgz#8e91bfebf15bc61598eb2331f6f36d811e8cbb10"
+  integrity sha512-5O5Usq4rhM2fWRbNF3UmMhEt9LjiJnkn0cuVoqjdYrPZTuj5vef1M70alyMT2FClo5Dv4lvIzV2fpFUX/af5Ng==
   dependencies:
     chalk "~5.4"
-    cli-argv-util "~1.2"
+    cli-argv-util "~1.3"
     fancy-log "~2.0"
     glob "~11.0"
     slash "~5.1"
-    superagent "~10.1"
+    superagent "~10.2"
 
 web-streams-polyfill@^3.0.3:
   version "3.3.3"
