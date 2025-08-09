@@ -35,8 +35,6 @@ export default defineNuxtConfig({
       ],
     },
   },
-  srcDir: 'src/',
-  // eslint-disable-next-line sort-keys
   routeRules: {
     '/': { redirect: '/fabien' },
     '/fabien/en': { redirect: '/en/fabien' },
@@ -65,9 +63,5 @@ export default defineNuxtConfig({
       },
     ],
     strategy: 'prefix_and_default',
-    vueI18n: '~~/config/i18n.config.ts',
-  },
-  tailwindcss: {
-    configPath: '~~/config/tailwind.config.ts',
   },
 });

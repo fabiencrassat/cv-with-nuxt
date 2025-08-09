@@ -6,7 +6,7 @@
  */
 
 export default {
-  content: ['./src/**/*.html', './src/**/*.vue', './src/**/*.js'],
+  content: ['./app/**/*.html', './app/**/*.vue', './app/**/*.js'],
   corePlugins: {
     // Disable transform property due to invalid w3c validator:
     // Error: CSS: “transform”: too few values for the property “transform”

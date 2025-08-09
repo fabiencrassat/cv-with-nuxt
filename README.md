@@ -72,16 +72,16 @@ The product source code is structured with:
 
 ```text
   .
+  ├── app
+  |   ├── assets      # All static files that need to be served without i18n.
+  |   ├── components  # All codes imported in the `app/pages/` files, **using nuxt and vue**.
+  |   ├── pages       # All the application pages called with URL, served with **nuxt** and **i18n**.
+  |   └── resources   # All resources to build the curriculum vitae.
   ├── config          # Built and runtime configuration.
   ├── i18n            # Nuxt i18n json files for translations.
   ├── lib             # All codes used into the application but that **do not use nuxt and vue**.
-  ├── scripts         # All files called in the `package.json` script section.
-  └── src
-      ├── assets      # All static files that need to be served without i18n.
-      ├── components  # All codes imported in the `src/pages/` files, **using nuxt and vue**.
-      ├── pages       # All the application pages called with URL, served with **nuxt** and **i18n**.
-      ├── public      # All public files that can be link from the root website.
-      └── resources   # All resources to build the curriculum vitae.
+  ├── public          # All public files that can be link from the root website.
+  └── scripts         # All files called in the `package.json` script section.
 ```
 
 ## Start like production

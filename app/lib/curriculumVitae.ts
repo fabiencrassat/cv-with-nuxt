@@ -25,18 +25,6 @@ interface ICrossRef {
   crossref: string;
 }
 
-interface ISkill {
-  percentage: number;
-  name: ILang;
-  label?: string;
-}
-
-interface ISkillsGroup {
-  label: ILang | string;
-  svg: string;
-  items: ISkill[];
-}
-
 interface ICurriculumVitae {
   identity: {
     myself: {
@@ -65,11 +53,18 @@ interface ICurriculumVitae {
     };
   };
   skills: {
-    [key: string]: ISkillsGroup;
+    [key: string]: {
+      label: ILang;
+      svg: string;
+      items: {
+        percentage: number;
+        name: ILang;
+      }[];
+    };
   };
   educations: {
     [key: string]: {
-      date?: ILang | string;
+      date?: ILang;
       dates?: number[];
       label: ILang;
       description: ILang;
@@ -85,6 +80,7 @@ interface ICurriculumVitae {
     [key: string]: {
       date: ILang;
       label: ILang;
+      image: string;
     };
   };
   hobbies: {
@@ -97,7 +93,7 @@ interface ICurriculumVitae {
 
 const Tools = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any, max-statements
-  buildValues(_this: any, lang: string, input: Record<string, Record<string, any>>) {
+  buildValues(_this: CurriculumVitae, lang: string, input: Record<string, Record<string, any>>) {
     const entries = input;
     // Clone the object not to alter it
     const result = { ...entries };
@@ -118,27 +114,27 @@ const Tools = {
   },
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  getCrossRefValue(_this: any, element: any) {
+  getCrossRefValue(_this: CurriculumVitae, element: any) {
     // eslint-disable-next-line no-prototype-builtins
     if (element.hasOwnProperty('crossref')) {
       const crossref = element.crossref.split('.') as string[];
       // eslint-disable-next-line no-magic-numbers
-      let subElement = _this[crossref[0]];
+      let subElement = _this[crossref[0] as keyof typeof _this];
       crossref.shift();
       crossref.forEach((ref) => {
-        subElement = subElement[ref];
+        subElement = subElement[ref as keyof typeof subElement];
       });
       return subElement;
     }
     return element;
   },
 
-  getLangValue(element: string | ILang, lang: string) {
+  getLangValue(element: string | ILang, lang: string): string {
     // eslint-disable-next-line no-prototype-builtins
     if (typeof element !== 'string' && (element.hasOwnProperty('fr') || element.hasOwnProperty('en'))) {
-      return element[lang];
+      return element[lang] as string;
     }
-    return element;
+    return element as string;
   },
 };
 
@@ -188,22 +184,24 @@ export default class CurriculumVitae {
   public getSkills() {
     const { skills } = this.curriculumVitae;
     // Clone the object not to alter it
-    const result = { ...skills };
-    // eslint-disable-next-line guard-for-in
-    for (const skillsGroupKey in skills) {
-      const skillGroup = skills[skillsGroupKey];
-      // Clone the object not to alter it
-      result[skillsGroupKey] = { ...skillGroup };
-      result[skillsGroupKey].label = Tools.getLangValue(
-        skillGroup.label,
-        this.lang,
-      );
-      skillGroup.items.forEach((skill, index) => {
-        const value = skill;
-        value.label = Tools.getLangValue(skill.name, this.lang) as string;
-        result[skillsGroupKey].items[index] = value;
-      }, this);
-    }
+    const result: Record<string, {
+      label: string;
+      svg: string;
+      items: {
+        percentage: number;
+        label: string;
+      }[];
+    }> = {};
+    Object.entries(skills).forEach(([skillsGroupKey, skillGroup]) => {
+      result[skillsGroupKey] = {
+        items: skillGroup.items.map((item) => ({
+          label: Tools.getLangValue(item.name, this.lang),
+          percentage: item.percentage,
+        })),
+        label: Tools.getLangValue(skillGroup.label, this.lang),
+        svg: skillGroup.svg,
+      };
+    });
     return result;
   }
 

@@ -1024,7 +1024,10 @@
       }
     },
     "waterSaleman": {
-      "date": "Sept 2002",
+      "date": {
+        "fr": "Sept 2002",
+        "en": "Sept 2002"
+      },
       "label": {
         "fr": "Formation aux méthodes de vente et aux techniques de traitement d’eau",
         "en": "Training in sales techniques of water treatment, MONTPELLIER."
