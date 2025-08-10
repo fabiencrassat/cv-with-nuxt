@@ -9,7 +9,7 @@ const head = useLocaleHead({
   identifierAttribute: 'id',
 });
 // eslint-disable-next-line no-useless-assignment
-const title = 'TBD';
+const title = 'Curriculum Vitae';
 </script>
 
 <script>

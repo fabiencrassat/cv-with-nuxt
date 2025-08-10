@@ -49,7 +49,6 @@ export default defineNuxtConfig({
     baseUrl: getBaseUrl(),
     defaultLocale: 'fr',
     langDir: '../i18n/locales/',
-    lazy: true,
     locales: [
       {
         code: 'en',
