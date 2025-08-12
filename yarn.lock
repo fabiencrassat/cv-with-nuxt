@@ -2311,10 +2311,10 @@
     vite-plugin-checker "^0.10.2"
     vue-bundle-renderer "^2.1.2"
 
-"@nuxtjs/i18n@^10.0.4":
-  version "10.0.4"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/i18n/-/i18n-10.0.4.tgz#b88fdd12f14025e9b2d657055827ec7f35a467dd"
-  integrity sha512-BPm4SZyDKshbJqi8li6Tyy2ds/aQtwoMYgyH0XX5ZqCcnrANWur4RuWBYjQQssdoQFjP8deMjBybfefI5lQNwQ==
+"@nuxtjs/i18n@^10.0.5":
+  version "10.0.5"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/i18n/-/i18n-10.0.5.tgz#ae494cb0cf06bc64c962a1d05d75875d756cab4e"
+  integrity sha512-rLQc/nEVWL0xMJf1a6+ndUpdQtxPBFzm4jeqG4o7HuXtDLn4HOe1dPdu7AsaIqq7EcsEjZ5T4mX4X8XnB8cT0Q==
   dependencies:
     "@intlify/core" "^11.1.11"
     "@intlify/h3" "^0.7.1"
