@@ -1,5 +1,6 @@
-/* global defineNuxtConfig */
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+import { defineNuxtConfig } from 'nuxt/config';
 
 const getBaseUrl = function getBaseUrl() {
   if (process.env.ENVIRONMENT_DEPLOYMENT === 'production') {
