@@ -188,15 +188,12 @@ jobs:
         run: |
           echo "GIT_VERSION=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
       - name: Run SonarQube
+        uses: SonarSource/sonarqube-scan-action@5.3.1 # See the latest version at https://github.com/marketplace/actions/official-sonarqube-scan
         env:
-          # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: sonar-scanner
-            -Dsonar.token=$SONAR_TOKEN
-            -Dsonar.organization=fabiencrassat-github
-            -Dsonar.host.url=https://sonarcloud.io/
-            -Dsonar.projectKey=cv-with-nuxt
+          SONAR_HOST_URL: ${{ vars.SONAR_HOST_URL }}
+        with:
+          args: >
             -Dsonar.projectVersion=${{ env.GIT_VERSION }}
             -Dsonar.qualitygate.wait=true
   deploy-production:
