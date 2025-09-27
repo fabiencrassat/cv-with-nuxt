@@ -121,9 +121,9 @@ const Tools = {
       // eslint-disable-next-line no-magic-numbers
       let subElement = _this[crossref[0] as keyof typeof _this];
       crossref.shift();
-      crossref.forEach((ref) => {
+      for (const ref of crossref) {
         subElement = subElement[ref as keyof typeof subElement];
-      });
+      }
       return subElement;
     }
     return element;
@@ -192,7 +192,7 @@ export default class CurriculumVitae {
         label: string;
       }[];
     }> = {};
-    Object.entries(skills).forEach(([skillsGroupKey, skillGroup]) => {
+    for (const [skillsGroupKey, skillGroup] of Object.entries(skills)) {
       result[skillsGroupKey] = {
         items: skillGroup.items.map((item) => ({
           label: Tools.getLangValue(item.name, this.lang),
@@ -201,7 +201,7 @@ export default class CurriculumVitae {
         label: Tools.getLangValue(skillGroup.label, this.lang),
         svg: skillGroup.svg,
       };
-    });
+    }
     return result;
   }
 

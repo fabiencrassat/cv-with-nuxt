@@ -53,12 +53,13 @@ export default {
   },
   methods: {
     getShowingExperiences(experiences, itemToShow) {
-      const showingExperiences = { ...experiences };
-      const experienceKeysHidden = Object.keys(showingExperiences);
+      const experienceKeys = Object.keys(experiences);
       // eslint-disable-next-line no-magic-numbers
-      experienceKeysHidden.splice(0, itemToShow);
-      // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
-      experienceKeysHidden.forEach((key) => delete showingExperiences[key]);
+      const visibleKeys = experienceKeys.slice(0, itemToShow);
+      const showingExperiences = {};
+      for (const key of visibleKeys) {
+        showingExperiences[key] = experiences[key];
+      }
       return showingExperiences;
     },
     showMore() {
