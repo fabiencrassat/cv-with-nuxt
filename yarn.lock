@@ -1938,7 +1938,7 @@
     pathe "^2.0.3"
     unimport "^5.2.0"
 
-"@nuxt/kit@4.1.3", "@nuxt/kit@^4.1.2":
+"@nuxt/kit@4.1.3", "@nuxt/kit@^4.1.2", "@nuxt/kit@^4.1.3":
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-4.1.3.tgz#c2536419c0f8b4bdd2c3eb5dd158a1cd2baba705"
   integrity sha512-WK0yPIqcb3GQ8r4GutF6p/2fsyXnmmmkuwVLzN4YaJHrpA2tjEagjbxdjkWYeHW8o4XIKJ4micah4wPOVK49Mg==
@@ -8013,12 +8013,12 @@ nuxt-define@^1.0.0:
   resolved "https://registry.yarnpkg.com/nuxt-define/-/nuxt-define-1.0.0.tgz#987f97719d76c31719522ce7a359bc49c361cb46"
   integrity sha512-CYZ2WjU+KCyCDVzjYUM4eEpMF0rkPmkpiFrybTqqQCRpUbPt2h3snswWIpFPXTi+osRCY6Og0W/XLAQgDL4FfQ==
 
-nuxt-gtag@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-4.0.0.tgz#993c866093e00b266be7fea2cc134e4af08316b8"
-  integrity sha512-7Mz8d3Cbrp2WsskJmzTsxO5lYpX7oVLsmsMQPInM+r0/8aGM1LnDnQYdFtTO+j7fsVhMuCa+XZyNrH43EKNfHA==
+nuxt-gtag@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-4.1.0.tgz#13b879e0aed7646d5aec7a9a39f2dbd9ac7f6b21"
+  integrity sha512-2TL7RUA8N8NYGbY4UZ9IqKyMZMgO9cCGu6yqadUU8RF+Y81PXI+k+1giIA11XXStaJoGXaXeNsBUIJXn1tUy3A==
   dependencies:
-    "@nuxt/kit" "^4.0.3"
+    "@nuxt/kit" "^4.1.3"
     defu "^6.1.4"
     pathe "^2.0.3"
     ufo "^1.6.1"
