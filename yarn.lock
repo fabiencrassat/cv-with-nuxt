@@ -6643,10 +6643,10 @@ h3@^1.15.4:
     ufo "^1.6.1"
     uncrypto "^0.1.3"
 
-happy-dom@^20.0.7:
-  version "20.0.7"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.0.7.tgz#fe2abb295bd43baa6b761018ec983c084f18f64f"
-  integrity sha512-CywLfzmYxP5OYpuAG0usFY0CpxJtwYR+w8Mms5J8W29Y2Pzf6rbfQS2M523tRZTb0oLA+URopPtnAQX2fupHZQ==
+happy-dom@^20.0.8:
+  version "20.0.8"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.0.8.tgz#9bece083d2675ae45c2fc23871a9a02bb162a366"
+  integrity sha512-TlYaNQNtzsZ97rNMBAm8U+e2cUQXNithgfCizkDgc11lgmN4j9CKMhO3FPGKWQYPwwkFcPpoXYF/CqEPLgzfOg==
   dependencies:
     "@types/node" "^20.0.0"
     "@types/whatwg-mimetype" "^3.0.2"
