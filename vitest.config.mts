@@ -5,6 +5,9 @@ export default defineVitestConfig({
     coverage: {
       reporter: ['text', 'html', 'clover', 'json', 'lcov'],
       reportsDirectory: '../coverage',
+      exclude: [
+        'app/resources/*.json',
+      ],
       thresholds: {
         branches: 100,
         functions: 100,

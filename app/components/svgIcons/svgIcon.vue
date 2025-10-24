@@ -13,3 +13,7 @@
     <slot />
   </svg>
 </template>
+
+<script setup lang="ts">
+/* without this comment coverage will report 0% for functions */
+</script>
