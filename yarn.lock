@@ -10429,10 +10429,10 @@ vue@^3.5.22:
     "@vue/server-renderer" "3.5.22"
     "@vue/shared" "3.5.22"
 
-w3c-html-validator@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/w3c-html-validator/-/w3c-html-validator-2.0.0.tgz#e65ebb3dc05ac46bdf27d41d879d142639231532"
-  integrity sha512-8fAPgf1M0YPPvchAfpeqn1aedB6KQ4Os9xvD/Tf+0iIE5TiD2V112P5hALJLTXTuYOmuBlRKcYg1fxZz0G/+ng==
+w3c-html-validator@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/w3c-html-validator/-/w3c-html-validator-2.0.1.tgz#9222dfb5d2e36c400840b36b354ad09ee288e09d"
+  integrity sha512-503Gm0X+coM4FVjcpAF2tmaXdC+PcS0gZgy0w5Qn0bAUjUnfJ0Hc9bjuK1Nc1gxTwIWhYyr/OD/4KqabOQ9M3Q==
   dependencies:
     chalk "~5.6"
     cli-argv-util "~1.3"
