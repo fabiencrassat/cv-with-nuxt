@@ -22,6 +22,7 @@ export default createConfigForNuxt(
   {
     rules: {
       '@stylistic/arrow-parens': ['error', 'always'],
+      'nuxt/nuxt-config-keys-order': 'warn',
       'one-var': ['error', 'never'],
     },
   },
