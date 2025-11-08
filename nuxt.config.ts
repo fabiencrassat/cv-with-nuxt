@@ -64,4 +64,10 @@ export default defineNuxtConfig({
     ],
     strategy: 'prefix_and_default',
   },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/fabien', '/robots.txt'],
+    },
+  },
 });
