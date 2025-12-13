@@ -10996,7 +10996,7 @@ vue@^3.5.14:
     "@vue/server-renderer" "3.5.21"
     "@vue/shared" "3.5.21"
 
-vue@^3.5.23, vue@^3.5.24:
+vue@^3.5.23:
   version "3.5.24"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.5.24.tgz#1b93af349faa064f46e70ac5b0caaa3d0952bbf3"
   integrity sha512-uTHDOpVQTMjcGgrqFPSb8iO2m1DUvo+WbGqoXQz8Y1CeBYQ0FXf2z1gLRaBtHjlRz7zZUBHxjVB5VTLzYkvftg==
