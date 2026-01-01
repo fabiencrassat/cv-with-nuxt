@@ -6,9 +6,7 @@ name: Pipeline
 ##               ↘                  ↗
 ##                  deploy-preview
 
-permissions:
-  contents: read
-  pull-requests: write
+permissions: {}
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
