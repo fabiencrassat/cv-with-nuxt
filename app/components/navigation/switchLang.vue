@@ -1,23 +1,25 @@
 <template>
   <p class="text-xs">
-    <nuxt-link
-      v-if="$i18n.locale !== 'en'"
-      :to="$switchLocalePath('en')"
+    <SwitchLocalePathLink
+      v-if="locale !== 'en'"
+      locale="en"
       class="block transition-all duration-150 ease-linear"
     >
       Switch language
-    </nuxt-link>
-    <nuxt-link
-      v-if="$i18n.locale !== 'fr'"
-      :to="$switchLocalePath('fr')"
+    </SwitchLocalePathLink>
+    <SwitchLocalePathLink
+      v-if="locale !== 'fr'"
+      locale="fr"
       class="block transition-all duration-150 ease-linear"
     >
       Changer de langue
-    </nuxt-link>
+    </SwitchLocalePathLink>
   </p>
 </template>
 
-<script lang="ts">
-// Do not remove this export, it is used to import $switchLocalePath
-export default {};
+<script setup lang="ts">
+import { useI18n } from 'vue-i18n';
+
+// eslint-disable-next-line no-useless-assignment
+const { locale } = useI18n();
 </script>

@@ -21,7 +21,9 @@ exports[`can mount an app with /en/fabien route 1`] = `
             <header data-v-00c6d022="" class="py-8 pl-2 pr-6 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded overflow-hidden mx-auto sm:w-16 sm:h-16 md:w-24 md:h-24" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
               <h2 data-v-00c6d022="" class="pt-4">Fabien Crassat</h2>
               <p data-v-00c6d022="" class="text-xs pt-4">
-                <!--v-if--><a href="/en/fr" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+                <!--v-if-->
+                <!--nuxt-i18n-slp-[fr]--><a href="/fabien" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+                <!--/nuxt-i18n-slp-->
               </p>
             </header>
             <ul data-v-00c6d022="">
@@ -70,7 +72,9 @@ exports[`can mount an app with /en/fabien route 1`] = `
         </div><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded w-16 h-16 mx-1 sm:hidden" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
         <h2 data-v-00c6d022="" class="mx-1 sm:hidden">Fabien Crassat</h2>
         <p data-v-00c6d022="" class="text-xs mx-1 sm:hidden">
-          <!--v-if--><a href="/en/fr" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+          <!--v-if-->
+          <!--nuxt-i18n-slp-[fr]--><a href="/fabien" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+          <!--/nuxt-i18n-slp-->
         </p>
       </div>
     </nav>
@@ -537,7 +541,9 @@ exports[`can mount an app with /en/fabien route 2`] = `
             <header data-v-00c6d022="" class="py-8 pl-2 pr-6 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded overflow-hidden mx-auto sm:w-16 sm:h-16 md:w-24 md:h-24" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
               <h2 data-v-00c6d022="" class="pt-4">Fabien Crassat</h2>
               <p data-v-00c6d022="" class="text-xs pt-4">
-                <!--v-if--><a href="/en/fr" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+                <!--v-if-->
+                <!--nuxt-i18n-slp-[fr]--><a href="/fabien" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+                <!--/nuxt-i18n-slp-->
               </p>
             </header>
             <ul data-v-00c6d022="">
@@ -586,7 +592,9 @@ exports[`can mount an app with /en/fabien route 2`] = `
         </div><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded w-16 h-16 mx-1 sm:hidden" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
         <h2 data-v-00c6d022="" class="mx-1 sm:hidden">Fabien Crassat</h2>
         <p data-v-00c6d022="" class="text-xs mx-1 sm:hidden">
-          <!--v-if--><a href="/en/fr" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+          <!--v-if-->
+          <!--nuxt-i18n-slp-[fr]--><a href="/fabien" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+          <!--/nuxt-i18n-slp-->
         </p>
       </div>
     </nav>
@@ -1654,7 +1662,9 @@ exports[`can mount an app with /en/fabien route 3`] = `
             <header data-v-00c6d022="" class="py-8 pl-2 pr-6 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded overflow-hidden mx-auto sm:w-16 sm:h-16 md:w-24 md:h-24" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
               <h2 data-v-00c6d022="" class="pt-4">Fabien Crassat</h2>
               <p data-v-00c6d022="" class="text-xs pt-4">
-                <!--v-if--><a href="/en/fr" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+                <!--v-if-->
+                <!--nuxt-i18n-slp-[fr]--><a href="/fabien" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+                <!--/nuxt-i18n-slp-->
               </p>
             </header>
             <ul data-v-00c6d022="">
@@ -1703,7 +1713,9 @@ exports[`can mount an app with /en/fabien route 3`] = `
         </div><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded w-16 h-16 mx-1 sm:hidden" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
         <h2 data-v-00c6d022="" class="mx-1 sm:hidden">Fabien Crassat</h2>
         <p data-v-00c6d022="" class="text-xs mx-1 sm:hidden">
-          <!--v-if--><a href="/en/fr" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+          <!--v-if-->
+          <!--nuxt-i18n-slp-[fr]--><a href="/fabien" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+          <!--/nuxt-i18n-slp-->
         </p>
       </div>
     </nav>
@@ -2771,7 +2783,9 @@ exports[`can mount an app with /en/fabien route 4`] = `
             <header data-v-00c6d022="" class="py-8 pl-2 pr-6 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded overflow-hidden mx-auto sm:w-16 sm:h-16 md:w-24 md:h-24" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
               <h2 data-v-00c6d022="" class="pt-4">Fabien Crassat</h2>
               <p data-v-00c6d022="" class="text-xs pt-4">
-                <!--v-if--><a href="/en/fr" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+                <!--v-if-->
+                <!--nuxt-i18n-slp-[fr]--><a href="/fabien" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+                <!--/nuxt-i18n-slp-->
               </p>
             </header>
             <ul data-v-00c6d022="">
@@ -2820,7 +2834,9 @@ exports[`can mount an app with /en/fabien route 4`] = `
         </div><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded w-16 h-16 mx-1 sm:hidden" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
         <h2 data-v-00c6d022="" class="mx-1 sm:hidden">Fabien Crassat</h2>
         <p data-v-00c6d022="" class="text-xs mx-1 sm:hidden">
-          <!--v-if--><a href="/en/fr" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+          <!--v-if-->
+          <!--nuxt-i18n-slp-[fr]--><a href="/fabien" class="block transition-all duration-150 ease-linear"> Changer de langue </a>
+          <!--/nuxt-i18n-slp-->
         </p>
       </div>
     </nav>
@@ -3887,7 +3903,9 @@ exports[`can mount an app with /fr/fabien route 1`] = `
           <div data-v-00c6d022="" id="menu" class="z-20 fixed top-0 left-0 bg-blue-700 w-screen sm:w-24 md:w-56 h-screen transform -translate-x-full sm:translate-x-0 transition-transform duration-500 ease-in-out overflow-y-auto">
             <header data-v-00c6d022="" class="py-8 pl-2 pr-6 sm:p-2 md:py-8 md:px-2 text-center bg-gray-900 bg-opacity-25 sm:relative"><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded overflow-hidden mx-auto sm:w-16 sm:h-16 md:w-24 md:h-24" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
               <h2 data-v-00c6d022="" class="pt-4">Fabien Crassat</h2>
-              <p data-v-00c6d022="" class="text-xs pt-4"><a href="/fr/en" class="block transition-all duration-150 ease-linear"> Switch language </a>
+              <p data-v-00c6d022="" class="text-xs pt-4">
+                <!--nuxt-i18n-slp-[en]--><a href="/en/fabien" class="block transition-all duration-150 ease-linear"> Switch language </a>
+                <!--/nuxt-i18n-slp-->
                 <!--v-if-->
               </p>
             </header>
@@ -3936,7 +3954,9 @@ exports[`can mount an app with /fr/fabien route 1`] = `
           </div>
         </div><img data-v-00c6d022="" class="rounded-full border-4 border-solid border-blue-300 shadow-outline lazyLoad isLoaded w-16 h-16 mx-1 sm:hidden" height="100" width="100" src="/fabien-crassat.jpeg" alt="Fabien Crassat">
         <h2 data-v-00c6d022="" class="mx-1 sm:hidden">Fabien Crassat</h2>
-        <p data-v-00c6d022="" class="text-xs mx-1 sm:hidden"><a href="/fr/en" class="block transition-all duration-150 ease-linear"> Switch language </a>
+        <p data-v-00c6d022="" class="text-xs mx-1 sm:hidden">
+          <!--nuxt-i18n-slp-[en]--><a href="/en/fabien" class="block transition-all duration-150 ease-linear"> Switch language </a>
+          <!--/nuxt-i18n-slp-->
           <!--v-if-->
         </p>
       </div>
