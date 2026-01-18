@@ -4,6 +4,7 @@
 [![Pipeline](https://github.com/fabiencrassat/cv-with-nuxt/actions/workflows/pipeline.yml/badge.svg)](https://github.com/fabiencrassat/cv-with-nuxt/actions/workflows/pipeline.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cv-with-nuxt&metric=alert_status)](https://sonarcloud.io/dashboard?id=cv-with-nuxt)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=cv-with-nuxt&metric=coverage)](https://sonarcloud.io/dashboard?id=cv-with-nuxt)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fabiencrassat/cv-with-nuxt/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fabiencrassat/cv-with-nuxt/?branch=master)
 
 Welcome to the fabiencrassat's Curriculum Vitae source code - a development with the [NuxtJs][1] framework.
 
