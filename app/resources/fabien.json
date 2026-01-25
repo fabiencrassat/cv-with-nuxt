@@ -121,32 +121,32 @@
         ]
       }
     },
-    "Ifocop": {
+    "ReacteevBnppRiskIADev": {
       "date": {
-        "fr": "Octobre 2021 - Aujourd’hui",
-        "en": "October 2021 - Present"
+        "fr": "Juillet 2025 - Aujourd’hui",
+        "en": "July 2025 - Present"
       },
       "job": {
-        "fr": "Enseignant à l’Ifocop",
-        "en": "Ifocop teacher"
+        "fr": "Dévelopeur d’Agents IA",
+        "en": "AI Agent Developer"
       },
-      "jobImage": "/img/experiences/ifocop.webp",
+      "jobImage": "/img/experiences/BNPP.webp",
       "society": {
-        "crossref": "societies.ifocop"
+        "crossref": "societies.reacteev"
       },
       "missions": {
         "fr": [
-          "Formation Gestion de Projet en Informatique pour maîtriser les compétences nécessaires pour diriger efficacement des projets informatiques, en appliquant des méthodologies agiles et en assurant la compréhension des élèves dans les équipes de développement."
+          "Développeur spécialisé dans la conception et l’industrialisation d’agents IA autonomes et collaboratifs. Expérience avancée dans la création d’architectures agentiques orchestrées (multi-agents), intégrant des LLM, des workflows outillés et des systèmes d’information complexes. Capacité à transformer des besoins métier en agents opérationnels, robustes et scalables, avec un fort focus sur l’automatisation intelligente, la qualité logicielle et l’humain dans la boucle."
         ],
         "en": [
-          "IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams."
+          "Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop."
         ]
       }
     },
-    "IfcamLcl": {
+    "ReacteevIfcamLcl": {
       "date": {
-        "fr": "Janvier - Septembre 2024",
-        "en": "January - September 2024"
+        "fr": "Janvier 2024 - Septembre 2025",
+        "en": "January 2024 - September 2025"
       },
       "job": {
         "fr": "Formateur Squad Leader",
@@ -165,14 +165,102 @@
         ]
       }
     },
-    "IfcamCamca": {
+    "ReacteevOnTrainAdagio": {
+      "date": {
+        "fr": "Novembre 2024",
+        "en": "November 2024"
+      },
+      "job": {
+        "fr": "Formateur gestion de projet niveau 1",
+        "en": "Level 1 project management trainer"
+      },
+      "jobImage": "/img/experiences/adagio.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Formation intensive de 2 jours destinée à une dizaine de collaborateurs pour développer les compétences de la gestion de projet, encourager l’autonomie des équipes et optimiser la performance collective."
+        ],
+        "en": [
+          "Intensive two-day training course for around ten employees to develop project management skills, encourage team autonomy and optimise collective performance."
+        ]
+      }
+    },
+    "ReacteevIfcamAvem": {
+      "date": {
+        "fr": "Octobre 2024",
+        "en": "October 2024"
+      },
+      "job": {
+        "fr": "Formateur Scrum Master & Product Owner",
+        "en": "Scrum Master & Product Owner trainer"
+      },
+      "jobImage": "/img/experiences/avem.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Formation intensive de 2 jours de 2 sessions destinée à une dizaine de collaborateurs pour développer les compétences Scrum Master & Product Owner, encourager l’autonomie des équipes et optimiser la performance collective."
+        ],
+        "en": [
+          "Intensive two-day training course consisting of two sessions for around ten employees, designed to develop Scrum Master and Product Owner skills, encourage team autonomy and optimise collective performance."
+        ]
+      }
+    },
+    "ReacteevIfcamCAGM": {
+      "date": {
+        "fr": "Septembre 2024",
+        "en": "September 2024"
+      },
+      "job": {
+        "fr": "Formateur Scrum Master",
+        "en": "Scrum Master trainer"
+      },
+      "jobImage": "/img/experiences/cagm.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Formation intensive de 2 jours destinée à une dizaine de collaborateurs pour développer les compétences Scrum Master, encourager l’autonomie des équipes et optimiser la performance collective."
+        ],
+        "en": [
+          "Intensive two-day training course for around ten employees to develop Scrum Master skills, encourage team autonomy and optimise collective performance."
+        ]
+      }
+    },
+    "ReacteevIfocop": {
+      "date": {
+        "fr": "Octobre 2021 - Septembre 2024",
+        "en": "October 2021 - September 2024"
+      },
+      "job": {
+        "fr": "Enseignant à l’Ifocop",
+        "en": "Ifocop teacher"
+      },
+      "jobImage": "/img/experiences/ifocop.webp",
+      "society": {
+        "crossref": "societies.ifocop"
+      },
+      "missions": {
+        "fr": [
+          "Formation Gestion de Projet en Informatique pour maîtriser les compétences nécessaires pour diriger efficacement des projets informatiques, en appliquant des méthodologies agiles et en assurant la compréhension des élèves dans les équipes de développement."
+        ],
+        "en": [
+          "IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams."
+        ]
+      }
+    },
+    "ReacteevIfcamCamca": {
       "date": {
         "fr": "Juin 2024",
         "en": "June 2024"
       },
       "job": {
-        "fr": "Formateur Product Owner pour CAMCA",
-        "en": "Product Owner trainer for CAMCA"
+        "fr": "Formateur Product Owner",
+        "en": "Product Owner trainer"
       },
       "jobImage": "/img/experiences/CAMCA.webp",
       "society": {
@@ -187,7 +275,7 @@
         ]
       }
     },
-    "BnppRiskCoach": {
+    "ReacteevBnppRiskCoach": {
       "date": {
         "fr": "Février - Avril 2024",
         "en": "February - April 2024"
@@ -209,7 +297,7 @@
         ]
       }
     },
-    "CardifLuxUlysseCoachTech": {
+    "ReacteevCardifLuxUlysseCoachTech": {
       "date": {
         "fr": "Février - Avril 2024",
         "en": "February - April 2024"
@@ -231,7 +319,7 @@
         ]
       }
     },
-    "PMICoach": {
+    "ReacteevPMICoach": {
       "date": {
         "fr": "Novembre - Décembre 2023",
         "en": "November - December 2023"
@@ -253,7 +341,7 @@
         ]
       }
     },
-    "AuditGoyard": {
+    "ReacteevAuditGoyard": {
       "date": {
         "fr": "Juillet - Décembre 2023",
         "en": "July - December 2023"

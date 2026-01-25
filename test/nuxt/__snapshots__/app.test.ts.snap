@@ -191,20 +191,20 @@ exports[`can mount an app with /en/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ifocop.webp&quot;);" title="Ifocop teacher"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/BNPP.webp&quot;);" title="AI Agent Developer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> October 2021 - Present</p>
-                <div class="font-bold text-xl mb-2">Ifocop teacher</div>
+                  </svg> July 2025 - Present</p>
+                <div class="font-bold text-xl mb-2">AI Agent Developer</div>
                 <ul class="text-gray-700 text-base">
-                  <li>IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams.</li>
+                  <li>Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop.</li>
                 </ul>
-              </div><a href="https://www.ifocop.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
-                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/ifocop.webp" alt="Ifocop" title="Ifocop">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
-                    <p class="leading-none">Ifocop</p>
+                    <p class="leading-none">Reacteev</p>
                     <p class="text-gray-700">Paris, France</p>
                   </div>
                 </div>
@@ -217,7 +217,7 @@ exports[`can mount an app with /en/fabien route 1`] = `
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> January - September 2024</p>
+                  </svg> January 2024 - September 2025</p>
                 <div class="font-bold text-xl mb-2">Squad Leader trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Intensive 2-day training for 80 employees over 10 sessions to develop agile operational leadership skills, encourage team autonomy and optimise collective performance.</li>
@@ -233,15 +233,15 @@ exports[`can mount an app with /en/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer for CAMCA"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> June 2024</p>
-                <div class="font-bold text-xl mb-2">Product Owner trainer for CAMCA</div>
+                  </svg> November 2024</p>
+                <div class="font-bold text-xl mb-2">Level 1 project management trainer</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Product Owner (PO) training to deepen skills in digital product management, mastering techniques for defining the product vision, prioritising the backlog and collaborating effectively with teams.</li>
+                  <li>Intensive two-day training course for around ten employees to develop project management skills, encourage team autonomy and optimise collective performance.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
@@ -711,20 +711,20 @@ exports[`can mount an app with /en/fabien route 2`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ifocop.webp&quot;);" title="Ifocop teacher"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/BNPP.webp&quot;);" title="AI Agent Developer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> October 2021 - Present</p>
-                <div class="font-bold text-xl mb-2">Ifocop teacher</div>
+                  </svg> July 2025 - Present</p>
+                <div class="font-bold text-xl mb-2">AI Agent Developer</div>
                 <ul class="text-gray-700 text-base">
-                  <li>IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams.</li>
+                  <li>Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop.</li>
                 </ul>
-              </div><a href="https://www.ifocop.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
-                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/ifocop.webp" alt="Ifocop" title="Ifocop">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
-                    <p class="leading-none">Ifocop</p>
+                    <p class="leading-none">Reacteev</p>
                     <p class="text-gray-700">Paris, France</p>
                   </div>
                 </div>
@@ -737,7 +737,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> January - September 2024</p>
+                  </svg> January 2024 - September 2025</p>
                 <div class="font-bold text-xl mb-2">Squad Leader trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Intensive 2-day training for 80 employees over 10 sessions to develop agile operational leadership skills, encourage team autonomy and optimise collective performance.</li>
@@ -753,13 +753,97 @@ exports[`can mount an app with /en/fabien route 2`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer for CAMCA"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> November 2024</p>
+                <div class="font-bold text-xl mb-2">Level 1 project management trainer</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Intensive two-day training course for around ten employees to develop project management skills, encourage team autonomy and optimise collective performance.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/avem.webp&quot;);" title="Scrum Master &amp; Product Owner trainer"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> October 2024</p>
+                <div class="font-bold text-xl mb-2">Scrum Master &amp; Product Owner trainer</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Intensive two-day training course consisting of two sessions for around ten employees, designed to develop Scrum Master and Product Owner skills, encourage team autonomy and optimise collective performance.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/cagm.webp&quot;);" title="Scrum Master trainer"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> September 2024</p>
+                <div class="font-bold text-xl mb-2">Scrum Master trainer</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Intensive two-day training course for around ten employees to develop Scrum Master skills, encourage team autonomy and optimise collective performance.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ifocop.webp&quot;);" title="Ifocop teacher"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> October 2021 - September 2024</p>
+                <div class="font-bold text-xl mb-2">Ifocop teacher</div>
+                <ul class="text-gray-700 text-base">
+                  <li>IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams.</li>
+                </ul>
+              </div><a href="https://www.ifocop.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/ifocop.webp" alt="Ifocop" title="Ifocop">
+                  <div class="text-sm">
+                    <p class="leading-none">Ifocop</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> June 2024</p>
-                <div class="font-bold text-xl mb-2">Product Owner trainer for CAMCA</div>
+                <div class="font-bold text-xl mb-2">Product Owner trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Product Owner (PO) training to deepen skills in digital product management, mastering techniques for defining the product vision, prioritising the backlog and collaborating effectively with teams.</li>
                 </ul>
@@ -1832,20 +1916,20 @@ exports[`can mount an app with /en/fabien route 3`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ifocop.webp&quot;);" title="Ifocop teacher"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/BNPP.webp&quot;);" title="AI Agent Developer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> October 2021 - Present</p>
-                <div class="font-bold text-xl mb-2">Ifocop teacher</div>
+                  </svg> July 2025 - Present</p>
+                <div class="font-bold text-xl mb-2">AI Agent Developer</div>
                 <ul class="text-gray-700 text-base">
-                  <li>IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams.</li>
+                  <li>Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop.</li>
                 </ul>
-              </div><a href="https://www.ifocop.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
-                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/ifocop.webp" alt="Ifocop" title="Ifocop">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
-                    <p class="leading-none">Ifocop</p>
+                    <p class="leading-none">Reacteev</p>
                     <p class="text-gray-700">Paris, France</p>
                   </div>
                 </div>
@@ -1858,7 +1942,7 @@ exports[`can mount an app with /en/fabien route 3`] = `
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> January - September 2024</p>
+                  </svg> January 2024 - September 2025</p>
                 <div class="font-bold text-xl mb-2">Squad Leader trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Intensive 2-day training for 80 employees over 10 sessions to develop agile operational leadership skills, encourage team autonomy and optimise collective performance.</li>
@@ -1874,13 +1958,97 @@ exports[`can mount an app with /en/fabien route 3`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer for CAMCA"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> November 2024</p>
+                <div class="font-bold text-xl mb-2">Level 1 project management trainer</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Intensive two-day training course for around ten employees to develop project management skills, encourage team autonomy and optimise collective performance.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/avem.webp&quot;);" title="Scrum Master &amp; Product Owner trainer"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> October 2024</p>
+                <div class="font-bold text-xl mb-2">Scrum Master &amp; Product Owner trainer</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Intensive two-day training course consisting of two sessions for around ten employees, designed to develop Scrum Master and Product Owner skills, encourage team autonomy and optimise collective performance.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/cagm.webp&quot;);" title="Scrum Master trainer"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> September 2024</p>
+                <div class="font-bold text-xl mb-2">Scrum Master trainer</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Intensive two-day training course for around ten employees to develop Scrum Master skills, encourage team autonomy and optimise collective performance.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ifocop.webp&quot;);" title="Ifocop teacher"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> October 2021 - September 2024</p>
+                <div class="font-bold text-xl mb-2">Ifocop teacher</div>
+                <ul class="text-gray-700 text-base">
+                  <li>IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams.</li>
+                </ul>
+              </div><a href="https://www.ifocop.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/ifocop.webp" alt="Ifocop" title="Ifocop">
+                  <div class="text-sm">
+                    <p class="leading-none">Ifocop</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> June 2024</p>
-                <div class="font-bold text-xl mb-2">Product Owner trainer for CAMCA</div>
+                <div class="font-bold text-xl mb-2">Product Owner trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Product Owner (PO) training to deepen skills in digital product management, mastering techniques for defining the product vision, prioritising the backlog and collaborating effectively with teams.</li>
                 </ul>
@@ -2953,20 +3121,20 @@ exports[`can mount an app with /en/fabien route 4`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ifocop.webp&quot;);" title="Ifocop teacher"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/BNPP.webp&quot;);" title="AI Agent Developer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> October 2021 - Present</p>
-                <div class="font-bold text-xl mb-2">Ifocop teacher</div>
+                  </svg> July 2025 - Present</p>
+                <div class="font-bold text-xl mb-2">AI Agent Developer</div>
                 <ul class="text-gray-700 text-base">
-                  <li>IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams.</li>
+                  <li>Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop.</li>
                 </ul>
-              </div><a href="https://www.ifocop.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
-                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/ifocop.webp" alt="Ifocop" title="Ifocop">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
-                    <p class="leading-none">Ifocop</p>
+                    <p class="leading-none">Reacteev</p>
                     <p class="text-gray-700">Paris, France</p>
                   </div>
                 </div>
@@ -2979,7 +3147,7 @@ exports[`can mount an app with /en/fabien route 4`] = `
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> January - September 2024</p>
+                  </svg> January 2024 - September 2025</p>
                 <div class="font-bold text-xl mb-2">Squad Leader trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Intensive 2-day training for 80 employees over 10 sessions to develop agile operational leadership skills, encourage team autonomy and optimise collective performance.</li>
@@ -2995,13 +3163,97 @@ exports[`can mount an app with /en/fabien route 4`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer for CAMCA"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> November 2024</p>
+                <div class="font-bold text-xl mb-2">Level 1 project management trainer</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Intensive two-day training course for around ten employees to develop project management skills, encourage team autonomy and optimise collective performance.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/avem.webp&quot;);" title="Scrum Master &amp; Product Owner trainer"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> October 2024</p>
+                <div class="font-bold text-xl mb-2">Scrum Master &amp; Product Owner trainer</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Intensive two-day training course consisting of two sessions for around ten employees, designed to develop Scrum Master and Product Owner skills, encourage team autonomy and optimise collective performance.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/cagm.webp&quot;);" title="Scrum Master trainer"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> September 2024</p>
+                <div class="font-bold text-xl mb-2">Scrum Master trainer</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Intensive two-day training course for around ten employees to develop Scrum Master skills, encourage team autonomy and optimise collective performance.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ifocop.webp&quot;);" title="Ifocop teacher"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> October 2021 - September 2024</p>
+                <div class="font-bold text-xl mb-2">Ifocop teacher</div>
+                <ul class="text-gray-700 text-base">
+                  <li>IT Project Management training to master the skills needed to effectively manage IT projects, applying agile methodologies and ensuring that students understand the development teams.</li>
+                </ul>
+              </div><a href="https://www.ifocop.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/ifocop.webp" alt="Ifocop" title="Ifocop">
+                  <div class="text-sm">
+                    <p class="leading-none">Ifocop</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Product Owner trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> June 2024</p>
-                <div class="font-bold text-xl mb-2">Product Owner trainer for CAMCA</div>
+                <div class="font-bold text-xl mb-2">Product Owner trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Product Owner (PO) training to deepen skills in digital product management, mastering techniques for defining the product vision, prioritising the backlog and collaborating effectively with teams.</li>
                 </ul>
@@ -4074,20 +4326,20 @@ exports[`can mount an app with /fr/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ifocop.webp&quot;);" title="Enseignant à l’Ifocop"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/BNPP.webp&quot;);" title="Dévelopeur d’Agents IA"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> Octobre 2021 - Aujourd’hui</p>
-                <div class="font-bold text-xl mb-2">Enseignant à l’Ifocop</div>
+                  </svg> Juillet 2025 - Aujourd’hui</p>
+                <div class="font-bold text-xl mb-2">Dévelopeur d’Agents IA</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Formation Gestion de Projet en Informatique pour maîtriser les compétences nécessaires pour diriger efficacement des projets informatiques, en appliquant des méthodologies agiles et en assurant la compréhension des élèves dans les équipes de développement.</li>
+                  <li>Développeur spécialisé dans la conception et l’industrialisation d’agents IA autonomes et collaboratifs. Expérience avancée dans la création d’architectures agentiques orchestrées (multi-agents), intégrant des LLM, des workflows outillés et des systèmes d’information complexes. Capacité à transformer des besoins métier en agents opérationnels, robustes et scalables, avec un fort focus sur l’automatisation intelligente, la qualité logicielle et l’humain dans la boucle.</li>
                 </ul>
-              </div><a href="https://www.ifocop.fr/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
-                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/ifocop.webp" alt="Ifocop" title="Ifocop">
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
                   <div class="text-sm">
-                    <p class="leading-none">Ifocop</p>
+                    <p class="leading-none">Reacteev</p>
                     <p class="text-gray-700">Paris, France</p>
                   </div>
                 </div>
@@ -4100,7 +4352,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> Janvier - Septembre 2024</p>
+                  </svg> Janvier 2024 - Septembre 2025</p>
                 <div class="font-bold text-xl mb-2">Formateur Squad Leader</div>
                 <ul class="text-gray-700 text-base">
                   <li>Formation intensive de 2 jours destinée à 80 collaborateurs sur 10 sessions pour développer les compétences en leadership opérationnel agile, encourager l’autonomie des équipes et optimiser la performance collective.</li>
@@ -4116,15 +4368,15 @@ exports[`can mount an app with /fr/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/CAMCA.webp&quot;);" title="Formateur Product Owner pour CAMCA"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Formateur gestion de projet niveau 1"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> Juin 2024</p>
-                <div class="font-bold text-xl mb-2">Formateur Product Owner pour CAMCA</div>
+                  </svg> Novembre 2024</p>
+                <div class="font-bold text-xl mb-2">Formateur gestion de projet niveau 1</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Formation de Product Owner (PO) pour approfondir les compétences en gestion de produits numériques, en maîtrisant les techniques de définition de vision produit, de priorisation du backlog et de collaboration efficace avec les équipes.</li>
+                  <li>Formation intensive de 2 jours destinée à une dizaine de collaborateurs pour développer les compétences de la gestion de projet, encourager l’autonomie des équipes et optimiser la performance collective.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
