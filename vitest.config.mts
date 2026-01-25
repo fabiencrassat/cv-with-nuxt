@@ -3,11 +3,6 @@ import { defineVitestConfig } from '@nuxt/test-utils/config';
 export default defineVitestConfig({
   test: {
     coverage: {
-      exclude: [
-        'app/resources/*.json',
-      ],
-      reporter: ['text', 'html', 'clover', 'json', 'lcov'],
-      reportsDirectory: '../coverage',
       thresholds: {
         branches: 96,
         functions: 100,
