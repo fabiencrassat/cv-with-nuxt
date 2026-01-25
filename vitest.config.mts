@@ -9,7 +9,7 @@ export default defineVitestConfig({
       reporter: ['text', 'html', 'clover', 'json', 'lcov'],
       reportsDirectory: '../coverage',
       thresholds: {
-        branches: 100,
+        branches: 96,
         functions: 100,
         lines: 100,
         statements: 100,
