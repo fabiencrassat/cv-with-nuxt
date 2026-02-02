@@ -191,7 +191,7 @@ export default class CurriculumVitae {
     }> = {};
     for (const [skillsGroupKey, skillGroup] of Object.entries(skills)) {
       result[skillsGroupKey] = {
-        items: skillGroup.items.map((item) => ({
+        items: skillGroup.items.map(item => ({
           label: Tools.getLangValue(item.name, this.lang),
           percentage: item.percentage,
         })),

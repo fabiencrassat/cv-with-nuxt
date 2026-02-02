@@ -34,20 +34,27 @@ export default defineNuxtConfig({
       ],
     },
   },
-  eslint: {
-    config: {
-      stylistic: {
-        indent: 2,
-        semi: true,
-        quotes: 'single',}
-    }
-  },
   routeRules: {
     '/': { redirect: '/fabien' },
     '/fabien/en': { redirect: '/en/fabien' },
     '/fabien/fr': { redirect: '/fr/fabien' },
   },
   compatibilityDate: '2024-04-03',
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/fabien', '/robots.txt'],
+    },
+  },
+  eslint: {
+    config: {
+      stylistic: {
+        indent: 2,
+        semi: true,
+        quotes: 'single',
+      },
+    },
+  },
   gtag: {
     id: 'G-LBT5GENK84',
   },
@@ -68,11 +75,5 @@ export default defineNuxtConfig({
       },
     ],
     strategy: 'prefix_and_default',
-  },
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: ['/fabien', '/robots.txt'],
-    },
   },
 });

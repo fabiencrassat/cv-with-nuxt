@@ -102,7 +102,7 @@ export default {
   },
   methods: {
     capitalize(value) {
-      return value.replaceAll(/[A-Za-zÀ-ÖØ-öø-ÿ]\S*/gu, (word) => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
+      return value.replaceAll(/[A-Za-zÀ-ÖØ-öø-ÿ]\S*/gu, word => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
     },
     closeMenu() {
       this.menuClosed = true;
