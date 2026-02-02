@@ -26,7 +26,6 @@
 
 <script>
 import { sanitizeUrl } from '@braintree/sanitize-url';
-// eslint-disable-next-line sort-imports
 import CardContent from './card-content';
 import CardDates from './card-dates';
 import CardTitle from './card-title';
@@ -45,7 +44,6 @@ export default {
       type: Object,
     },
   },
-  // eslint-disable-next-line sort-keys
   data() {
     return {
       sanitizeUrl: sanitizeUrl(this.experience.society.siteurl),

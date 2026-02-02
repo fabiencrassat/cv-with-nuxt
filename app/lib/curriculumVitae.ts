@@ -92,17 +92,15 @@ interface ICurriculumVitae {
 }
 
 const Tools = {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any, max-statements
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   buildValues(_this: CurriculumVitae, lang: string, input: Record<string, Record<string, any>>) {
     const entries = input;
     // Clone the object not to alter it
     const result = { ...entries };
-    // eslint-disable-next-line guard-for-in
     for (const entryKey in entries) {
       const entry = entries[entryKey];
       // Clone the object not to alter it
       result[entryKey] = { ...entry };
-      // eslint-disable-next-line guard-for-in
       for (const key in entry) {
         let element = entry[key];
         element = Tools.getLangValue(element, lang);
@@ -118,7 +116,6 @@ const Tools = {
     // eslint-disable-next-line no-prototype-builtins
     if (element.hasOwnProperty('crossref')) {
       const crossref = element.crossref.split('.') as string[];
-      // eslint-disable-next-line no-magic-numbers
       let subElement = _this[crossref[0] as keyof typeof _this];
       crossref.shift();
       for (const ref of crossref) {

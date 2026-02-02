@@ -97,13 +97,11 @@ export default {
       type: String,
     },
   },
-  // eslint-disable-next-line sort-keys
   data() {
     return { menuClosed: true };
   },
   methods: {
     capitalize(value) {
-      // eslint-disable-next-line regexp/no-obscure-range, no-magic-numbers
       return value.replaceAll(/[A-Za-zÀ-ÖØ-öø-ÿ]\S*/gu, (word) => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
     },
     closeMenu() {

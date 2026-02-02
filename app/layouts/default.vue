@@ -2,20 +2,17 @@
 /* global useLocaleHead */
 import { sanitizeUrl } from '@braintree/sanitize-url';
 
-// eslint-disable-next-line no-useless-assignment
 const head = useLocaleHead({
   addDirAttribute: true,
   addSeoAttributes: true,
   identifierAttribute: 'id',
 });
-// eslint-disable-next-line no-useless-assignment
 const title = 'Curriculum Vitae';
 </script>
 
 <script>
 export default {
   name: 'DefaultLayout',
-  // eslint-disable-next-line sort-keys
   data() {
     return {
       sanitizeUrl,

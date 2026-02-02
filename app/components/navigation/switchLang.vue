@@ -20,6 +20,5 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
 
-// eslint-disable-next-line no-useless-assignment
 const { locale } = useI18n();
 </script>

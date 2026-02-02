@@ -14,9 +14,7 @@ const getBaseUrl = function getBaseUrl() {
 
 export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxt/test-utils/module', '@nuxt/eslint', 'nuxt-gtag'],
-  // eslint-disable-next-line sort-keys
   devtools: { enabled: true },
-  // eslint-disable-next-line sort-keys
   app: {
     head: {
       link: [
@@ -36,12 +34,19 @@ export default defineNuxtConfig({
       ],
     },
   },
+  eslint: {
+    config: {
+      stylistic: {
+        indent: 2,
+        semi: true,
+        quotes: 'single',}
+    }
+  },
   routeRules: {
     '/': { redirect: '/fabien' },
     '/fabien/en': { redirect: '/en/fabien' },
     '/fabien/fr': { redirect: '/fr/fabien' },
   },
-  // eslint-disable-next-line sort-keys
   compatibilityDate: '2024-04-03',
   gtag: {
     id: 'G-LBT5GENK84',

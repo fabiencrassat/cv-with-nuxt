@@ -37,7 +37,6 @@ import ProgressBar from '~/components/progress-bars/progress-bar';
 
 export default {
   name: 'SkillsItem',
-  // eslint-disable-next-line sort-keys
   components: {
     BriefcaseSvgIcon,
     BrowserSvgIcon,

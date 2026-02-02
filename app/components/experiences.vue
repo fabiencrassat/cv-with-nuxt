@@ -28,7 +28,6 @@ import CardItem from './experiences/card-item';
 
 export default {
   name: 'ExperiencesItem',
-  // eslint-disable-next-line sort-keys
   components: {
     CardImage,
     CardItem,
@@ -39,7 +38,6 @@ export default {
       type: Object,
     },
   },
-  // eslint-disable-next-line sort-keys
   data() {
     const defaultShowingElements = 5;
     return {
@@ -54,7 +52,6 @@ export default {
   methods: {
     getShowingExperiences(experiences, itemToShow) {
       const experienceKeys = Object.keys(experiences);
-      // eslint-disable-next-line no-magic-numbers
       const visibleKeys = experienceKeys.slice(0, itemToShow);
       const showingExperiences = {};
       for (const key of visibleKeys) {
