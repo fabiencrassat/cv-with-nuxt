@@ -19,6 +19,7 @@
         {{ $t('showMore') }}
       </button>
     </div>
+    <div v-else />
   </div>
 </template>
 

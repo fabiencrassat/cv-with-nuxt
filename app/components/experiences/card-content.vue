@@ -10,6 +10,7 @@
       {{ item }}
     </li>
   </ul>
+  <ul v-else />
 </template>
 
 <script>

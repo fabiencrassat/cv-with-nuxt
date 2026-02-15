@@ -1380,7 +1380,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> Summer 2003</p>
                 <div class="font-bold text-xl mb-2">Warehouseman on sale in the shelf</div>
-                <!--v-if-->
+                <ul></ul>
               </div><a href="http://www.obi.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/obi.png" alt="OBI" title="OBI">
                   <div class="text-sm">
@@ -1458,7 +1458,7 @@ exports[`can mount an app with /en/fabien route 2`] = `
               </div>
             </div>
           </div>
-          <!--v-if-->
+          <div></div>
         </div>
       </section>
       <section id="skills">
@@ -2585,7 +2585,7 @@ exports[`can mount an app with /en/fabien route 3`] = `
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> Summer 2003</p>
                 <div class="font-bold text-xl mb-2">Warehouseman on sale in the shelf</div>
-                <!--v-if-->
+                <ul></ul>
               </div><a href="http://www.obi.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/obi.png" alt="OBI" title="OBI">
                   <div class="text-sm">
@@ -2663,7 +2663,7 @@ exports[`can mount an app with /en/fabien route 3`] = `
               </div>
             </div>
           </div>
-          <!--v-if-->
+          <div></div>
         </div>
       </section>
       <section id="skills">
@@ -3790,7 +3790,7 @@ exports[`can mount an app with /en/fabien route 4`] = `
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> Summer 2003</p>
                 <div class="font-bold text-xl mb-2">Warehouseman on sale in the shelf</div>
-                <!--v-if-->
+                <ul></ul>
               </div><a href="http://www.obi.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/obi.png" alt="OBI" title="OBI">
                   <div class="text-sm">
@@ -3868,7 +3868,7 @@ exports[`can mount an app with /en/fabien route 4`] = `
               </div>
             </div>
           </div>
-          <!--v-if-->
+          <div></div>
         </div>
       </section>
       <section id="skills">
@@ -4157,8 +4157,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
               <h2 data-v-0924d1c9="" class="pt-4">Fabien Crassat</h2>
               <p data-v-0924d1c9="" class="text-xs pt-4">
                 <!--nuxt-i18n-slp-[en]--><a href="/en/fabien" class="block transition-all duration-150 ease-linear"> Switch language </a>
-                <!--/nuxt-i18n-slp-->
-                <!--v-if-->
+                <!--/nuxt-i18n-slp--><span></span>
               </p>
             </header>
             <ul data-v-0924d1c9="">
@@ -4208,8 +4207,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
         <h2 data-v-0924d1c9="" class="mx-1 sm:hidden">Fabien Crassat</h2>
         <p data-v-0924d1c9="" class="text-xs mx-1 sm:hidden">
           <!--nuxt-i18n-slp-[en]--><a href="/en/fabien" class="block transition-all duration-150 ease-linear"> Switch language </a>
-          <!--/nuxt-i18n-slp-->
-          <!--v-if-->
+          <!--/nuxt-i18n-slp--><span></span>
         </p>
       </div>
     </nav>

@@ -14,6 +14,7 @@
     >
       Changer de langue
     </SwitchLocalePathLink>
+    <span v-else />
   </p>
 </template>
 
