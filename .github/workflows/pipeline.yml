@@ -64,7 +64,7 @@ jobs:
       - name: Test the source code
         run: yarn test:coverage
       - name: Archive code coverage results
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: CodeCoverageResult
           path: coverage
@@ -141,7 +141,7 @@ jobs:
       - name: Deploy Project Artifacts to Vercel
         run: vercel deploy --prebuilt --token=$VERCEL_TOKEN >> deployment-url.txt
       - name: Archive code deployment URL
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: DeploymentURL
           path: deployment-url.txt
@@ -174,7 +174,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-nuxt-
       - name: Download code coverage results
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: CodeCoverageResult
           path: coverage
