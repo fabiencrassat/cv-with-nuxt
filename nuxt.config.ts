@@ -1,7 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-import { defineNuxtConfig } from 'nuxt/config';
-
 const getBaseUrl = function getBaseUrl() {
   if (process.env.ENVIRONMENT_DEPLOYMENT === 'production') {
     return 'https://cv.crassat.com';
@@ -39,7 +37,7 @@ export default defineNuxtConfig({
     '/fabien/en': { redirect: '/en/fabien' },
     '/fabien/fr': { redirect: '/fr/fabien' },
   },
-  compatibilityDate: '2024-04-03',
+  compatibilityDate: '2025-07-15',
   nitro: {
     prerender: {
       crawlLinks: true,
