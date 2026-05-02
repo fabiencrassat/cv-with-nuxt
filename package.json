@@ -2,7 +2,7 @@
   "name": "cv-with-nuxt",
   "license": "MIT",
   "engines": {
-    "node": ">=20.16.0 <100"
+    "node": ">=24.15.0 <100"
   },
   "type": "module",
   "scripts": {

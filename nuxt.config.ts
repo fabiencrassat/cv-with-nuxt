@@ -46,6 +46,15 @@ export default defineNuxtConfig({
       routes: ['/fabien', '/robots.txt'],
     },
   },
+  vite: {
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+        '@braintree/sanitize-url', // CJS
+      ],
+    },
+  },
   eslint: {
     config: {
       stylistic: {

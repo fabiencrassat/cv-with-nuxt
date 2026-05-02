@@ -93,7 +93,7 @@ export default {
         </HeadingsH1>
         <p class="text-justify">
           <span class="text-lg text-blue-700 italic whitespace-no-wrap">
-            {{ $t('identity.years', { years: 43 }) }}
+            {{ $t('identity.years', { years: 45 }) }}
           </span>
           &nbsp;/&nbsp;
           <span class="text-lg text-blue-700 italic whitespace-no-wrap">
