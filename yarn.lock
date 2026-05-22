@@ -3900,10 +3900,10 @@ clean-regexp@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-cli-argv-util@~1.4:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/cli-argv-util/-/cli-argv-util-1.4.1.tgz#b055bacac956870accf63134ad18752a35a82d72"
-  integrity sha512-bXI3POW9raDKNruGKGdEnVes50u0BJtl0cZc1debofUGnhnXy/b2tpTMWFAWVS3Cisk92PYSnRlUYYuDreLXhQ==
+cli-argv-util@~1.5:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/cli-argv-util/-/cli-argv-util-1.5.1.tgz#c20ea517945b05a26d2c94b8ee91f14692049f93"
+  integrity sha512-w5t8QQvjNLe57/JpEoD7Mgy8uhuwvHmn6MTfS2LWiNsORPVIp2J9jU9ROAH7Z/FDakZB+J0FRlzpQh15/UcS6g==
   dependencies:
     chalk "~5.6"
     slash "~5.1"
@@ -8904,13 +8904,13 @@ vue@^3.5.34:
     "@vue/server-renderer" "3.5.34"
     "@vue/shared" "3.5.34"
 
-w3c-html-validator@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/w3c-html-validator/-/w3c-html-validator-2.2.0.tgz#aa936e6035725bb86c0778143848737680065aa7"
-  integrity sha512-XCH4rosXqJBY3cBxm7oGbXX9oZRHs7yOqI76ZJmqs7c2JU6inMQcNxiA0ixXFWCuN6f95j9AzD4r8IrtmqXySw==
+w3c-html-validator@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/w3c-html-validator/-/w3c-html-validator-2.2.1.tgz#f11051100b5ce4e5fea1b17f96f90a52ea5660ce"
+  integrity sha512-OaoeEvUXc+bg6JFkJVGlNwBvbkYjt0SoQml0YOQg8DUqBWNCiBA1E1SWR4SbAWGHJbPuyUqehLNqzqtj8fQedw==
   dependencies:
     chalk "~5.6"
-    cli-argv-util "~1.4"
+    cli-argv-util "~1.5"
     fancy-log "~2.0"
     glob "~13.0"
     slash "~5.1"
