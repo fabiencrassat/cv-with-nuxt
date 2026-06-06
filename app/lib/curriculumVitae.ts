@@ -144,8 +144,8 @@ export default class CurriculumVitae {
 
   public constructor(lang = 'fr') {
     this.lang = lang;
-    this.curriculumVitae = <ICurriculumVitae>fabien;
-    this.societies = <ISocieties>jsonSocieties;
+    this.curriculumVitae = fabien;
+    this.societies = jsonSocieties;
   }
 
   public getFullName() {
