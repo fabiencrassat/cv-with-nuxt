@@ -196,7 +196,7 @@ jobs:
             "-Dsonar.qualitygate.wait=true"
   deploy-production:
     name: Deploy production website
-    needs: [deploy-preview, sonarqube]
+    needs: [validation, deploy-preview, sonarqube]
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     strategy:
