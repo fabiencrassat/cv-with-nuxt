@@ -7,6 +7,12 @@
         id="menuToggle"
         class="block relative mx-2 text-left"
       >
+        <label
+          for="menuToggleInput"
+          class="sr-only"
+        >
+          {{ $t('menu') }}
+        </label>
         <input
           id="menuToggleInput"
           type="checkbox"
