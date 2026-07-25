@@ -42,7 +42,7 @@
     "eslint": "^10.8.0",
     "happy-dom": "^20.11.1",
     "husky": "^9.1.7",
-    "playwright-core": "^1.61.1",
+    "playwright-core": "^1.62.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.10",
     "vue-tsc": "^3.3.8",
