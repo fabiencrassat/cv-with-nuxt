@@ -3922,6 +3922,11 @@ chalk@~5.6:
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.6.2.tgz#b1238b6e23ea337af71c7f8a295db5af0c158aea"
   integrity sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==
 
+chalk@~6.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-6.0.0.tgz#a3bae843bc8454f41ef66ef3fd584dcf34dd805d"
+  integrity sha512-2uNTXIuTTxk7ciZgAU1BQcgnchcG0xXnrs6jzkQfj9SsRa9M2s5zE8WT96hS6KmG4MzWHSrvH43DF1m4XRkrFg==
+
 change-case@^5.4.4:
   version "5.4.4"
   resolved "https://registry.yarnpkg.com/change-case/-/change-case-5.4.4.tgz#0d52b507d8fb8f204343432381d1a6d7bff97a02"
@@ -9294,12 +9299,12 @@ vue@^3.5.40, vue@~3.5.34:
     "@vue/server-renderer" "3.5.40"
     "@vue/shared" "3.5.40"
 
-w3c-html-validator@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/w3c-html-validator/-/w3c-html-validator-2.2.2.tgz#c1bcebd48d6db21183d91372e7512929a260a2eb"
-  integrity sha512-75lA5SAbBRXInYMNifOoINB7zRiGmDgKf4nxtvJpVwgWx3c+x4to3IcGfTPXNCjzhxbJIY6C5oxZlhSaSLgpcg==
+w3c-html-validator@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/w3c-html-validator/-/w3c-html-validator-2.2.3.tgz#08b907e31bbfe562e5b4f475690e1519a00583fa"
+  integrity sha512-6gvTQw5YNjlrP5/4EcYd0qvdhdNHT1KdhVF0YQ/k2iC1KBsvkIFvR9Eaa5BVGXZFcoohy079KKT/+u1zzNiP6g==
   dependencies:
-    chalk "~5.6"
+    chalk "~6.0"
     cli-argv-util "~1.5"
     fancy-log "~2.0"
     glob "~13.0"
