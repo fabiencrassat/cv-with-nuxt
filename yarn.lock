@@ -5574,10 +5574,10 @@ h3@^2.0.1-rc.26:
     rou3 "^0.9.1"
     srvx "^0.12.4"
 
-happy-dom@^20.11.15:
-  version "20.11.15"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.11.15.tgz#6f61c418aebc4cc840a0321c10c50bfd91abb654"
-  integrity sha512-bj2gQIKzOYB6GAAJ/jrN/IFHQe79MhEOiMAspRRWiKebRoegvGDv2B6eUt8KiZMTEDvx6ri0fAF7Xh/umAUUZA==
+happy-dom@^20.12.0:
+  version "20.12.0"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.12.0.tgz#5ae13e8186eb6ea11f03eecb38716659355c36fd"
+  integrity sha512-7uMYJu2SEwwL8vVcKp0C0lnt6d2LSGGe+T+oY79PiCJNNSgFpbxW8n5KuzpDQvrU4mt+fYiK1+Jy7Z2v39YR6g==
   dependencies:
     "@types/node" ">=20.0.0"
     "@types/whatwg-mimetype" "^3.0.2"
