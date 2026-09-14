@@ -199,7 +199,10 @@ exports[`can mount an app with /en/fabien route 1`] = `
                   </svg> July 2025 - Present</p>
                 <div class="font-bold text-xl mb-2">AI Agent Developer</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop.</li>
+                  <li>Design and development of AI pipelines and agents to automate complex processes.</li>
+                  <li>AI-assisted migration of a critical production risk management system, representing approximately 2.5 million lines of code, from Jython/Python 2 and Java to Python 3.11.</li>
+                  <li>Design of an AI migration pipeline capable of progressively analysing and transforming code while preserving its structure and functional behaviour.</li>
+                  <li>Work carried out with strong requirements for reliability, traceability and regression prevention, as the system is a central component of production risk management.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
@@ -212,15 +215,20 @@ exports[`can mount an app with /en/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Squad Leader trainer"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/devops.webp&quot;);" title="DevOps / Kubernetes"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> January 2024 - September 2025</p>
-                <div class="font-bold text-xl mb-2">Squad Leader trainer</div>
+                  </svg> 2020 - Present</p>
+                <div class="font-bold text-xl mb-2">DevOps / Kubernetes</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Intensive 2-day training for 80 employees over 10 sessions to develop agile operational leadership skills, encourage team autonomy and optimise collective performance.</li>
+                  <li>Administration and operation of the Scaleway managed Kubernetes cluster hosting Reacteev tools and services, with approximately 30 namespaces.</li>
+                  <li>Design of Helm deployments and industrialisation of production releases through GitLab CI/CD.</li>
+                  <li>Management of resources, secrets, certificates and security-related components.</li>
+                  <li>Operation of the Prometheus, Grafana and Loki observability stack.</li>
+                  <li>Preparation of Kubernetes upgrades and identification of deprecated components and APIs to secure platform evolution.</li>
+                  <li>Incident management and keeping the infrastructure in operational condition.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
@@ -233,15 +241,18 @@ exports[`can mount an app with /en/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/Departemental-des-Bouches-du-Rhone.webp&quot;);" title="Agile Training"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> November 2024</p>
-                <div class="font-bold text-xl mb-2">Level 1 project management trainer</div>
+                  </svg> January - June 2026</p>
+                <div class="font-bold text-xl mb-2">Agile Training</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Intensive two-day training course for around ten employees to develop project management skills, encourage team autonomy and optimise collective performance.</li>
+                  <li>Qualiopi-certified training for two groups of approximately 10 people from the Information Systems and Digital Uses Department of the Bouches-du-Rhône Departmental Council in Marseille.</li>
+                  <li>Facilitation of 6 half-day sessions per group, based on the participants’ real professional cases.</li>
+                  <li>Topics: Personas &amp; Story Mapping, Agile Communication, Prioritisation, Estimation &amp; WSJF, multisite and distributed teams, Delivery &amp; Planning, DevOps &amp; Continuous Delivery.</li>
+                  <li>Practical application of the concepts to the teams’ real challenges and synthesis of the learning through a review of the practical cases.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
@@ -719,7 +730,82 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   </svg> July 2025 - Present</p>
                 <div class="font-bold text-xl mb-2">AI Agent Developer</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop.</li>
+                  <li>Design and development of AI pipelines and agents to automate complex processes.</li>
+                  <li>AI-assisted migration of a critical production risk management system, representing approximately 2.5 million lines of code, from Jython/Python 2 and Java to Python 3.11.</li>
+                  <li>Design of an AI migration pipeline capable of progressively analysing and transforming code while preserving its structure and functional behaviour.</li>
+                  <li>Work carried out with strong requirements for reliability, traceability and regression prevention, as the system is a central component of production risk management.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/devops.webp&quot;);" title="DevOps / Kubernetes"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> 2020 - Present</p>
+                <div class="font-bold text-xl mb-2">DevOps / Kubernetes</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Administration and operation of the Scaleway managed Kubernetes cluster hosting Reacteev tools and services, with approximately 30 namespaces.</li>
+                  <li>Design of Helm deployments and industrialisation of production releases through GitLab CI/CD.</li>
+                  <li>Management of resources, secrets, certificates and security-related components.</li>
+                  <li>Operation of the Prometheus, Grafana and Loki observability stack.</li>
+                  <li>Preparation of Kubernetes upgrades and identification of deprecated components and APIs to secure platform evolution.</li>
+                  <li>Incident management and keeping the infrastructure in operational condition.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/Departemental-des-Bouches-du-Rhone.webp&quot;);" title="Agile Training"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> January - June 2026</p>
+                <div class="font-bold text-xl mb-2">Agile Training</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Qualiopi-certified training for two groups of approximately 10 people from the Information Systems and Digital Uses Department of the Bouches-du-Rhône Departmental Council in Marseille.</li>
+                  <li>Facilitation of 6 half-day sessions per group, based on the participants’ real professional cases.</li>
+                  <li>Topics: Personas &amp; Story Mapping, Agile Communication, Prioritisation, Estimation &amp; WSJF, multisite and distributed teams, Delivery &amp; Planning, DevOps &amp; Continuous Delivery.</li>
+                  <li>Practical application of the concepts to the teams’ real challenges and synthesis of the learning through a review of the practical cases.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ia-automation.webp&quot;);" title="AI &amp; automation"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> 2024 - 2025</p>
+                <div class="font-bold text-xl mb-2">AI &amp; automation</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Co-designed with the Reacteev team a web application for automated skills dossier generation: AI analysis of PDF or Word CVs, extraction of skills and experience, then generation of a dossier compliant with the Reacteev template and visual identity. Production time reduced from 2 to 3 hours to approximately 15 minutes, with a document ready for use after adding the photo.</li>
+                  <li>Co-designed with Reacteev colleagues, using n8n, an AI editorial content generator able to transform an article or an idea into content adapted to the selected channel, particularly LinkedIn or the Reacteev website. The solution was used for approximately one year.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
@@ -1924,7 +2010,82 @@ exports[`can mount an app with /en/fabien route 3`] = `
                   </svg> July 2025 - Present</p>
                 <div class="font-bold text-xl mb-2">AI Agent Developer</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop.</li>
+                  <li>Design and development of AI pipelines and agents to automate complex processes.</li>
+                  <li>AI-assisted migration of a critical production risk management system, representing approximately 2.5 million lines of code, from Jython/Python 2 and Java to Python 3.11.</li>
+                  <li>Design of an AI migration pipeline capable of progressively analysing and transforming code while preserving its structure and functional behaviour.</li>
+                  <li>Work carried out with strong requirements for reliability, traceability and regression prevention, as the system is a central component of production risk management.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/devops.webp&quot;);" title="DevOps / Kubernetes"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> 2020 - Present</p>
+                <div class="font-bold text-xl mb-2">DevOps / Kubernetes</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Administration and operation of the Scaleway managed Kubernetes cluster hosting Reacteev tools and services, with approximately 30 namespaces.</li>
+                  <li>Design of Helm deployments and industrialisation of production releases through GitLab CI/CD.</li>
+                  <li>Management of resources, secrets, certificates and security-related components.</li>
+                  <li>Operation of the Prometheus, Grafana and Loki observability stack.</li>
+                  <li>Preparation of Kubernetes upgrades and identification of deprecated components and APIs to secure platform evolution.</li>
+                  <li>Incident management and keeping the infrastructure in operational condition.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/Departemental-des-Bouches-du-Rhone.webp&quot;);" title="Agile Training"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> January - June 2026</p>
+                <div class="font-bold text-xl mb-2">Agile Training</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Qualiopi-certified training for two groups of approximately 10 people from the Information Systems and Digital Uses Department of the Bouches-du-Rhône Departmental Council in Marseille.</li>
+                  <li>Facilitation of 6 half-day sessions per group, based on the participants’ real professional cases.</li>
+                  <li>Topics: Personas &amp; Story Mapping, Agile Communication, Prioritisation, Estimation &amp; WSJF, multisite and distributed teams, Delivery &amp; Planning, DevOps &amp; Continuous Delivery.</li>
+                  <li>Practical application of the concepts to the teams’ real challenges and synthesis of the learning through a review of the practical cases.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ia-automation.webp&quot;);" title="AI &amp; automation"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> 2024 - 2025</p>
+                <div class="font-bold text-xl mb-2">AI &amp; automation</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Co-designed with the Reacteev team a web application for automated skills dossier generation: AI analysis of PDF or Word CVs, extraction of skills and experience, then generation of a dossier compliant with the Reacteev template and visual identity. Production time reduced from 2 to 3 hours to approximately 15 minutes, with a document ready for use after adding the photo.</li>
+                  <li>Co-designed with Reacteev colleagues, using n8n, an AI editorial content generator able to transform an article or an idea into content adapted to the selected channel, particularly LinkedIn or the Reacteev website. The solution was used for approximately one year.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
@@ -3129,7 +3290,82 @@ exports[`can mount an app with /en/fabien route 4`] = `
                   </svg> July 2025 - Present</p>
                 <div class="font-bold text-xl mb-2">AI Agent Developer</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop.</li>
+                  <li>Design and development of AI pipelines and agents to automate complex processes.</li>
+                  <li>AI-assisted migration of a critical production risk management system, representing approximately 2.5 million lines of code, from Jython/Python 2 and Java to Python 3.11.</li>
+                  <li>Design of an AI migration pipeline capable of progressively analysing and transforming code while preserving its structure and functional behaviour.</li>
+                  <li>Work carried out with strong requirements for reliability, traceability and regression prevention, as the system is a central component of production risk management.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/devops.webp&quot;);" title="DevOps / Kubernetes"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> 2020 - Present</p>
+                <div class="font-bold text-xl mb-2">DevOps / Kubernetes</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Administration and operation of the Scaleway managed Kubernetes cluster hosting Reacteev tools and services, with approximately 30 namespaces.</li>
+                  <li>Design of Helm deployments and industrialisation of production releases through GitLab CI/CD.</li>
+                  <li>Management of resources, secrets, certificates and security-related components.</li>
+                  <li>Operation of the Prometheus, Grafana and Loki observability stack.</li>
+                  <li>Preparation of Kubernetes upgrades and identification of deprecated components and APIs to secure platform evolution.</li>
+                  <li>Incident management and keeping the infrastructure in operational condition.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/Departemental-des-Bouches-du-Rhone.webp&quot;);" title="Agile Training"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> January - June 2026</p>
+                <div class="font-bold text-xl mb-2">Agile Training</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Qualiopi-certified training for two groups of approximately 10 people from the Information Systems and Digital Uses Department of the Bouches-du-Rhône Departmental Council in Marseille.</li>
+                  <li>Facilitation of 6 half-day sessions per group, based on the participants’ real professional cases.</li>
+                  <li>Topics: Personas &amp; Story Mapping, Agile Communication, Prioritisation, Estimation &amp; WSJF, multisite and distributed teams, Delivery &amp; Planning, DevOps &amp; Continuous Delivery.</li>
+                  <li>Practical application of the concepts to the teams’ real challenges and synthesis of the learning through a review of the practical cases.</li>
+                </ul>
+              </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
+                <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
+                  <div class="text-sm">
+                    <p class="leading-none">Reacteev</p>
+                    <p class="text-gray-700">Paris, France</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/ia-automation.webp&quot;);" title="AI &amp; automation"></div>
+            <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
+              <div class="m-4">
+                <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                  </svg> 2024 - 2025</p>
+                <div class="font-bold text-xl mb-2">AI &amp; automation</div>
+                <ul class="text-gray-700 text-base">
+                  <li>Co-designed with the Reacteev team a web application for automated skills dossier generation: AI analysis of PDF or Word CVs, extraction of skills and experience, then generation of a dossier compliant with the Reacteev template and visual identity. Production time reduced from 2 to 3 hours to approximately 15 minutes, with a document ready for use after adding the photo.</li>
+                  <li>Co-designed with Reacteev colleagues, using n8n, an AI editorial content generator able to transform an article or an idea into content adapted to the selected channel, particularly LinkedIn or the Reacteev website. The solution was used for approximately one year.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
@@ -4324,15 +4560,18 @@ exports[`can mount an app with /fr/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/BNPP.webp&quot;);" title="Dévelopeur d’Agents IA"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/BNPP.webp&quot;);" title="Développeur d’Agents IA"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> Juillet 2025 - Aujourd’hui</p>
-                <div class="font-bold text-xl mb-2">Dévelopeur d’Agents IA</div>
+                <div class="font-bold text-xl mb-2">Développeur d’Agents IA</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Développeur spécialisé dans la conception et l’industrialisation d’agents IA autonomes et collaboratifs. Expérience avancée dans la création d’architectures agentiques orchestrées (multi-agents), intégrant des LLM, des workflows outillés et des systèmes d’information complexes. Capacité à transformer des besoins métier en agents opérationnels, robustes et scalables, avec un fort focus sur l’automatisation intelligente, la qualité logicielle et l’humain dans la boucle.</li>
+                  <li>Conception et développement de pipelines et agents IA pour automatiser des processus complexes.</li>
+                  <li>Migration assistée par IA d’un système critique de gestion des risques en production, représentant environ 2,5 millions de lignes de code, de Jython/Python 2 et Java vers Python 3.11.</li>
+                  <li>Conception d’un pipeline de migration par IA capable d’analyser et transformer progressivement le code tout en conservant sa structure et son comportement fonctionnel.</li>
+                  <li>Travail réalisé avec une exigence forte de fiabilité, traçabilité et non-régression, le système constituant un composant central de la gestion des risques en production.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
@@ -4345,15 +4584,20 @@ exports[`can mount an app with /fr/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/lcl.webp&quot;);" title="Formateur Squad Leader"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/devops.webp&quot;);" title="DevOps / Kubernetes"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> Janvier 2024 - Septembre 2025</p>
-                <div class="font-bold text-xl mb-2">Formateur Squad Leader</div>
+                  </svg> 2020 - Aujourd’hui</p>
+                <div class="font-bold text-xl mb-2">DevOps / Kubernetes</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Formation intensive de 2 jours destinée à 80 collaborateurs sur 10 sessions pour développer les compétences en leadership opérationnel agile, encourager l’autonomie des équipes et optimiser la performance collective.</li>
+                  <li>Administration et exploitation du cluster Kubernetes managé Scaleway hébergeant les outils et services Reacteev, avec environ 30 namespaces.</li>
+                  <li>Conception des déploiements Helm et industrialisation des mises en production via GitLab CI/CD.</li>
+                  <li>Gestion des ressources, secrets, certificats et composants liés à la sécurité.</li>
+                  <li>Exploitation de la stack d’observabilité Prometheus, Grafana et Loki.</li>
+                  <li>Préparation des montées de version Kubernetes et identification des composants et API dépréciés afin de sécuriser les évolutions de la plateforme.</li>
+                  <li>Gestion des incidents et maintien en conditions opérationnelles de l’infrastructure.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">
@@ -4366,15 +4610,18 @@ exports[`can mount an app with /fr/fabien route 1`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Formateur gestion de projet niveau 1"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/Departemental-des-Bouches-du-Rhone.webp&quot;);" title="Formation Agile"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                  </svg> Novembre 2024</p>
-                <div class="font-bold text-xl mb-2">Formateur gestion de projet niveau 1</div>
+                  </svg> Janvier - Juin 2026</p>
+                <div class="font-bold text-xl mb-2">Formation Agile</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Formation intensive de 2 jours destinée à une dizaine de collaborateurs pour développer les compétences de la gestion de projet, encourager l’autonomie des équipes et optimiser la performance collective.</li>
+                  <li>Formation Qualiopi de deux groupes d’environ 10 personnes de la Direction des Systèmes d’Information et des Usages Numériques de l’Hôtel du Département des Bouches-du-Rhône, à Marseille.</li>
+                  <li>Animation de 6 sessions d’une demi-journée par groupe, basées sur les cas professionnels concrets des participants.</li>
+                  <li>Thématiques : Personas &amp; Story Mapping, Communication Agile, Priorisation, Estimation &amp; WSJF, multisites &amp; équipes étendues, Réalisation &amp; Planning, DevOps &amp; Continuous Delivery.</li>
+                  <li>Mise en pratique des concepts sur les problématiques réelles des équipes et synthèse des apprentissages à travers une revue des cas pratiques.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
                 <div class="flex items-center"><img class="w-10 h-10 mr-4" height="40" width="40" src="/img/societies/reacteev.png" alt="Reacteev" title="Reacteev">

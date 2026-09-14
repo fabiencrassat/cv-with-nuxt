@@ -24,6 +24,7 @@ const clickOnMenuItemAndCloseMenu = async (component: VueWrapper) => {
   const menuItem = component.find('li');
   expect(menuItem.text()).toBe('identity.name');
   await menuItem.trigger('click');
+  await menuItem.trigger('keydown');
   expect(component.html()).toMatchSnapshot();
 };
 
