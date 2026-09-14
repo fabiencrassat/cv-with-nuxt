@@ -72,12 +72,14 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en',
-        file: 'en-US.ts',
+        name: 'English',
+        file: 'en-US.json',
         language: 'en-US',
       },
       {
         code: 'fr',
-        file: 'fr-FR.ts',
+        name: 'Français',
+        file: 'fr-FR.json',
         language: 'fr-FR',
       },
     ],

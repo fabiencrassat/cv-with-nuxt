@@ -127,7 +127,7 @@
         "en": "July 2025 - Present"
       },
       "job": {
-        "fr": "Dévelopeur d’Agents IA",
+        "fr": "Développeur d’Agents IA",
         "en": "AI Agent Developer"
       },
       "jobImage": "/img/experiences/BNPP.webp",
@@ -136,10 +136,100 @@
       },
       "missions": {
         "fr": [
-          "Développeur spécialisé dans la conception et l’industrialisation d’agents IA autonomes et collaboratifs. Expérience avancée dans la création d’architectures agentiques orchestrées (multi-agents), intégrant des LLM, des workflows outillés et des systèmes d’information complexes. Capacité à transformer des besoins métier en agents opérationnels, robustes et scalables, avec un fort focus sur l’automatisation intelligente, la qualité logicielle et l’humain dans la boucle."
+          "Conception et développement de pipelines et agents IA pour automatiser des processus complexes.",
+          "Migration assistée par IA d’un système critique de gestion des risques en production, représentant environ 2,5 millions de lignes de code, de Jython/Python 2 et Java vers Python 3.11.",
+          "Conception d’un pipeline de migration par IA capable d’analyser et transformer progressivement le code tout en conservant sa structure et son comportement fonctionnel.",
+          "Travail réalisé avec une exigence forte de fiabilité, traçabilité et non-régression, le système constituant un composant central de la gestion des risques en production."
         ],
         "en": [
-          "Developer specialising in the design and industrialisation of autonomous and collaborative AI agents. Advanced experience in creating orchestrated agent architectures (multi-agents), integrating LLMs, tooled workflows and complex information systems. Ability to transform business needs into operational, robust and scalable agents, with a strong focus on intelligent automation, software quality and humans in the loop."
+          "Design and development of AI pipelines and agents to automate complex processes.",
+          "AI-assisted migration of a critical production risk management system, representing approximately 2.5 million lines of code, from Jython/Python 2 and Java to Python 3.11.",
+          "Design of an AI migration pipeline capable of progressively analysing and transforming code while preserving its structure and functional behaviour.",
+          "Work carried out with strong requirements for reliability, traceability and regression prevention, as the system is a central component of production risk management."
+        ]
+      }
+    },
+    "ReacteevDevOpsKubernetes": {
+      "date": {
+        "fr": "2020 - Aujourd’hui",
+        "en": "2020 - Present"
+      },
+      "job": {
+        "fr": "DevOps / Kubernetes",
+        "en": "DevOps / Kubernetes"
+      },
+      "jobImage": "/img/experiences/devops.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Administration et exploitation du cluster Kubernetes managé Scaleway hébergeant les outils et services Reacteev, avec environ 30 namespaces.",
+          "Conception des déploiements Helm et industrialisation des mises en production via GitLab CI/CD.",
+          "Gestion des ressources, secrets, certificats et composants liés à la sécurité.",
+          "Exploitation de la stack d’observabilité Prometheus, Grafana et Loki.",
+          "Préparation des montées de version Kubernetes et identification des composants et API dépréciés afin de sécuriser les évolutions de la plateforme.",
+          "Gestion des incidents et maintien en conditions opérationnelles de l’infrastructure."
+        ],
+        "en": [
+          "Administration and operation of the Scaleway managed Kubernetes cluster hosting Reacteev tools and services, with approximately 30 namespaces.",
+          "Design of Helm deployments and industrialisation of production releases through GitLab CI/CD.",
+          "Management of resources, secrets, certificates and security-related components.",
+          "Operation of the Prometheus, Grafana and Loki observability stack.",
+          "Preparation of Kubernetes upgrades and identification of deprecated components and APIs to secure platform evolution.",
+          "Incident management and keeping the infrastructure in operational condition."
+        ]
+      }
+    },
+    "ReacteevBoucheDuRhoneFormationAgile": {
+      "date": {
+        "fr": "Janvier - Juin 2026",
+        "en": "January - June 2026"
+      },
+      "job": {
+        "fr": "Formation Agile",
+        "en": "Agile Training"
+      },
+      "jobImage": "/img/experiences/Departemental-des-Bouches-du-Rhone.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Formation Qualiopi de deux groupes d’environ 10 personnes de la Direction des Systèmes d’Information et des Usages Numériques de l’Hôtel du Département des Bouches-du-Rhône, à Marseille.",
+          "Animation de 6 sessions d’une demi-journée par groupe, basées sur les cas professionnels concrets des participants.",
+          "Thématiques : Personas & Story Mapping, Communication Agile, Priorisation, Estimation & WSJF, multisites & équipes étendues, Réalisation & Planning, DevOps & Continuous Delivery.",
+          "Mise en pratique des concepts sur les problématiques réelles des équipes et synthèse des apprentissages à travers une revue des cas pratiques."
+        ],
+        "en": [
+          "Qualiopi-certified training for two groups of approximately 10 people from the Information Systems and Digital Uses Department of the Bouches-du-Rhône Departmental Council in Marseille.",
+          "Facilitation of 6 half-day sessions per group, based on the participants’ real professional cases.",
+          "Topics: Personas & Story Mapping, Agile Communication, Prioritisation, Estimation & WSJF, multisite and distributed teams, Delivery & Planning, DevOps & Continuous Delivery.",
+          "Practical application of the concepts to the teams’ real challenges and synthesis of the learning through a review of the practical cases."
+        ]
+      }
+    },
+    "ReacteevIaAutomation": {
+      "date": {
+        "fr": "2024 - 2025",
+        "en": "2024 - 2025"
+      },
+      "job": {
+        "fr": "IA & automatisation",
+        "en": "AI & automation"
+      },
+      "jobImage": "/img/experiences/ia-automation.webp",
+      "society": {
+        "crossref": "societies.reacteev"
+      },
+      "missions": {
+        "fr": [
+          "Conception avec l’équipe Reacteev d’un site web de génération automatisée de dossiers de compétences : analyse de CV PDF ou Word par IA, extraction des compétences et expériences, puis génération d’un dossier conforme au modèle et à la charte graphique Reacteev. Temps de production réduit de 2 à 3 heures à environ 15 minutes, avec un document directement exploitable après ajout de la photo.",
+          "Conception avec les collaborateurs Reacteev, sous n8n, d’un générateur de contenus éditoriaux par IA capable de transformer un article ou une idée en contenus adaptés au support choisi, notamment LinkedIn ou le site web Reacteev. Solution utilisée pendant environ un an."
+        ],
+        "en": [
+          "Co-designed with the Reacteev team a web application for automated skills dossier generation: AI analysis of PDF or Word CVs, extraction of skills and experience, then generation of a dossier compliant with the Reacteev template and visual identity. Production time reduced from 2 to 3 hours to approximately 15 minutes, with a document ready for use after adding the photo.",
+          "Co-designed with Reacteev colleagues, using n8n, an AI editorial content generator able to transform an article or an idea into content adapted to the selected channel, particularly LinkedIn or the Reacteev website. The solution was used for approximately one year."
         ]
       }
     },

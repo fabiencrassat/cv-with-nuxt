@@ -53,6 +53,7 @@
               v-for="(item, index) in menuItems"
               :key="index"
               @click="closeMenu"
+              @keydown="closeMenu"
             >
               <nuxt-link
                 :to="'#' + item.url"
