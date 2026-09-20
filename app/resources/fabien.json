@@ -1053,19 +1053,26 @@
     "functional" : {
       "label": {
         "fr": "Fonctionnel",
-        "en": "Fonctionnal"
+        "en": "Functional"
       },
       "svg": "ColoursSvgIcon",
       "items": [
         {
           "percentage": 90,
           "name": {
+            "fr": "Développement de logiciels, Gestion de projets logiciels, Architecture des solutions logicielles, Ingénierie logicielle, Conception logicielle, Logiciels d’entreprise",
+            "en": "Software Development, Software Project Management, Software Solution Architecture, Software Engineering, Software Design, Enterprise Software"
+          }
+        },
+        {
+          "percentage": 70,
+          "name": {
             "fr": "Gouvernance des Risques, Contrôle Interne et Permanent, Audit, Plans de continuité d’activités",
             "en": "Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management"
           }
         },
         {
-          "percentage": 80,
+          "percentage": 50,
           "name": {
             "fr": "Plan d’action, Circuit d’approbation",
             "en": "Action Plan, Approval Process"
@@ -1090,22 +1097,29 @@
         {
           "percentage": 90,
           "name": {
-            "fr": "Enablon",
-            "en": "Enablon"
+            "fr": "Enablon, Développement Web",
+            "en": "Enablon, Web Development"
           }
         },
         {
           "percentage": 80,
           "name": {
-            "fr": "HTML, CSS, JavaScript, jQuery",
-            "en": "HTML, CSS, JavaScript, jQuery"
+            "fr": "HTML, CSS, JavaScript",
+            "en": "HTML, CSS, JavaScript"
+          }
+        },
+        {
+          "percentage": 60,
+          "name": {
+            "fr": "Java, Python, Shell",
+            "en": "Java, Python, Shell"
           }
         },
         {
           "percentage": 40,
           "name": {
-            "fr": "C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor",
-            "en": "C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor"
+            "fr": "C, Data Base (Access, PL/SQL, Oracle), Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor, jQuery",
+            "en": "C, Data Base (Access, PL/SQL, Oracle), Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor, jQuery"
           }
         },
         {
@@ -1125,24 +1139,24 @@
       "svg": "BrowserSvgIcon",
       "items": [
         {
-          "percentage": 80,
+          "percentage": 90,
           "name": {
-            "fr": "Word, Excel, PowerPoint, MS Project",
-            "en": "Word, Excel, PowerPoint, MS Project"
+            "fr": "Jira, GitLab, GitHub, Word, Excel, PowerPoint, GIT",
+            "en": "Jira, GitLab, GitHub, Word, Excel, PowerPoint, GIT"
           }
         },
         {
-          "percentage": 60,
+          "percentage": 70,
           "name": {
-            "fr": "GIT",
-            "en": "GIT"
+            "fr": "Helm, Kubernetes",
+            "en": "Helm, Kubernetes"
           }
         },
         {
           "percentage": 40,
           "name": {
-            "fr": "Photoshop CS",
-            "en": "Photoshop CS"
+            "fr": "Photoshop CS, MS Project",
+            "en": "Photoshop CS, MS Project"
           }
         },
         {
