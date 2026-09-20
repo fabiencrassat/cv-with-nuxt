@@ -22,7 +22,7 @@
     "test:coverage": "vitest run --coverage",
     "test:watch": "vitest watch",
     "test:watch:coverage": "vitest watch --coverage",
-    "typecheck": "nuxt typecheck",
+    "typecheck": "nuxt prepare && vue-tsc -b --noEmit",
     "validate:html": "html-validator .output/public/fr/fabien .output/public/en/fabien --continue --ignore-config=ignore-html.config.txt"
   },
   "dependencies": {

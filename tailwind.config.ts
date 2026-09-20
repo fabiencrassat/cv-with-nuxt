@@ -13,11 +13,6 @@ export default {
     transform: false,
     translate: false,
   },
-  // INFO: Remove future when tailwindcss 2.X is used
-  future: {
-    purgeLayersByDefault: true,
-    removeDeprecatedGapUtilities: true,
-  },
   plugins: [],
   theme: {
     extend: {
@@ -25,9 +20,5 @@ export default {
         display: ['Roboto', 'Open Sans', 'sans-serif'],
       },
     },
-  },
-  variants: {
-    backgroundColor: ['hover', 'odd'],
-    margin: ['responsive', 'last', 'first'],
   },
 };

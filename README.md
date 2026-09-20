@@ -30,7 +30,7 @@ Welcome to the fabiencrassat's Curriculum Vitae source code - a development with
 ## Prerequisites
 
 - [GIT](https://git-scm.com/)
-- [NodeJS and NPM](https://nodejs.org/) Version 20
+- [NodeJS and NPM](https://nodejs.org/) Version 24.14.1 or later
 
 Or
 
@@ -75,13 +75,14 @@ The product source code is structured with:
   ├── app
   |   ├── assets      # All static files that need to be served without i18n.
   |   ├── components  # All codes imported in the `app/pages/` files, **using nuxt and vue**.
+  |   ├── layouts      # Shared application layouts.
+  |   ├── lib          # Application-independent code used by the Vue app.
   |   ├── pages       # All the application pages called with URL, served with **nuxt** and **i18n**.
   |   └── resources   # All resources to build the curriculum vitae.
-  ├── config          # Built and runtime configuration.
+  ├── nuxt.config.ts  # Nuxt build and runtime configuration.
   ├── i18n            # Nuxt i18n json files for translations.
-  ├── lib             # All codes used into the application but that **do not use nuxt and vue**.
   ├── public          # All public files that can be link from the root website.
-  └── scripts         # All files called in the `package.json` script section.
+  └── test             # Nuxt and component tests.
 ```
 
 ## Start like production
