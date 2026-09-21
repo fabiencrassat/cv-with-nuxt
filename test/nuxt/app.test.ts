@@ -32,6 +32,8 @@ it('can mount an app with /en/fabien route', async () => {
   setup('en');
   const component = await mountSuspended(App, { route: '/en/fabien' });
   expect(component.html()).toMatchSnapshot();
+  expect(component.find('#watch-and-sharing').exists()).toBe(true);
+  expect(component.find('#watch-and-sharing').text()).toContain('React Paris');
   await expandExperiences(component);
   await openMenu(component);
   await clickOnMenuItemAndCloseMenu(component);
@@ -40,4 +42,6 @@ it('can mount an app with /fr/fabien route', async () => {
   setup('fr');
   const component = await mountSuspended(App, { route: '/fr/fabien' });
   expect(component.html()).toMatchSnapshot();
+  expect(component.find('#watch-and-sharing').exists()).toBe(true);
+  expect(component.find('#watch-and-sharing').text()).toContain('React Paris');
 });

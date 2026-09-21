@@ -25,5 +25,8 @@
   "showMore": "Show more...",
   "skills": {
     "name": "skills"
+  },
+  "watch-and-sharing": {
+    "name": "watch, experimentation & knowledge sharing"
   }
 }

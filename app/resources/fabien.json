@@ -68,7 +68,7 @@
       "crossref": "curriculumVitae.experiences.Reacteev.job"
     },
     "presentation": {
-      "fr": "Mon parcours et mes expériences montrent une solide expertise en Agile, Lean Startup et DevOps, ainsi qu'un engagement dans la formation, que ce soit en entreprise ou à l'université. Je combine des compétences techniques et des capacités de coaching, tout en restant à la pointe des méthodologies et certifications agiles. Mes centres d'intérêts, variés et éclectiques, montrent une personnalité curieuse et passionnée par l'exploration du monde et des technologies.",
+      "fr": "Mon parcours et mes expériences montrent une solide expertise en Agile, Lean Startup et DevOps, ainsi qu’un engagement dans la formation, que ce soit en entreprise ou à l’université. Je combine des compétences techniques et des capacités de coaching, tout en restant à la pointe des méthodologies et certifications agiles. Mes centres d’intérêts, variés et éclectiques, montrent une personnalité curieuse et passionnée par l’exploration du monde et des technologies.",
       "en": "My background and experience demonstrate solid expertise in Agile, Lean Startup and DevOps, as well as a commitment to training, both in companies and at universities. I combine technical skills with coaching capabilities, while remaining at the cutting edge of agile methodologies and certifications. My varied and eclectic interests reflect a curious personality with a passion for exploring the world and technologies."
     }
   },
@@ -88,7 +88,7 @@
       },
       "missions": {
         "fr": [
-          "Améliore l’efficience des départements informatiques des clients : études, analyses et accompagnements des équipes et partenaires.",
+          "Améliore l’efficience des départements informatiques des clients : études, analyses et accompagnements des équipes et partenaires.",
           "Démarche de nouveaux clients à travers la participation à des salons ou événements et de la prospection commerciale."
         ],
         "en": [
@@ -198,7 +198,7 @@
         "fr": [
           "Formation Qualiopi de deux groupes d’environ 10 personnes de la Direction des Systèmes d’Information et des Usages Numériques de l’Hôtel du Département des Bouches-du-Rhône, à Marseille.",
           "Animation de 6 sessions d’une demi-journée par groupe, basées sur les cas professionnels concrets des participants.",
-          "Thématiques : Personas & Story Mapping, Communication Agile, Priorisation, Estimation & WSJF, multisites & équipes étendues, Réalisation & Planning, DevOps & Continuous Delivery.",
+          "Thématiques : Personas & Story Mapping, Communication Agile, Priorisation, Estimation & WSJF, multisites & équipes étendues, Réalisation & Planning, DevOps & Continuous Delivery.",
           "Mise en pratique des concepts sur les problématiques réelles des équipes et synthèse des apprentissages à travers une revue des cas pratiques."
         ],
         "en": [
@@ -224,7 +224,7 @@
       },
       "missions": {
         "fr": [
-          "Conception avec l’équipe Reacteev d’un site web de génération automatisée de dossiers de compétences : analyse de CV PDF ou Word par IA, extraction des compétences et expériences, puis génération d’un dossier conforme au modèle et à la charte graphique Reacteev. Temps de production réduit de 2 à 3 heures à environ 15 minutes, avec un document directement exploitable après ajout de la photo.",
+          "Conception avec l’équipe Reacteev d’un site web de génération automatisée de dossiers de compétences : analyse de CV PDF ou Word par IA, extraction des compétences et expériences, puis génération d’un dossier conforme au modèle et à la charte graphique Reacteev. Temps de production réduit de 2 à 3 heures à environ 15 minutes, avec un document directement exploitable après ajout de la photo.",
           "Conception avec les collaborateurs Reacteev, sous n8n, d’un générateur de contenus éditoriaux par IA capable de transformer un article ou une idée en contenus adaptés au support choisi, notamment LinkedIn ou le site web Reacteev. Solution utilisée pendant environ un an."
         ],
         "en": [
@@ -261,8 +261,8 @@
         "en": "November 2024"
       },
       "job": {
-        "fr": "Formateur gestion de projet niveau 1",
-        "en": "Level 1 project management trainer"
+        "fr": "Formateur gestion de projet niveau 1",
+        "en": "Level 1 project management trainer"
       },
       "jobImage": "/img/experiences/adagio.webp",
       "society": {
@@ -468,7 +468,7 @@
       },
       "missions": {
         "fr": [
-          "Coaching de deux domaines métiers d’un leader mondial bancaire au sein d’une grande banque mondial et de leur transformation Agile@Scale :", 
+          "Coaching de deux domaines métiers d’un leader mondial bancaire au sein d’une grande banque mondial et de leur transformation Agile@Scale :", 
           "- Accompagnement et formation au Craftsmanship, méthodes Agile & DevOps,",
           "- Mise en place des bonnes pratiques,",
           "- Amélioration de leur chaîne CI/CD,",
@@ -701,8 +701,8 @@
         "en": "May 2014 - June 2015"
       },
       "job": {
-        "fr": "Responsable Coordinateur Support Niveau 3",
-        "en": "Support Level 3 Lead Coordinator"
+        "fr": "Responsable Coordinateur Support Niveau 3",
+        "en": "Support Level 3 Lead Coordinator"
       },
       "jobImage": "/img/experiences/support.webp",
       "society": {
@@ -710,7 +710,7 @@
       },
       "missions": {
         "fr": [
-          "Coordonne toute l’activité du support niveau 3 d’une équipe agile internationale.",
+          "Coordonne toute l’activité du support niveau 3 d’une équipe agile internationale.",
           "Construit et met à jour les tableaux de bord pour le suivi interne et la communication externe.",
           "Unifie le planning prévisionnel des livrables et les Releases Notes.",
           "Gère la relation et assiste aux réunions de suivi des parties prenante en conduisant des questionnaires réguliers pour mesurer le niveau de satisfaction.",
@@ -718,7 +718,7 @@
           "En plus en tant que Architecte logiciel Suite Enablon: Définie et développe un gestionnaire de source (semblable à GIT) incluant l’installation, le commit, la mise à jour et la suppression à travers le cycle de vie du produit."
         ],
         "en": [
-          "Coordinate Support level 3 Activity of an international agile team.",
+          "Coordinate Support level 3 Activity of an international agile team.",
           "Build and update Dashboards (for internal follow-Up and external communication).",
           "Unified Forecasted planning and Releases Notes.",
           "Manage relationship and attend following stakeholders meetings conducting regular surveys to measure the level of satisfaction.",
@@ -842,7 +842,7 @@
       },
       "missions": {
         "fr": [
-          "Analyste et développeur logiciel ; Soutien Avant-vente de logiciel de reporting, spécialement le contrôle interne."
+          "Analyste et développeur logiciel ; Soutien Avant-vente de logiciel de reporting, spécialement le contrôle interne."
         ],
         "en": [
           "Analyst and software developer; pre-sales support on reporting software, especially internal control."
@@ -856,7 +856,7 @@
         "en": "Summer 2005"
       },
       "job": {
-        "fr": "Travail saisonnier : cuisinier, serveur et plongeur",
+        "fr": "Travail saisonnier : cuisinier, serveur et plongeur",
         "en": "Learnt English language through jobs: cook, waiter and washer"
       },
       "jobImage": "/img/experiences/waiter.webp",
@@ -1026,6 +1026,68 @@
       }
     }
   },
+  "watchAndSharing": {
+    "adoptIA": {
+      "svg": "LaptopSvgIcon",
+      "date": {
+        "fr": "26 novembre 2025",
+        "en": "November 26, 2025"
+      },
+      "title": {
+        "fr": "Salon Adopt IA",
+        "en": "Adopt AI Trade Show"
+      },
+      "description": {
+        "fr": "Participation à un événement consacré aux usages professionnels et à l’adoption de l’intelligence artificielle.",
+        "en": "Attended an event dedicated to professional use cases and the adoption of artificial intelligence."
+      }
+    },
+    "agileEnSeine": {
+      "svg": "BriefcaseSvgIcon",
+      "date": {
+        "fr": "27 octobre 2025",
+        "en": "October 27, 2025"
+      },
+      "title": {
+        "fr": "Agile en Seine",
+        "en": "Agile en Seine"
+      },
+      "description": {
+        "fr": "Animation d’un atelier « 3 Amigos » utilisant un orchestrateur IA avec n8n, pour expérimenter l’IA agentique et l’automatisation dans les pratiques Agiles.",
+        "en": "Led a “3 Amigos” workshop using an AI orchestrator with n8n to experiment with agentic AI and automation in Agile practices."
+      }
+    },
+    "mkIA": {
+      "svg": "BrowserSvgIcon",
+      "date": {
+        "fr": "29 avril 2025",
+        "en": "April 29, 2025"
+      },
+      "title": {
+        "fr": "Salon M/K IA",
+        "en": "M/K AI Trade Show"
+      },
+      "description": {
+        "fr": "Représentation de Reacteev sur le stand dédié à nos travaux de R&D en IA agentique et échanges avec les acteurs de l’écosystème.",
+        "en": "Represented Reacteev at the booth dedicated to our agentic AI R&D work and exchanged with ecosystem stakeholders."
+      }
+    },
+    "reactParis": {
+      "svg": "CodeSvgIcon",
+      "date": {
+        "fr": "22 mars 2024",
+        "en": "March 22, 2024"
+      },
+      "title": {
+        "fr": "React Paris",
+        "en": "React Paris"
+      },
+      "description": {
+        "fr": "Participation aux conférences consacrées à l’écosystème React et aux évolutions du développement logiciel.",
+        "en": "Attended conferences dedicated to the React ecosystem and the latest developments in software engineering."
+      }
+    }
+  },
   "skills": {
     "working": {
       "label": {
@@ -1050,7 +1112,7 @@
         }
       ]
     },
-    "functional" : {
+    "functional": {
       "label": {
         "fr": "Fonctionnel",
         "en": "Functional"
@@ -1087,7 +1149,7 @@
         }
       ]
     },
-    "languages" : {
+    "languages": {
       "label": {
         "fr": "Langages",
         "en": "Languages"
@@ -1131,7 +1193,7 @@
         }
       ]
     },
-    "softwares" : {
+    "softwares": {
       "label": {
         "fr": "Logiciels",
         "en": "Softwares"
@@ -1168,7 +1230,7 @@
         }
       ]
     },
-    "environments" : {
+    "environments": {
       "label": {
         "fr": "Environnements",
         "en": "Environments"
@@ -1200,14 +1262,14 @@
         "en": "ESIEA (Ecole Supérieure d’Informatique, Electronique, Automatique), PARIS."
       },
       "description": {
-        "fr": "Ecole d’ingénieur spécialisée dans l’information technologique et électronique ; PARIS (75).",
+        "fr": "Ecole d’ingénieur spécialisée dans l’information technologique et électronique ; PARIS (75).",
         "en": "A top French engineering school specialised in Information Technology and Electronics offering a five-year degree comparable to a Master of Science."
       }
     },
     "cnam": {
       "dates": [2002, 2003],
       "label": {
-        "fr": "Cours du soir « Instrumentation – Mesures »",
+        "fr": "Cours du soir « Instrumentation – Mesures »",
         "en": "Conservatoire National des Arts et Métiers, ‘Instrumentation – Mesures’ studies, TOULOUSE."
       },
       "description": {
@@ -1287,7 +1349,7 @@
         "en": "November 17, 2023"
       },
       "label": {
-        "fr": "Agile à l'échelle - Accréditation de la prestation technique",
+        "fr": "Agile à l’échelle – Accréditation de la prestation technique",
         "en": "Agile at Scale Technical Delivery Accreditation"
       },
       "image": "/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png"
@@ -1342,8 +1404,8 @@
         "en": "December 2014"
       },
       "label": {
-        "fr": "Gestion multi-projets niveau 2",
-        "en": "Multi-project management level 2"
+        "fr": "Gestion multi-projets niveau 2",
+        "en": "Multi-project management level 2"
       },
       "image": "/img/certifications/cegos.png"
     },

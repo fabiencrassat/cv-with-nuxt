@@ -25,5 +25,8 @@
   "showMore": "Afficher plus...",
   "skills": {
     "name": "compétences"
+  },
+  "watch-and-sharing": {
+    "name": "veille, expérimentation & transmission"
   }
 }

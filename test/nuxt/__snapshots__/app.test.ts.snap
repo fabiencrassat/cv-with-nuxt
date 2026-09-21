@@ -42,6 +42,16 @@ exports[`can mount an app with /en/fabien route 1`] = `
                     <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">experiences.name</span>
                 </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#watch-and-sharing" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Watch-and-sharing.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">watch-and-sharing.name</span>
+                </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
+                </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#skills" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Skills.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M3.179,5.998c-0.423-0.35-1.057-0.29-1.408,0.132L0.494,7.669c-0.35,0.423-0.291,1.058,0.131,1.407 l7.888,6.542L4.706,7.264L3.179,5.998z M7.013,2.683l-1.82,0.829C4.694,3.74,4.471,4.337,4.698,4.836l4.25,9.325l0.213-9.179 L8.339,3.178C8.109,2.678,7.513,2.455,7.013,2.683z M14.211,2.887c0.013-0.55-0.427-1.01-0.976-1.023l-2-0.046 c-0.549-0.013-1.009,0.427-1.022,0.976L9.974,13.037l4.19-8.167L14.211,2.887z M19.191,3.837l-1.779-0.913 c-0.489-0.25-1.096-0.055-1.347,0.434L9.674,15.814c-0.251,0.489-0.056,1.096,0.434,1.347l1.779,0.913 c0.489,0.251,1.095,0.056,1.346-0.433l6.391-12.456C19.875,4.694,19.68,4.088,19.191,3.837z M12.799,16.293 c-0.252,0.492-0.855,0.686-1.346,0.434c-0.492-0.252-0.685-0.854-0.433-1.346c0.252-0.492,0.854-0.685,1.346-0.433 C12.858,15.199,13.051,15.802,12.799,16.293z"></path>
@@ -56,11 +66,6 @@ exports[`can mount an app with /en/fabien route 1`] = `
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M19.753,10.909c-0.624-1.707-2.366-2.726-4.661-2.726c-0.09,0-0.176,0.002-0.262,0.006l-0.016-2.063  c0,0,3.41-0.588,3.525-0.607s0.133-0.119,0.109-0.231c-0.023-0.111-0.167-0.883-0.188-0.976c-0.027-0.131-0.102-0.127-0.207-0.109  c-0.104,0.018-3.25,0.461-3.25,0.461s-0.012-1.953-0.013-2.078c-0.001-0.125-0.069-0.158-0.194-0.156s-0.92,0.014-1.025,0.016  s-0.164,0.049-0.162,0.148c0.002,0.1,0.033,2.307,0.033,2.307s-3.061,0.527-3.144,0.543c-0.084,0.014-0.17,0.053-0.151,0.143  s0.19,1.094,0.208,1.172c0.018,0.08,0.072,0.129,0.188,0.107c0.115-0.019,2.924-0.504,2.924-0.504l0.035,2.018  c-1.077,0.281-1.801,0.824-2.256,1.303c-0.768,0.807-1.207,1.887-1.207,2.963c0,1.586,0.971,2.529,2.328,2.695  c3.162,0.387,5.119-3.06,5.769-4.715c1.097,1.506,0.256,4.354-2.094,5.98c-0.043,0.029-0.098,0.129-0.033,0.207  c0.065,0.078,0.541,0.662,0.619,0.756c0.08,0.096,0.206,0.059,0.256,0.023C19.394,15.862,20.545,13.077,19.753,10.909z   M12.367,14.097c-0.966-0.121-0.944-0.914-0.944-1.453c0-0.773,0.327-1.58,0.876-2.156c0.335-0.354,0.75-0.621,1.229-0.799  l0.082,4.277C13.225,14.097,12.811,14.151,12.367,14.097z M14.794,13.544l0.046-4.109c0.084-0.004,0.166-0.01,0.252-0.01  c0.773,0,1.494,0.145,1.885,0.361C17.368,10.003,15.954,12.499,14.794,13.544z M5.844,5.876c-0.03-0.094-0.103-0.145-0.196-0.145  h-1.95c-0.093,0-0.165,0.051-0.194,0.144c-0.412,1.299-3.48,10.99-3.496,11.041c-0.017,0.051-0.011,0.076,0.062,0.076h1.733  c0.075,0,0.099-0.023,0.114-0.072c0.015-0.051,1.008-3.318,1.008-3.318h3.496c0,0,0.992,3.268,1.008,3.318  c0.016,0.049,0.039,0.072,0.113,0.072h1.734c0.072,0,0.078-0.025,0.062-0.076C9.324,16.866,6.255,7.175,5.844,5.876z M3.226,12.194  l1.447-5.25l1.447,5.25H3.226z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">languages.name</span>
-                </a></li>
-              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
-                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
-                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
-                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
                 </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#hobbies" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Hobbies.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
@@ -267,6 +272,96 @@ exports[`can mount an app with /en/fabien route 1`] = `
           <div class="flex items-center justify-center"><button class="bg-white text-gray-800 font-bold rounded border-b-2 border-blue-500 hover:border-blue-600 hover:bg-blue-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center" type="submit">showMore</button></div>
         </div>
       </section>
+      <section id="watch-and-sharing">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">watch-and-sharing.name</h1>
+        <div class="grid gap-4 md:grid-cols-2">
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">November 26, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Adopt AI Trade Show</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Attended an event dedicated to professional use cases and the adoption of artificial intelligence.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">October 27, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Agile en Seine</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Led a “3 Amigos” workshop using an AI orchestrator with n8n to experiment with agentic AI and automation in Agile practices.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M18,2H2C0.9,2,0,2.9,0,4v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C20,2.9,19.1,2,18,2z M4.5,3.75  c0.414,0,0.75,0.336,0.75,0.75S4.914,5.25,4.5,5.25S3.75,4.914,3.75,4.5S4.086,3.75,4.5,3.75z M1.75,4.5  c0-0.414,0.336-0.75,0.75-0.75S3.25,4.086,3.25,4.5S2.914,5.25,2.5,5.25S1.75,4.914,1.75,4.5z M18,16H2V7h16V16z M18,5H6V4h12.019  L18,5z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">April 29, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">M/K AI Trade Show</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Represented Reacteev at the booth dedicated to our agentic AI R&amp;D work and exchanged with ecosystem stakeholders.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M5.719,14.75c-0.236,0-0.474-0.083-0.664-0.252L-0.005,10l5.341-4.748c0.412-0.365,1.044-0.33,1.411,0.083  s0.33,1.045-0.083,1.412L3.005,10l3.378,3.002c0.413,0.367,0.45,0.999,0.083,1.412C6.269,14.637,5.994,14.75,5.719,14.75z   M14.664,14.748L20.005,10l-5.06-4.498c-0.413-0.367-1.045-0.33-1.411,0.083c-0.367,0.413-0.33,1.045,0.083,1.412L16.995,10  l-3.659,3.252c-0.413,0.367-0.45,0.999-0.083,1.412C13.45,14.887,13.725,15,14,15C14.236,15,14.474,14.917,14.664,14.748z   M9.986,16.165l2-12c0.091-0.545-0.277-1.06-0.822-1.151c-0.547-0.092-1.061,0.277-1.15,0.822l-2,12  c-0.091,0.545,0.277,1.06,0.822,1.151C8.892,16.996,8.946,17,9.001,17C9.481,17,9.905,16.653,9.986,16.165z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">March 22, 2024</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">React Paris</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Attended conferences dedicated to the React ecosystem and the latest developments in software engineering.</p>
+          </article>
+        </div>
+      </section>
+      <section id="certifications">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
+        <div class="flex flex-wrap -mb-5">
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
+            <p>November 17, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
+            <p>November 15, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
+            <p>November 3, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
+            <p>December 2022</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="Certified SAFe® 4 Program Consultant" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified SAFe® 4 Program Consultant</p>
+            <p>October 2019</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Multi-project management level 2" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Multi-project management level&nbsp;2</p>
+            <p>December 2014</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Certified Scrum Product Owner" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Scrum Product Owner</p>
+            <p>July 2013</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Certified Scrum Master" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Scrum Master</p>
+            <p>June 2012</p>
+          </div>
+        </div>
+      </section>
       <section id="skills">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">skills.name</h1>
         <div>
@@ -298,17 +393,23 @@ exports[`can mount an app with /en/fabien route 1`] = `
                 <path d="M3.179,5.998c-0.423-0.35-1.057-0.29-1.408,0.132L0.494,7.669c-0.35,0.423-0.291,1.058,0.131,1.407 l7.888,6.542L4.706,7.264L3.179,5.998z M7.013,2.683l-1.82,0.829C4.694,3.74,4.471,4.337,4.698,4.836l4.25,9.325l0.213-9.179 L8.339,3.178C8.109,2.678,7.513,2.455,7.013,2.683z M14.211,2.887c0.013-0.55-0.427-1.01-0.976-1.023l-2-0.046 c-0.549-0.013-1.009,0.427-1.022,0.976L9.974,13.037l4.19-8.167L14.211,2.887z M19.191,3.837l-1.779-0.913 c-0.489-0.25-1.096-0.055-1.347,0.434L9.674,15.814c-0.251,0.489-0.056,1.096,0.434,1.347l1.779,0.913 c0.489,0.251,1.095,0.056,1.346-0.433l6.391-12.456C19.875,4.694,19.68,4.088,19.191,3.837z M12.799,16.293 c-0.252,0.492-0.855,0.686-1.346,0.434c-0.492-0.252-0.685-0.854-0.433-1.346c0.252-0.492,0.854-0.685,1.346-0.433 C12.858,15.199,13.051,15.802,12.799,16.293z"></path>
               </svg>
               <div class="w-full">
-                <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Fonctionnal</h2>
+                <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Functional</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Software Development, Software Project Management, Software Solution Architecture, Software Engineering, Software Design, Enterprise Software</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Action Plan, Approval Process</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>Action Plan, Approval Process</span><span>50%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 50%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
@@ -328,19 +429,25 @@ exports[`can mount an app with /en/fabien route 1`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Languages</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Enablon</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Enablon, Web Development</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript, jQuery</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript</span><span>80%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Java, Python, Shell</span><span>60%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor, jQuery</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -362,19 +469,19 @@ exports[`can mount an app with /en/fabien route 1`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Softwares</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Word, Excel, PowerPoint, MS Project</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Jira, GitLab, GitHub, Word, Excel, PowerPoint, GIT</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>GIT</span><span>60%</span></div>
+                  <div class="flex items-end justify-between"><span>Helm, Kubernetes</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Photoshop CS</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Photoshop CS, MS Project</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -458,43 +565,6 @@ exports[`can mount an app with /en/fabien route 1`] = `
               <dd class="mt-1 text-sm leading-5 text-gray-700 sm:mt-0 sm:col-span-2">Work Language.</dd>
             </div>
           </dl>
-        </div>
-      </section>
-      <section id="certifications">
-        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
-        <div class="flex flex-wrap -mb-5">
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
-            <p>November 17, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
-            <p>November 15, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
-            <p>November 3, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
-            <p>December 2022</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="Certified SAFe® 4 Program Consultant" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified SAFe® 4 Program Consultant</p>
-            <p>October 2019</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Multi-project management level 2" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Multi-project management level 2</p>
-            <p>December 2014</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Certified Scrum Product Owner" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Scrum Product Owner</p>
-            <p>July 2013</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Certified Scrum Master" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Scrum Master</p>
-            <p>June 2012</p>
-          </div>
         </div>
       </section>
       <section id="hobbies">
@@ -573,6 +643,16 @@ exports[`can mount an app with /en/fabien route 2`] = `
                     <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">experiences.name</span>
                 </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#watch-and-sharing" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Watch-and-sharing.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">watch-and-sharing.name</span>
+                </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
+                </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#skills" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Skills.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M3.179,5.998c-0.423-0.35-1.057-0.29-1.408,0.132L0.494,7.669c-0.35,0.423-0.291,1.058,0.131,1.407 l7.888,6.542L4.706,7.264L3.179,5.998z M7.013,2.683l-1.82,0.829C4.694,3.74,4.471,4.337,4.698,4.836l4.25,9.325l0.213-9.179 L8.339,3.178C8.109,2.678,7.513,2.455,7.013,2.683z M14.211,2.887c0.013-0.55-0.427-1.01-0.976-1.023l-2-0.046 c-0.549-0.013-1.009,0.427-1.022,0.976L9.974,13.037l4.19-8.167L14.211,2.887z M19.191,3.837l-1.779-0.913 c-0.489-0.25-1.096-0.055-1.347,0.434L9.674,15.814c-0.251,0.489-0.056,1.096,0.434,1.347l1.779,0.913 c0.489,0.251,1.095,0.056,1.346-0.433l6.391-12.456C19.875,4.694,19.68,4.088,19.191,3.837z M12.799,16.293 c-0.252,0.492-0.855,0.686-1.346,0.434c-0.492-0.252-0.685-0.854-0.433-1.346c0.252-0.492,0.854-0.685,1.346-0.433 C12.858,15.199,13.051,15.802,12.799,16.293z"></path>
@@ -587,11 +667,6 @@ exports[`can mount an app with /en/fabien route 2`] = `
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M19.753,10.909c-0.624-1.707-2.366-2.726-4.661-2.726c-0.09,0-0.176,0.002-0.262,0.006l-0.016-2.063  c0,0,3.41-0.588,3.525-0.607s0.133-0.119,0.109-0.231c-0.023-0.111-0.167-0.883-0.188-0.976c-0.027-0.131-0.102-0.127-0.207-0.109  c-0.104,0.018-3.25,0.461-3.25,0.461s-0.012-1.953-0.013-2.078c-0.001-0.125-0.069-0.158-0.194-0.156s-0.92,0.014-1.025,0.016  s-0.164,0.049-0.162,0.148c0.002,0.1,0.033,2.307,0.033,2.307s-3.061,0.527-3.144,0.543c-0.084,0.014-0.17,0.053-0.151,0.143  s0.19,1.094,0.208,1.172c0.018,0.08,0.072,0.129,0.188,0.107c0.115-0.019,2.924-0.504,2.924-0.504l0.035,2.018  c-1.077,0.281-1.801,0.824-2.256,1.303c-0.768,0.807-1.207,1.887-1.207,2.963c0,1.586,0.971,2.529,2.328,2.695  c3.162,0.387,5.119-3.06,5.769-4.715c1.097,1.506,0.256,4.354-2.094,5.98c-0.043,0.029-0.098,0.129-0.033,0.207  c0.065,0.078,0.541,0.662,0.619,0.756c0.08,0.096,0.206,0.059,0.256,0.023C19.394,15.862,20.545,13.077,19.753,10.909z   M12.367,14.097c-0.966-0.121-0.944-0.914-0.944-1.453c0-0.773,0.327-1.58,0.876-2.156c0.335-0.354,0.75-0.621,1.229-0.799  l0.082,4.277C13.225,14.097,12.811,14.151,12.367,14.097z M14.794,13.544l0.046-4.109c0.084-0.004,0.166-0.01,0.252-0.01  c0.773,0,1.494,0.145,1.885,0.361C17.368,10.003,15.954,12.499,14.794,13.544z M5.844,5.876c-0.03-0.094-0.103-0.145-0.196-0.145  h-1.95c-0.093,0-0.165,0.051-0.194,0.144c-0.412,1.299-3.48,10.99-3.496,11.041c-0.017,0.051-0.011,0.076,0.062,0.076h1.733  c0.075,0,0.099-0.023,0.114-0.072c0.015-0.051,1.008-3.318,1.008-3.318h3.496c0,0,0.992,3.268,1.008,3.318  c0.016,0.049,0.039,0.072,0.113,0.072h1.734c0.072,0,0.078-0.025,0.062-0.076C9.324,16.866,6.255,7.175,5.844,5.876z M3.226,12.194  l1.447-5.25l1.447,5.25H3.226z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">languages.name</span>
-                </a></li>
-              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
-                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
-                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
-                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
                 </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#hobbies" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Hobbies.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
@@ -839,13 +914,13 @@ exports[`can mount an app with /en/fabien route 2`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> November 2024</p>
-                <div class="font-bold text-xl mb-2">Level 1 project management trainer</div>
+                <div class="font-bold text-xl mb-2">Level&nbsp;1 project management trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Intensive two-day training course for around ten employees to develop project management skills, encourage team autonomy and optimise collective performance.</li>
                 </ul>
@@ -1249,15 +1324,15 @@ exports[`can mount an app with /en/fabien route 2`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/support.webp&quot;);" title="Support Level 3 Lead Coordinator"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/support.webp&quot;);" title="Support Level 3 Lead Coordinator"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> May 2014 - June 2015</p>
-                <div class="font-bold text-xl mb-2">Support Level 3 Lead Coordinator</div>
+                <div class="font-bold text-xl mb-2">Support Level&nbsp;3 Lead Coordinator</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Coordinate Support level 3 Activity of an international agile team.</li>
+                  <li>Coordinate Support level&nbsp;3 Activity of an international agile team.</li>
                   <li>Build and update Dashboards (for internal follow-Up and external communication).</li>
                   <li>Unified Forecasted planning and Releases Notes.</li>
                   <li>Manage relationship and attend following stakeholders meetings conducting regular surveys to measure the level of satisfaction.</li>
@@ -1547,6 +1622,96 @@ exports[`can mount an app with /en/fabien route 2`] = `
           <div></div>
         </div>
       </section>
+      <section id="watch-and-sharing">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">watch-and-sharing.name</h1>
+        <div class="grid gap-4 md:grid-cols-2">
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">November 26, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Adopt AI Trade Show</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Attended an event dedicated to professional use cases and the adoption of artificial intelligence.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">October 27, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Agile en Seine</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Led a “3 Amigos” workshop using an AI orchestrator with n8n to experiment with agentic AI and automation in Agile practices.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M18,2H2C0.9,2,0,2.9,0,4v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C20,2.9,19.1,2,18,2z M4.5,3.75  c0.414,0,0.75,0.336,0.75,0.75S4.914,5.25,4.5,5.25S3.75,4.914,3.75,4.5S4.086,3.75,4.5,3.75z M1.75,4.5  c0-0.414,0.336-0.75,0.75-0.75S3.25,4.086,3.25,4.5S2.914,5.25,2.5,5.25S1.75,4.914,1.75,4.5z M18,16H2V7h16V16z M18,5H6V4h12.019  L18,5z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">April 29, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">M/K AI Trade Show</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Represented Reacteev at the booth dedicated to our agentic AI R&amp;D work and exchanged with ecosystem stakeholders.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M5.719,14.75c-0.236,0-0.474-0.083-0.664-0.252L-0.005,10l5.341-4.748c0.412-0.365,1.044-0.33,1.411,0.083  s0.33,1.045-0.083,1.412L3.005,10l3.378,3.002c0.413,0.367,0.45,0.999,0.083,1.412C6.269,14.637,5.994,14.75,5.719,14.75z   M14.664,14.748L20.005,10l-5.06-4.498c-0.413-0.367-1.045-0.33-1.411,0.083c-0.367,0.413-0.33,1.045,0.083,1.412L16.995,10  l-3.659,3.252c-0.413,0.367-0.45,0.999-0.083,1.412C13.45,14.887,13.725,15,14,15C14.236,15,14.474,14.917,14.664,14.748z   M9.986,16.165l2-12c0.091-0.545-0.277-1.06-0.822-1.151c-0.547-0.092-1.061,0.277-1.15,0.822l-2,12  c-0.091,0.545,0.277,1.06,0.822,1.151C8.892,16.996,8.946,17,9.001,17C9.481,17,9.905,16.653,9.986,16.165z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">March 22, 2024</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">React Paris</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Attended conferences dedicated to the React ecosystem and the latest developments in software engineering.</p>
+          </article>
+        </div>
+      </section>
+      <section id="certifications">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
+        <div class="flex flex-wrap -mb-5">
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
+            <p>November 17, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
+            <p>November 15, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
+            <p>November 3, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
+            <p>December 2022</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="Certified SAFe® 4 Program Consultant" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified SAFe® 4 Program Consultant</p>
+            <p>October 2019</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Multi-project management level 2" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Multi-project management level&nbsp;2</p>
+            <p>December 2014</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Certified Scrum Product Owner" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Scrum Product Owner</p>
+            <p>July 2013</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Certified Scrum Master" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Scrum Master</p>
+            <p>June 2012</p>
+          </div>
+        </div>
+      </section>
       <section id="skills">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">skills.name</h1>
         <div>
@@ -1578,17 +1743,23 @@ exports[`can mount an app with /en/fabien route 2`] = `
                 <path d="M3.179,5.998c-0.423-0.35-1.057-0.29-1.408,0.132L0.494,7.669c-0.35,0.423-0.291,1.058,0.131,1.407 l7.888,6.542L4.706,7.264L3.179,5.998z M7.013,2.683l-1.82,0.829C4.694,3.74,4.471,4.337,4.698,4.836l4.25,9.325l0.213-9.179 L8.339,3.178C8.109,2.678,7.513,2.455,7.013,2.683z M14.211,2.887c0.013-0.55-0.427-1.01-0.976-1.023l-2-0.046 c-0.549-0.013-1.009,0.427-1.022,0.976L9.974,13.037l4.19-8.167L14.211,2.887z M19.191,3.837l-1.779-0.913 c-0.489-0.25-1.096-0.055-1.347,0.434L9.674,15.814c-0.251,0.489-0.056,1.096,0.434,1.347l1.779,0.913 c0.489,0.251,1.095,0.056,1.346-0.433l6.391-12.456C19.875,4.694,19.68,4.088,19.191,3.837z M12.799,16.293 c-0.252,0.492-0.855,0.686-1.346,0.434c-0.492-0.252-0.685-0.854-0.433-1.346c0.252-0.492,0.854-0.685,1.346-0.433 C12.858,15.199,13.051,15.802,12.799,16.293z"></path>
               </svg>
               <div class="w-full">
-                <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Fonctionnal</h2>
+                <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Functional</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Software Development, Software Project Management, Software Solution Architecture, Software Engineering, Software Design, Enterprise Software</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Action Plan, Approval Process</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>Action Plan, Approval Process</span><span>50%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 50%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
@@ -1608,19 +1779,25 @@ exports[`can mount an app with /en/fabien route 2`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Languages</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Enablon</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Enablon, Web Development</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript, jQuery</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript</span><span>80%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Java, Python, Shell</span><span>60%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor, jQuery</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -1642,19 +1819,19 @@ exports[`can mount an app with /en/fabien route 2`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Softwares</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Word, Excel, PowerPoint, MS Project</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Jira, GitLab, GitHub, Word, Excel, PowerPoint, GIT</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>GIT</span><span>60%</span></div>
+                  <div class="flex items-end justify-between"><span>Helm, Kubernetes</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Photoshop CS</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Photoshop CS, MS Project</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -1738,43 +1915,6 @@ exports[`can mount an app with /en/fabien route 2`] = `
               <dd class="mt-1 text-sm leading-5 text-gray-700 sm:mt-0 sm:col-span-2">Work Language.</dd>
             </div>
           </dl>
-        </div>
-      </section>
-      <section id="certifications">
-        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
-        <div class="flex flex-wrap -mb-5">
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
-            <p>November 17, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
-            <p>November 15, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
-            <p>November 3, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
-            <p>December 2022</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="Certified SAFe® 4 Program Consultant" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified SAFe® 4 Program Consultant</p>
-            <p>October 2019</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Multi-project management level 2" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Multi-project management level 2</p>
-            <p>December 2014</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Certified Scrum Product Owner" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Scrum Product Owner</p>
-            <p>July 2013</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Certified Scrum Master" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Scrum Master</p>
-            <p>June 2012</p>
-          </div>
         </div>
       </section>
       <section id="hobbies">
@@ -1853,6 +1993,16 @@ exports[`can mount an app with /en/fabien route 3`] = `
                     <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">experiences.name</span>
                 </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#watch-and-sharing" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Watch-and-sharing.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">watch-and-sharing.name</span>
+                </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
+                </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#skills" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Skills.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M3.179,5.998c-0.423-0.35-1.057-0.29-1.408,0.132L0.494,7.669c-0.35,0.423-0.291,1.058,0.131,1.407 l7.888,6.542L4.706,7.264L3.179,5.998z M7.013,2.683l-1.82,0.829C4.694,3.74,4.471,4.337,4.698,4.836l4.25,9.325l0.213-9.179 L8.339,3.178C8.109,2.678,7.513,2.455,7.013,2.683z M14.211,2.887c0.013-0.55-0.427-1.01-0.976-1.023l-2-0.046 c-0.549-0.013-1.009,0.427-1.022,0.976L9.974,13.037l4.19-8.167L14.211,2.887z M19.191,3.837l-1.779-0.913 c-0.489-0.25-1.096-0.055-1.347,0.434L9.674,15.814c-0.251,0.489-0.056,1.096,0.434,1.347l1.779,0.913 c0.489,0.251,1.095,0.056,1.346-0.433l6.391-12.456C19.875,4.694,19.68,4.088,19.191,3.837z M12.799,16.293 c-0.252,0.492-0.855,0.686-1.346,0.434c-0.492-0.252-0.685-0.854-0.433-1.346c0.252-0.492,0.854-0.685,1.346-0.433 C12.858,15.199,13.051,15.802,12.799,16.293z"></path>
@@ -1867,11 +2017,6 @@ exports[`can mount an app with /en/fabien route 3`] = `
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M19.753,10.909c-0.624-1.707-2.366-2.726-4.661-2.726c-0.09,0-0.176,0.002-0.262,0.006l-0.016-2.063  c0,0,3.41-0.588,3.525-0.607s0.133-0.119,0.109-0.231c-0.023-0.111-0.167-0.883-0.188-0.976c-0.027-0.131-0.102-0.127-0.207-0.109  c-0.104,0.018-3.25,0.461-3.25,0.461s-0.012-1.953-0.013-2.078c-0.001-0.125-0.069-0.158-0.194-0.156s-0.92,0.014-1.025,0.016  s-0.164,0.049-0.162,0.148c0.002,0.1,0.033,2.307,0.033,2.307s-3.061,0.527-3.144,0.543c-0.084,0.014-0.17,0.053-0.151,0.143  s0.19,1.094,0.208,1.172c0.018,0.08,0.072,0.129,0.188,0.107c0.115-0.019,2.924-0.504,2.924-0.504l0.035,2.018  c-1.077,0.281-1.801,0.824-2.256,1.303c-0.768,0.807-1.207,1.887-1.207,2.963c0,1.586,0.971,2.529,2.328,2.695  c3.162,0.387,5.119-3.06,5.769-4.715c1.097,1.506,0.256,4.354-2.094,5.98c-0.043,0.029-0.098,0.129-0.033,0.207  c0.065,0.078,0.541,0.662,0.619,0.756c0.08,0.096,0.206,0.059,0.256,0.023C19.394,15.862,20.545,13.077,19.753,10.909z   M12.367,14.097c-0.966-0.121-0.944-0.914-0.944-1.453c0-0.773,0.327-1.58,0.876-2.156c0.335-0.354,0.75-0.621,1.229-0.799  l0.082,4.277C13.225,14.097,12.811,14.151,12.367,14.097z M14.794,13.544l0.046-4.109c0.084-0.004,0.166-0.01,0.252-0.01  c0.773,0,1.494,0.145,1.885,0.361C17.368,10.003,15.954,12.499,14.794,13.544z M5.844,5.876c-0.03-0.094-0.103-0.145-0.196-0.145  h-1.95c-0.093,0-0.165,0.051-0.194,0.144c-0.412,1.299-3.48,10.99-3.496,11.041c-0.017,0.051-0.011,0.076,0.062,0.076h1.733  c0.075,0,0.099-0.023,0.114-0.072c0.015-0.051,1.008-3.318,1.008-3.318h3.496c0,0,0.992,3.268,1.008,3.318  c0.016,0.049,0.039,0.072,0.113,0.072h1.734c0.072,0,0.078-0.025,0.062-0.076C9.324,16.866,6.255,7.175,5.844,5.876z M3.226,12.194  l1.447-5.25l1.447,5.25H3.226z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">languages.name</span>
-                </a></li>
-              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
-                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
-                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
-                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
                 </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#hobbies" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Hobbies.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
@@ -2119,13 +2264,13 @@ exports[`can mount an app with /en/fabien route 3`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> November 2024</p>
-                <div class="font-bold text-xl mb-2">Level 1 project management trainer</div>
+                <div class="font-bold text-xl mb-2">Level&nbsp;1 project management trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Intensive two-day training course for around ten employees to develop project management skills, encourage team autonomy and optimise collective performance.</li>
                 </ul>
@@ -2529,15 +2674,15 @@ exports[`can mount an app with /en/fabien route 3`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/support.webp&quot;);" title="Support Level 3 Lead Coordinator"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/support.webp&quot;);" title="Support Level 3 Lead Coordinator"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> May 2014 - June 2015</p>
-                <div class="font-bold text-xl mb-2">Support Level 3 Lead Coordinator</div>
+                <div class="font-bold text-xl mb-2">Support Level&nbsp;3 Lead Coordinator</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Coordinate Support level 3 Activity of an international agile team.</li>
+                  <li>Coordinate Support level&nbsp;3 Activity of an international agile team.</li>
                   <li>Build and update Dashboards (for internal follow-Up and external communication).</li>
                   <li>Unified Forecasted planning and Releases Notes.</li>
                   <li>Manage relationship and attend following stakeholders meetings conducting regular surveys to measure the level of satisfaction.</li>
@@ -2827,6 +2972,96 @@ exports[`can mount an app with /en/fabien route 3`] = `
           <div></div>
         </div>
       </section>
+      <section id="watch-and-sharing">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">watch-and-sharing.name</h1>
+        <div class="grid gap-4 md:grid-cols-2">
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">November 26, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Adopt AI Trade Show</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Attended an event dedicated to professional use cases and the adoption of artificial intelligence.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">October 27, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Agile en Seine</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Led a “3 Amigos” workshop using an AI orchestrator with n8n to experiment with agentic AI and automation in Agile practices.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M18,2H2C0.9,2,0,2.9,0,4v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C20,2.9,19.1,2,18,2z M4.5,3.75  c0.414,0,0.75,0.336,0.75,0.75S4.914,5.25,4.5,5.25S3.75,4.914,3.75,4.5S4.086,3.75,4.5,3.75z M1.75,4.5  c0-0.414,0.336-0.75,0.75-0.75S3.25,4.086,3.25,4.5S2.914,5.25,2.5,5.25S1.75,4.914,1.75,4.5z M18,16H2V7h16V16z M18,5H6V4h12.019  L18,5z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">April 29, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">M/K AI Trade Show</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Represented Reacteev at the booth dedicated to our agentic AI R&amp;D work and exchanged with ecosystem stakeholders.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M5.719,14.75c-0.236,0-0.474-0.083-0.664-0.252L-0.005,10l5.341-4.748c0.412-0.365,1.044-0.33,1.411,0.083  s0.33,1.045-0.083,1.412L3.005,10l3.378,3.002c0.413,0.367,0.45,0.999,0.083,1.412C6.269,14.637,5.994,14.75,5.719,14.75z   M14.664,14.748L20.005,10l-5.06-4.498c-0.413-0.367-1.045-0.33-1.411,0.083c-0.367,0.413-0.33,1.045,0.083,1.412L16.995,10  l-3.659,3.252c-0.413,0.367-0.45,0.999-0.083,1.412C13.45,14.887,13.725,15,14,15C14.236,15,14.474,14.917,14.664,14.748z   M9.986,16.165l2-12c0.091-0.545-0.277-1.06-0.822-1.151c-0.547-0.092-1.061,0.277-1.15,0.822l-2,12  c-0.091,0.545,0.277,1.06,0.822,1.151C8.892,16.996,8.946,17,9.001,17C9.481,17,9.905,16.653,9.986,16.165z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">March 22, 2024</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">React Paris</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Attended conferences dedicated to the React ecosystem and the latest developments in software engineering.</p>
+          </article>
+        </div>
+      </section>
+      <section id="certifications">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
+        <div class="flex flex-wrap -mb-5">
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
+            <p>November 17, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
+            <p>November 15, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
+            <p>November 3, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
+            <p>December 2022</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="Certified SAFe® 4 Program Consultant" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified SAFe® 4 Program Consultant</p>
+            <p>October 2019</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Multi-project management level 2" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Multi-project management level&nbsp;2</p>
+            <p>December 2014</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Certified Scrum Product Owner" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Scrum Product Owner</p>
+            <p>July 2013</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Certified Scrum Master" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Scrum Master</p>
+            <p>June 2012</p>
+          </div>
+        </div>
+      </section>
       <section id="skills">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">skills.name</h1>
         <div>
@@ -2858,17 +3093,23 @@ exports[`can mount an app with /en/fabien route 3`] = `
                 <path d="M3.179,5.998c-0.423-0.35-1.057-0.29-1.408,0.132L0.494,7.669c-0.35,0.423-0.291,1.058,0.131,1.407 l7.888,6.542L4.706,7.264L3.179,5.998z M7.013,2.683l-1.82,0.829C4.694,3.74,4.471,4.337,4.698,4.836l4.25,9.325l0.213-9.179 L8.339,3.178C8.109,2.678,7.513,2.455,7.013,2.683z M14.211,2.887c0.013-0.55-0.427-1.01-0.976-1.023l-2-0.046 c-0.549-0.013-1.009,0.427-1.022,0.976L9.974,13.037l4.19-8.167L14.211,2.887z M19.191,3.837l-1.779-0.913 c-0.489-0.25-1.096-0.055-1.347,0.434L9.674,15.814c-0.251,0.489-0.056,1.096,0.434,1.347l1.779,0.913 c0.489,0.251,1.095,0.056,1.346-0.433l6.391-12.456C19.875,4.694,19.68,4.088,19.191,3.837z M12.799,16.293 c-0.252,0.492-0.855,0.686-1.346,0.434c-0.492-0.252-0.685-0.854-0.433-1.346c0.252-0.492,0.854-0.685,1.346-0.433 C12.858,15.199,13.051,15.802,12.799,16.293z"></path>
               </svg>
               <div class="w-full">
-                <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Fonctionnal</h2>
+                <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Functional</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Software Development, Software Project Management, Software Solution Architecture, Software Engineering, Software Design, Enterprise Software</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Action Plan, Approval Process</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>Action Plan, Approval Process</span><span>50%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 50%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
@@ -2888,19 +3129,25 @@ exports[`can mount an app with /en/fabien route 3`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Languages</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Enablon</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Enablon, Web Development</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript, jQuery</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript</span><span>80%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Java, Python, Shell</span><span>60%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor, jQuery</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -2922,19 +3169,19 @@ exports[`can mount an app with /en/fabien route 3`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Softwares</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Word, Excel, PowerPoint, MS Project</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Jira, GitLab, GitHub, Word, Excel, PowerPoint, GIT</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>GIT</span><span>60%</span></div>
+                  <div class="flex items-end justify-between"><span>Helm, Kubernetes</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Photoshop CS</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Photoshop CS, MS Project</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -3018,43 +3265,6 @@ exports[`can mount an app with /en/fabien route 3`] = `
               <dd class="mt-1 text-sm leading-5 text-gray-700 sm:mt-0 sm:col-span-2">Work Language.</dd>
             </div>
           </dl>
-        </div>
-      </section>
-      <section id="certifications">
-        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
-        <div class="flex flex-wrap -mb-5">
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
-            <p>November 17, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
-            <p>November 15, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
-            <p>November 3, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
-            <p>December 2022</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="Certified SAFe® 4 Program Consultant" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified SAFe® 4 Program Consultant</p>
-            <p>October 2019</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Multi-project management level 2" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Multi-project management level 2</p>
-            <p>December 2014</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Certified Scrum Product Owner" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Scrum Product Owner</p>
-            <p>July 2013</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Certified Scrum Master" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Scrum Master</p>
-            <p>June 2012</p>
-          </div>
         </div>
       </section>
       <section id="hobbies">
@@ -3133,6 +3343,16 @@ exports[`can mount an app with /en/fabien route 4`] = `
                     <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">experiences.name</span>
                 </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#watch-and-sharing" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Watch-and-sharing.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">watch-and-sharing.name</span>
+                </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
+                </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#skills" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Skills.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M3.179,5.998c-0.423-0.35-1.057-0.29-1.408,0.132L0.494,7.669c-0.35,0.423-0.291,1.058,0.131,1.407 l7.888,6.542L4.706,7.264L3.179,5.998z M7.013,2.683l-1.82,0.829C4.694,3.74,4.471,4.337,4.698,4.836l4.25,9.325l0.213-9.179 L8.339,3.178C8.109,2.678,7.513,2.455,7.013,2.683z M14.211,2.887c0.013-0.55-0.427-1.01-0.976-1.023l-2-0.046 c-0.549-0.013-1.009,0.427-1.022,0.976L9.974,13.037l4.19-8.167L14.211,2.887z M19.191,3.837l-1.779-0.913 c-0.489-0.25-1.096-0.055-1.347,0.434L9.674,15.814c-0.251,0.489-0.056,1.096,0.434,1.347l1.779,0.913 c0.489,0.251,1.095,0.056,1.346-0.433l6.391-12.456C19.875,4.694,19.68,4.088,19.191,3.837z M12.799,16.293 c-0.252,0.492-0.855,0.686-1.346,0.434c-0.492-0.252-0.685-0.854-0.433-1.346c0.252-0.492,0.854-0.685,1.346-0.433 C12.858,15.199,13.051,15.802,12.799,16.293z"></path>
@@ -3147,11 +3367,6 @@ exports[`can mount an app with /en/fabien route 4`] = `
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M19.753,10.909c-0.624-1.707-2.366-2.726-4.661-2.726c-0.09,0-0.176,0.002-0.262,0.006l-0.016-2.063  c0,0,3.41-0.588,3.525-0.607s0.133-0.119,0.109-0.231c-0.023-0.111-0.167-0.883-0.188-0.976c-0.027-0.131-0.102-0.127-0.207-0.109  c-0.104,0.018-3.25,0.461-3.25,0.461s-0.012-1.953-0.013-2.078c-0.001-0.125-0.069-0.158-0.194-0.156s-0.92,0.014-1.025,0.016  s-0.164,0.049-0.162,0.148c0.002,0.1,0.033,2.307,0.033,2.307s-3.061,0.527-3.144,0.543c-0.084,0.014-0.17,0.053-0.151,0.143  s0.19,1.094,0.208,1.172c0.018,0.08,0.072,0.129,0.188,0.107c0.115-0.019,2.924-0.504,2.924-0.504l0.035,2.018  c-1.077,0.281-1.801,0.824-2.256,1.303c-0.768,0.807-1.207,1.887-1.207,2.963c0,1.586,0.971,2.529,2.328,2.695  c3.162,0.387,5.119-3.06,5.769-4.715c1.097,1.506,0.256,4.354-2.094,5.98c-0.043,0.029-0.098,0.129-0.033,0.207  c0.065,0.078,0.541,0.662,0.619,0.756c0.08,0.096,0.206,0.059,0.256,0.023C19.394,15.862,20.545,13.077,19.753,10.909z   M12.367,14.097c-0.966-0.121-0.944-0.914-0.944-1.453c0-0.773,0.327-1.58,0.876-2.156c0.335-0.354,0.75-0.621,1.229-0.799  l0.082,4.277C13.225,14.097,12.811,14.151,12.367,14.097z M14.794,13.544l0.046-4.109c0.084-0.004,0.166-0.01,0.252-0.01  c0.773,0,1.494,0.145,1.885,0.361C17.368,10.003,15.954,12.499,14.794,13.544z M5.844,5.876c-0.03-0.094-0.103-0.145-0.196-0.145  h-1.95c-0.093,0-0.165,0.051-0.194,0.144c-0.412,1.299-3.48,10.99-3.496,11.041c-0.017,0.051-0.011,0.076,0.062,0.076h1.733  c0.075,0,0.099-0.023,0.114-0.072c0.015-0.051,1.008-3.318,1.008-3.318h3.496c0,0,0.992,3.268,1.008,3.318  c0.016,0.049,0.039,0.072,0.113,0.072h1.734c0.072,0,0.078-0.025,0.062-0.076C9.324,16.866,6.255,7.175,5.844,5.876z M3.226,12.194  l1.447-5.25l1.447,5.25H3.226z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">languages.name</span>
-                </a></li>
-              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
-                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
-                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
-                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
                 </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#hobbies" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Hobbies.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
@@ -3399,13 +3614,13 @@ exports[`can mount an app with /en/fabien route 4`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/adagio.webp&quot;);" title="Level 1 project management trainer"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> November 2024</p>
-                <div class="font-bold text-xl mb-2">Level 1 project management trainer</div>
+                <div class="font-bold text-xl mb-2">Level&nbsp;1 project management trainer</div>
                 <ul class="text-gray-700 text-base">
                   <li>Intensive two-day training course for around ten employees to develop project management skills, encourage team autonomy and optimise collective performance.</li>
                 </ul>
@@ -3809,15 +4024,15 @@ exports[`can mount an app with /en/fabien route 4`] = `
             </div>
           </div>
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 last:mb-0">
-            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/support.webp&quot;);" title="Support Level 3 Lead Coordinator"></div>
+            <div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-center" style="background-image: url(&quot;/img/experiences/support.webp&quot;);" title="Support Level 3 Lead Coordinator"></div>
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col leading-normal lg:w-full">
               <div class="m-4">
                 <p class="text-sm text-gray-700 flex"><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
                   </svg> May 2014 - June 2015</p>
-                <div class="font-bold text-xl mb-2">Support Level 3 Lead Coordinator</div>
+                <div class="font-bold text-xl mb-2">Support Level&nbsp;3 Lead Coordinator</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Coordinate Support level 3 Activity of an international agile team.</li>
+                  <li>Coordinate Support level&nbsp;3 Activity of an international agile team.</li>
                   <li>Build and update Dashboards (for internal follow-Up and external communication).</li>
                   <li>Unified Forecasted planning and Releases Notes.</li>
                   <li>Manage relationship and attend following stakeholders meetings conducting regular surveys to measure the level of satisfaction.</li>
@@ -4107,6 +4322,96 @@ exports[`can mount an app with /en/fabien route 4`] = `
           <div></div>
         </div>
       </section>
+      <section id="watch-and-sharing">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">watch-and-sharing.name</h1>
+        <div class="grid gap-4 md:grid-cols-2">
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">November 26, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Adopt AI Trade Show</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Attended an event dedicated to professional use cases and the adoption of artificial intelligence.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">October 27, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Agile en Seine</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Led a “3 Amigos” workshop using an AI orchestrator with n8n to experiment with agentic AI and automation in Agile practices.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M18,2H2C0.9,2,0,2.9,0,4v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C20,2.9,19.1,2,18,2z M4.5,3.75  c0.414,0,0.75,0.336,0.75,0.75S4.914,5.25,4.5,5.25S3.75,4.914,3.75,4.5S4.086,3.75,4.5,3.75z M1.75,4.5  c0-0.414,0.336-0.75,0.75-0.75S3.25,4.086,3.25,4.5S2.914,5.25,2.5,5.25S1.75,4.914,1.75,4.5z M18,16H2V7h16V16z M18,5H6V4h12.019  L18,5z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">April 29, 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">M/K AI Trade Show</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Represented Reacteev at the booth dedicated to our agentic AI R&amp;D work and exchanged with ecosystem stakeholders.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M5.719,14.75c-0.236,0-0.474-0.083-0.664-0.252L-0.005,10l5.341-4.748c0.412-0.365,1.044-0.33,1.411,0.083  s0.33,1.045-0.083,1.412L3.005,10l3.378,3.002c0.413,0.367,0.45,0.999,0.083,1.412C6.269,14.637,5.994,14.75,5.719,14.75z   M14.664,14.748L20.005,10l-5.06-4.498c-0.413-0.367-1.045-0.33-1.411,0.083c-0.367,0.413-0.33,1.045,0.083,1.412L16.995,10  l-3.659,3.252c-0.413,0.367-0.45,0.999-0.083,1.412C13.45,14.887,13.725,15,14,15C14.236,15,14.474,14.917,14.664,14.748z   M9.986,16.165l2-12c0.091-0.545-0.277-1.06-0.822-1.151c-0.547-0.092-1.061,0.277-1.15,0.822l-2,12  c-0.091,0.545,0.277,1.06,0.822,1.151C8.892,16.996,8.946,17,9.001,17C9.481,17,9.905,16.653,9.986,16.165z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">March 22, 2024</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">React Paris</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Attended conferences dedicated to the React ecosystem and the latest developments in software engineering.</p>
+          </article>
+        </div>
+      </section>
+      <section id="certifications">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
+        <div class="flex flex-wrap -mb-5">
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
+            <p>November 17, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
+            <p>November 15, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
+            <p>November 3, 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
+            <p>December 2022</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="Certified SAFe® 4 Program Consultant" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified SAFe® 4 Program Consultant</p>
+            <p>October 2019</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Multi-project management level 2" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Multi-project management level&nbsp;2</p>
+            <p>December 2014</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Certified Scrum Product Owner" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Scrum Product Owner</p>
+            <p>July 2013</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Certified Scrum Master" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Certified Scrum Master</p>
+            <p>June 2012</p>
+          </div>
+        </div>
+      </section>
       <section id="skills">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">skills.name</h1>
         <div>
@@ -4138,17 +4443,23 @@ exports[`can mount an app with /en/fabien route 4`] = `
                 <path d="M3.179,5.998c-0.423-0.35-1.057-0.29-1.408,0.132L0.494,7.669c-0.35,0.423-0.291,1.058,0.131,1.407 l7.888,6.542L4.706,7.264L3.179,5.998z M7.013,2.683l-1.82,0.829C4.694,3.74,4.471,4.337,4.698,4.836l4.25,9.325l0.213-9.179 L8.339,3.178C8.109,2.678,7.513,2.455,7.013,2.683z M14.211,2.887c0.013-0.55-0.427-1.01-0.976-1.023l-2-0.046 c-0.549-0.013-1.009,0.427-1.022,0.976L9.974,13.037l4.19-8.167L14.211,2.887z M19.191,3.837l-1.779-0.913 c-0.489-0.25-1.096-0.055-1.347,0.434L9.674,15.814c-0.251,0.489-0.056,1.096,0.434,1.347l1.779,0.913 c0.489,0.251,1.095,0.056,1.346-0.433l6.391-12.456C19.875,4.694,19.68,4.088,19.191,3.837z M12.799,16.293 c-0.252,0.492-0.855,0.686-1.346,0.434c-0.492-0.252-0.685-0.854-0.433-1.346c0.252-0.492,0.854-0.685,1.346-0.433 C12.858,15.199,13.051,15.802,12.799,16.293z"></path>
               </svg>
               <div class="w-full">
-                <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Fonctionnal</h2>
+                <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Functional</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Software Development, Software Project Management, Software Solution Architecture, Software Engineering, Software Design, Enterprise Software</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Action Plan, Approval Process</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Risk Governance, Internal and Continuous Control, Audit, Business Continuity Management</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>Action Plan, Approval Process</span><span>50%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 50%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
@@ -4168,19 +4479,25 @@ exports[`can mount an app with /en/fabien route 4`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Languages</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Enablon</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Enablon, Web Development</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript, jQuery</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript</span><span>80%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Java, Python, Shell</span><span>60%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor, jQuery</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -4202,19 +4519,19 @@ exports[`can mount an app with /en/fabien route 4`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Softwares</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Word, Excel, PowerPoint, MS Project</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Jira, GitLab, GitHub, Word, Excel, PowerPoint, GIT</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>GIT</span><span>60%</span></div>
+                  <div class="flex items-end justify-between"><span>Helm, Kubernetes</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Photoshop CS</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Photoshop CS, MS Project</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -4300,43 +4617,6 @@ exports[`can mount an app with /en/fabien route 4`] = `
           </dl>
         </div>
       </section>
-      <section id="certifications">
-        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
-        <div class="flex flex-wrap -mb-5">
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile at Scale Technical Delivery Accreditation" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Agile at Scale Technical Delivery Accreditation</p>
-            <p>November 17, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
-            <p>November 15, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Jira Fundamentals Badge" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Jira Fundamentals Badge</p>
-            <p>November 3, 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Certified Kubernetes Application Developer (CKAD)" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Kubernetes Application Developer (CKAD)</p>
-            <p>December 2022</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="Certified SAFe® 4 Program Consultant" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified SAFe® 4 Program Consultant</p>
-            <p>October 2019</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Multi-project management level 2" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Multi-project management level 2</p>
-            <p>December 2014</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Certified Scrum Product Owner" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Scrum Product Owner</p>
-            <p>July 2013</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Certified Scrum Master" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Certified Scrum Master</p>
-            <p>June 2012</p>
-          </div>
-        </div>
-      </section>
       <section id="hobbies">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">hobbies.name</h1>
         <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto px-8">
@@ -4412,6 +4692,16 @@ exports[`can mount an app with /fr/fabien route 1`] = `
                     <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">experiences.name</span>
                 </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#watch-and-sharing" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Watch-and-sharing.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">watch-and-sharing.name</span>
+                </a></li>
+              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
+                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
+                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
+                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
+                </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#skills" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Skills.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M3.179,5.998c-0.423-0.35-1.057-0.29-1.408,0.132L0.494,7.669c-0.35,0.423-0.291,1.058,0.131,1.407 l7.888,6.542L4.706,7.264L3.179,5.998z M7.013,2.683l-1.82,0.829C4.694,3.74,4.471,4.337,4.698,4.836l4.25,9.325l0.213-9.179 L8.339,3.178C8.109,2.678,7.513,2.455,7.013,2.683z M14.211,2.887c0.013-0.55-0.427-1.01-0.976-1.023l-2-0.046 c-0.549-0.013-1.009,0.427-1.022,0.976L9.974,13.037l4.19-8.167L14.211,2.887z M19.191,3.837l-1.779-0.913 c-0.489-0.25-1.096-0.055-1.347,0.434L9.674,15.814c-0.251,0.489-0.056,1.096,0.434,1.347l1.779,0.913 c0.489,0.251,1.095,0.056,1.346-0.433l6.391-12.456C19.875,4.694,19.68,4.088,19.191,3.837z M12.799,16.293 c-0.252,0.492-0.855,0.686-1.346,0.434c-0.492-0.252-0.685-0.854-0.433-1.346c0.252-0.492,0.854-0.685,1.346-0.433 C12.858,15.199,13.051,15.802,12.799,16.293z"></path>
@@ -4426,11 +4716,6 @@ exports[`can mount an app with /fr/fabien route 1`] = `
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
                     <path d="M19.753,10.909c-0.624-1.707-2.366-2.726-4.661-2.726c-0.09,0-0.176,0.002-0.262,0.006l-0.016-2.063  c0,0,3.41-0.588,3.525-0.607s0.133-0.119,0.109-0.231c-0.023-0.111-0.167-0.883-0.188-0.976c-0.027-0.131-0.102-0.127-0.207-0.109  c-0.104,0.018-3.25,0.461-3.25,0.461s-0.012-1.953-0.013-2.078c-0.001-0.125-0.069-0.158-0.194-0.156s-0.92,0.014-1.025,0.016  s-0.164,0.049-0.162,0.148c0.002,0.1,0.033,2.307,0.033,2.307s-3.061,0.527-3.144,0.543c-0.084,0.014-0.17,0.053-0.151,0.143  s0.19,1.094,0.208,1.172c0.018,0.08,0.072,0.129,0.188,0.107c0.115-0.019,2.924-0.504,2.924-0.504l0.035,2.018  c-1.077,0.281-1.801,0.824-2.256,1.303c-0.768,0.807-1.207,1.887-1.207,2.963c0,1.586,0.971,2.529,2.328,2.695  c3.162,0.387,5.119-3.06,5.769-4.715c1.097,1.506,0.256,4.354-2.094,5.98c-0.043,0.029-0.098,0.129-0.033,0.207  c0.065,0.078,0.541,0.662,0.619,0.756c0.08,0.096,0.206,0.059,0.256,0.023C19.394,15.862,20.545,13.077,19.753,10.909z   M12.367,14.097c-0.966-0.121-0.944-0.914-0.944-1.453c0-0.773,0.327-1.58,0.876-2.156c0.335-0.354,0.75-0.621,1.229-0.799  l0.082,4.277C13.225,14.097,12.811,14.151,12.367,14.097z M14.794,13.544l0.046-4.109c0.084-0.004,0.166-0.01,0.252-0.01  c0.773,0,1.494,0.145,1.885,0.361C17.368,10.003,15.954,12.499,14.794,13.544z M5.844,5.876c-0.03-0.094-0.103-0.145-0.196-0.145  h-1.95c-0.093,0-0.165,0.051-0.194,0.144c-0.412,1.299-3.48,10.99-3.496,11.041c-0.017,0.051-0.011,0.076,0.062,0.076h1.733  c0.075,0,0.099-0.023,0.114-0.072c0.015-0.051,1.008-3.318,1.008-3.318h3.496c0,0,0.992,3.268,1.008,3.318  c0.016,0.049,0.039,0.072,0.113,0.072h1.734c0.072,0,0.078-0.025,0.062-0.076C9.324,16.866,6.255,7.175,5.844,5.876z M3.226,12.194  l1.447-5.25l1.447,5.25H3.226z"></path>
                   </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">languages.name</span>
-                </a></li>
-              <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#certifications" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Certifications.name">
-                  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
-                    <path d="M10,10c0.528,0,1.026,0.104,1.504,0.256L5.427,1.141C5.368,1.053,5.27,1,5.164,1H1.608  C1.491,1,1.42,1.131,1.486,1.229l6.231,9.347C8.404,10.22,9.173,10,10,10z M18.392,1h-3.556c-0.106,0-0.204,0.053-0.263,0.141  L10.75,6.875l2,3l5.764-8.646C18.579,1.131,18.509,1,18.392,1z M10,11c-2.209,0-4,1.791-4,4s1.791,4,4,4s4-1.791,4-4  S12.209,11,10,11z M12.112,15.117c0.062,0.064,0.052,0.158-0.022,0.208s-0.095,0.153-0.049,0.229  c0.047,0.076,0.018,0.165-0.065,0.199s-0.125,0.13-0.095,0.214c0.03,0.084-0.017,0.165-0.104,0.181s-0.149,0.101-0.137,0.189  s-0.051,0.158-0.14,0.155c-0.089-0.003-0.167,0.068-0.174,0.156s-0.083,0.144-0.169,0.123s-0.178,0.031-0.203,0.117  s-0.111,0.124-0.191,0.085c-0.08-0.039-0.18-0.006-0.222,0.072s-0.134,0.098-0.205,0.043s-0.175-0.044-0.232,0.024  s-0.151,0.068-0.209,0s-0.162-0.079-0.232-0.024s-0.162,0.035-0.205-0.043s-0.142-0.111-0.222-0.072s-0.166,0-0.191-0.085  s-0.116-0.138-0.203-0.117s-0.163-0.034-0.169-0.123S8.589,16.489,8.5,16.491c-0.089,0.003-0.152-0.067-0.14-0.155  s-0.05-0.173-0.137-0.189s-0.135-0.097-0.104-0.181s-0.013-0.18-0.095-0.214s-0.111-0.123-0.065-0.199  c0.047-0.076,0.025-0.179-0.049-0.229s-0.083-0.144-0.022-0.208c0.062-0.064,0.062-0.169,0-0.234s-0.052-0.158,0.022-0.208  s0.095-0.153,0.049-0.229c-0.047-0.076-0.018-0.165,0.065-0.199s0.125-0.13,0.095-0.214s0.017-0.165,0.104-0.181  s0.149-0.101,0.137-0.189s0.051-0.158,0.14-0.155c0.089,0.003,0.167-0.068,0.174-0.156s0.083-0.144,0.169-0.123  s0.178-0.031,0.203-0.117s0.111-0.124,0.191-0.085s0.18,0.006,0.222-0.072s0.134-0.098,0.205-0.043s0.175,0.044,0.232-0.024  s0.151-0.068,0.209,0s0.162,0.079,0.232,0.024s0.162-0.035,0.205,0.043s0.142,0.111,0.222,0.072c0.08-0.039,0.166,0,0.191,0.085  s0.116,0.138,0.203,0.117s0.163,0.034,0.169,0.123s0.085,0.159,0.174,0.156s0.152,0.067,0.14,0.155s0.05,0.173,0.137,0.189  s0.135,0.097,0.104,0.181s0.013,0.18,0.095,0.214s0.111,0.123,0.065,0.199c-0.047,0.076-0.025,0.179,0.049,0.229  s0.083,0.144,0.022,0.208S12.05,15.053,12.112,15.117z"></path>
-                  </svg><span data-v-0924d1c9="" class="ml-3 capitalize sm:hidden md:inline">certifications.name</span>
                 </a></li>
               <li data-v-0924d1c9=""><a data-v-0924d1c9="" href="#hobbies" class="block sm:text-sm p-4 outline-none bg-no-repeat cursor-pointer hover:bg-gray-900 hover:bg-opacity-25 sm:text-center md:text-left" title="Hobbies.name">
                   <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg data-v-0924d1c9="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current h-5 w-5 sm:h-8 sm:w-8 md:h-5 md:w-5">
@@ -4451,7 +4736,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
       <section id="identity">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-8">identity.name</h1>
         <p class="text-justify"><span class="text-lg text-blue-700 italic whitespace-no-wrap">identity.years</span> &nbsp;/&nbsp; <span class="text-lg text-blue-700 italic whitespace-no-wrap"> Paris </span> &nbsp;/&nbsp; <span class="text-lg text-blue-700 italic">Coach Agile, DevOps et Lean Startup</span></p>
-        <p class="text-justify">Mon parcours et mes expériences montrent une solide expertise en Agile, Lean Startup et DevOps, ainsi qu'un engagement dans la formation, que ce soit en entreprise ou à l'université. Je combine des compétences techniques et des capacités de coaching, tout en restant à la pointe des méthodologies et certifications agiles. Mes centres d'intérêts, variés et éclectiques, montrent une personnalité curieuse et passionnée par l'exploration du monde et des technologies.</p>
+        <p class="text-justify">Mon parcours et mes expériences montrent une solide expertise en Agile, Lean Startup et DevOps, ainsi qu’un engagement dans la formation, que ce soit en entreprise ou à l’université. Je combine des compétences techniques et des capacités de coaching, tout en restant à la pointe des méthodologies et certifications agiles. Mes centres d’intérêts, variés et éclectiques, montrent une personnalité curieuse et passionnée par l’exploration du monde et des technologies.</p>
       </section>
       <section id="contact-me">
         <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">contact-me.name</h1>
@@ -4524,7 +4809,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
                   </svg> Septembre 2017 - Aujourd’hui</p>
                 <div class="font-bold text-xl mb-2">Coach Agile, DevOps et Lean Startup</div>
                 <ul class="text-gray-700 text-base">
-                  <li>Améliore l’efficience des départements informatiques des clients : études, analyses et accompagnements des équipes et partenaires.</li>
+                  <li>Améliore l’efficience des départements informatiques des clients&nbsp;: études, analyses et accompagnements des équipes et partenaires.</li>
                   <li>Démarche de nouveaux clients à travers la participation à des salons ou événements et de la prospection commerciale.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
@@ -4620,7 +4905,7 @@ exports[`can mount an app with /fr/fabien route 1`] = `
                 <ul class="text-gray-700 text-base">
                   <li>Formation Qualiopi de deux groupes d’environ 10 personnes de la Direction des Systèmes d’Information et des Usages Numériques de l’Hôtel du Département des Bouches-du-Rhône, à Marseille.</li>
                   <li>Animation de 6 sessions d’une demi-journée par groupe, basées sur les cas professionnels concrets des participants.</li>
-                  <li>Thématiques : Personas &amp; Story Mapping, Communication Agile, Priorisation, Estimation &amp; WSJF, multisites &amp; équipes étendues, Réalisation &amp; Planning, DevOps &amp; Continuous Delivery.</li>
+                  <li>Thématiques&nbsp;: Personas &amp; Story Mapping, Communication Agile, Priorisation, Estimation &amp; WSJF, multisites &amp; équipes étendues, Réalisation &amp; Planning, DevOps &amp; Continuous Delivery.</li>
                   <li>Mise en pratique des concepts sur les problématiques réelles des équipes et synthèse des apprentissages à travers une revue des cas pratiques.</li>
                 </ul>
               </div><a href="https://reacteev.com/" target="_blank" rel="noopener noreferrer" class="p-4 hover:bg-blue-100">
@@ -4634,6 +4919,96 @@ exports[`can mount an app with /fr/fabien route 1`] = `
             </div>
           </div>
           <div class="flex items-center justify-center"><button class="bg-white text-gray-800 font-bold rounded border-b-2 border-blue-500 hover:border-blue-600 hover:bg-blue-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center" type="submit">showMore</button></div>
+        </div>
+      </section>
+      <section id="watch-and-sharing">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">watch-and-sharing.name</h1>
+        <div class="grid gap-4 md:grid-cols-2">
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M19.754,15.631C19.507,15.26,18,13,18,13V4c0-1.102-0.9-2-2-2H4C2.899,2,2,2.898,2,4v9  c0,0-1.507,2.26-1.754,2.631C0,16,0,16.213,0,16.5V17c0,0.5,0.5,1,0.999,1h18.002C19.5,18,20,17.5,20,17v-0.5  C20,16.213,20,16,19.754,15.631z M7,16l0.6-1h4.8l0.6,1H7z M16,12H4V4h12V12z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">26 novembre 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Salon Adopt IA</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Participation à un événement consacré aux usages professionnels et à l’adoption de l’intelligence artificielle.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M9,10h2v2h9c0,0-0.149-4.459-0.2-5.854C19.75,4.82,19.275,4,17.8,4h-3.208 c-0.497-0.938-1.032-1.945-1.197-2.256C13.064,1.121,12.951,1,12.216,1H7.783C7.048,1,6.936,1.121,6.604,1.744 C6.439,2.055,5.904,3.062,5.408,4H2.199c-1.476,0-1.945,0.82-2,2.146C0.145,7.473,0,12,0,12h9V10z M7.649,2.916 C7.879,2.484,7.957,2.4,8.466,2.4h3.067c0.509,0,0.588,0.084,0.816,0.516c0.086,0.16,0.318,0.6,0.575,1.084h-5.85 C7.331,3.516,7.563,3.076,7.649,2.916z M11,15H9v-2H0.5c0,0,0.124,1.797,0.199,3.322C0.73,16.955,0.917,18,2.499,18H17.5 c1.582,0,1.765-1.047,1.8-1.678C19.387,14.754,19.5,13,19.5,13H11V15z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">27 octobre 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Agile en Seine</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Animation d’un atelier «&nbsp;3 Amigos&nbsp;» utilisant un orchestrateur IA avec n8n, pour expérimenter l’IA agentique et l’automatisation dans les pratiques Agiles.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M18,2H2C0.9,2,0,2.9,0,4v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C20,2.9,19.1,2,18,2z M4.5,3.75  c0.414,0,0.75,0.336,0.75,0.75S4.914,5.25,4.5,5.25S3.75,4.914,3.75,4.5S4.086,3.75,4.5,3.75z M1.75,4.5  c0-0.414,0.336-0.75,0.75-0.75S3.25,4.086,3.25,4.5S2.914,5.25,2.5,5.25S1.75,4.914,1.75,4.5z M18,16H2V7h16V16z M18,5H6V4h12.019  L18,5z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">29 avril 2025</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">Salon M/K IA</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Représentation de Reacteev sur le stand dédié à nos travaux de R&amp;D en IA agentique et échanges avec les acteurs de l’écosystème.</p>
+          </article>
+          <article class="relative flex h-full flex-col rounded-lg border-l-4 border-blue-700 bg-white p-5 shadow-lg">
+            <div class="flex items-start gap-4">
+              <!-- Entypo pictograms by Daniel Bruce — www.entypo.com --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" class="inline fill-current mt-1 w-8 shrink-0 text-blue-700">
+                <path d="M5.719,14.75c-0.236,0-0.474-0.083-0.664-0.252L-0.005,10l5.341-4.748c0.412-0.365,1.044-0.33,1.411,0.083  s0.33,1.045-0.083,1.412L3.005,10l3.378,3.002c0.413,0.367,0.45,0.999,0.083,1.412C6.269,14.637,5.994,14.75,5.719,14.75z   M14.664,14.748L20.005,10l-5.06-4.498c-0.413-0.367-1.045-0.33-1.411,0.083c-0.367,0.413-0.33,1.045,0.083,1.412L16.995,10  l-3.659,3.252c-0.413,0.367-0.45,0.999-0.083,1.412C13.45,14.887,13.725,15,14,15C14.236,15,14.474,14.917,14.664,14.748z   M9.986,16.165l2-12c0.091-0.545-0.277-1.06-0.822-1.151c-0.547-0.092-1.061,0.277-1.15,0.822l-2,12  c-0.091,0.545,0.277,1.06,0.822,1.151C8.892,16.996,8.946,17,9.001,17C9.481,17,9.905,16.653,9.986,16.165z"></path>
+              </svg>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-wide text-blue-700">22 mars 2024</p>
+                <h2 class="mt-2 text-xl font-bold text-gray-900">React Paris</h2>
+              </div>
+            </div>
+            <p class="mt-4 text-justify leading-relaxed text-gray-700">Participation aux conférences consacrées à l’écosystème React et aux évolutions du développement logiciel.</p>
+          </article>
+        </div>
+      </section>
+      <section id="certifications">
+        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
+        <div class="flex flex-wrap -mb-5">
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile à l’échelle – Accréditation de la prestation technique" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Agile à l’échelle – Accréditation de la prestation technique</p>
+            <p>17 novembre 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
+            <p>15 novembre 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Badge Jira Fondamentaux" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Badge Jira Fondamentaux</p>
+            <p>3 novembre 2023</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Développeur d’application Kubernetes certifié (CKAD)" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Développeur d’application Kubernetes certifié (CKAD)</p>
+            <p>Décembre 2022</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="SAFe® 4 Program Consultant Certifié" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">SAFe® 4 Program Consultant Certifié</p>
+            <p>Octobre 2019</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Gestion multi-projets niveau 2" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Gestion multi-projets niveau&nbsp;2</p>
+            <p>Décembre 2014</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Scrum Product Owner Certifié" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Scrum Product Owner Certifié</p>
+            <p>Juillet 2013</p>
+          </div>
+          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Scrum Master Certifié" height="200" class="m-auto">
+            <p class="font-black mt-5 mb-3">Scrum Master Certifié</p>
+            <p>Juin 2012</p>
+          </div>
         </div>
       </section>
       <section id="skills">
@@ -4669,15 +5044,21 @@ exports[`can mount an app with /fr/fabien route 1`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Fonctionnel</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Gouvernance des Risques, Contrôle Interne et Permanent, Audit, Plans de continuité d’activités</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Développement de logiciels, Gestion de projets logiciels, Architecture des solutions logicielles, Ingénierie logicielle, Conception logicielle, Logiciels d’entreprise</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Plan d’action, Circuit d’approbation</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Gouvernance des Risques, Contrôle Interne et Permanent, Audit, Plans de continuité d’activités</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>Plan d’action, Circuit d’approbation</span><span>50%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 50%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
@@ -4697,19 +5078,25 @@ exports[`can mount an app with /fr/fabien route 1`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Langages</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Enablon</span><span>90%</span></div>
+                  <div class="flex items-end justify-between"><span>Enablon, Développement Web</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript, jQuery</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>HTML, CSS, JavaScript</span><span>80%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Java, Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Java, Python, Shell</span><span>60%</span></div>
+                  <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="flex items-end justify-between"><span>C, Data Base (Access, PL/SQL, Oracle), Visual Basic, Assembler, TeX, Media Wiki, Symfony2, NodeJS, Meteor, jQuery</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -4731,19 +5118,19 @@ exports[`can mount an app with /fr/fabien route 1`] = `
               <div class="w-full">
                 <h2 class="text-lg font-semibold text-gray-900 mt-2 mb-4">Logiciels</h2>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Word, Excel, PowerPoint, MS Project</span><span>80%</span></div>
+                  <div class="flex items-end justify-between"><span>Jira, GitLab, GitHub, Word, Excel, PowerPoint, GIT</span><span>90%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 80%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 90%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>GIT</span><span>60%</span></div>
+                  <div class="flex items-end justify-between"><span>Helm, Kubernetes</span><span>70%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
-                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 60%;"></div>
+                    <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 70%;"></div>
                   </div>
                 </div>
                 <div class="mb-4">
-                  <div class="flex items-end justify-between"><span>Photoshop CS</span><span>40%</span></div>
+                  <div class="flex items-end justify-between"><span>Photoshop CS, MS Project</span><span>40%</span></div>
                   <div class="h-4 relative rounded-md overflow-hidden bg-gray-200">
                     <div class="h-full rounded-sm bg-blue-500 relative w-0" style="width: 40%;"></div>
                   </div>
@@ -4787,11 +5174,11 @@ exports[`can mount an app with /fr/fabien route 1`] = `
           <ul data-v-c8afa95b="" class="relative">
             <li data-v-c8afa95b="" class="relative w-full my-16 ml-8 last:mb-5 first:mt-5"><span data-v-c8afa95b="" class="absolute top-0 left-0"></span>
               <div data-v-c8afa95b="" class="text-lg">Diplôme d’Ingénieur ESIEA – mention Très Honorable avec félicitation des jurys</div>
-              <div data-v-c8afa95b="" class="italic text-gray-700">Ecole d’ingénieur spécialisée dans l’information technologique et électronique ; PARIS (75).</div>
+              <div data-v-c8afa95b="" class="italic text-gray-700">Ecole d’ingénieur spécialisée dans l’information technologique et électronique&nbsp;; PARIS (75).</div>
               <div data-v-c8afa95b="" class="year"><span data-v-c8afa95b="" class="absolute text-right">2006</span><span data-v-c8afa95b="" class="absolute text-right">2003</span></div>
             </li>
             <li data-v-c8afa95b="" class="relative w-full my-16 ml-8 last:mb-5 first:mt-5"><span data-v-c8afa95b="" class="absolute top-0 left-0"></span>
-              <div data-v-c8afa95b="" class="text-lg">Cours du soir « Instrumentation – Mesures »</div>
+              <div data-v-c8afa95b="" class="text-lg">Cours du soir «&nbsp;Instrumentation – Mesures&nbsp;»</div>
               <div data-v-c8afa95b="" class="italic text-gray-700">dispensé par le CNAM TOULOUSE (31).</div>
               <div data-v-c8afa95b="" class="year"><span data-v-c8afa95b="" class="absolute text-right">2003</span><span data-v-c8afa95b="" class="absolute text-right">2002</span></div>
             </li>
@@ -4826,43 +5213,6 @@ exports[`can mount an app with /fr/fabien route 1`] = `
               <dd class="mt-1 text-sm leading-5 text-gray-700 sm:mt-0 sm:col-span-2">Langue de travail.</dd>
             </div>
           </dl>
-        </div>
-      </section>
-      <section id="certifications">
-        <h1 class="text-4xl sm:text-5xl uppercase mb-4 mt-12">certifications.name</h1>
-        <div class="flex flex-wrap -mb-5">
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/atlassian-agile-at-scale-technical-delivery-400x400px.png" alt="Agile à l'échelle - Accréditation de la prestation technique" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Agile à l'échelle - Accréditation de la prestation technique</p>
-            <p>17 novembre 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-completioncertificate-badge.png" alt="Jira Align Program Essentials" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Jira Align Program Essentials</p>
-            <p>15 novembre 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/uni-credential-emblem-jirafundamentals.png" alt="Badge Jira Fondamentaux" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Badge Jira Fondamentaux</p>
-            <p>3 novembre 2023</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/kubernetes-ckad.png" alt="Développeur d’application Kubernetes certifié (CKAD)" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Développeur d’application Kubernetes certifié (CKAD)</p>
-            <p>Décembre 2022</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/safe-pc4.png" alt="SAFe® 4 Program Consultant Certifié" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">SAFe® 4 Program Consultant Certifié</p>
-            <p>Octobre 2019</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/cegos.png" alt="Gestion multi-projets niveau 2" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Gestion multi-projets niveau 2</p>
-            <p>Décembre 2014</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-cspo.png" alt="Scrum Product Owner Certifié" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Scrum Product Owner Certifié</p>
-            <p>Juillet 2013</p>
-          </div>
-          <div class="relative rounded-lg shadow-lg text-center bg-white mb-5 mx-auto p-5 w-64"><img src="/img/certifications/scrum-alliance-csm.png" alt="Scrum Master Certifié" height="200" class="m-auto">
-            <p class="font-black mt-5 mb-3">Scrum Master Certifié</p>
-            <p>Juin 2012</p>
-          </div>
         </div>
       </section>
       <section id="hobbies">

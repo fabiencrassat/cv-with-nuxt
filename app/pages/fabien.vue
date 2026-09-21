@@ -7,6 +7,7 @@ import CurriculumVitae from '~/lib/curriculumVitae';
 import GraduationCapSvgIcon from '~/components/svgIcons/graduation-cap';
 import HeartSvgIcon from '~/components/svgIcons/heart.vue';
 import LanguageSvgIcon from '~/components/svgIcons/language';
+import LaptopSvgIcon from '~/components/svgIcons/laptop';
 import MedalSvgIcon from '~/components/svgIcons/medal.vue';
 import PhoneSvgIcon from '~/components/svgIcons/phone';
 import UserSvgIcon from '~/components/svgIcons/user';
@@ -60,6 +61,16 @@ export default {
           svg: BriefcaseSvgIcon,
         },
         {
+          name: $t('watch-and-sharing.name'),
+          url: 'watch-and-sharing',
+          svg: LaptopSvgIcon,
+        },
+        {
+          name: $t('certifications.name'),
+          url: 'certifications',
+          svg: MedalSvgIcon,
+        },
+        {
           name: $t('skills.name'),
           url: 'skills',
           svg: ColoursSvgIcon,
@@ -73,11 +84,6 @@ export default {
           name: $t('languages.name'),
           url: 'languages',
           svg: LanguageSvgIcon,
-        },
-        {
-          name: $t('certifications.name'),
-          url: 'certifications',
-          svg: MedalSvgIcon,
         },
         {
           name: $t('hobbies.name'),
@@ -117,6 +123,16 @@ export default {
         <HeadingsH1>{{ $t('experiences.name') }}</HeadingsH1>
         <Experiences :experiences="curriculumVitae.getExperiences()" />
       </section>
+      <section id="watch-and-sharing">
+        <HeadingsH1>{{ $t('watch-and-sharing.name') }}</HeadingsH1>
+        <WatchAndSharing
+          :items="curriculumVitae.getWatchAndSharing()"
+        />
+      </section>
+      <section id="certifications">
+        <HeadingsH1>{{ $t('certifications.name') }}</HeadingsH1>
+        <Certifications :certifications="curriculumVitae.getCertifications()" />
+      </section>
       <section id="skills">
         <HeadingsH1>{{ $t('skills.name') }}</HeadingsH1>
         <Skills :skills="curriculumVitae.getSkills()" />
@@ -128,10 +144,6 @@ export default {
       <section id="languages">
         <HeadingsH1>{{ $t('languages.name') }}</HeadingsH1>
         <Languages :languages="curriculumVitae.getLanguages()" />
-      </section>
-      <section id="certifications">
-        <HeadingsH1>{{ $t('certifications.name') }}</HeadingsH1>
-        <Certifications :certifications="curriculumVitae.getCertifications()" />
       </section>
       <section id="hobbies">
         <HeadingsH1>{{ $t('hobbies.name') }}</HeadingsH1>

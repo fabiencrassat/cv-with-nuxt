@@ -52,6 +52,14 @@ interface ICurriculumVitae {
       missions?: ILangArray;
     };
   };
+  watchAndSharing: {
+    [key: string]: {
+      svg: string;
+      date: ILang;
+      title: ILang;
+      description: ILang;
+    };
+  };
   skills: {
     [key: string]: {
       label: ILang;
@@ -175,6 +183,14 @@ export default class CurriculumVitae {
       this,
       this.lang,
       this.curriculumVitae.experiences,
+    );
+  }
+
+  public getWatchAndSharing() {
+    return Tools.buildValues(
+      this,
+      this.lang,
+      this.curriculumVitae.watchAndSharing,
     );
   }
 
