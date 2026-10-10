@@ -9459,17 +9459,6 @@ vue@^3.5.33:
     "@vue/server-renderer" "3.5.33"
     "@vue/shared" "3.5.33"
 
-vue@^3.5.40, vue@~3.5.34:
-  version "3.5.40"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-3.5.40.tgz#c4a9d4c62f98ea33aa811a75c3fbd476dc782184"
-  integrity sha512-+8PJ4SJXdn/cHGImF4CKdxlWHIN5Dkt7DoufRREM6h6uVCx2m7QxgcEQmmzyOK8A9mcafg7sFbJFYsdFVubTig==
-  dependencies:
-    "@vue/compiler-dom" "3.5.40"
-    "@vue/compiler-sfc" "3.5.40"
-    "@vue/runtime-dom" "3.5.40"
-    "@vue/server-renderer" "3.5.40"
-    "@vue/shared" "3.5.40"
-
 vue@^3.5.43:
   version "3.5.43"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.5.43.tgz#bab91368e7b9aad9b89dd92e866b120081deb094"
@@ -9480,6 +9469,17 @@ vue@^3.5.43:
     "@vue/runtime-dom" "3.5.43"
     "@vue/server-renderer" "3.5.43"
     "@vue/shared" "3.5.43"
+
+vue@~3.5.34:
+  version "3.5.40"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-3.5.40.tgz#c4a9d4c62f98ea33aa811a75c3fbd476dc782184"
+  integrity sha512-+8PJ4SJXdn/cHGImF4CKdxlWHIN5Dkt7DoufRREM6h6uVCx2m7QxgcEQmmzyOK8A9mcafg7sFbJFYsdFVubTig==
+  dependencies:
+    "@vue/compiler-dom" "3.5.40"
+    "@vue/compiler-sfc" "3.5.40"
+    "@vue/runtime-dom" "3.5.40"
+    "@vue/server-renderer" "3.5.40"
+    "@vue/shared" "3.5.40"
 
 w3c-html-validator@^2.2.3:
   version "2.2.3"
