@@ -43,13 +43,23 @@ export default {
   data() {
     const defaultShowingElements = 5;
     return {
+      defaultShowingElements,
       experiencesMaxLength: Object.keys(this.experiences).length,
       showingElements: defaultShowingElements,
+      showingElementsBeforePrint: null,
       showingExperiences: this.getShowingExperiences(
         this.experiences,
         defaultShowingElements,
       ),
     };
+  },
+  mounted() {
+    window.addEventListener('beforeprint', this.showAllExperiences);
+    window.addEventListener('afterprint', this.restoreScreenExperiences);
+  },
+  beforeUnmount() {
+    window.removeEventListener('beforeprint', this.showAllExperiences);
+    window.removeEventListener('afterprint', this.restoreScreenExperiences);
   },
   methods: {
     getShowingExperiences(experiences, itemToShow) {
@@ -60,6 +70,24 @@ export default {
         showingExperiences[key] = experiences[key];
       }
       return showingExperiences;
+    },
+    showAllExperiences() {
+      if (this.showingElementsBeforePrint === null) {
+        this.showingElementsBeforePrint = this.showingElements;
+      }
+      this.showingElements = this.experiencesMaxLength;
+      this.showingExperiences = this.experiences;
+    },
+    restoreScreenExperiences() {
+      if (this.showingElementsBeforePrint === null) {
+        return;
+      }
+      this.showingElements = this.showingElementsBeforePrint;
+      this.showingExperiences = this.getShowingExperiences(
+        this.experiences,
+        this.showingElements,
+      );
+      this.showingElementsBeforePrint = null;
     },
     showMore() {
       this.showingElements += this.experiencesMaxLength;
