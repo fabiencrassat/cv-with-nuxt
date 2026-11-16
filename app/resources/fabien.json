@@ -8,56 +8,56 @@
   "followMe": {
     "linkedin": {
       "label": {
-        "en": "Follow me in LinkedIn",
-        "fr": "Suivez moi sur LinkedIn"
+        "en": "Follow me on LinkedIn",
+        "fr": "Suivez-moi sur LinkedIn"
       },
       "url": "http://www.linkedin.com/in/fabiencrassat",
       "svg": "LinkedInSvgIcon"
     },
     "viadeo": {
       "label": {
-        "en": "Follow me in Viadeo",
-        "fr": "Suivez moi sur Viadeo"
+        "en": "Follow me on Viadeo",
+        "fr": "Suivez-moi sur Viadeo"
       },
       "url": "http://fr.viadeo.com/fr/profile/fabien.crassat",
       "svg": "ViadeoSvgIcon"
     },
     "monster": {
       "label": {
-        "en": "Follow me in Monster",
-        "fr": "Suivez moi sur Monster"
+        "en": "Follow me on Monster",
+        "fr": "Suivez-moi sur Monster"
       },
       "url": "http://beknown.com/fabien-crassat",
       "svg": "MonsterInSvgIcon"
     },
     "twitter": {
       "label": {
-        "en": "Follow me in Twitter",
-        "fr": "Suivez moi sur Twitter"
+        "en": "Follow me on Twitter",
+        "fr": "Suivez-moi sur Twitter"
       },
       "url": "https://twitter.com/fabiencrassat",
       "svg": "TwitterSvgIcon"
     },
     "facebook": {
       "label": {
-        "en": "Follow me in Facebook",
-        "fr": "Suivez moi sur Facebook"
+        "en": "Follow me on Facebook",
+        "fr": "Suivez-moi sur Facebook"
       },
       "url": "https://www.facebook.com/fabien.crassat",
       "svg": "FacebookSvgIcon"
     },
     "scrumalliance": {
       "label": {
-        "en": "Follow me in Scrum Alliance",
-        "fr": "Suivez moi sur Scrum Alliance"
+        "en": "Follow me on Scrum Alliance",
+        "fr": "Suivez-moi sur Scrum Alliance"
       },
       "url": "http://www.scrumalliance.org/community/profile/fcrassat",
       "svg": "ScrumAllianceSvgIcon"
     },
     "github": {
       "label": {
-        "en": "Follow me in Github",
-        "fr": "Suivez moi sur Github"
+        "en": "Follow me on GitHub",
+        "fr": "Suivez-moi sur GitHub"
       },
       "url": "https://github.com/fabiencrassat",
       "svg": "GithubSvgIcon"
@@ -68,7 +68,7 @@
       "crossref": "curriculumVitae.experiences.Reacteev.job"
     },
     "presentation": {
-      "fr": "Mon parcours et mes expériences montrent une solide expertise en Agile, Lean Startup et DevOps, ainsi qu’un engagement dans la formation, que ce soit en entreprise ou à l’université. Je combine des compétences techniques et des capacités de coaching, tout en restant à la pointe des méthodologies et certifications agiles. Mes centres d’intérêts, variés et éclectiques, montrent une personnalité curieuse et passionnée par l’exploration du monde et des technologies.",
+      "fr": "Mon parcours et mes expériences montrent une solide expertise en Agile, Lean Startup et DevOps, ainsi qu’un engagement dans la formation, que ce soit en entreprise ou à l’université. Je combine des compétences techniques et des capacités de coaching, tout en restant à la pointe des méthodologies et certifications agiles. Mes centres d’intérêt, variés et éclectiques, montrent une personnalité curieuse et passionnée par l’exploration du monde et des technologies.",
       "en": "My background and experience demonstrate solid expertise in Agile, Lean Startup and DevOps, as well as a commitment to training, both in companies and at universities. I combine technical skills with coaching capabilities, while remaining at the cutting edge of agile methodologies and certifications. My varied and eclectic interests reflect a curious personality with a passion for exploring the world and technologies."
     }
   },
@@ -88,19 +88,19 @@
       },
       "missions": {
         "fr": [
-          "Améliore l’efficience des départements informatiques des clients : études, analyses et accompagnements des équipes et partenaires.",
-          "Démarche de nouveaux clients à travers la participation à des salons ou événements et de la prospection commerciale."
+          "Améliore l’efficacité des départements informatiques des clients grâce à des études, des analyses et un accompagnement des équipes et des partenaires.",
+          "Prospection de nouveaux clients par la participation à des salons ou à des événements, ainsi que par des démarches commerciales."
         ],
         "en": [
-          "Improves the efficiency of the IT departments of the clients: studies, analyzes and accompaniments of teams and partners.",
-          "Approach new clients through participation in trade shows or events and prospecting."
+          "Improves the efficiency of clients’ IT departments through studies, analyses and support for teams and partners.",
+          "Attracts new clients through participation in trade shows and events, as well as business development."
         ]
       }
     },
     "Dauphine": {
       "date": {
         "fr": "Novembre 2022 - Aujourd’hui",
-        "en": "Novmber 2021 - Present"
+        "en": "November 2022 - Present"
       },
       "job": {
         "fr": "Enseignant à l’université de Dauphine",
@@ -292,7 +292,7 @@
       },
       "missions": {
         "fr": [
-          "Formation intensive de 2 jours de 2 sessions destinée à une dizaine de collaborateurs pour développer les compétences Scrum Master & Product Owner, encourager l’autonomie des équipes et optimiser la performance collective."
+          "Formation intensive de deux jours, organisée en deux sessions et destinée à une dizaine de collaborateurs, pour développer les compétences de Scrum Master et de Product Owner, encourager l’autonomie des équipes et optimiser la performance collective."
         ],
         "en": [
           "Intensive two-day training course consisting of two sessions for around ten employees, designed to develop Scrum Master and Product Owner skills, encourage team autonomy and optimise collective performance."
@@ -456,7 +456,7 @@
     "ReacteevBPSSCraftCoach": {
       "date": {
         "fr": "Décembre 2021 - Septembre 2023",
-        "en": "August 2021 - September 2023"
+        "en": "December 2021 - September 2023"
       },
       "job": {
         "fr": "Coach Agile - DevOps - Craftsman",
@@ -468,7 +468,7 @@
       },
       "missions": {
         "fr": [
-          "Coaching de deux domaines métiers d’un leader mondial bancaire au sein d’une grande banque mondial et de leur transformation Agile@Scale :", 
+          "Coaching de deux domaines métier d’un grand groupe bancaire international dans le cadre de sa transformation Agile@Scale :",
           "- Accompagnement et formation au Craftsmanship, méthodes Agile & DevOps,",
           "- Mise en place des bonnes pratiques,",
           "- Amélioration de leur chaîne CI/CD,",
@@ -498,7 +498,7 @@
       },
       "missions": {
         "fr": [
-          "Coaching d’une équipe de développement d’un leader mondial du luxe afin de les former en Scrum et de les accompagner pendant le refonte de leur site vitrine e-commerce."
+          "Coaching d’une équipe de développement d’un leader mondial du luxe pour la former à Scrum et l’accompagner pendant la refonte de son site e-commerce."
         ],
         "en": [
           "Coaching a development team of a world leader in luxury goods in order to train them in Scrum and to accompany them during the redesign of their e-commerce website."
@@ -600,7 +600,7 @@
     "ReacteevRenaultDigital": {
       "date": {
         "fr": "Février 2018 - Septembre 2019",
-        "en": "February 2018 - September 2018"
+        "en": "February 2018 - September 2019"
       },
       "job": {
         "fr": "Coach Agile - DevOps",
@@ -681,10 +681,10 @@
       "missions": {
         "fr": [
           "Dirige l’équipe de développement du framework d’Enablon et du gestionnaire de source.",
-          "Fournie des solutions techniques pertinentes fondées sur les meilleures pratiques / expériences / projets similaires.",
+          "Fournit des solutions techniques pertinentes fondées sur les meilleures pratiques, les expériences acquises et des projets similaires.",
           "Établit la vision technique / architecture avec l’équipe de développement.",
-          "Fournie l’examen technique et les estimations des composantes de développement / temps requis pour les projets.",
-          "Identifier les risques, les résultats, les voies d’amélioration de l’effort de développement."
+          "Effectue les examens techniques et estime les composantes de développement ainsi que le temps requis pour les projets.",
+          "Identifie les risques et les axes d’amélioration de l’effort de développement."
         ],
         "en": [
           "Responsible for leading the development team of Enablon framework and source management.",
@@ -715,7 +715,7 @@
           "Unifie le planning prévisionnel des livrables et les Releases Notes.",
           "Gère la relation et assiste aux réunions de suivi des parties prenante en conduisant des questionnaires réguliers pour mesurer le niveau de satisfaction.",
           "Améliore la qualité.",
-          "En plus en tant que Architecte logiciel Suite Enablon: Définie et développe un gestionnaire de source (semblable à GIT) incluant l’installation, le commit, la mise à jour et la suppression à travers le cycle de vie du produit."
+          "En parallèle, en tant qu’architecte logiciel de la suite Enablon, définit et développe un gestionnaire de versions (semblable à Git) qui prend en charge l’installation, la validation des modifications (commit), la mise à jour et la suppression tout au long du cycle de vie du produit."
         ],
         "en": [
           "Coordinate Support level 3 Activity of an international agile team.",
@@ -742,10 +742,10 @@
       },
       "missions": {
         "fr": [
-          "Passionné par l’optimisation de l’architecture, je joue un rôle clé dans l’expansion des solutions Enablon développé par des équipes distribuées répartis dans le monde. Je contribue dans la conception, les coûts et je guide l’équipe pour fournir des logiciels avec un niveau élevé de qualité. En étroite collaboration avec les chefs de produits, les testeurs et les autres ingénieurs logiciels, je conçois, test, code, fournie et maintiens des modules logiciels en utilisant le langage propriétaire Enablon et les langages du web dans un environnement Agile Scrum.",
+          "Passionné par l’optimisation de l’architecture, je joue un rôle clé dans l’expansion des solutions Enablon, développées par des équipes réparties dans le monde entier. Je contribue à leur conception, à leur estimation et je guide l’équipe afin de fournir des logiciels de grande qualité. En étroite collaboration avec les chefs de produit, les testeurs et les autres ingénieurs logiciels, je conçois, teste, code, livre et maintiens des modules logiciels en utilisant le langage propriétaire d’Enablon et les langages du Web, dans un environnement Agile et Scrum.",
           "Analyse et guide l’équipe pour résoudre des problèmes complexes.",
-          "Travail en étroite collaboration avec l’équipe d’architectes des différentes applications pour discuter des challenges et des solutions pour assurer une consistance à travers la suite Enablon.",
-          "Réfléchie et résous de très intéressants problèmes à l’attention directe d’une expérience utilisateur.",
+          "Travaille en étroite collaboration avec les architectes des différentes applications pour discuter des défis et des solutions permettant d’assurer la cohérence de la suite Enablon.",
+          "Réfléchis à des problèmes complexes et les résous afin d’améliorer directement l’expérience utilisateur.",
           "Accompagne et guide les membres juniors de l’équipe.",
           "Partage les connaissances à travers la collaboration, les formations, les revues, les présentations, les articles, ...",
           "Responsable des livraisons dans les délais impartis des solutions Enablon.",
@@ -833,8 +833,8 @@
         "en": "March - December 2006"
       },
       "job": {
-        "fr": "Stage de fin d’étude de l’ESIEA",
-        "en": "Internship for the end of ESIEA"
+        "fr": "Stage de fin d’études de l’ESIEA",
+        "en": "ESIEA End-of-Studies Internship"
       },
       "jobImage": "/img/experiences/developer.webp",
       "society": {
@@ -852,12 +852,12 @@
     "BostonTeaParty": {
       "collapse": true,
       "date": {
-        "fr": "Eté 2005",
+        "fr": "Été 2005",
         "en": "Summer 2005"
       },
       "job": {
         "fr": "Travail saisonnier : cuisinier, serveur et plongeur",
-        "en": "Learnt English language through jobs: cook, waiter and washer"
+        "en": "Improved my English while working as a cook, waiter and dishwasher"
       },
       "jobImage": "/img/experiences/waiter.webp",
       "society": {
@@ -865,7 +865,7 @@
       },
       "missions": {
         "fr": [
-          "Mission à l’étranger de 4ième année de l’ESIEA."
+          "Mission à l’étranger en 4e année à l’ESIEA."
         ],
         "en": [
           "Traineeship abroad in 4th year of ESIEA."
@@ -879,7 +879,7 @@
         "en": "September 2004 - June 2005"
       },
       "job": {
-        "fr": "Chargé de communication au Bureau des Etudiants",
+        "fr": "Chargé de communication au bureau des étudiants",
         "en": "Communications Officer at Office of Students (BDE)"
       },
       "jobImage": "/img/experiences/communications-officer.webp",
@@ -902,7 +902,7 @@
         "en": "February - May 2005"
       },
       "job": {
-        "fr": "Projet à application industrielle de 4ième année de l’ESIEA",
+        "fr": "Projet d’application industrielle de 4e année de l’ESIEA",
         "en": "‘Projet d’Application Industrielle ou de Recherche’ (PAIR) in 4th year of ESIEA"
       },
       "jobImage": "/img/experiences/wifi-vpn-developer.webp",
@@ -921,7 +921,7 @@
     "Korrigan": {
       "collapse": true,
       "date": {
-        "fr": "Eté 2004",
+        "fr": "Été 2004",
         "en": "Summer 2004"
       },
       "job": {
@@ -934,7 +934,7 @@
       },
       "missions": {
         "fr": [
-          "Developpement de macros VBA pour automatiser des extractions en lien avec un outil de gestion."
+          "Développement de macros VBA pour automatiser des extractions liées à un outil de gestion."
         ],
         "en": [
           "Development of VBA macros to automate extractions in connection with a management tool."
@@ -944,7 +944,7 @@
     "OBIWarehouseman": {
       "collapse": true,
       "date": {
-        "fr": "Eté 2003",
+        "fr": "Été 2003",
         "en": "Summer 2003"
       },
       "job": {
@@ -986,7 +986,7 @@
         "en": "April - June 2002"
       },
       "job": {
-        "fr": "Stage de fin d’étude de l’IUT",
+        "fr": "Stage de fin d’études de l’IUT",
         "en": "Internship for the end of DUT"
       },
       "jobImage": "/img/experiences/technician.webp",
@@ -1005,7 +1005,7 @@
     "SVGSOwarehouseman": {
       "collapse": true,
       "date": {
-        "fr": "Eté 2001",
+        "fr": "Été 2001",
         "en": "Summer 2001"
       },
       "job": {
@@ -1258,11 +1258,11 @@
     "esiea": {
       "dates": [2003, 2006],
       "label": {
-        "fr": "Diplôme d’Ingénieur ESIEA – mention Très Honorable avec félicitation des jurys",
+        "fr": "Diplôme d’ingénieur de l’ESIEA – mention très honorable avec félicitations du jury",
         "en": "ESIEA (Ecole Supérieure d’Informatique, Electronique, Automatique), PARIS."
       },
       "description": {
-        "fr": "Ecole d’ingénieur spécialisée dans l’information technologique et électronique ; PARIS (75).",
+        "fr": "École d’ingénieurs spécialisée dans les technologies de l’information et l’électronique ; Paris (75).",
         "en": "A top French engineering school specialised in Information Technology and Electronics offering a five-year degree comparable to a Master of Science."
       }
     },
@@ -1288,7 +1288,7 @@
       },
       "description": {
         "fr": "dispensé par Confort Général Européen, MONTPELLIER (34).",
-        "en": "Exempted by CONFORT GENERAL EUROPEEN."
+        "en": "Provided by CONFORT GENERAL EUROPEEN."
       }
     },
     "iut": {
@@ -1297,7 +1297,7 @@
         "en": "June 2002"
       },
       "label": {
-        "fr": "DUT Mesures Physiques option Techniques Instrumentales – mention A-Bien",
+        "fr": "DUT Mesures physiques, option techniques instrumentales – mention assez bien",
         "en": "DUT (Diplôme Universitaire de Technologie) Mesures Physiques, TOULOUSE."
       },
       "description": {
@@ -1338,7 +1338,7 @@
       },
       "description": {
         "fr": "Langue de travail.",
-        "en": "Work Language."
+        "en": "Working language."
       }
     }
   },
@@ -1449,14 +1449,14 @@
     },
     "astronomie": {
       "label": {
-        "fr": "Connaitre les étoiles",
+        "fr": "Connaître les étoiles",
         "en": "Know the stars"
       },
       "image": "/img/hobbies/astronomy.webp"
     },
     "aérospatial": {
       "label": {
-        "fr": "Suivre l’exploration spatial",
+        "fr": "Suivre l’exploration spatiale",
         "en": "Follow space exploration"
       },
       "image": "/img/hobbies/aerospace.webp"
