@@ -72,3 +72,329 @@ body {
 
   background: var(--background-color);
 }
+
+.print-sidebar {
+  display: none;
+}
+
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
+@page :first {
+  margin: 0 10mm 0 0;
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #1f2937;
+  }
+
+  .font-display > nav {
+    display: none !important;
+  }
+
+  .font-display > .print-sidebar {
+    display: flex;
+    float: left;
+    width: 50mm;
+    min-height: 297mm;
+    margin: -15mm 5mm 0 0;
+    padding: 23mm 6mm 8mm;
+    flex-direction: column;
+    background: #1e3a8a;
+    color: #fff;
+    break-inside: avoid;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .print-sidebar__portrait {
+    width: 26mm !important;
+    height: 26mm !important;
+    margin: 0 auto 4mm !important;
+    border-color: #fff !important;
+    box-shadow: none;
+  }
+
+  .print-sidebar__name {
+    margin: 0 0 6mm;
+    color: inherit;
+    font-size: 17pt;
+    font-weight: 800;
+    line-height: 1.15;
+    text-align: center;
+  }
+
+  .print-sidebar__section {
+    margin-top: 3mm;
+  }
+
+  .print-sidebar__section h3 {
+    margin: 0 0 2mm;
+    padding-bottom: 1mm;
+    border-bottom: 0.2mm solid rgb(255 255 255 / 50%);
+    color: inherit;
+    font-size: 10pt;
+    font-weight: 700;
+  }
+
+  .print-sidebar__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5mm;
+    margin-bottom: 2mm;
+  }
+
+  .print-sidebar__links a {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+  }
+
+  .print-sidebar__links svg {
+    width: 4.5mm;
+    height: 4.5mm;
+  }
+
+  .print-sidebar p {
+    margin: 1.5mm 0;
+    color: inherit;
+    font-size: 8pt;
+    line-height: 1.3;
+  }
+
+  .print-sidebar p a {
+    color: inherit;
+  }
+
+  .print-sidebar p svg {
+    width: 4mm;
+    height: 4mm;
+    color: inherit;
+  }
+
+  .print-sidebar__languages dl > div {
+    display: block !important;
+    padding: 1mm 0 !important;
+    border-bottom: 0.2mm solid rgb(255 255 255 / 25%);
+    background: transparent !important;
+  }
+
+  .print-sidebar__languages dt,
+  .print-sidebar__languages dd {
+    margin: 0;
+    color: inherit;
+    font-size: 8pt;
+    line-height: 1.3;
+  }
+
+  .print-sidebar__languages dt {
+    font-weight: 700;
+  }
+
+  #contact-me,
+  #languages {
+    display: none !important;
+  }
+
+  .font-display > main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .font-display > main > section > h1 {
+    margin: 4mm 0 2mm;
+    font-size: 15pt;
+    line-height: 1.15;
+  }
+
+  #experiences > div > .max-w-sm {
+    display: flex !important;
+    width: auto;
+    max-width: none;
+    margin: 0 0 2mm;
+    border-bottom: 0.2mm solid #d1d5db;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  #experiences .max-w-sm > div:first-child {
+    width: 16mm !important;
+    height: 16mm !important;
+    flex: 0 0 16mm;
+    border-radius: 1mm;
+  }
+
+  #experiences .max-w-sm > div:nth-child(2) {
+    min-width: 0;
+    flex-direction: row;
+  }
+
+  #experiences .max-w-sm > div:nth-child(2) > div:first-child {
+    flex: 1;
+    margin: 0 !important;
+  }
+
+  #experiences .max-w-sm > div:nth-child(2) > a,
+  #experiences .max-w-sm > div:nth-child(2) > div:last-child {
+    flex: 0 0 max-content;
+    padding: 0 0 0 2mm !important;
+  }
+
+  #experiences .max-w-sm > div:nth-child(2) > a .text-sm,
+  #experiences .max-w-sm > div:nth-child(2) > div:last-child .text-sm {
+    font-size: 8pt;
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+
+  #experiences .max-w-sm > div:nth-child(2) > a img,
+  #experiences .max-w-sm > div:nth-child(2) > a svg,
+  #experiences .max-w-sm > div:nth-child(2) > div:last-child img,
+  #experiences .max-w-sm > div:nth-child(2) > div:last-child svg {
+    width: 8mm;
+    height: 8mm;
+    margin-right: 0.8mm;
+  }
+
+  #experiences .max-w-sm ul {
+    font-size: 8pt;
+    line-height: 1.2;
+  }
+
+  #watch-and-sharing > div {
+    display: block;
+  }
+
+  #watch-and-sharing article {
+    display: grid;
+    grid-template-columns: 5mm 42mm minmax(0, 1fr);
+    align-items: start;
+    gap: 1.5mm;
+    margin: 0;
+    padding: 2mm 0;
+    border-radius: 0;
+    border-bottom: 0.2mm solid #d1d5db;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  #watch-and-sharing article > div:first-child {
+    display: contents;
+  }
+
+  #watch-and-sharing article > div:first-child > svg {
+    grid-column: 1;
+    grid-row: 1;
+    width: 4mm;
+    margin: 0;
+  }
+
+  #watch-and-sharing article > div:first-child > div {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #watch-and-sharing article > div:first-child > div > p {
+    margin: 0;
+    font-size: 7.5pt;
+  }
+
+  #watch-and-sharing article h2 {
+    margin: 0;
+    font-size: 9pt;
+    line-height: 1.2;
+  }
+
+  #watch-and-sharing article > p {
+    grid-column: 3;
+    grid-row: 1;
+    margin: 0;
+    font-size: 8.5pt;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  #certifications > div {
+    display: block;
+    margin: 0;
+  }
+
+  #certifications > div > div {
+    display: grid;
+    grid-template-columns: 18mm minmax(0, 1fr) 32mm;
+    align-items: center;
+    width: auto;
+    margin: 0;
+    padding: 1mm 0;
+    border-bottom: 0.2mm solid #d1d5db;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: left;
+    break-inside: avoid;
+  }
+
+  #certifications > div > div > img {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    width: 15mm;
+    height: 12mm;
+    max-height: 12mm;
+    object-fit: contain;
+    margin: 0;
+  }
+
+  #certifications > div > div > p:first-of-type {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    margin: 0;
+    font-size: 9pt;
+  }
+
+  #certifications > div > div > p:last-of-type {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    margin: 0;
+    font-size: 7.5pt;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  #hobbies > div {
+    display: block;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #hobbies > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 1mm 0;
+    border-bottom: 0.2mm solid #d1d5db;
+    border-radius: 0;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  #hobbies > div > div > div {
+    margin-right: 2mm;
+    padding: 0;
+    font-size: 9pt;
+  }
+
+  #hobbies > div > div > img {
+    width: 18mm;
+    height: 12mm;
+    flex: 0 0 18mm;
+    object-fit: cover;
+  }
+}

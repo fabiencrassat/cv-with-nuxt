@@ -92,6 +92,31 @@ export default {
         },
       ]"
     />
+    <aside class="print-sidebar">
+      <NavigationProfilePicture
+        class="print-sidebar__portrait"
+        :name="curriculumVitae.getFullName()"
+        :picture="curriculumVitae.getPicture()"
+      />
+      <h2 class="print-sidebar__name">
+        {{ curriculumVitae.getFullName() }}
+      </h2>
+      <section class="print-sidebar__section">
+        <h3>{{ $t('contact-me.name') }}</h3>
+        <FollowMe
+          class="print-sidebar__links"
+          :links="curriculumVitae.getFollowMe()"
+        />
+        <ContactMe />
+      </section>
+      <section class="print-sidebar__section">
+        <h3>{{ $t('languages.name') }}</h3>
+        <Languages
+          class="print-sidebar__languages"
+          :languages="curriculumVitae.getLanguages()"
+        />
+      </section>
+    </aside>
     <main class="p-4 sm:pl-28 md:pl-60">
       <section id="identity">
         <HeadingsH1 :first="true">

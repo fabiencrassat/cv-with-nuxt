@@ -32,6 +32,10 @@ it('can mount an app with /en/fabien route', async () => {
   setup('en');
   const component = await mountSuspended(App, { route: '/en/fabien' });
   expect(component.html()).toMatchSnapshot();
+  const printSidebar = component.find('.print-sidebar');
+  expect(printSidebar.find('img').attributes('src')).toBe('/fabien-crassat.jpeg');
+  expect(printSidebar.text()).toContain('Fabien Crassat');
+  expect(printSidebar.text()).toContain('English');
   expect(component.find('#watch-and-sharing').exists()).toBe(true);
   expect(component.find('#watch-and-sharing').text()).toContain('React Paris');
   await expandExperiences(component);
