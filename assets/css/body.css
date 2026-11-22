@@ -93,7 +93,7 @@ body {
   }
 
   .font-display > nav {
-    display: none !important;
+    display: none;
   }
 
   .font-display > .print-sidebar {
@@ -111,11 +111,11 @@ body {
     print-color-adjust: exact;
   }
 
-  .print-sidebar__portrait {
-    width: 26mm !important;
-    height: 26mm !important;
-    margin: 0 auto 4mm !important;
-    border-color: #fff !important;
+  .font-display > .print-sidebar .print-sidebar__portrait {
+    width: 26mm;
+    height: 26mm;
+    margin: 0 auto 4mm;
+    border-color: #fff;
     box-shadow: none;
   }
 
@@ -176,11 +176,11 @@ body {
     color: inherit;
   }
 
-  .print-sidebar__languages dl > div {
-    display: block !important;
-    padding: 1mm 0 !important;
+  .font-display > .print-sidebar .print-sidebar__languages dl > div {
+    display: block;
+    padding: 1mm 0;
     border-bottom: 0.2mm solid rgb(255 255 255 / 25%);
-    background: transparent !important;
+    background: transparent;
   }
 
   .print-sidebar__languages dt,
@@ -197,12 +197,12 @@ body {
 
   #contact-me,
   #languages {
-    display: none !important;
+    display: none;
   }
 
   .font-display > main {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
   }
 
   .font-display > main > section > h1 {
@@ -212,7 +212,7 @@ body {
   }
 
   #experiences > div > .max-w-sm {
-    display: flex !important;
+    display: flex;
     width: auto;
     max-width: none;
     margin: 0 0 2mm;
@@ -222,8 +222,8 @@ body {
   }
 
   #experiences .max-w-sm > div:first-child {
-    width: 16mm !important;
-    height: 16mm !important;
+    width: 16mm;
+    height: 16mm;
     flex: 0 0 16mm;
     border-radius: 1mm;
   }
@@ -235,13 +235,13 @@ body {
 
   #experiences .max-w-sm > div:nth-child(2) > div:first-child {
     flex: 1;
-    margin: 0 !important;
+    margin: 0;
   }
 
   #experiences .max-w-sm > div:nth-child(2) > a,
   #experiences .max-w-sm > div:nth-child(2) > div:last-child {
     flex: 0 0 max-content;
-    padding: 0 0 0 2mm !important;
+    padding: 0 0 0 2mm;
   }
 
   #experiences .max-w-sm > div:nth-child(2) > a .text-sm,
